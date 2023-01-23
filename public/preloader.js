@@ -40,15 +40,15 @@ function init() {
   document.body.appendChild(renderer.domElement);
 
   // Lights
-  let topLight = new THREE.DirectionalLight(0xffffff, 1);
+  let topLight = new THREE.DirectionalLight(0xff0000, 1);
   topLight.position.set(0, 1, 1).normalize();
   scene.add(topLight);
 
-  let bottomLight = new THREE.DirectionalLight(0xffffff, 0.4);
+  let bottomLight = new THREE.DirectionalLight(0xfb0000, 0.4);
   bottomLight.position.set(1, -1, 1).normalize();
   scene.add(bottomLight);
 
-  let skyLightRight = new THREE.DirectionalLight(0x666666, 0.2);
+  let skyLightRight = new THREE.DirectionalLight(0xfa0000, 0.2);
   skyLightRight.position.set(-1, -1, 0.2).normalize();
   scene.add(skyLightRight);
 
@@ -183,18 +183,18 @@ $(".shift-camera-button").click(function () {
     TweenLite.to(skyContainer, 0.1, {
       opacity: 1,
       display: "block",
-      position: 'sticky',
+      position: "sticky",
       ease: Power3.easeInOut,
     }),
     TweenLite.to(root, 0.1, {
       opacity: 1,
-      display: "block", 
+      display: "block",
       ease: Power3.easeInOut,
     }),
     TweenLite.to(canv, 0.1, {
-        display: 'none',
-        ease: Power3.easeInOut,
-      }),
+      display: "none",
+      ease: Power3.easeInOut,
+    }),
   ]);
 });
 
