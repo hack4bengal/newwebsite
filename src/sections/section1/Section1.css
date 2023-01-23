@@ -1,5 +1,7 @@
 .codeutsava__section1 {
   /* display: flex; */
+  background: url("../../assets/img/hero.png") no-repeat;
+  background-size: cover;
   padding-top: 6rem;
   padding-bottom: 6rem;
   display: flex;
@@ -34,7 +36,7 @@
   font-size: 36px;
   line-height: 82px;
   letter-spacing: 1px;
-  color: #38b6ff;
+  color: #ff1717;
   text-transform: uppercase;
 }
 
@@ -123,12 +125,12 @@
   margin-bottom: 12px;
 }
 
-.codeutsava__section1-side-links a svg:hover{
-  fill: #38b6ff;
+.codeutsava__section1-side-links a svg:hover {
+  fill: #ff5757;
   transition: all 0.2s ease-in-out;
 }
 
-.codeutsava__section1-scrollDown{
+.codeutsava__section1-scrollDown {
   color: white;
   position: absolute;
   bottom: 4rem;
@@ -143,7 +145,7 @@
   animation-delay: 2s;
 }
 
-.codeutsava__section1-scrollDown a{
+.codeutsava__section1-scrollDown a {
   display: inline-block;
   font-family: var(--font-family);
   font-size: 0.9rem;
@@ -156,19 +158,30 @@
   margin-bottom: 0.6rem;
 }
 
-.codeutsava__section1-scrollDown a:hover{
-  color: #38b6ff;
+.codeutsava__section1-scrollDown a:hover {
+  color: #ff1717;
   transition: all 0.2s ease-in-out;
 }
 
 @keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-20px);}
-	60% {transform: translateY(-15px);}
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 @media screen and (max-width: 1000px) {
-  .codeutsava__section1-scrollDown, .codeutsava__section1-side-links{
+  .codeutsava__section1-scrollDown,
+  .codeutsava__section1-side-links {
     display: none;
   }
 }

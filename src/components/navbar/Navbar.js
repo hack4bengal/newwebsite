@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef, useState } from "react";
 import "./Navbar.css";
-import codeutsava from "../../assets/images/codeutsava.png";
+import codeutsava from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/images/tcp.png";
 import downArrow from "../../assets/images/downArrow.svg";
 import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
@@ -70,7 +70,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <div className="codeutsava__navbar-logo codeutsava__navbar-brochure">
+          {/* <div className="codeutsava__navbar-logo codeutsava__navbar-brochure">
             <img src={tcp} />
             <button className="codeutsava__navbar-brochure-button">
               <img src={downArrow} />
@@ -78,7 +78,7 @@ const Navbar = () => {
                 BROCHURE
               </a>
             </button>
-          </div>
+          </div> */}
         </div>
       </header>
       <header

@@ -9,7 +9,7 @@
   max-width: 320px;
 }
 
-.codeutsava__team-card .codeutsava__team-card-img{
+.codeutsava__team-card .codeutsava__team-card-img {
   display: inline-block;
   height: 170px;
   width: 170px;
@@ -23,7 +23,7 @@
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #004AAD;
+  background-color: #ff1717;
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -42,7 +42,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #004AAD;
+  background-color: #ff1717;
   position: absolute;
   top: 0;
   left: 0;
@@ -73,12 +73,12 @@
 .codeutsava__team-card .title {
   display: block;
   font-size: 17px;
-  color: #004aad;
+  color: #ff1717;
   text-transform: capitalize;
   margin-top: 4px;
 }
 
-.domain3{
+.domain3 {
   color: #000;
   font-size: 0.8rem;
   margin-bottom: 1rem;
@@ -88,7 +88,7 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #004AAD;
+  background-color: #ff1717;
   position: absolute;
   bottom: -100px;
   left: 0;
