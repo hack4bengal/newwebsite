@@ -17,18 +17,18 @@ const WordGlobe = () => {
             })}
           >
             {[
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "ReactJs",
-              "NodeJs",
-              "Python",
+              "20+ Sponsers",
+              "45 Community partners",
+              "85 Events",
+              "10+ Speakers",
+              "Unlimited Fun",
+              "Amazing projects",
               "Django",
               "SQL",
               "ExpressJs",
               "Figma",
               "CodeEase",
-              "Hackathon",
+              "The best Hackathon",
               "Quiz",
             ]}
           </TagCloud>

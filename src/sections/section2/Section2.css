@@ -1,19 +1,18 @@
-.hack4bengal__section2 {
-    /* display: flex; */
+/* .hack4bengal__section2 {
     padding-top: 8rem;
-    padding-bottom: 2rem;  
+    padding-bottom: 2rem;
     color: white;
-    font-family: 'Poppins'; 
+    font-family: 'Poppins';
 }
 
-.hack4bengal__section2-body{
+.hack4bengal__section2-body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.hack4bengal__section2-menu{
+.hack4bengal__section2-menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +20,7 @@
     gap: 2rem;
 }
 
-.hack4bengal__section2-title{
+.hack4bengal__section2-title {
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -30,21 +29,22 @@
     letter-spacing: 1px;
 }
 
-.hack4bengal__section2-content{
+.hack4bengal__section2-content {
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 0.5px;
+
 }
 
-.hack4bengal__section2-wordglobe{
+.hack4bengal__section2-wordglobe {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.text-sphere{
+.text-sphere {
     position: relative;
     display: flex;
     justify-content: center;
@@ -52,76 +52,180 @@
     align-items: center;
 }
 
-.tagcloud{
+.tagcloud {
     display: inline-block;
     letter-spacing: 0.0625em;
     font-size: 1.3em;
 }
 
-.tagcloud--item{
+.tagcloud--item {
     font-family: "Poppins";
     font-weight: 500;
     color: #38b6ff;
 }
 
-.tagcloud--item:hover{
+.tagcloud--item:hover {
     color: white;
 }
 
-@media screen and (min-width:1450px){
-    .hack4bengal__section2-content{
+@media screen and (min-width:1450px) {
+    .hack4bengal__section2-content {
         width: 850px;
         margin-left: 4rem;
     }
 }
 
-@media screen and (max-width:1150px){
-    .hack4bengal__section2-body{
+@media screen and (max-width:1150px) {
+    .hack4bengal__section2-body {
         margin: 0 3rem;
     }
-    .hack4bengal__section2-wordglobe{
+
+    .hack4bengal__section2-wordglobe {
         transform: scale(0.8);
     }
-    .hack4bengal__section2-menu{
+
+    .hack4bengal__section2-menu {
         gap: 1rem;
         flex-direction: column;
     }
-    .hack4bengal__section2-title{
+
+    .hack4bengal__section2-title {
         font-size: 36px;
     }
-    .hack4bengal__section2-content{
+
+    .hack4bengal__section2-content {
         text-align: center;
     }
 }
 
 
-@media screen and (max-width:650px){
-    .hack4bengal__section2-body{
+@media screen and (max-width:650px) {
+    .hack4bengal__section2-body {
         margin: 0 3rem;
     }
-    .hack4bengal__section2-wordglobe{
+
+    .hack4bengal__section2-wordglobe {
         transform: scale(0.6);
     }
-    .hack4bengal__section2-menu{
+
+    .hack4bengal__section2-menu {
         max-width: 480px;
         height: 820px;
     }
-    .hack4bengal__section2-title{
+
+    .hack4bengal__section2-title {
         font-size: 36px;
     }
-    .hack4bengal__section2-content{
+
+    .hack4bengal__section2-content {
         font-size: 16px;
         line-height: 30px;
         transform: translateY(-5rem);
     }
 }
 
-@media screen and (max-width:450px){
-    .hack4bengal__section2-menu{
+@media screen and (max-width:450px) {
+    .hack4bengal__section2-menu {
         max-width: 310px;
-    }    
+    }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.h4b_about_main {
+    margin-top: 5rem;
+    color: white;
+    font-family: "Poppins"
+
 }
 
+.h4b_about_main h1 {
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.h4b_about_main hr {
+    width: 10%;
+    margin: auto;
+    border: 1px solid #E13B3C;
+    margin-bottom: 2rem;
+}
+
+.h4b_about_sub {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+}
+
+.playeryoga {
+    width: 400px;
+    height: 400px;
+}
+
+.h4b_about_textdiv {
+    font-size: 20px;
+
+}
+
+.h4b_about_textdiv span {
+    color: #E13B3C;
+}
+
+.h4b_about_more {
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.h4b_about_more_element img {
+    height: 3rem;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.h4b_about_more_element_title {
+    color: #E13B3C !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .h4b_about_sub {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+        justify-content: center;
+    }
+
+    .h4b_about_textdiv_sub {
+        text-align: center !important;
+    }
 
 
+}
 
+@media screen and (max-width: 769px) {
+    .h4b_about_more {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .playeryoga {
+        height: auto;
+        width: 90vw;
+        margin: auto;
+    }
+}
