@@ -1,4 +1,4 @@
-.codeutsava__section1 {
+.hack4bengal__section1 {
   /* display: flex; */
   background: url("../../assets/img/hero.png") no-repeat;
   background-size: cover;
@@ -8,19 +8,19 @@
   align-items: center;
   justify-content: center;
 }
-.codeutsava__section1-body {
+.hack4bengal__section1-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.codeutsava__section1-menu {
+.hack4bengal__section1-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.codeutsava__section1-heading {
+.hack4bengal__section1-heading {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -30,7 +30,7 @@
   margin: 1rem;
 }
 
-.codeutsava__section1-subheading {
+.hack4bengal__section1-subheading {
   font-family: "Poppins";
   font-weight: 500;
   font-size: 36px;
@@ -40,7 +40,7 @@
   text-transform: uppercase;
 }
 
-.codeutsava__section1-para {
+.hack4bengal__section1-para {
   font-family: "Poppins";
   font-weight: 300;
   font-size: 24px;
@@ -49,13 +49,13 @@
   text-align: center;
 }
 
-.codeutsava__section1-image {
+.hack4bengal__section1-image {
   width: 100%;
   z-index: 1;
   margin-bottom: 4rem;
 }
 
-.codeutsava__section1-button-container {
+.hack4bengal__section1-button-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@
   width: 50%;
 }
 
-.codeutsava__section1-button {
+.hack4bengal__section1-button {
   align-items: center;
   background-color: #f3f6fb;
   border-radius: 4px;
@@ -81,13 +81,13 @@
   cursor: pointer;
 }
 
-.codeutsava__section1-devfolio {
+.hack4bengal__section1-devfolio {
   height: 24px;
   width: 24px;
   margin-right: 8px;
 }
 
-.codeutsava__section1-discord {
+.hack4bengal__section1-discord {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -98,12 +98,12 @@
   cursor: pointer;
 }
 
-.codeutsava__section1-discord-link img {
+.hack4bengal__section1-discord-link img {
   height: 25px;
   width: auto;
 }
 
-.codeutsava__section1-side-links {
+.hack4bengal__section1-side-links {
   position: absolute;
   left: 48px;
   bottom: 54px;
@@ -114,7 +114,7 @@
   text-align: center;
 }
 
-.codeutsava__section1-side-links::before {
+.hack4bengal__section1-side-links::before {
   display: block;
   content: "";
   width: 2px;
@@ -125,12 +125,12 @@
   margin-bottom: 12px;
 }
 
-.codeutsava__section1-side-links a svg:hover {
+.hack4bengal__section1-side-links a svg:hover {
   fill: #ff5757;
   transition: all 0.2s ease-in-out;
 }
 
-.codeutsava__section1-scrollDown {
+.hack4bengal__section1-scrollDown {
   color: white;
   position: absolute;
   bottom: 4rem;
@@ -145,7 +145,7 @@
   animation-delay: 2s;
 }
 
-.codeutsava__section1-scrollDown a {
+.hack4bengal__section1-scrollDown a {
   display: inline-block;
   font-family: var(--font-family);
   font-size: 0.9rem;
@@ -158,7 +158,7 @@
   margin-bottom: 0.6rem;
 }
 
-.codeutsava__section1-scrollDown a:hover {
+.hack4bengal__section1-scrollDown a:hover {
   color: #ff1717;
   transition: all 0.2s ease-in-out;
 }
@@ -180,35 +180,35 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .codeutsava__section1-scrollDown,
-  .codeutsava__section1-side-links {
+  .hack4bengal__section1-scrollDown,
+  .hack4bengal__section1-side-links {
     display: none;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .codeutsava__section1 {
+  .hack4bengal__section1 {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
-  .codeutsava__section1-body {
+  .hack4bengal__section1-body {
     max-width: 300px;
   }
-  .codeutsava__section1-heading {
+  .hack4bengal__section1-heading {
     font-size: 40px;
     margin: 0;
   }
-  .codeutsava__section1-subheading {
+  .hack4bengal__section1-subheading {
     font-size: 20px;
     letter-spacing: 0;
   }
-  .codeutsava__section1-para {
+  .hack4bengal__section1-para {
     font-size: 18px;
   }
-  .codeutsava__section1-image {
+  .hack4bengal__section1-image {
     margin-bottom: 1rem;
   }
-  .codeutsava__section1-button-container {
+  .hack4bengal__section1-button-container {
     width: 100%;
   }
 }

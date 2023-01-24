@@ -17,7 +17,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <>
-        <div className="codeutsava__navbar-container">
+        <div className="hack4bengal__navbar-container">
           <Navbar/>
         </div>
         <div className="container mx-auto">
@@ -34,7 +34,7 @@ export default class HomePage extends Component {
           <Section9/>
           <Section10/>
         </div>
-        <div className="codeutsava__footer-container">
+        <div className="hack4bengal__footer-container">
           <Footer/>
         </div>
       </>

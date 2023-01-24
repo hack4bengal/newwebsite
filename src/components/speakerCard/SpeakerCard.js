@@ -14,22 +14,22 @@ const SpeakerCard = ({
   youtube,
 }) => {
   return (
-    <div className="codeutsava__section4-speaker-card">
-      <div className="codeutsava__section4-speaker-img-container">
-        <img src={img} className="codeutsava__section4-speaker-img" />
+    <div className="hack4bengal__section4-speaker-card">
+      <div className="hack4bengal__section4-speaker-img-container">
+        <img src={img} className="hack4bengal__section4-speaker-img" />
       </div>
-      <div className="codeutsava__section4-speaker-menu">
+      <div className="hack4bengal__section4-speaker-menu">
         <h1>{name}</h1>
         <h3>{position}</h3>
         <p>{description}</p>
       </div>
-      <div className="codeutsava__section4-speaker-divider"></div>
-      <div className="codeutsava__section4-speaker-contact">
+      <div className="hack4bengal__section4-speaker-divider"></div>
+      <div className="hack4bengal__section4-speaker-contact">
         <h3>Contact</h3>
-        <div className="codeutsava__section4-speaker-contact-links">
+        <div className="hack4bengal__section4-speaker-contact-links">
           {facebook != "" ? (
             <a
-              className="codeutsava__section4-speaker-contact-links-image"
+              className="hack4bengal__section4-speaker-contact-links-image"
               href={facebook}
             >
               <svg
@@ -47,7 +47,7 @@ const SpeakerCard = ({
           )}
           {twitter != "" ? (
             <a
-              className="codeutsava__section4-speaker-contact-links-image"
+              className="hack4bengal__section4-speaker-contact-links-image"
               href={twitter}
             >
               <svg
@@ -65,7 +65,7 @@ const SpeakerCard = ({
           )}
           {linkedin != "" ? (
             <a
-              className="codeutsava__section4-speaker-contact-links-image"
+              className="hack4bengal__section4-speaker-contact-links-image"
               href={linkedin}
             >
               <svg
@@ -83,7 +83,7 @@ const SpeakerCard = ({
           )}
           {github != "" ? (
             <a
-              className="codeutsava__section4-speaker-contact-links-image"
+              className="hack4bengal__section4-speaker-contact-links-image"
               href={github}
             >
               <svg
@@ -101,7 +101,7 @@ const SpeakerCard = ({
           )}
           {youtube != "" ? (
             <a
-              className="codeutsava__section4-speaker-contact-links-image"
+              className="hack4bengal__section4-speaker-contact-links-image"
               href={youtube}
             >
               <svg

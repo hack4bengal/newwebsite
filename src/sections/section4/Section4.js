@@ -13,12 +13,12 @@ const Section4 = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 1 } }}
       viewport={{ once: false }}
-      className="codeutsava__section4"
+      className="hack4bengal__section4"
       id="speakers"
     >
-      <div className="codeutsava__section4-body">
-        <div className="codeutsava__section4-title">Speakers</div>
-        <div className="codeutsava__section4-speakers">
+      <div className="hack4bengal__section4-body">
+        <div className="hack4bengal__section4-title">Speakers</div>
+        <div className="hack4bengal__section4-speakers">
           {speakers.map((speaker, index) => (
             <SpeakerCard
               key={index}

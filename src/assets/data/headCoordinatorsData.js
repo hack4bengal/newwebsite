@@ -147,7 +147,7 @@ const headCoordinators = [
     Photo: sugandha,
     Branch: "ECE",
     "Graduation Year": 2023,
-    Domain: "Lead Organizer at CodeUtsava 6.0",
+    Domain: "Lead Organizer at Hack4bengal 6.0",
     Designation: "Head Coordinator",
     linkedin: "https://www.linkedin.com/in/sugandha-verma-4628b6191",
   },

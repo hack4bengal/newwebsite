@@ -24,29 +24,29 @@ const Section1 = () => {
       whileInView="show"
       variants={staggerChildren}
       viewport={{ once: true, amount: 0.25 }}
-      className="codeutsava__section1"
+      className="hack4bengal__section1"
       id="home"
     >
       <motion.div
         variants={fadeIn("down", "tween", 0.5, 1)}
-        className="codeutsava__section1-body"
+        className="hack4bengal__section1-body"
       >
-        <div className="codeutsava__section1-menu">
-          <div className="codeutsava__section1-heading">Welcome To</div>
-          <div className="codeutsava__section1-image">
+        <div className="hack4bengal__section1-menu">
+          <div className="hack4bengal__section1-heading">Welcome To</div>
+          <div className="hack4bengal__section1-image">
             <img src={codeutsavaTitle}></img>
           </div>
-          <div className="codeutsava__section1-subheading">
+          <div className="hack4bengal__section1-subheading">
             Code. Innovate. Celebrate.
           </div>
-          <div className="codeutsava__section1-para">
+          <div className="hack4bengal__section1-para">
             Central India's{" "}
             <span style={{ fontWeight: "600" }}>Largest Coding Event.</span>{" "}
             Join Us on 11th - 12th February.
           </div>
         </div>
         <div
-          className="codeutsava__section1-button-container"
+          className="hack4bengal__section1-button-container"
           style={{ display: "flex", placeContent: "center" }}
         >
           {/* <div
@@ -55,8 +55,8 @@ const Section1 = () => {
             data-button-theme="dark-inverted"
             style={{ height: "44px", width: "312px" }}
           ></div> */}
-          <div className="codeutsava__section1-discord">
-            <a className="codeutsava__section1-discord-link">
+          <div className="hack4bengal__section1-discord">
+            <a className="hack4bengal__section1-discord-link">
               <img src={discord} />
             </a>
           </div>
@@ -64,10 +64,10 @@ const Section1 = () => {
       </motion.div>
       <motion.ul
         variants={fadeIn("up", "tween", 1, 1)}
-        className="codeutsava__section1-side-links"
+        className="hack4bengal__section1-side-links"
       >
         <li>
-          <a target="_blank" href="https://www.facebook.com/codeutsava/">
+          <a target="_blank" href="https://www.facebook.com/hack4bengal/">
             <svg
               fill="#eee"
               width="28"
@@ -121,7 +121,7 @@ const Section1 = () => {
         <li>
           <a
             target="_blank"
-            href="https://www.linkedin.com/company/codeutsava/"
+            href="https://www.linkedin.com/company/hack4bengal/"
           >
             <svg
               fill="#eee"
@@ -137,7 +137,7 @@ const Section1 = () => {
       </motion.ul>
       <motion.div
         variants={fadeIn("up", "tween", 1.2, 1)}
-        className="codeutsava__section1-scrollDown"
+        className="hack4bengal__section1-scrollDown"
       >
         <a href="#aboutus">Scroll Down</a>
         <svg

@@ -31,7 +31,7 @@ const faqs = [
       "You can make teams of up to 5 members. Lone wolfs are also welcome.",
   },
   {
-    question: "Why should I participate in CodeUtsava 6.0?",
+    question: "Why should I participate in Hack4bengal 6.0?",
     answer:
       "You will get cash prizes if you win; otherwise, you will always get an excellent opportunity to network with like-minded people, learn many things and get cool schwag.😉",
   },

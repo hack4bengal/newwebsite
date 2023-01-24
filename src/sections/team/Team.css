@@ -1,30 +1,30 @@
-.codeutsava__team {
+.hack4bengal__team {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: "Poppins";
 
 }
 
-.codeutsava__team-body {
+.hack4bengal__team-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.codeutsava__team-header-container{
+.hack4bengal__team-header-container{
   display: flex;
   align-items: center;
   justify-self: center;
 }
 
-.codeutsava__team-header-container img{
+.hack4bengal__team-header-container img{
   width: 150px;
   height: auto;
 }
 
 
-.codeutsava__team-main-title {
+.hack4bengal__team-main-title {
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
@@ -34,7 +34,7 @@
     margin-left: 2rem;
   }
 
-.codeutsava__team-title {
+.hack4bengal__team-title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -44,7 +44,7 @@
   color: white;
 }
 
-.codeutsava__team-members {
+.hack4bengal__team-members {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,19 +55,19 @@
 }
 
 @media screen and (max-width: 650px) {
-  .codeutsava__team-header-container img{
+  .hack4bengal__team-header-container img{
     width: 80px;
     height: auto;
   }
-  .codeutsava__team-main-title {
+  .hack4bengal__team-main-title {
     font-size: 24px;
     margin-left: 1rem;
   }
-  .codeutsava__team-speakers {
+  .hack4bengal__team-speakers {
     gap: 2rem;
     flex-direction: column;
   }
-  .codeutsava__team-title {
+  .hack4bengal__team-title {
     font-size: 36px;
   }
 }

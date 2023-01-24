@@ -1,4 +1,4 @@
-.codeutsava__team-card {
+.hack4bengal__team-card {
   padding: 50px 20px;
   background-color: #fff;
   text-align: center;
@@ -9,7 +9,7 @@
   max-width: 320px;
 }
 
-.codeutsava__team-card .codeutsava__team-card-img {
+.hack4bengal__team-card .hack4bengal__team-card-img {
   display: inline-block;
   height: 170px;
   width: 170px;
@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.codeutsava__team-card .codeutsava__team-card-img::before {
+.hack4bengal__team-card .hack4bengal__team-card-img::before {
   content: "";
   width: 100%;
   height: 0;
@@ -33,11 +33,11 @@
   transition: all 0.3s linear 0s;
 }
 
-.codeutsava__team-card:hover .codeutsava__team-card-img::before {
+.hack4bengal__team-card:hover .hack4bengal__team-card-img::before {
   height: 100%;
 }
 
-.codeutsava__team-card .codeutsava__team-card-img::after {
+.hack4bengal__team-card .hack4bengal__team-card-img::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -49,7 +49,7 @@
   z-index: -1;
 }
 
-.codeutsava__team-card .codeutsava__team-card-img img {
+.hack4bengal__team-card .hack4bengal__team-card-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -58,19 +58,19 @@
   transition: all 0.9s ease 0s;
 }
 
-.codeutsava__team-card:hover .codeutsava__team-card-img img {
+.hack4bengal__team-card:hover .hack4bengal__team-card-img img {
   box-shadow: 0 0 0 14px #fff;
   transform: scale(0.75);
 }
 
-.codeutsava__team-card .name {
+.hack4bengal__team-card .name {
   display: block;
   font-size: 22px;
   color: #000000;
   text-transform: capitalize;
 }
 
-.codeutsava__team-card .title {
+.hack4bengal__team-card .title {
   display: block;
   font-size: 17px;
   color: #ff1717;
@@ -84,7 +84,7 @@
   margin-bottom: 1rem;
 }
 
-.codeutsava__team-card .social {
+.hack4bengal__team-card .social {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -95,15 +95,15 @@
   transition: all 0.5s ease 0s;
 }
 
-.codeutsava__team-card:hover .social {
+.hack4bengal__team-card:hover .social {
   bottom: 0;
 }
 
-.codeutsava__team-card .social li {
+.hack4bengal__team-card .social li {
   display: inline-block;
 }
 
-.codeutsava__team-card .social li a {
+.hack4bengal__team-card .social li a {
   display: block;
   padding: 10px;
   font-size: 17px;
@@ -112,7 +112,7 @@
   text-decoration: none;
 }
 
-.codeutsava__team-card .social li a:hover {
+.hack4bengal__team-card .social li a:hover {
   color: #1369ce;
   background-color: #f7f5ec;
 }

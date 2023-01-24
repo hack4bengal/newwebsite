@@ -1,4 +1,4 @@
-.codeutsava__section2 {
+.hack4bengal__section2 {
     /* display: flex; */
     padding-top: 8rem;
     padding-bottom: 2rem;  
@@ -6,14 +6,14 @@
     font-family: 'Poppins'; 
 }
 
-.codeutsava__section2-body{
+.hack4bengal__section2-body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.codeutsava__section2-menu{
+.hack4bengal__section2-menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
     gap: 2rem;
 }
 
-.codeutsava__section2-title{
+.hack4bengal__section2-title{
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -30,7 +30,7 @@
     letter-spacing: 1px;
 }
 
-.codeutsava__section2-content{
+.hack4bengal__section2-content{
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -38,7 +38,7 @@
     letter-spacing: 0.5px;
 }
 
-.codeutsava__section2-wordglobe{
+.hack4bengal__section2-wordglobe{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,47 +69,47 @@
 }
 
 @media screen and (min-width:1450px){
-    .codeutsava__section2-content{
+    .hack4bengal__section2-content{
         width: 850px;
         margin-left: 4rem;
     }
 }
 
 @media screen and (max-width:1150px){
-    .codeutsava__section2-body{
+    .hack4bengal__section2-body{
         margin: 0 3rem;
     }
-    .codeutsava__section2-wordglobe{
+    .hack4bengal__section2-wordglobe{
         transform: scale(0.8);
     }
-    .codeutsava__section2-menu{
+    .hack4bengal__section2-menu{
         gap: 1rem;
         flex-direction: column;
     }
-    .codeutsava__section2-title{
+    .hack4bengal__section2-title{
         font-size: 36px;
     }
-    .codeutsava__section2-content{
+    .hack4bengal__section2-content{
         text-align: center;
     }
 }
 
 
 @media screen and (max-width:650px){
-    .codeutsava__section2-body{
+    .hack4bengal__section2-body{
         margin: 0 3rem;
     }
-    .codeutsava__section2-wordglobe{
+    .hack4bengal__section2-wordglobe{
         transform: scale(0.6);
     }
-    .codeutsava__section2-menu{
+    .hack4bengal__section2-menu{
         max-width: 480px;
         height: 820px;
     }
-    .codeutsava__section2-title{
+    .hack4bengal__section2-title{
         font-size: 36px;
     }
-    .codeutsava__section2-content{
+    .hack4bengal__section2-content{
         font-size: 16px;
         line-height: 30px;
         transform: translateY(-5rem);
@@ -117,7 +117,7 @@
 }
 
 @media screen and (max-width:450px){
-    .codeutsava__section2-menu{
+    .hack4bengal__section2-menu{
         max-width: 310px;
     }    
 }

@@ -12,22 +12,22 @@ const Section2 = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: {duration: 1} }}
       viewport={{ once: false}}
-      className="codeutsava__section2"
+      className="hack4bengal__section2"
       id="aboutus"
     >
-      <div className="codeutsava__section2-body">
-        <div className="codeutsava__section2-title">About Us</div>
-        <div className="codeutsava__section2-menu">
-          <div className="codeutsava__section2-wordglobe">
+      <div className="hack4bengal__section2-body">
+        <div className="hack4bengal__section2-title">About Us</div>
+        <div className="hack4bengal__section2-menu">
+          <div className="hack4bengal__section2-wordglobe">
             <WordGlobe />
           </div>
-          <div className="codeutsava__section2-content">
-            <span style={{ color: "#38b6ff" }}>CodeUtsava 6.0</span> is an event
+          <div className="hack4bengal__section2-content">
+            <span style={{ color: "#38b6ff" }}>Hack4bengal 6.0</span> is an event
             being organized by Turing Club of Programmers, the Official Coding
             Club of NIT Raipur. It aims to foster and nurture invigorating
             coding culture among the students of the Institute through its
             Mentorship programme, workshops, and along with several other events
-            including the annual event CodeUtsava. Students from all over India
+            including the annual event Hack4bengal. Students from all over India
             can take part in this event, attend Workshops, participate in the
             Hackathon, and various other coding related activities which are
             organized under this event.

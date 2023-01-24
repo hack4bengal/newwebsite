@@ -21,14 +21,14 @@ const ProblemCard = ({img,title,statement}) => {
 
   return (
     <div>
-      <div className="codeutsava__section8-card">
-          <img className='codeutsava__section8-image' src={img} onClick={() => getProblem(img, title, statement)}></img>
-          <div className="codeutsava__section8-cardtitle">
+      <div className="hack4bengal__section8-card">
+          <img className='hack4bengal__section8-image' src={img} onClick={() => getProblem(img, title, statement)}></img>
+          <div className="hack4bengal__section8-cardtitle">
               {title}
           </div>
-          <div className="codeutsava__section8-line">
+          <div className="hack4bengal__section8-line">
           </div>
-          <div className="codeutsava__section8-carddetails">
+          <div className="hack4bengal__section8-carddetails">
               {statement}
           </div>
       </div>
@@ -43,7 +43,7 @@ const ProblemCard = ({img,title,statement}) => {
             animate={{ scaleX: [0, 1, 1], scaleY: [0.005, 0.005, 1],}}
             transition={{ duration: 0.8, ease: [0.165, 0.84, 0.44, 1],}}
             exit={{scaleX: [1, 1, 0], scaleY: [1, 0.005, 0.005] }}
-            className="codeutsava__section8-problemModal-body">
+            className="hack4bengal__section8-problemModal-body">
               <img className="problemModal-close" src={cross} onClick={() => setModal(false)}/>
               <h1>{title}</h1>
               <p>{statement}</p>

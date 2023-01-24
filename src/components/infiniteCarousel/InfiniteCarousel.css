@@ -1,11 +1,11 @@
-.codeutsava__sponsers-carousel-container {
+.hack4bengal__sponsers-carousel-container {
   background-color: rgba(32, 32, 32, 1);
   width: 100%;
   overflow: hidden;
   padding-bottom: 2.5rem;
 }
 
-.codeutsava__sponsers-carousel {
+.hack4bengal__sponsers-carousel {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
@@ -13,11 +13,11 @@
   animation: scrollInfinite 40s linear infinite;
 }
 
-.codeutsava__sponsers-carousel:hover {
+.hack4bengal__sponsers-carousel:hover {
   animation-play-state: paused;
 }
 
-.codeutsava__sponsers-carousel-item {
+.hack4bengal__sponsers-carousel-item {
   display: inline-block;
   margin: 2rem 3rem;
   height: 75px;
@@ -26,7 +26,7 @@
 
 }
 
-.codeutsava__sponsers-carousel-item img {
+.hack4bengal__sponsers-carousel-item img {
   display: inline-block;
   vertical-align: middle;
   width: 200px;
