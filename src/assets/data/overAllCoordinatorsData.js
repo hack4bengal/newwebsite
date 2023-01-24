@@ -1,44 +1,34 @@
-import samarth from '../images/samarth_batav.jpg'
+import Manish from "../team/team-1.png";
+import Sagnik from "../team/team-2.png";
+import Shubham from "../team/team-3.png";
 
 const overAllCoordinaters = [
   {
-    Name: "Samarth Batav",
-    Photo: samarth,
-    Branch: "IT",
-    "Graduation Year": 2023,
-    Domain: "Lead Organizer at Hack4bengal 6.0",
-    Designation: "Overall Coordinator",
-    linkedin: "https://www.linkedin.com/in/samarth-batav-895555191",
+    Name: "Manish Kr Barnwal",
+    Photo: Manish,
+    Domain: "Lead Organizer",
+    facebook: "https://www.facebook.com/imanishbarnwal",
+    twitter: "https://twitter.com/imanishbarnwal",
+    github: "https://github.com/imanishbarnwal",
+    linkedin: "https://www.linkedin.com/in/imanishbarnwal/",
   },
   {
-    Name: "Mohammed Sharique",
-    Photo:
-    "https://drive.google.com/uc?id=1s25KcVFIYbLJ1Ei9T5XAB2QxW0j07ggz&export=download",
-    Branch: "IT",
-    "Graduation Year": 2023,
-    Domain: "Lead Organizer at Hack4bengal 6.0",
-    Designation: "Overall Coordinator",
-    linkedin: "https://www.linkedin.com/in/mohammedsharique1/",
+    Name: "Sagnik Mitra",
+    Photo: Sagnik,
+    Domain: "Lead Organizer",
+    facebook: "https://www.facebook.com/sagnikmitr",
+    twitter: "https://twitter.com/MitraSagnik",
+    github: "https://github.com/sagnikmitra",
+    linkedin: "https://www.linkedin.com/in/sagnikmitra/",
   },
   {
-    Name: "Mahim Mittal",
-    Photo:
-    "https://drive.google.com/uc?id=1Jt25y3MMeUbK0zcQ3QdMIrZeyJs0x6Q1&export=download",
-    Branch: "IT",
-    "Graduation Year": 2023,
-    Domain: "Mentors",
-    Designation: "Overall Coordinator",
-    linkedin: "https://www.linkedin.com/in/mahimmittal01/",
-  },
-  {
-    Name: "Neelesh Kumar",
-    Photo:
-      "https://drive.google.com/uc?id=1uJNMhI1ZgzPIUxignZ0isCmK_c6zfoLy&export=download",
-    Branch: "IT",
-    "Graduation Year": 2023,
-    Domain: "Design",
-    Designation: "Overall Coordinator",
-    linkedin: "https://www.linkedin.com/in/kumarneelesh2112/",
+    Name: "Shubham Tribedi",
+    Photo: Shubham,
+    Domain: "Lead Organizer",
+    facebook: "https://www.facebook.com/shubham.tribedi",
+    twitter: "https://twitter.com/shubham_tribedi",
+    github: "https://github.com/CoderShubham2000",
+    linkedin: "https://www.linkedin.com/in/shubham-tribedi/",
   },
 ];
 

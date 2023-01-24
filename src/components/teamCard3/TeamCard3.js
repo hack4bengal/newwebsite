@@ -25,17 +25,34 @@ const TeamCard3 = ({
       </div>
       <div className="line"></div>
       <ul className="social3">
-        {/* <li>
-          <a href="" className="fa fa-facebook" aria-hidden="true"></a>
-        </li> */}
         <li>
-          <a href="" className="fa fa-twitter  fa-2x" aria-hidden="true"></a>
+          <a
+            href={facebook}
+            className="fa fa-facebook fa-2x"
+            aria-hidden="true"
+          ></a>
         </li>
         <li>
-          <a href="" className="fa fa-github fa-2x" aria-hidden="true"></a>
+          <a
+            href={twitter}
+            className="fa fa-twitter fa-2x"
+            aria-hidden="true"
+          ></a>
         </li>
         <li>
-          <a href={linkedin} target="_blank " className="fa fa-linkedin fa-2x" aria-hidden="true"></a>
+          <a
+            href={github}
+            className="fa fa-github fa-2x"
+            aria-hidden="true"
+          ></a>
+        </li>
+        <li>
+          <a
+            href={linkedin}
+            target="_blank "
+            className="fa fa-linkedin fa-2x"
+            aria-hidden="true"
+          ></a>
         </li>
       </ul>
     </div>
