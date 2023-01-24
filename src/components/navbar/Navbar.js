@@ -3,8 +3,6 @@ import { useRef, useState } from "react";
 import "./Navbar.css";
 import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/images/tcp.png";
-import downArrow from "../../assets/images/downArrow.svg";
-import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 
@@ -157,7 +155,9 @@ const Navbar = () => {
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#faq" onClick={toggleMenu}>
-              <h3 className="hack4bengal__navbar-hamburger-menu-heading">FAQ</h3>
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                FAQ
+              </h3>
             </a>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
@@ -167,12 +167,12 @@ const Navbar = () => {
               </h3>
             </a>
           </li>
-          <button className="hack4bengal__navbar-hamburger-brochure-button hack4bengal__navbar-brochure-button">
+          {/* <button className="hack4bengal__navbar-hamburger-brochure-button hack4bengal__navbar-brochure-button">
             <img src={downArrow} />
             <a href={brochure} download="Brochure">
               Download Brochure
             </a>
-          </button>
+          </button> */}
         </ul>
       </header>
     </motion.div>

@@ -1,13 +1,12 @@
 import React from "react";
 import { useRef, useState } from "react";
 import "./NavbarTeam.css";
-import hack4bengal from "../../assets/img/H4B-logo.png";
+import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/img/H4B-logo-black.png";
 import downArrow from "../../assets/images/downArrow.svg";
-import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const NavbarTeam = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,12 +33,14 @@ const NavbarTeam = () => {
             <ul className="hack4bengal__navbarTeam-navlist">
               <li className="hack4bengal__navbarTeam-navitem">
                 <Link to="/">
-                  <h3 className="hack4bengal__navbarTeam-menu-heading">Back To Main Page</h3>
+                  <h3 className="hack4bengal__navbarTeam-menu-heading">
+                    Back To Main Page
+                  </h3>
                 </Link>
               </li>
             </ul>
           </nav>
-          <div className="hack4bengal__navbarTeam-logo hack4bengal__navbarTeam-brochure">
+          {/* <div className="hack4bengal__navbarTeam-logo hack4bengal__navbarTeam-brochure">
             <img src={tcp} />
             <button className="hack4bengal__navbarTeam-brochure-button">
               <img src={downArrow} />
@@ -47,7 +48,7 @@ const NavbarTeam = () => {
                 BROCHURE
               </a>
             </button>
-          </div>
+          </div> */}
         </div>
       </header>
       <header
@@ -96,12 +97,12 @@ const NavbarTeam = () => {
               </h3>
             </Link>
           </li>
-          <button className="hack4bengal__navbarTeam-hamburger-brochure-button hack4bengal__navbarTeam-brochure-button">
+          {/* <button className="hack4bengal__navbarTeam-hamburger-brochure-button hack4bengal__navbarTeam-brochure-button">
             <img src={downArrow} />
             <a href={brochure} download="Brochure">
               Download Brochure
             </a>
-          </button>
+          </button> */}
         </ul>
       </header>
     </motion.div>

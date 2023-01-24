@@ -16,6 +16,9 @@
   flex-direction: column;
   width: max-content;
 }
+.image {
+  position: center;
+}
 
 #root {
   display: none;
@@ -55,7 +58,7 @@
   position: absolute;
   background: red;
   height: 32px;
-  width: 200px;
+  width: 300px;
   transition: 0.15s ease-out;
 }
 .button .border .left-plane {

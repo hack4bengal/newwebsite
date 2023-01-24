@@ -103,7 +103,7 @@
 }
 
 .hack4bengal__navbar-hamburger-logo {
-  width: 50px;
+  width: auto;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -189,7 +189,7 @@
 
 @media screen and (max-width: 650px) {
   .hack4bengal__navbar-hamburger-logo {
-    width: 40px;
+    width: auto;
     height: 40px;
   }
 

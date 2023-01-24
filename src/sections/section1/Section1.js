@@ -1,6 +1,6 @@
 import React, { Component, useEffect } from "react";
 import "./Section1.css";
-import codeutsavaTitle from "../../assets/images/codeutsavaTitle.svg";
+import codeutsavaTitle from "../../assets/img/pre.gif";
 import discord from "../../assets/images/discord.svg";
 
 import { motion, transform } from "framer-motion";
@@ -34,7 +34,7 @@ const Section1 = () => {
         <div className="hack4bengal__section1-menu">
           <div className="hack4bengal__section1-heading">Welcome To</div>
           <div className="hack4bengal__section1-image">
-            <img src={codeutsavaTitle}></img>
+            <img className="banner" src={codeutsavaTitle} alt="hack4bengal"></img>
           </div>
           <div className="hack4bengal__section1-subheading">
             Code. Innovate. Celebrate.
