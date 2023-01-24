@@ -33,16 +33,50 @@
   object-fit: cover;
 }
 
-.codeutsava__sponsers-carousel-item-block{
-    margin: 0px 20vw;
-    display: inline-block;
+.codeutsava__sponsers-carousel-item-block {
+  margin: 0px 20vw;
+  display: inline-block;
 }
 
 @keyframes scrollInfinite {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-250px * 30));
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.h4b_reg_text_wrapper {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #e53538;
+  background-color: #242425;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+
+.h4b_reg_text_wrapper p {
+  white-space: nowrap;
+  padding: 10px 6rem;
+  letter-spacing: 1px;
+  animation: move-rtl 6000ms linear infinite;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
   }
 }
