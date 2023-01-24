@@ -1,18 +1,18 @@
-.codeutsava__section6 {
+.hack4bengal__section6 {
   padding-top: 4rem;
   padding-bottom: 4rem;
   font-family: "Poppins";
   color: white;
 }
 
-.codeutsava__section6-body {
+.hack4bengal__section6-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.codeutsava__section6-title {
+.hack4bengal__section6-title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -24,7 +24,7 @@
   color: white;
 }
 
-.codeutsava__section6-content {
+.hack4bengal__section6-content {
   font-style: normal;
   font-size: 24px;
   width: 85%;
@@ -32,7 +32,7 @@
   text-align: center;
 }
 
-.codeutsava__section6-sponsers {
+.hack4bengal__section6-sponsers {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,14 +41,14 @@
   gap: 4rem;
 }
 
-.codeutsava__section6-sponser-title {
+.hack4bengal__section6-sponser-title {
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
 }
 
-.codeutsava__section6-sponser-list {
+.hack4bengal__section6-sponser-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -60,11 +60,11 @@
   background-color: rgb(32, 32, 32);
 }
 
-.codeutsava__section6-sponser-image{
+.hack4bengal__section6-sponser-image{
   width: 300px;
 }
 
-.codeutsava__section6-sponser-image img{
+.hack4bengal__section6-sponser-image img{
   width: 100%;
   height: auto;
 }
@@ -110,11 +110,11 @@
 }
 
 @media screen and (max-width: 900px) {
-  .codeutsava__section6-sponser-list {
+  .hack4bengal__section6-sponser-list {
     flex-direction: column;
     max-width: 800px;
   }
-  .codeutsava__section6-sponser-list img {
+  .hack4bengal__section6-sponser-list img {
     width: 100%;
   }
   .platinum {
@@ -135,20 +135,20 @@
 }
 
 @media screen and (max-width: 650px) {
-  .codeutsava__section6-content {
+  .hack4bengal__section6-content {
     font-size: 16px;
     line-height: 30px;
   }
-  .codeutsava__section6-sponser-list {
+  .hack4bengal__section6-sponser-list {
     max-width: 400px;
   }
-  .codeutsava__section6-title {
+  .hack4bengal__section6-title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .codeutsava__section6-sponser-list {
+  .hack4bengal__section6-sponser-list {
     max-width: 200px;
   }
 }

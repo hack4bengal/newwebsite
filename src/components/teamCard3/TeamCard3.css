@@ -1,4 +1,4 @@
-.codeutsava__team-card3{
+.hack4bengal__team-card3{
     position: relative;
     background-color: #FFF9F9;
     width: 300px;
@@ -7,19 +7,19 @@
     margin: 3rem 0;
 
 }
-.codeutsava__team-card3-img{
+.hack4bengal__team-card3-img{
     position: relative;
     top: -35px;
     text-align: center;
     border-radius: 30px;
 }
-.codeutsava__team-card3-img img{
+.hack4bengal__team-card3-img img{
     border-radius: 30px;
     height: 200px;
     width: 200px;
     object-fit: cover;
 }
-.codeutsava__team-card3-content{
+.hack4bengal__team-card3-content{
     text-align: center;
     color: #D97961;
     font-weight: 900;

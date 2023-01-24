@@ -1,10 +1,10 @@
 import React from "react";
 import { useRef, useState } from "react";
 import "./Navbar.css";
-import codeutsava from "../../assets/img/Hack4Bengal.png";
+import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/images/tcp.png";
 import downArrow from "../../assets/images/downArrow.svg";
-import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
+import brochure from "../../assets/images/hack4bengal_Brochure_6.0.pdf";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 
@@ -22,57 +22,57 @@ const Navbar = () => {
       whileInView="show"
       variants={headerVariants}
       viewport={{ once: false, amount: 0.25 }}
-      className="codeutsava__navbar-container"
+      className="hack4bengal__navbar-container"
     >
-      <header className="codeutsava__navbar">
-        <div className="codeutsava__navbar-body">
-          <div className="codeutsava__navbar-logo">
-            <img src={codeutsava} />
+      <header className="hack4bengal__navbar">
+        <div className="hack4bengal__navbar-body">
+          <div className="hack4bengal__navbar-logo">
+            <img src={hack4bengal} />
           </div>
-          <nav className="codeutsava__navbar-menu">
-            <ul className="codeutsava__navbar-navlist">
-              <li className="codeutsava__navbar-navitem">
+          <nav className="hack4bengal__navbar-menu">
+            <ul className="hack4bengal__navbar-navlist">
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#home">
-                  <h3 className="codeutsava__navbar-menu-heading">Home</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">Home</h3>
                 </a>
               </li>
-              <li className="codeutsava__navbar-navitem">
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#aboutus">
-                  <h3 className="codeutsava__navbar-menu-heading">About Us</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">About Us</h3>
                 </a>
               </li>
-              <li className="codeutsava__navbar-navitem">
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#events">
-                  <h3 className="codeutsava__navbar-menu-heading">Events</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
                 </a>
               </li>
-              <li className="codeutsava__navbar-navitem">
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#speakers">
-                  <h3 className="codeutsava__navbar-menu-heading">Speakers</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">Speakers</h3>
                 </a>
               </li>
-              <li className="codeutsava__navbar-navitem">
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#sponsers">
-                  <h3 className="codeutsava__navbar-menu-heading">Sponsors</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">Sponsors</h3>
                 </a>
               </li>
-              <li className="codeutsava__navbar-navitem">
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#faq">
-                  <h3 className="codeutsava__navbar-menu-heading">FAQ</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">FAQ</h3>
                 </a>
               </li>
-              <li className="codeutsava__navbar-navitem">
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#contactus">
-                  <h3 className="codeutsava__navbar-menu-heading">
+                  <h3 className="hack4bengal__navbar-menu-heading">
                     Contact Us
                   </h3>
                 </a>
               </li>
             </ul>
           </nav>
-          {/* <div className="codeutsava__navbar-logo codeutsava__navbar-brochure">
+          {/* <div className="hack4bengal__navbar-logo hack4bengal__navbar-brochure">
             <img src={tcp} />
-            <button className="codeutsava__navbar-brochure-button">
+            <button className="hack4bengal__navbar-brochure-button">
               <img src={downArrow} />
               <a href={brochure} download="Brochure">
                 BROCHURE
@@ -82,12 +82,12 @@ const Navbar = () => {
         </div>
       </header>
       <header
-        className={`codeutsava__navbar-hamburger ${
+        className={`hack4bengal__navbar-hamburger ${
           isOpen ? `hamburger-open` : ``
         }`}
       >
-        <div className="codeutsava__navbar-hamburger-body">
-          <nav className="codeutsava__navbar-hamburger-nav">
+        <div className="hack4bengal__navbar-hamburger-body">
+          <nav className="hack4bengal__navbar-hamburger-nav">
             <div className="hamburger">
               <svg
                 className="ham hamRotate ham8"
@@ -107,67 +107,67 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-            <div className="codeutsava__navbar-hamburger-logo">
-              <img src={codeutsava} />
+            <div className="hack4bengal__navbar-hamburger-logo">
+              <img src={hack4bengal} />
             </div>
-            <div className="codeutsava__navbar-hamburger-logo">
+            <div className="hack4bengal__navbar-hamburger-logo">
               <img src={tcp} />
             </div>
           </nav>
         </div>
         <ul
-          className={`codeutsava__navbar-hamburger-navlist ${
+          className={`hack4bengal__navbar-hamburger-navlist ${
             isOpen ? `activeMenu slide-bottom` : ``
           }`}
         >
-          <li className="codeutsava__navbar-hamburger-navitem">
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#home" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Home
               </h3>
             </a>
           </li>
-          <li className="codeutsava__navbar-hamburger-navitem">
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#aboutus" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 About Us
               </h3>
             </a>
           </li>
-          <li className="codeutsava__navbar-hamburger-navitem">
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#events" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Events
               </h3>
             </a>
           </li>
-          <li className="codeutsava__navbar-hamburger-navitem">
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#speakers" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Speakers
               </h3>
             </a>
           </li>
-          <li className="codeutsava__navbar-hamburger-navitem">
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#sponsers" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Sponsors
               </h3>
             </a>
           </li>
-          <li className="codeutsava__navbar-hamburger-navitem">
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#faq" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbar-hamburger-menu-heading">FAQ</h3>
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">FAQ</h3>
             </a>
           </li>
-          <li className="codeutsava__navbar-hamburger-navitem">
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#contactus" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Contact Us
               </h3>
             </a>
           </li>
-          <button className="codeutsava__navbar-hamburger-brochure-button codeutsava__navbar-brochure-button">
+          <button className="hack4bengal__navbar-hamburger-brochure-button hack4bengal__navbar-brochure-button">
             <img src={downArrow} />
             <a href={brochure} download="Brochure">
               Download Brochure

@@ -1,11 +1,11 @@
-.codeutsava__navbar-container {
+.hack4bengal__navbar-container {
   z-index: 9999;
   width: 100%;
   position: sticky;
   top: 0px;
 }
 
-.codeutsava__footer-container{
+.hack4bengal__footer-container{
   width: 100%;
   background-color: rgba(32,32,32,1);
   margin-top: 10rem;

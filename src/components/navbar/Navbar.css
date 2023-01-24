@@ -1,4 +1,4 @@
-.codeutsava__navbar {
+.hack4bengal__navbar {
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -8,7 +8,7 @@
   z-index: 1;
 }
 
-.codeutsava__navbar-hamburger {
+.hack4bengal__navbar-hamburger {
   background-color: black;
   backdrop-filter: blur(10px);
   position: relative;
@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 
-.codeutsava__navbar-body {
+.hack4bengal__navbar-body {
   display: flex;
   border-style: solid;
   border-color: rgba(155, 155, 155, 0.4);
@@ -29,33 +29,33 @@
   padding: 0px;
 }
 
-.codeutsava__navbar-hamburger-body {
+.hack4bengal__navbar-hamburger-body {
   width: 91.6667%;
   max-width: 80rem;
   margin: 0px auto;
   padding: 0;
 }
 
-.codeutsava__navbar-logo {
+.hack4bengal__navbar-logo {
   width: auto;
   height: 50px;
   display: flex;
   justify-content: center;
 }
 
-.codeutsava__navbar-logo img {
+.hack4bengal__navbar-logo img {
   width: auto;
   height: 50px;
 }
 
-.codeutsava__navbar-brochure {
+.hack4bengal__navbar-brochure {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.codeutsava__navbar-brochure-button {
+.hack4bengal__navbar-brochure-button {
   font-family: var(--font-family);
   margin-left: 2rem;
   font-size: 16px;
@@ -72,19 +72,19 @@
   background-color: #ff1717;
 }
 
-.codeutsava__navbar-brochure-button img {
+.hack4bengal__navbar-brochure-button img {
   width: 16px;
   filter: invert(100%);
 }
-.codeutsava__navbar-brochure-button a {
+.hack4bengal__navbar-brochure-button a {
   font-size: 12px;
   margin-left: 8px;
 }
-.codeutsava__navbar-brochure-button:hover img {
+.hack4bengal__navbar-brochure-button:hover img {
   filter: invert(0%);
 }
 
-.codeutsava__navbar-hamburger-brochure-button {
+.hack4bengal__navbar-hamburger-brochure-button {
   margin: 4rem auto;
   padding: 20px 24px;
   border-radius: 4px;
@@ -95,41 +95,41 @@
   background-color: #ff1717;
 }
 
-.codeutsava__navbar-brochure-button:hover {
+.hack4bengal__navbar-brochure-button:hover {
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
 }
 
-.codeutsava__navbar-hamburger-logo {
+.hack4bengal__navbar-hamburger-logo {
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
 }
 
-.codeutsava__navbar-hamburger-logo img {
+.hack4bengal__navbar-hamburger-logo img {
   width: auto;
   height: 50px;
 }
 
-.codeutsava__navbar-hamburger-nav {
+.hack4bengal__navbar-hamburger-nav {
   display: flex;
   padding: 4px;
   justify-content: space-between;
   align-items: center;
 }
-.codeutsava__navbar-menu {
+.hack4bengal__navbar-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.codeutsava__navbar-navlist {
+.hack4bengal__navbar-navlist {
   list-style: none;
   display: flex;
 }
 
-.codeutsava__navbar-menu-heading {
+.hack4bengal__navbar-menu-heading {
   font-family: var(--font-family);
   justify-content: space-evenly;
   font-style: normal;
@@ -144,11 +144,11 @@
   cursor: pointer;
 }
 
-.codeutsava__navbar-menu-heading:hover {
+.hack4bengal__navbar-menu-heading:hover {
   color: red;
 }
 
-.codeutsava__navbar-menu-heading:after {
+.hack4bengal__navbar-menu-heading:after {
   margin-top: 4px;
   display: block;
   content: "";
@@ -156,51 +156,51 @@
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
 }
-.codeutsava__navbar-menu-heading:hover::after {
+.hack4bengal__navbar-menu-heading:hover::after {
   transform: scaleX(0.8);
   border-radius: 4px;
 }
 
 @media screen and (max-width: 2000px) {
-  .codeutsava__navbar-logo img {
+  .hack4bengal__navbar-logo img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .codeutsava__navbar {
+  .hack4bengal__navbar {
     display: none;
   }
-  .codeutsava__navbar-hamburger {
+  .hack4bengal__navbar-hamburger {
     height: auto;
     display: flex;
   }
-  .codeutsava__navbar-hamburger-nav {
+  .hack4bengal__navbar-hamburger-nav {
     padding: 10px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .codeutsava__navbar-hamburger-logo {
+  .hack4bengal__navbar-hamburger-logo {
     width: 40px;
     height: 40px;
   }
-  .codeutsava__navbar-hamburger-logo img {
+  .hack4bengal__navbar-hamburger-logo img {
     max-width: 100%;
     height: auto;
   }
-  .codeutsava__navbar {
+  .hack4bengal__navbar {
     display: none;
   }
-  .codeutsava__navbar-hamburger {
+  .hack4bengal__navbar-hamburger {
     height: auto;
     display: flex;
   }
-  .codeutsava__navbar-hamburger-nav {
+  .hack4bengal__navbar-hamburger-nav {
     padding: 4px;
   }
-  .codeutsava__navbar-hamburger-brochure-button {
+  .hack4bengal__navbar-hamburger-brochure-button {
     width: 90%;
   }
 }
@@ -260,7 +260,7 @@
   stroke-dashoffset: -64px;
 }
 
-.codeutsava__navbar-hamburger-navlist {
+.hack4bengal__navbar-hamburger-navlist {
   display: none;
   padding: 12px 34px;
   flex-direction: column;
@@ -275,12 +275,12 @@
   display: flex;
 }
 
-.codeutsava__navbar-hamburger-navitem {
+.hack4bengal__navbar-hamburger-navitem {
   padding: 16px;
   border-bottom: 0.4px solid rgb(163, 163, 163);
 }
 
-.codeutsava__navbar-hamburger-menu-heading {
+.hack4bengal__navbar-hamburger-menu-heading {
   font-family: var(--font-family);
   justify-content: space-evenly;
   font-style: normal;

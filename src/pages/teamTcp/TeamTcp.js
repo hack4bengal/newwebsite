@@ -7,7 +7,7 @@ export default class TeamTcp extends Component {
   render() {
     return (
       <>
-        <div className="codeutsava__navbarTeam-container">
+        <div className="hack4bengal__navbarTeam-container">
           <NavbarTeam />
         </div>
         <div className="container mx-auto">

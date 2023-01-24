@@ -1,16 +1,16 @@
-.codeutsava__section9{
+.hack4bengal__section9{
     padding-top: 2rem;
     padding-bottom: 2rem; 
     color: white;
     font-family: 'Poppins'; 
 }
 
-.codeutsava__section9-boxtitle,.codeutsava__section9-box,.codeutsava__section9-title {
+.hack4bengal__section9-boxtitle,.hack4bengal__section9-box,.hack4bengal__section9-title {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 
-.codeutsava__section9-description{
+.hack4bengal__section9-description{
 
     display: flex;
     flex-wrap: wrap;
@@ -18,12 +18,12 @@
     justify-content: space-evenly;
 }
 
-.codeutsava__section9-body{
+.hack4bengal__section9-body{
    display: flex;
    flex-direction: row;
 }
 
-.codeutsava__section9-title1{
+.hack4bengal__section9-title1{
     font-style: medium;
     font-weight: 470;
     font-size: 48px;
@@ -33,7 +33,7 @@
     margin-bottom: 1rem;
 }
 
-.codeutsava__section9-title2{
+.hack4bengal__section9-title2{
     font-style: medium;
     font-weight: 370;
     font-size: 40px;
@@ -44,7 +44,7 @@
 
 }
 
-.codeutsava__section9-box{
+.hack4bengal__section9-box{
     width: 40%;
     font-size: 20px;
     display: flex;
@@ -57,7 +57,7 @@
     margin: 2rem 0;
 }
 
-.codeutsava__section9-boxtitle{
+.hack4bengal__section9-boxtitle{
     font-size: 30px;
     font-style: normal;
     margin: 1rem 0;
@@ -65,32 +65,32 @@
 }
 
 @media screen and (max-width: 1000px){
-    .codeutsava__section9-box{
+    .hack4bengal__section9-box{
         width: 80%;
     }
 }
 
 @media screen and (max-width: 650px){
-    .codeutsava__section9-title1{
+    .hack4bengal__section9-title1{
         font-size: 36px;
         line-height: normal;
     }
 
-    .codeutsava__section9-title2{
+    .hack4bengal__section9-title2{
         line-height: normal;
         font-size: 16px;
     }
 
-    .codeutsava__section9-box{
+    .hack4bengal__section9-box{
         width: 100%;
         padding: 3.5rem;
     }
 
-    .codeutsava__section9-boxtitle{
+    .hack4bengal__section9-boxtitle{
         font-size: 24px;
     }
 
-    .codeutsava__section9-boxInfo{
+    .hack4bengal__section9-boxInfo{
         font-size: 16px;
     }
 }

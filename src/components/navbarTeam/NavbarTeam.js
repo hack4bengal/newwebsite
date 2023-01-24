@@ -1,10 +1,10 @@
 import React from "react";
 import { useRef, useState } from "react";
 import "./NavbarTeam.css";
-import codeutsava from "../../assets/images/codeutsava.png";
-import tcp from "../../assets/images/tcp.png";
+import hack4bengal from "../../assets/img/H4B-logo.png";
+import tcp from "../../assets/img/H4B-logo-black.png";
 import downArrow from "../../assets/images/downArrow.svg";
-import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
+import brochure from "../../assets/images/hack4bengal_Brochure_6.0.pdf";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link } from 'react-router-dom'
@@ -23,25 +23,25 @@ const NavbarTeam = () => {
       whileInView="show"
       variants={headerVariants}
       viewport={{ once: false, amount: 0.25 }}
-      className="codeutsava__navbarTeam-container"
+      className="hack4bengal__navbarTeam-container"
     >
-      <header className="codeutsava__navbarTeam">
-        <div className="codeutsava__navbarTeam-body">
-          <div className="codeutsava__navbarTeam-logo">
-            <img src={codeutsava} />
+      <header className="hack4bengal__navbarTeam">
+        <div className="hack4bengal__navbarTeam-body">
+          <div className="hack4bengal__navbarTeam-logo">
+            <img src={hack4bengal} />
           </div>
-          <nav className="codeutsava__navbarTeam-menu">
-            <ul className="codeutsava__navbarTeam-navlist">
-              <li className="codeutsava__navbarTeam-navitem">
+          <nav className="hack4bengal__navbarTeam-menu">
+            <ul className="hack4bengal__navbarTeam-navlist">
+              <li className="hack4bengal__navbarTeam-navitem">
                 <Link to="/">
-                  <h3 className="codeutsava__navbarTeam-menu-heading">Back To Main Page</h3>
+                  <h3 className="hack4bengal__navbarTeam-menu-heading">Back To Main Page</h3>
                 </Link>
               </li>
             </ul>
           </nav>
-          <div className="codeutsava__navbarTeam-logo codeutsava__navbarTeam-brochure">
+          <div className="hack4bengal__navbarTeam-logo hack4bengal__navbarTeam-brochure">
             <img src={tcp} />
-            <button className="codeutsava__navbarTeam-brochure-button">
+            <button className="hack4bengal__navbarTeam-brochure-button">
               <img src={downArrow} />
               <a href={brochure} download="Brochure">
                 BROCHURE
@@ -51,12 +51,12 @@ const NavbarTeam = () => {
         </div>
       </header>
       <header
-        className={`codeutsava__navbarTeam-hamburger ${
+        className={`hack4bengal__navbarTeam-hamburger ${
           isOpen ? `hamburger-open` : ``
         }`}
       >
-        <div className="codeutsava__navbarTeam-hamburger-body">
-          <nav className="codeutsava__navbarTeam-hamburger-nav">
+        <div className="hack4bengal__navbarTeam-hamburger-body">
+          <nav className="hack4bengal__navbarTeam-hamburger-nav">
             <div className="hamburger">
               <svg
                 className="ham hamRotate ham8"
@@ -76,27 +76,27 @@ const NavbarTeam = () => {
                 />
               </svg>
             </div>
-            <div className="codeutsava__navbarTeam-hamburger-logo">
-              <img src={codeutsava} />
+            <div className="hack4bengal__navbarTeam-hamburger-logo">
+              <img src={hack4bengal} />
             </div>
-            <div className="codeutsava__navbarTeam-hamburger-logo">
+            <div className="hack4bengal__navbarTeam-hamburger-logo">
               <img src={tcp} />
             </div>
           </nav>
         </div>
         <ul
-          className={`codeutsava__navbarTeam-hamburger-navlist ${
+          className={`hack4bengal__navbarTeam-hamburger-navlist ${
             isOpen ? `activeMenu slide-bottom` : ``
           }`}
         >
-          <li className="codeutsava__navbarTeam-hamburger-navitem">
+          <li className="hack4bengal__navbarTeam-hamburger-navitem">
             <Link to="/" onClick={toggleMenu}>
-              <h3 className="codeutsava__navbarTeam-hamburger-menu-heading">
+              <h3 className="hack4bengal__navbarTeam-hamburger-menu-heading">
                 Back To Home Page
               </h3>
             </Link>
           </li>
-          <button className="codeutsava__navbarTeam-hamburger-brochure-button codeutsava__navbarTeam-brochure-button">
+          <button className="hack4bengal__navbarTeam-hamburger-brochure-button hack4bengal__navbarTeam-brochure-button">
             <img src={downArrow} />
             <a href={brochure} download="Brochure">
               Download Brochure

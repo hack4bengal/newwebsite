@@ -38,13 +38,13 @@ const Section8 = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 1 } }}
       viewport={{ once: false }}
-      className="codeutsava__section8"
+      className="hack4bengal__section8"
       id="problems"
     >
-      <div className="codeutsava__section8-body">
-        <div className="codeutsava__section8-title">Problem Statements</div>
-        <div className="codeutsava__section8-problems">
-          <div className="codeutsava__section8-problems-container1">
+      <div className="hack4bengal__section8-body">
+        <div className="hack4bengal__section8-title">Problem Statements</div>
+        <div className="hack4bengal__section8-problems">
+          <div className="hack4bengal__section8-problems-container1">
             {problems.slice(0, initialProblem).map((problem, index) => (
               <ProblemCard
                 key={index}
@@ -56,7 +56,7 @@ const Section8 = () => {
           </div>
           {isVisible && (
             <div
-              className="codeutsava__section8-problems-container2"
+              className="hack4bengal__section8-problems-container2"
               {...fadeProps}
             >
               {problems
@@ -73,7 +73,7 @@ const Section8 = () => {
           )}
         </div>
         <button
-          className="codeutsava__section8-button"
+          className="hack4bengal__section8-button"
           onClick={() => setVisible(!isVisible)}
         >
           {isVisible === false ? "Load More" : "Show Less"}

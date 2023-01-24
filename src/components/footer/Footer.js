@@ -4,23 +4,23 @@ import "./Footer.css";
 
 import NIT from "../../assets/images/NIT.svg";
 import tcpName from "../../assets/images/tcpName.svg";
-import codeutsava from "../../assets/images/codeutsava.png";
+import hack4bengal from "../../assets/images/hack4bengal.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="codeutsava__footer" id="contactus">
-      <div className="codeutsava__footer-container1">
-        <div className="codeutsava__footer-logos">
+    <div className="hack4bengal__footer" id="contactus">
+      <div className="hack4bengal__footer-container1">
+        <div className="hack4bengal__footer-logos">
           <img
-            src={codeutsava}
-            className="codeutsava__footer-logo-codeutsava"
+            src={hack4bengal}
+            className="hack4bengal__footer-logo-hack4bengal"
           />
-          <img src={tcpName} className="codeutsava__footer-logo-tcp" />
+          <img src={tcpName} className="hack4bengal__footer-logo-tcp" />
         </div>
-        <div className="codeutsava__footer-social-container">
-          <div className="codeutsava__footer-social-links-container">
-            <a target="_blank" href="https://www.facebook.com/codeutsava/">
+        <div className="hack4bengal__footer-social-container">
+          <div className="hack4bengal__footer-social-links-container">
+            <a target="_blank" href="https://www.facebook.com/hack4bengal/">
               <svg
                 fill="#999"
                 width="32"
@@ -72,7 +72,7 @@ const Footer = () => {
             </a>
             <a
               target="_blank"
-              href="https://www.linkedin.com/company/codeutsava/"
+              href="https://www.linkedin.com/company/hack4bengal/"
             >
               <svg
                 fill="#999"
@@ -85,17 +85,17 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <p className="codeutsava__footer-social-text">For more updates,</p>
-          <p className="codeutsava__footer-social-text">
+          <p className="hack4bengal__footer-social-text">For more updates,</p>
+          <p className="hack4bengal__footer-social-text">
             follow us on all social media.
           </p>
         </div>
       </div>
-      <div className="codeutsava__footer-container2">
-        <div className="codeutsava__footer-container2-left">
-          <div className="codeutsava__footer-container2-left-content">
+      <div className="hack4bengal__footer-container2">
+        <div className="hack4bengal__footer-container2-left">
+          <div className="hack4bengal__footer-container2-left-content">
             <img src={NIT} />
-            <div className="codeutsava__footer-container2-left-text">
+            <div className="hack4bengal__footer-container2-left-text">
               <h4>About NIT Raipur</h4>
               <p>
                 The institute is committed to the challenging task of
@@ -107,38 +107,38 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="codeutsava__footer-container2-right">
-          <a href="#home" className="codeutsava__footer-container2-right-links">
-            <p className="codeutsava__footer-container2-right-text">Home</p>
+        <div className="hack4bengal__footer-container2-right">
+          <a href="#home" className="hack4bengal__footer-container2-right-links">
+            <p className="hack4bengal__footer-container2-right-text">Home</p>
           </a>
           <a
             href="#aboutus"
-            className="codeutsava__footer-container2-right-links"
+            className="hack4bengal__footer-container2-right-links"
           >
-            <p className="codeutsava__footer-container2-right-text">About Us</p>
+            <p className="hack4bengal__footer-container2-right-text">About Us</p>
           </a>
           <a
             href="#events"
-            className="codeutsava__footer-container2-right-links"
+            className="hack4bengal__footer-container2-right-links"
           >
-            <p className="codeutsava__footer-container2-right-text">Events</p>
+            <p className="hack4bengal__footer-container2-right-text">Events</p>
           </a>
           <a
             href="#sponsers"
-            className="codeutsava__footer-container2-right-links"
+            className="hack4bengal__footer-container2-right-links"
           >
-            <p className="codeutsava__footer-container2-right-text">Sponsers</p>
+            <p className="hack4bengal__footer-container2-right-text">Sponsers</p>
           </a>
-          <a href="#faq" className="codeutsava__footer-container2-right-links">
-            <p className="codeutsava__footer-container2-right-text">FAQ</p>
+          <a href="#faq" className="hack4bengal__footer-container2-right-links">
+            <p className="hack4bengal__footer-container2-right-text">FAQ</p>
           </a>
         </div>
       </div>
-      <div className="codeutsava__footer-container3">
-        <div className="codeutsava__footer-social-team">
+      <div className="hack4bengal__footer-container3">
+        <div className="hack4bengal__footer-social-team">
           Architected with ❤️ by <Link to="/team">TCP Team</Link>
         </div>
-        <div className="codeutsava__footer-back-to-top">
+        <div className="hack4bengal__footer-back-to-top">
           <a href="#home">
             Back to Top
             <svg
@@ -154,7 +154,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="codeutsava__footer-social-map">
+        <div className="hack4bengal__footer-social-map">
           <a
             target="_blank"
             href="https://www.google.com/maps/place/National+Institute+of+Technology(NIT),+Raipur,+Great+Eastern+Rd,+Amanaka,+Raipur,+Chhattisgarh+492010/@21.2497222,81.6050291,17z/data=!4m6!3m5!1s0x3a28dde213f66723:0x21543965c50c43c7!8m2!3d21.2497222!4d81.6050291!16zL20vMGNqeXFk"

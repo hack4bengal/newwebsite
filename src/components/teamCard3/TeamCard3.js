@@ -14,11 +14,11 @@ const TeamCard3 = ({
   domain,
 }) => {
   return (
-    <div className="codeutsava__team-card3">
-      <div className="codeutsava__team-card3-img">
+    <div className="hack4bengal__team-card3">
+      <div className="hack4bengal__team-card3-img">
         <img src={img} />
       </div>
-      <div className="codeutsava__team-card3-content">
+      <div className="hack4bengal__team-card3-content">
         <h3 className="name3">{name}</h3>
         <h4 className="title3">{position}</h4>
         <h4 className="domain3">{domain}</h4>

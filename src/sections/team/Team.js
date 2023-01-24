@@ -12,7 +12,7 @@ import TeamCard2 from "../../components/teamCard2/TeamCard2";
 import TeamCard3 from "../../components/teamCard3/TeamCard3";
 import { motion } from "framer-motion";
 
-import tcp from "../../assets/images/tcp.png";
+import tcp from "../../assets/img/H4B-logo-black.png";
 
 const Team = () => {
   return (
@@ -20,18 +20,19 @@ const Team = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 1 } }}
       viewport={{ once: false }}
-      className="codeutsava__team"
+      className="hack4bengal__team"
       id="speakers"
     >
-      <div className="codeutsava__team-body">
-        <div className="codeutsava__team-header-container">
+      <div className="hack4bengal__team-body">
+        <div className="hack4bengal__team-header-container">
           <img src={tcp} />
-          <div className="codeutsava__team-main-title">
-            &lt;Team TCP 2022&gt;
+          <div className="hack4bengal__team-main-title">
+            &lt;Team H4B 2022&gt;
+            <p className="hack4bengal__team-subtitle">H4B is a team of 30+ enthusiastic folks!</p>
           </div>
         </div>
-        <div className="codeutsava__team-title">Overall Coordinators</div>
-        <div className="codeutsava__team-members">
+        <div className="hack4bengal__team-title">Overall Coordinators</div>
+        <div className="hack4bengal__team-members">
           {overAllCoordinaters.slice(0, 1).map((member, index) => (
             <TeamCard3
               key={index}
@@ -43,7 +44,7 @@ const Team = () => {
             />
           ))}
         </div>
-        <div className="codeutsava__team-members">
+        <div className="hack4bengal__team-members">
           {overAllCoordinaters.slice(1).map((member, index) => (
             <TeamCard3
               key={index}
@@ -55,8 +56,8 @@ const Team = () => {
             />
           ))}
         </div>
-        <div className="codeutsava__team-title">Head Coordinators</div>
-        <div className="codeutsava__team-members">
+        {/* <div className="hack4bengal__team-title">Head Coordinators</div>
+        <div className="hack4bengal__team-members">
           {headCoordinaters.map((member, index) => (
             <TeamCard
               key={index}
@@ -67,9 +68,9 @@ const Team = () => {
               domain={member.Domain}
             />
           ))}
-        </div>
-        <div className="codeutsava__team-title">Managers</div>
-        <div className="codeutsava__team-members">
+        </div> */}
+        {/* <div className="hack4bengal__team-title">Managers</div>
+        <div className="hack4bengal__team-members">
           {managers.map((member, index) => (
             <TeamCard
               key={index}
@@ -80,9 +81,9 @@ const Team = () => {
               domain={member.Domain}
             />
           ))}
-        </div>
-        <div className="codeutsava__team-title">Executives</div>
-        <div className="codeutsava__team-members">
+        </div> */}
+        <div className="hack4bengal__team-title">Executives</div>
+        <div className="hack4bengal__team-members">
           {executives.map((member, index) => (
             <TeamCard
               key={index}

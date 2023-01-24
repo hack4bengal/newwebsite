@@ -1,4 +1,4 @@
-.codeutsava__footer {
+.hack4bengal__footer {
   font-family: var(--font-family);
   color: white;
   width: 91.6667%;
@@ -7,7 +7,7 @@
   overflow-y: hidden;
 }
 
-.codeutsava__footer-container1 {
+.hack4bengal__footer-container1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -16,29 +16,29 @@
   margin-top: 2rem;
 }
 
-.codeutsava__footer-logos{
+.hack4bengal__footer-logos{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.codeutsava__footer-logo-codeutsava {
+.hack4bengal__footer-logo-hack4bengal {
   width: 5rem;
   height: auto;
 }
 
-.codeutsava__footer-logo-tcp {
+.hack4bengal__footer-logo-tcp {
   width: 13rem;
   height: auto;
   margin-left: 1rem;
 }
 
-.codeutsava__footer-social-container {
+.hack4bengal__footer-social-container {
   width: 100%;
 }
 
-.codeutsava__footer-social-links-container {
+.hack4bengal__footer-social-links-container {
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 0.5rem;
@@ -46,25 +46,25 @@
   justify-content: flex-end;
 }
 
-.codeutsava__footer-social-links-container a svg {
+.hack4bengal__footer-social-links-container a svg {
   transition: all 0.2s ease-in-out;
   margin-left: 20px;
 }
 
-.codeutsava__footer-social-links-container a svg:hover{
+.hack4bengal__footer-social-links-container a svg:hover{
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
   fill: #fff;
 }
 
-.codeutsava__footer-social-text {
+.hack4bengal__footer-social-text {
   text-align: right;
   font-weight: 400;
   font-size: 16px;
   color: #999;
 }
 
-.codeutsava__footer-container2 {
+.hack4bengal__footer-container2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
@@ -72,7 +72,7 @@
   margin-top: 1rem;
 }
 
-.codeutsava__footer-container2-left {
+.hack4bengal__footer-container2-left {
   width: 100%;
   min-height: 100%;
   border-radius: 0.75rem;
@@ -80,7 +80,7 @@
   margin-right: auto;
 }
 
-.codeutsava__footer-container2-left-content {
+.hack4bengal__footer-container2-left-content {
   display: flex;
   background-color: rgba(0, 8, 17, 1);
   justify-content: center;
@@ -90,13 +90,13 @@
   border-radius: 0.75rem;
 }
 
-.codeutsava__footer-container2-left-content img {
+.hack4bengal__footer-container2-left-content img {
   height: 130px;
   width: auto;
   margin-left: 1rem;
 }
 
-.codeutsava__footer-container2-left-text {
+.hack4bengal__footer-container2-left-text {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   margin-left: 1rem;
@@ -105,14 +105,14 @@
   flex-direction: column;
 }
 
-.codeutsava__footer-container2-left-text h4 {
+.hack4bengal__footer-container2-left-text h4 {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   margin-top: 1rem;
 }
 
-.codeutsava__footer-container2-left-text p {
+.hack4bengal__footer-container2-left-text p {
   font-size: 14px;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -120,7 +120,7 @@
   font-weight: 400;
 }
 
-.codeutsava__footer-container2-right {
+.hack4bengal__footer-container2-right {
   background: transparent;
   padding: 10px 0px 10px 10px;
   display: flex;
@@ -129,21 +129,21 @@
   justify-content: center;
 }
 
-.codeutsava__footer-container2-right-links {
+.hack4bengal__footer-container2-right-links {
   text-decoration: none;
   margin-top: 0.5rem;
   cursor: pointer;
   padding: 0.5rem 0px 0.5rem 0.5rem;
 }
 
-.codeutsava__footer-container2-right-text {
+.hack4bengal__footer-container2-right-text {
   font-size: 24px;
   line-height: 20px;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
-.codeutsava__footer-container3 {
+.hack4bengal__footer-container3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-items: center;
@@ -154,16 +154,16 @@
 }
 
 
-.codeutsava__footer-social-team a{
+.hack4bengal__footer-social-team a{
   text-decoration: underline;
   color: var(--primary-c);
 }
 
-.codeutsava__footer-social-team a:hover {
+.hack4bengal__footer-social-team a:hover {
   color: white;
 }
 
-.codeutsava__footer-back-to-top a{
+.hack4bengal__footer-back-to-top a{
   text-decoration: none;
   color: white;
   align-items: center;
@@ -171,52 +171,52 @@
   display: flex;
 }
 
-.codeutsava__footer-back-to-top a:hover {
+.hack4bengal__footer-back-to-top a:hover {
   color: var(--primary-c);
 }
 
-.codeutsava__footer-social-map{
+.hack4bengal__footer-social-map{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 @media screen and (max-width: 650px) {
-  .codeutsava__footer-container1 {
+  .hack4bengal__footer-container1 {
     flex-direction: column;
     align-items: center;
     gap: 4rem;
   }
 
-  .codeutsava__footer-back-to-top{
+  .hack4bengal__footer-back-to-top{
     display: none;
   }
 
-  .codeutsava__footer-social-links-container{
+  .hack4bengal__footer-social-links-container{
     justify-content: center;
   }
 
-  .codeutsava__footer-social-text{
+  .hack4bengal__footer-social-text{
     text-align: center;
   }
 
-  .codeutsava__footer-container2{
+  .hack4bengal__footer-container2{
     margin: 2rem 0;
   }
 
-  .codeutsava__footer-container2-left-text h4{
+  .hack4bengal__footer-container2-left-text h4{
     font-size: 16px;
   }
 
-  .codeutsava__footer-container2-left-text p{
+  .hack4bengal__footer-container2-left-text p{
     font-size: 12px;
   }
 
-  .codeutsava__footer-container2-left-content img{
+  .hack4bengal__footer-container2-left-content img{
     height: 80px;
   }
 
-  .codeutsava__footer-container2-right{
+  .hack4bengal__footer-container2-right{
     background: transparent;
     display: flex;
     flex-wrap: wrap;
@@ -225,15 +225,15 @@
     flex-direction: row;
   }
 
-  .codeutsava__footer-social-team{
+  .hack4bengal__footer-social-team{
     font-size: 12px;
   }
 
-  .codeutsava__footer-social-map{
+  .hack4bengal__footer-social-map{
     font-size: 12px;
   }
 
-  .codeutsava__footer-social-map svg{
+  .hack4bengal__footer-social-map svg{
     width: 16px;
     height: 16px;
   }
