@@ -4,7 +4,7 @@ import "./Navbar.css";
 import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/images/tcp.png";
 import downArrow from "../../assets/images/downArrow.svg";
-import brochure from "../../assets/images/hack4bengal_Brochure_6.0.pdf";
+import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 

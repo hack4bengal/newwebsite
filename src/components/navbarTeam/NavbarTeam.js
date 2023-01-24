@@ -4,7 +4,7 @@ import "./NavbarTeam.css";
 import hack4bengal from "../../assets/img/H4B-logo.png";
 import tcp from "../../assets/img/H4B-logo-black.png";
 import downArrow from "../../assets/images/downArrow.svg";
-import brochure from "../../assets/images/hack4bengal_Brochure_6.0.pdf";
+import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link } from 'react-router-dom'

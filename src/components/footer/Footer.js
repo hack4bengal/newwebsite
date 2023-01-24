@@ -4,7 +4,7 @@ import "./Footer.css";
 
 import NIT from "../../assets/images/NIT.svg";
 import tcpName from "../../assets/images/tcpName.svg";
-import hack4bengal from "../../assets/images/hack4bengal.png";
+import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
