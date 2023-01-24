@@ -16,6 +16,7 @@ const Section9 = () => {
     >
       <div className="hack4bengal__section9-title">
         <div className="hack4bengal__section9-title1">Prizes</div>
+        <hr />
         <div className="hack4bengal__section9-title2">
           Win exciting prizes worth upto 10 lakhs
         </div>

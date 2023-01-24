@@ -1,14 +1,13 @@
-
 const faqs = [
   {
-    question: "How do I register for the hackathon?",
+    question: "What is a Hackathon?",
     answer:
-      "Click on any Register Now button on the website. Alternatively, you can head over to Devfolio.",
+      "A hackathon is social coding event where programmers, designers, and developers collaborate to solve a problem and compete for cash prizes. It’s one part party, one part work-hard overnight battle against the clock and the competition.",
   },
   {
-    question: "What is the participation fee?",
+    question: "Why should I participate?",
     answer:
-      "Just some enthusiasm and an open mind are enough. We don't charge any money!!",
+      "People participate in hackathons for lots of reason: the challenge, the creative outlet, the community collaboration, the networking, the swag and maybe Prizes!",
   },
   {
     question: "What if I don't have a team or idea?",
@@ -21,29 +20,24 @@ const faqs = [
       "Everyone is welcome to apply, any student or working professionals. If you can innovate or just want to have a fun weekend, you are most welcome.",
   },
   {
-    question: "What is the participation fee?",
+    question: "What are the prerequisites for participating?",
     answer:
-      "Just some enthusiasm and an open mind are enough. We don't charge any money!!",
+      "Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need strong presentation skills and brilliant ideas.",
   },
   {
-    question: "What could be the size of the team?",
+    question: "I don't have a team, what to do?",
     answer:
-      "You can make teams of up to 5 members. Lone wolfs are also welcome.",
+      "While you can work alone, Hack4Bengal is a team event, so working with others is encouraged. There are a few ways to find teammates: You can pick your team from people you already know, post in our Discord Server to other members, find a team member via DevPost, meet them at pre-hackathon info sessions or the kickoff party.",
   },
   {
-    question: "Why should I participate in Hack4bengal 6.0?",
+    question: "How can I prepare myself?",
     answer:
-      "You will get cash prizes if you win; otherwise, you will always get an excellent opportunity to network with like-minded people, learn many things and get cool schwag.😉",
+      "Other than finding fellow brilliant minds with complementary skills to team up with, there is nothing that you need to prepare in advance.",
   },
   {
-    question: "How will the teams be judged?",
+    question: "Is there any fees involved?",
     answer:
-      "The teams will be judged based on Viability, Technical Complexity, Presentation Skills and most importantly, Creativity.",
-  },
-  {
-    question: "What is the Code of Conduct?",
-    answer:
-      "To ensure a positive experience among all the participants, we follow the MLH Code of Conduct. It is advised that you go through it once.",
+      "It's free for everyone to participate. There is no money involved at any point during this Hackathon.",
   },
 ];
 
