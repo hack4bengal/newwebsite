@@ -22,7 +22,7 @@
 }
 
 .hack4bengal__section10-button {
-  border: 1px solid #d7d7d7;
+  border: 1px solid #ff1717;
   border-radius: 10px;
   cursor: pointer;
   margin-top: 0.5rem;
@@ -42,13 +42,13 @@
 .hack4bengal__section10-button:hover {
   transition: all 0.2s ease-in-out;
   color: white;
-  background-color: #38b6ff;
-  border: 1px solid #38b6ff;
+  background-color: #ff1717;
+  border: 1px solid #ff1717;
 }
 
 @media screen and (max-width: 650px) {
-    .hack4bengal__section10-title {
-      font-size: 36px;
-      line-height: normal;
-    }
+  .hack4bengal__section10-title {
+    font-size: 36px;
+    line-height: normal;
   }
+}

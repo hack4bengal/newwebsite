@@ -1,20 +1,17 @@
-import aditya from '../images/aditya.jpg'
+import aditya from "../images/aditya.jpg";
 
 const executives = [
   {
-    Name: "Viraj Chandra",
+    Name: "Sristi Majumdar",
     Photo:
-    "https://drive.google.com/uc?id=1LPIuDcWf0TeCsDW5yelMLolxQc_TJXBf&export=download",
-    Branch: "IT",
-    "Graduation Year": 2025,
-    Domain: "Technical",
+      "https://github.com/hack4bengal/hack4bengal.github.io/blob/main/season1/assets/img/team/Kajal.png?raw=true",
+    Domain: "Marketing Lead",
     Designation: "Executive",
     linkedin: "https://www.linkedin.com/in/viraj-chandra/",
   },
   {
     Name: "Aniket Kumar",
-    Photo:
-      "https://drive.google.com/uc?id=1kxCz5cPbj0rOknv3YkPC6sL7f1ygQUuQ&export=download",
+    Photo: "../Team Members/Sugato.png",
     Branch: "ECE",
     "Graduation Year": 2025,
     Domain: "Technical",

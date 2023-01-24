@@ -3,12 +3,12 @@ import React from "react";
 import "./Team.css";
 
 import overAllCoordinaters from "../../assets/data/overAllCoordinatorsData";
-import headCoordinaters from "../../assets/data/headCoordinatorsData";
-import managers from "../../assets/data/managersData";
+// import headCoordinaters from "../../assets/data/headCoordinatorsData";
+// import managers from "../../assets/data/managersData";
 import executives from "../../assets/data/executivesData";
 
 import TeamCard from "../../components/teamCard/TeamCard";
-import TeamCard2 from "../../components/teamCard2/TeamCard2";
+// import TeamCard2 from "../../components/teamCard2/TeamCard2";
 import TeamCard3 from "../../components/teamCard3/TeamCard3";
 import { motion } from "framer-motion";
 
@@ -28,7 +28,9 @@ const Team = () => {
           <img src={tcp} />
           <div className="hack4bengal__team-main-title">
             &lt;Team H4B 2022&gt;
-            <p className="hack4bengal__team-subtitle">H4B is a team of 30+ enthusiastic folks!</p>
+            <p className="hack4bengal__team-subtitle">
+              H4B is a team of 30+ enthusiastic folks!
+            </p>
           </div>
         </div>
         <div className="hack4bengal__team-title">Overall Coordinators</div>
