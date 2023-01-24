@@ -38,6 +38,7 @@
   text-align: center;
   width: 85%;
 }
+
 .hack4bengal__section7-part2 {
   display: flex;
   justify-content: space-evenly;
@@ -59,11 +60,11 @@
 
 .section7-accordion_item {
   border-bottom: 0.5px solid #ffffff;
-  width: 90%;
+  /*  width: 90%; */
 }
 
 .section7-button {
-  background-color: black;
+  background-color: #1B1B1B;
   color: #fff;
   text-align: left;
   display: flex;
@@ -81,7 +82,7 @@
 }
 
 .section7-answer {
-  background-color: black;
+  background-color: #1B1B1B;
   padding: 18px 0px;
   padding-top: 4px;
   font-size: 20px;
@@ -94,7 +95,6 @@
   font-style: normal;
   font-size: 28px;
   line-height: 36px;
-  text-align: center;
   font-family: "Poppins";
   letter-spacing: -0.5px;
 }
@@ -103,6 +103,7 @@
 .section7-accordion_item.active .button {
   background-color: #15131c;
 }
+
 .section7-answer_wrapper {
   height: 0;
   overflow: hidden;
@@ -112,8 +113,13 @@
 .hack4bengal__section7-image {
   width: 40%;
 }
+
 .hack4bengal__section7-image img {
   width: 100%;
+}
+
+.hack4bengal__section7-questions {
+  max-width: 70%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -122,12 +128,14 @@
     gap: 2rem;
     padding: 2rem 0;
   }
+
   .hack4bengal__section7-questions ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
+
   .hack4bengal__section7-image {
     width: 30%;
   }
@@ -137,19 +145,24 @@
   .hack4bengal__section7-title {
     font-size: 36px;
   }
+
   .hack4bengal__section7-content {
     font-size: 16px;
   }
+
   .section7-button {
     padding: 0;
   }
+
   .section7-question {
     font-size: 14px;
     padding: 12px 0;
   }
+
   .section7-answer {
     font-size: 14px;
   }
+
   .section7-control {
     font-size: 1.2rem;
   }
