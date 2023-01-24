@@ -4,18 +4,15 @@ const executives = [
   {
     Name: "Sristi Majumdar",
     Photo:
-      "https://github.com/hack4bengal/hack4bengal.github.io/blob/main/season1/assets/img/team/Kajal.png?raw=true",
+      "https://github.com/hack4bengal/newwebsite/blob/main/src/assets/team/Srishti.png?raw=true",
     Domain: "Marketing Lead",
-    Designation: "Executive",
     linkedin: "https://www.linkedin.com/in/viraj-chandra/",
   },
   {
-    Name: "Aniket Kumar",
-    Photo: "../Team Members/Sugato.png",
-    Branch: "ECE",
-    "Graduation Year": 2025,
-    Domain: "Technical",
-    Designation: "Executive",
+    Name: "Sugato Bagchi",
+    Photo:
+      "https://github.com/hack4bengal/newwebsite/blob/main/src/assets/team/Sugato.png?raw=true",
+    Domain: "Content Lead",
     linkedin: "https://www.linkedin.com/in/kraniket901",
   },
   {
