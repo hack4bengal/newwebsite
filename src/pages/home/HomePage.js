@@ -13,6 +13,7 @@ import Section9 from '../../sections/section9/Section9';
 import Section8 from '../../sections/section8/Section8';
 import Section10 from '../../sections/section10/Section10';
 import Footer from '../../components/footer/Footer';
+import Timeline from '../../components/timeline/Timeline';
 export default class HomePage extends Component {
   render() {
     return (
@@ -23,7 +24,8 @@ export default class HomePage extends Component {
         <div className="container mx-auto">
           <Section1/>
         </div>
-          <InfiniteCarousel/>
+        <InfiniteCarousel />
+        <Timeline/>
         <div className="container mx-auto">
           <Section2/>
           <Section3/>
