@@ -1,7 +1,7 @@
 .hack4bengal__navbarTeam {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #1B1B1B;
   backdrop-filter: blur(10px);
   position: relative;
   padding: 0px;
@@ -9,7 +9,7 @@
 }
 
 .hack4bengal__navbarTeam-hamburger {
-  background-color: black;
+  background-color: #1B1B1B;
   backdrop-filter: blur(10px);
   position: relative;
   z-index: 1;
@@ -69,17 +69,19 @@
   color: white;
   cursor: pointer;
   min-width: 110px;
-  background-color: #ff1717;
+  background-color: #E13B3C;
 }
 
 .hack4bengal__navbarTeam-brochure-button img {
   width: 16px;
   filter: invert(100%);
 }
+
 .hack4bengal__navbarTeam-brochure-button a {
   font-size: 12px;
   margin-left: 8px;
 }
+
 .hack4bengal__navbarTeam-brochure-button:hover img {
   filter: invert(0%);
 }
@@ -92,7 +94,7 @@
   color: white;
   cursor: pointer;
   width: 50%;
-  background-color: #ff1717;
+  background-color: #E13B3C;
 }
 
 .hack4bengal__navbarTeam-brochure-button:hover {
@@ -118,6 +120,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .hack4bengal__navbarTeam-menu {
   display: flex;
   flex-direction: row;
@@ -145,7 +148,7 @@
 }
 
 .hack4bengal__navbarTeam-menu-heading:hover {
-  color: #ff1717;
+  color: #E13B3C;
 }
 
 .hack4bengal__navbarTeam-menu-heading:after {
@@ -156,6 +159,7 @@
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
 }
+
 .hack4bengal__navbarTeam-menu-heading:hover::after {
   transform: scaleX(0.8);
   border-radius: 4px;
@@ -172,10 +176,12 @@
   .hack4bengal__navbarTeam {
     display: none;
   }
+
   .hack4bengal__navbarTeam-hamburger {
     height: auto;
     display: flex;
   }
+
   .hack4bengal__navbarTeam-hamburger-nav {
     padding: 10px;
   }
@@ -186,20 +192,25 @@
     width: auto;
     height: 40px;
   }
+
   .hack4bengal__navbarTeam-hamburger-logo img {
     max-width: 100%;
     height: auto;
   }
+
   .hack4bengal__navbarTeam {
     display: none;
   }
+
   .hack4bengal__navbarTeam-hamburger {
     height: auto;
     display: flex;
   }
+
   .hack4bengal__navbarTeam-hamburger-nav {
     padding: 4px;
   }
+
   .hack4bengal__navbarTeam-hamburger-brochure-button {
     width: 90%;
   }
@@ -225,37 +236,46 @@
   width: auto;
   height: 60px;
 }
+
 .hamRotate.active {
   transform: rotate(45deg);
 }
+
 .hamRotate180.active {
   transform: rotate(180deg);
 }
+
 .line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
   stroke: white;
   stroke-width: 4;
 }
+
 .ham8 .top {
   stroke-dasharray: 25 160;
 }
+
 .ham8 .middle {
   stroke-dasharray: 60 142;
   transform-origin: 50%;
   transition: transform 400ms;
 }
+
 .ham8 .bottom {
   stroke-dasharray: 25 85;
   transform-origin: 50%;
   transition: transform 400ms, stroke-dashoffset 400ms;
 }
+
 .ham8.active .top {
   stroke-dashoffset: -64px;
 }
+
 .ham8.active .middle {
   transform: rotate(90deg);
 }
+
 .ham8.active .bottom {
   stroke-dashoffset: -64px;
 }
@@ -290,6 +310,6 @@
   /* identical to box height, or 122% */
   letter-spacing: 1px;
   text-transform: capitalize;
-  color: #e71515;
+  color: #E13B3C;
   cursor: pointer;
 }

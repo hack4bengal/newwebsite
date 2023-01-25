@@ -25,7 +25,7 @@ const Team = () => {
     >
       <div className="hack4bengal__team-body">
         <div className="hack4bengal__team-header-container">
-          <img src={tcp} />
+          {/*  <img src={tcp} /> */}
           <div className="hack4bengal__team-main-title">
             &lt;Team H4B 2023&gt;
           </div>
@@ -34,6 +34,7 @@ const Team = () => {
           </div>
         </div>
         <div className="hack4bengal__team-title">Lead Organizers</div>
+        <hr />
         {/* <div className="hack4bengal__team-members">
           {overAllCoordinaters.slice(0, 1).map((member, index) => (
             <TeamCard3
@@ -62,6 +63,7 @@ const Team = () => {
           ))}
         </div>
         <div className="hack4bengal__team-title">Executives</div>
+        <hr />
         <div className="hack4bengal__team-members">
           {executives.map((member, index) => (
             <TeamCard
