@@ -6,6 +6,8 @@ const overAllCoordinaters = [
   {
     Name: "Manish Kr Barnwal",
     Photo: Manish,
+    position:
+      "Microsoft Engage Mentee'22 | | LFX Mentorship'21 @OpenDaylight | Gold Microsoft LSA",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/imanishbarnwal",
     twitter: "https://twitter.com/imanishbarnwal",
@@ -15,6 +17,8 @@ const overAllCoordinaters = [
   {
     Name: "Sagnik Mitra",
     Photo: Sagnik,
+    position:
+      "SDE @Odessa | Gold Microsoft LSA | Ex-Project Engineer Intern @TCS | Ex-Developer Intern @TIG",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/sagnikmitr",
     twitter: "https://twitter.com/MitraSagnik",
@@ -24,6 +28,8 @@ const overAllCoordinaters = [
   {
     Name: "Shubham Tribedi",
     Photo: Shubham,
+    position:
+      "Program Coordinator @ Unacademy | CodeCheffer at CodeChef | GitHub Externship Fellow '21 @ Leverice",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/shubham.tribedi",
     twitter: "https://twitter.com/shubham_tribedi",

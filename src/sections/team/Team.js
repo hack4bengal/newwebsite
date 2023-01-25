@@ -26,9 +26,7 @@ const Team = () => {
       <div className="hack4bengal__team-body">
         <div className="hack4bengal__team-header-container">
           {/*  <img src={tcp} /> */}
-          <div className="hack4bengal__team-main-title">
-            &lt;Team H4B 2023&gt;
-          </div>
+          <div className="hack4bengal__team-main-title">Team H4B 2023</div>
           <div className="hack4bengal__team-subtitle">
             H4B is a team of 30+ enthusiastic folks, led by 3!
           </div>
@@ -58,6 +56,7 @@ const Team = () => {
               twitter={member.twitter}
               github={member.github}
               linkedin={member.linkedin}
+              position={member.position}
               domain={member.Domain}
             />
           ))}

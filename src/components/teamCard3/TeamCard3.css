@@ -2,7 +2,7 @@
   position: relative;
   background-color: #fff9f9;
   width: 300px;
-  height: 360px;
+  height: 420px;
   border-radius: 30px;
   margin: 3rem 0;
 }
@@ -10,13 +10,18 @@
   position: relative;
   top: -35px;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 50%;
 }
 .hack4bengal__team-card3-img img {
-  border-radius: 30px;
+  border: 8px solid #e13b3c;
+  border-radius: 50%;
   height: 200px;
   width: 200px;
   object-fit: cover;
+  transition: transform 0.5s;
+}
+.hack4bengal__team-card3-img img:hover {
+  transform: scale(1.2);
 }
 .hack4bengal__team-card3-content {
   text-align: center;
@@ -31,12 +36,16 @@
   font-weight: 600;
 }
 .title3 {
-  font-size: 1.2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 500;
   position: relative;
 }
 .domain3 {
   color: #000;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   top: -15px;
 }
