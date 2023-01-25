@@ -35,17 +35,12 @@ const Section1 = () => {
         <div className="hack4bengal__section1-menu">
           <div className="hack4bengal__section1-heading">Welcome To</div>
           <div className="hack4bengal__section1-image">
-            <img
-              className="banner"
-              src={h4blogo}
-              alt="hack4bengal"
-            ></img>
+            <img className="banner" src={h4blogo} alt="hack4bengal"></img>
             <h1>Hack4Bengal 2.0</h1>
           </div>
 
           <div className="hack4bengal__section1-para">
-            Bringing together the best of the
-            field and provide a platform
+            Bringing together the best of the field and provide a platform
             showcase of skills
           </div>
         </div>
@@ -143,11 +138,13 @@ const Section1 = () => {
         variants={fadeIn("up", "tween", 1.2, 1)}
         className="hack4bengal__section1-scrollDown"
       >
-        <a href="#aboutus">Scroll Down</a>
+        <a href="#aboutus">
+          <b>Scroll Down</b>
+        </a>
         <svg
-          fill="#38b6ff"
-          width="16"
-          height="16"
+          fill="#ff1717"
+          width="19"
+          height="19"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 384 512"
         >
