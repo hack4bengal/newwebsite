@@ -2,7 +2,7 @@ import React from "react";
 import { useRef, useState } from "react";
 import "./Navbar.css";
 import hack4bengal from "../../assets/img/Hack4Bengal.png";
-import tcp from "../../assets/images/tcp.png";
+import tcp from "../../assets/img/tcp.png";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 
@@ -25,7 +25,7 @@ const Navbar = () => {
       <header className="hack4bengal__navbar">
         <div className="hack4bengal__navbar-body">
           <div className="hack4bengal__navbar-logo">
-            <img src={hack4bengal} />
+            <img src={hack4bengal} alt="logo" />
           </div>
           <nav className="hack4bengal__navbar-menu">
             <ul className="hack4bengal__navbar-navlist">
@@ -106,10 +106,10 @@ const Navbar = () => {
               </svg>
             </div>
             <div className="hack4bengal__navbar-hamburger-logo">
-              <img src={hack4bengal} />
+              <img src={hack4bengal} alt="logo" />
             </div>
             <div className="hack4bengal__navbar-hamburger-logo">
-              <img src={tcp} />
+              <img src={tcp} alt="logo" />
             </div>
           </nav>
         </div>
