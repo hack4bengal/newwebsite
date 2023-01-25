@@ -1,7 +1,7 @@
 .hack4bengal__navbarTeam {
   display: flex;
   flex-direction: column;
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   backdrop-filter: blur(10px);
   position: relative;
   padding: 0px;
@@ -9,7 +9,7 @@
 }
 
 .hack4bengal__navbarTeam-hamburger {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   backdrop-filter: blur(10px);
   position: relative;
   z-index: 1;
@@ -69,7 +69,7 @@
   color: white;
   cursor: pointer;
   min-width: 110px;
-  background-color: #E13B3C;
+  background-color: #e13b3c;
 }
 
 .hack4bengal__navbarTeam-brochure-button img {
@@ -94,7 +94,7 @@
   color: white;
   cursor: pointer;
   width: 50%;
-  background-color: #E13B3C;
+  background-color: #e13b3c;
 }
 
 .hack4bengal__navbarTeam-brochure-button:hover {
@@ -148,7 +148,7 @@
 }
 
 .hack4bengal__navbarTeam-menu-heading:hover {
-  color: #E13B3C;
+  color: #e13b3c;
 }
 
 .hack4bengal__navbarTeam-menu-heading:after {
@@ -310,6 +310,6 @@
   /* identical to box height, or 122% */
   letter-spacing: 1px;
   text-transform: capitalize;
-  color: #E13B3C;
+  color: #e13b3c;
   cursor: pointer;
 }

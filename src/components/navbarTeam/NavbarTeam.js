@@ -3,7 +3,6 @@ import { useRef, useState } from "react";
 import "./NavbarTeam.css";
 import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/img/H4B-logo-black.png";
-import downArrow from "../../assets/images/downArrow.svg";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link } from "react-router-dom";
@@ -27,7 +26,7 @@ const NavbarTeam = () => {
       <header className="hack4bengal__navbarTeam">
         <div className="hack4bengal__navbarTeam-body">
           <div className="hack4bengal__navbarTeam-logo">
-            <img src={hack4bengal} />
+            <img src={hack4bengal} alt="hack4bengal" />
           </div>
           <nav className="hack4bengal__navbarTeam-menu">
             <ul className="hack4bengal__navbarTeam-navlist">
@@ -78,10 +77,10 @@ const NavbarTeam = () => {
               </svg>
             </div>
             <div className="hack4bengal__navbarTeam-hamburger-logo">
-              <img src={hack4bengal} />
+              <img src={hack4bengal} alt="hack4bengal" />
             </div>
             <div className="hack4bengal__navbarTeam-hamburger-logo">
-              <img src={tcp} />
+              <img src={tcp} alt="hack4bengal" />
             </div>
           </nav>
         </div>

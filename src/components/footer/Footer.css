@@ -16,7 +16,7 @@
   margin-top: 2rem;
 }
 
-.hack4bengal__footer-logos{
+.hack4bengal__footer-logos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@
   margin-left: 20px;
 }
 
-.hack4bengal__footer-social-links-container a svg:hover{
+.hack4bengal__footer-social-links-container a svg:hover {
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
   fill: #fff;
@@ -153,8 +153,7 @@
   width: 100%;
 }
 
-
-.hack4bengal__footer-social-team a{
+.hack4bengal__footer-social-team a {
   text-decoration: underline;
   color: var(--primary-c);
 }
@@ -163,7 +162,7 @@
   color: white;
 }
 
-.hack4bengal__footer-back-to-top a{
+.hack4bengal__footer-back-to-top a {
   text-decoration: none;
   color: white;
   align-items: center;
@@ -175,7 +174,7 @@
   color: var(--primary-c);
 }
 
-.hack4bengal__footer-social-map{
+.hack4bengal__footer-social-map {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,35 +187,35 @@
     gap: 4rem;
   }
 
-  .hack4bengal__footer-back-to-top{
+  .hack4bengal__footer-back-to-top {
     display: none;
   }
 
-  .hack4bengal__footer-social-links-container{
+  .hack4bengal__footer-social-links-container {
     justify-content: center;
   }
 
-  .hack4bengal__footer-social-text{
+  .hack4bengal__footer-social-text {
     text-align: center;
   }
 
-  .hack4bengal__footer-container2{
+  .hack4bengal__footer-container2 {
     margin: 2rem 0;
   }
 
-  .hack4bengal__footer-container2-left-text h4{
+  .hack4bengal__footer-container2-left-text h4 {
     font-size: 16px;
   }
 
-  .hack4bengal__footer-container2-left-text p{
+  .hack4bengal__footer-container2-left-text p {
     font-size: 12px;
   }
 
-  .hack4bengal__footer-container2-left-content img{
+  .hack4bengal__footer-container2-left-content img {
     height: 80px;
   }
 
-  .hack4bengal__footer-container2-right{
+  .hack4bengal__footer-container2-right {
     background: transparent;
     display: flex;
     flex-wrap: wrap;
@@ -225,15 +224,15 @@
     flex-direction: row;
   }
 
-  .hack4bengal__footer-social-team{
+  .hack4bengal__footer-social-team {
     font-size: 12px;
   }
 
-  .hack4bengal__footer-social-map{
+  .hack4bengal__footer-social-map {
     font-size: 12px;
   }
 
-  .hack4bengal__footer-social-map svg{
+  .hack4bengal__footer-social-map svg {
     width: 16px;
     height: 16px;
   }

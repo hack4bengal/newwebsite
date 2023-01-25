@@ -23,7 +23,6 @@
   height: 75px;
   width: auto;
   object-fit: contain;
-
 }
 
 .hack4bengal__sponsers-carousel-item img {
@@ -48,11 +47,11 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .h4b_reg_text_wrapper {
   margin-top: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #e53538;
   background-color: #242425;
   font-size: 20px;
@@ -62,7 +61,6 @@
   justify-content: flex-start;
   overflow: hidden;
 }
-
 
 .h4b_reg_text_wrapper p {
   white-space: nowrap;

@@ -1,10 +1,7 @@
 import React from "react";
 
 import "./Footer.css";
-
-import NIT from "../../assets/images/NIT.svg";
-import tcpName from "../../assets/images/tcpName.svg";
-import hack4bengal from "../../assets/img/Hack4Bengal.png";
+import footer from "../../assets/img/footer.gif";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -13,10 +10,10 @@ const Footer = () => {
       <div className="hack4bengal__footer-container1">
         <div className="hack4bengal__footer-logos">
           <img
-            src={hack4bengal}
-            className="hack4bengal__footer-logo-hack4bengal"
+            src={footer}
+            className="hack4bengal__footer-logo-tcp"
+            alt="Hack4Bengal"
           />
-          <img src={tcpName} className="hack4bengal__footer-logo-tcp" />
         </div>
         <div className="hack4bengal__footer-social-container">
           <div className="hack4bengal__footer-social-links-container">
@@ -71,7 +68,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              target="_blank"
+              target="linkedin"
               href="https://www.linkedin.com/company/hack4bengal/"
             >
               <svg
@@ -91,7 +88,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="hack4bengal__footer-container2">
+      {/* <div className="hack4bengal__footer-container2">
         <div className="hack4bengal__footer-container2-left">
           <div className="hack4bengal__footer-container2-left-content">
             <img src={NIT} />
@@ -133,10 +130,10 @@ const Footer = () => {
             <p className="hack4bengal__footer-container2-right-text">FAQ</p>
           </a>
         </div>
-      </div>
+      </div> */}
       <div className="hack4bengal__footer-container3">
         <div className="hack4bengal__footer-social-team">
-          Architected with ❤️ by <Link to="/team">TCP Team</Link>
+          Developed By <Link to="/team">Hack4Bengal</Link>
         </div>
         <div className="hack4bengal__footer-back-to-top">
           <a href="#home">
@@ -155,10 +152,7 @@ const Footer = () => {
         </div>
 
         <div className="hack4bengal__footer-social-map">
-          <a
-            target="_blank"
-            href="https://www.google.com/maps/place/National+Institute+of+Technology(NIT),+Raipur,+Great+Eastern+Rd,+Amanaka,+Raipur,+Chhattisgarh+492010/@21.2497222,81.6050291,17z/data=!4m6!3m5!1s0x3a28dde213f66723:0x21543965c50c43c7!8m2!3d21.2497222!4d81.6050291!16zL20vMGNqeXFk"
-          >
+          <a target="Map" href="#">
             <svg
               fill="#900"
               height="20"
