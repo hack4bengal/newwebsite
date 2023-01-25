@@ -21,11 +21,12 @@ export default class HomePage extends Component {
         <div className="hack4bengal__navbar-container">
           <Navbar />
         </div>
-        <div className="container mx-auto">
+        <div className=" mx-auto">
+          {" "}
           <Section1 />
         </div>
         <InfiniteCarousel />
-        <Timeline />
+        {/* <Timeline /> */}
         <div className="container mx-auto">
           <Section2 />
           <Section3 />

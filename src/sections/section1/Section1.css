@@ -1,12 +1,14 @@
 .hack4bengal__section1 {
   /* display: flex; */
-  background: url("../../assets/img/hero.png") no-repeat;
+  background: url("../../assets/img/hero1.png") no-repeat;
   background-size: cover;
   padding-top: 6rem;
   padding-bottom: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .hack4bengal__section1-body {
@@ -16,23 +18,25 @@
   flex-direction: column;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px);
 }
+
 .hack4bengal__section1-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
+
 .hack4bengal__section1-heading {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
-  line-height: 82px;
+  font-size: 56px;
+  line-height: 56px;
   color: #ffffff;
   margin: 1rem;
+  margin-bottom: 2rem;
 }
 
 .hack4bengal__section1-subheading {
@@ -41,23 +45,50 @@
   font-size: 36px;
   line-height: 82px;
   letter-spacing: 1px;
-  color: #ff1717;
+  color: white;
   text-transform: uppercase;
 }
 
 .hack4bengal__section1-para {
   font-family: "Poppins";
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 26px;
   letter-spacing: 1px;
   color: white;
   text-align: center;
+  width: 60%;
+
 }
 
 .hack4bengal__section1-image {
   width: 100%;
   z-index: 1;
   margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.909);
+  border-radius: 12px;
+  max-width: fit-content;
+  cursor: pointer;
+
+}
+
+.hack4bengal__section1-image img {
+  width: 100px;
+
+}
+
+.hack4bengal__section1-image h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  color: #ff1717;
+  text-align: center;
+
+
+  padding: 1.5rem;
 }
 
 .hack4bengal__section1-button-container {
@@ -67,6 +98,7 @@
   margin: 3rem 0;
   width: 50%;
 }
+
 .banner {
   width: inherit;
 }
@@ -99,7 +131,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color: #f3f6fb;
+  background-color: rgba(255, 255, 255, 0.909);
   padding: 9px 14px 8px;
   border-radius: 4px;
   margin-left: 14px;
@@ -109,6 +141,7 @@
 .hack4bengal__section1-discord-link img {
   height: 25px;
   width: auto;
+
 }
 
 .hack4bengal__section1-side-links {
@@ -172,6 +205,7 @@
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
@@ -179,15 +213,18 @@
   100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-20px);
   }
+
   60% {
     transform: translateY(-15px);
   }
 }
 
 @media screen and (max-width: 1000px) {
+
   .hack4bengal__section1-scrollDown,
   .hack4bengal__section1-side-links {
     display: none;
@@ -195,28 +232,37 @@
 }
 
 @media screen and (max-width: 650px) {
-  .hack4bengal__section1 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-  .hack4bengal__section1-body {
-    max-width: 300px;
-  }
-  .hack4bengal__section1-heading {
-    font-size: 40px;
-    margin: 0;
-  }
-  .hack4bengal__section1-subheading {
-    font-size: 20px;
-    letter-spacing: 0;
-  }
-  .hack4bengal__section1-para {
-    font-size: 18px;
-  }
-  .hack4bengal__section1-image {
-    margin-bottom: 1rem;
-  }
   .hack4bengal__section1-button-container {
     width: 100%;
   }
+}
+
+@media screen and (max-width: 1000px) {
+  .hack4bengal__section1-image img {
+    display: none;
+
+  }
+
+  .hack4bengal__section1-para {
+    width: 80%;
+
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .hack4bengal__section1-heading {
+    font-size: 40px;
+  }
+
+  .hack4bengal__section1-image h1 {
+    font-size: 50px;
+    word-wrap: break-word;
+  }
+
+  .hack4bengal__section1-para {
+    font-size: 20px;
+
+  }
+
 }

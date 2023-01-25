@@ -19,8 +19,8 @@
 
 .hack4bengal__navbar-body {
   display: flex;
-  border-style: solid;
-  border-color: rgba(155, 155, 155, 0.4);
+  /*   border-style: solid;
+  border-color: rgba(155, 155, 155, 0.4); */
   border-image: initial;
   border-width: 0.4px 0px;
   justify-content: space-evenly;

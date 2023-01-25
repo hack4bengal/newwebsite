@@ -1,7 +1,8 @@
 import React, { Component, useEffect } from "react";
 import "./Section1.css";
-import codeutsavaTitle from "../../assets/img/pre.gif";
-import discord from "../../assets/images/discord.svg";
+/* import codeutsavaTitle from "../../assets/img/pre.gif"; */
+import h4blogo from "../../assets/img/square-grey-logo.png";
+import discord from "../../assets/img/discord-mark-blue.png";
 
 import { motion, transform } from "framer-motion";
 import { staggerChildren, fadeIn } from "../../motionUtils";
@@ -34,15 +35,18 @@ const Section1 = () => {
         <div className="hack4bengal__section1-menu">
           <div className="hack4bengal__section1-heading">Welcome To</div>
           <div className="hack4bengal__section1-image">
-            <img className="banner" src={codeutsavaTitle} alt="hack4bengal"></img>
+            <img
+              className="banner"
+              src={h4blogo}
+              alt="hack4bengal"
+            ></img>
+            <h1>Hack4Bengal 2.0</h1>
           </div>
-          <div className="hack4bengal__section1-subheading">
-            Code. Innovate. Celebrate.
-          </div>
+
           <div className="hack4bengal__section1-para">
-            Central India's{" "}
-            <span style={{ fontWeight: "600" }}>Largest Coding Event.</span>{" "}
-            Join Us on 11th - 12th February.
+            Bringing together the best of the
+            field and provide a platform
+            showcase of skills
           </div>
         </div>
         <div
