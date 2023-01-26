@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 import "./Section9.css";
 
 const Section9 = () => {
-
   const navigate = useNavigate();
   return (
     <motion.div
@@ -27,38 +26,14 @@ const Section9 = () => {
       </div>
       <div className="hack4bengal__section9-body">
         <div className="hack4bengal__section9-description">
-          {/* {Prizes.map((info, index) => (
-            <PrizeBox
-              key={index}
-              title={info.title}
-              prizeInfo={info.prizeInfo}
-              cashPrize={info.cashPrize}
-            />
-          ))} */}
           <div className="prizes_box_main">
-            <div className="prizebox prizebox1">
-
+            <div className="prizebox prizebox4">
               <div className="prizebox_imgdiv prizebox1_imgdiv">
-                <img src="https://hackthisfall.tech/_nuxt/img/silver.3e9bbcb.svg" alt="" />
+                <img
+                  src="https://hackthisfall.tech/_nuxt/img/gold.e3b24e8.svg"
+                  alt=""
+                />
               </div>
-
-
-
-              <div className="prizes_textdiv prizes_textdiv1">
-                <div className="prize_textdiv_texts">
-                  <h1>₹20k</h1>
-                  <h2>1st Runner-Up</h2>
-                </div>
-              </div>
-
-            </div>
-            <div className="prizebox prizebox2">
-
-              <div className="prizebox_imgdiv prizebox1_imgdiv">
-                <img src="https://hackthisfall.tech/_nuxt/img/gold.e3b24e8.svg" alt="" />
-              </div>
-
-
 
               <div className="prizes_textdiv prizes_textdiv2">
                 <div className="prize_textdiv_texts">
@@ -66,15 +41,44 @@ const Section9 = () => {
                   <h2>Winner</h2>
                 </div>
               </div>
-
             </div>
             <div className="prizebox prizebox1">
-
               <div className="prizebox_imgdiv prizebox1_imgdiv">
-                <img src="https://hackthisfall.tech/_nuxt/img/bronze.eb1941a.svg" alt="" />
+                <img
+                  src="https://hackthisfall.tech/_nuxt/img/silver.3e9bbcb.svg"
+                  alt=""
+                />
               </div>
 
+              <div className="prizes_textdiv prizes_textdiv1">
+                <div className="prize_textdiv_texts">
+                  <h1>₹20k</h1>
+                  <h2>1st Runner-Up</h2>
+                </div>
+              </div>
+            </div>
+            <div className="prizebox prizebox2">
+              <div className="prizebox_imgdiv prizebox1_imgdiv">
+                <img
+                  src="https://hackthisfall.tech/_nuxt/img/gold.e3b24e8.svg"
+                  alt=""
+                />
+              </div>
 
+              <div className="prizes_textdiv prizes_textdiv2">
+                <div className="prize_textdiv_texts">
+                  <h1>₹30k</h1>
+                  <h2>Winner</h2>
+                </div>
+              </div>
+            </div>
+            <div className="prizebox prizebox3">
+              <div className="prizebox_imgdiv prizebox1_imgdiv">
+                <img
+                  src="https://hackthisfall.tech/_nuxt/img/bronze.eb1941a.svg"
+                  alt=""
+                />
+              </div>
 
               <div className="prizes_textdiv prizes_textdiv3">
                 <div className="prize_textdiv_texts">
@@ -82,14 +86,18 @@ const Section9 = () => {
                   <h2>2nd Runner-Up</h2>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
         <div className="prizes_btndiv">
-          <button class="hack4bengal__section10-button" onClick={() => {
-            navigate("/team");
-          }} >view more prizes</button>
+          <button
+            class="hack4bengal__section10-button"
+            onClick={() => {
+              navigate("/prizes");
+            }}
+          >
+            view more prizes
+          </button>
         </div>
       </div>
     </motion.div>

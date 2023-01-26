@@ -40,15 +40,16 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="hack4bengal__navbar-navitem">
-                <a href="#events">
-                  <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
-                </a>
-              </li>
-              <li className="hack4bengal__navbar-navitem">
                 <a href="#prizes">
                   <h3 className="hack4bengal__navbar-menu-heading">Prizes</h3>
                 </a>
               </li>
+              <li className="hack4bengal__navbar-navitem">
+                <a href="#events">
+                  <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
+                </a>
+              </li>
+
               <li className="hack4bengal__navbar-navitem">
                 <a href="#speakers">
                   <h3 className="hack4bengal__navbar-menu-heading">Speakers</h3>

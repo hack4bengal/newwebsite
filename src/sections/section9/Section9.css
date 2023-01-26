@@ -3,6 +3,7 @@
     padding-bottom: 2rem;
     color: white;
     font-family: 'Poppins';
+    margin-top: 5rem;
 }
 
 .hack4bengal__section9-boxtitle,
@@ -161,6 +162,11 @@
 .prizebox2 {
     margin-top: 0rem;
     min-height: 10rem;
+    display: block;
+}
+
+.prizebox4 {
+    display: none;
 }
 
 .prizebox1 {
@@ -246,6 +252,12 @@
     }
 
     .prizebox2 {
+        /*  */
+        display: none;
+    }
+
+    .prizebox4 {
+        display: block;
         margin-top: 0rem;
         min-height: 16rem;
     }

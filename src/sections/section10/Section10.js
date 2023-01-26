@@ -18,6 +18,9 @@ const section10 = () => {
         <div className="hack4bengal__section10-title">
           Wondering who all make this possible?
         </div>
+        <div className="hack4bengal__team-subtitle hack4bengal__section10-title2 ">
+          H4B is a team of 30+ enthusiastic folks, led by 3!
+        </div>
         <button className="hack4bengal__section10-button">
           <Link to="/team">Meet our Team</Link>
         </button>

@@ -29,12 +29,13 @@ export default class HomePage extends Component {
         {/* <Timeline /> */}
         <div className="container mx-auto">
           <Section2 />
+          <Section9 />
           <Section3 />
           <Section4 />
           <Section6 />
           <Section7 />
           {/*      <Section8/> */}
-          <Section9 />
+
           <Section10 />
         </div>
         <div className="hack4bengal__footer-container">
