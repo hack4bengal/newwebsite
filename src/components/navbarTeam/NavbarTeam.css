@@ -143,12 +143,12 @@
   letter-spacing: 1.5px;
   text-transform: capitalize;
   margin: 1.5rem;
-  color: #ff0000;
+  color: #fff;
   cursor: pointer;
 }
 
 .hack4bengal__navbarTeam-menu-heading:hover {
-  color: #e13b3c;
+  color: #ebe4e4;
 }
 
 .hack4bengal__navbarTeam-menu-heading:after {
