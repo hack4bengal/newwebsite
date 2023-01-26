@@ -13,7 +13,7 @@ import Section9 from "../../sections/section9/Section9";
 import Section8 from "../../sections/section8/Section8";
 import Section10 from "../../sections/section10/Section10";
 import Footer from "../../components/footer/Footer";
-import Timeline from "../../components/timeline/Timeline";
+import Timeline from "../../components/timeline/TimelineOne.js";
 export default class HomePage extends Component {
   render() {
     return (
