@@ -45,6 +45,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="hack4bengal__navbar-navitem">
+                <a href="#prizes">
+                  <h3 className="hack4bengal__navbar-menu-heading">Prizes</h3>
+                </a>
+              </li>
+              <li className="hack4bengal__navbar-navitem">
                 <a href="#speakers">
                   <h3 className="hack4bengal__navbar-menu-heading">Speakers</h3>
                 </a>
@@ -59,13 +64,13 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">FAQ</h3>
                 </a>
               </li>
-              <li className="hack4bengal__navbar-navitem">
+              {/* <li className="hack4bengal__navbar-navitem">
                 <a href="#contactus">
                   <h3 className="hack4bengal__navbar-menu-heading">
                     Contact Us
                   </h3>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           {/* <div className="hack4bengal__navbar-logo hack4bengal__navbar-brochure">
@@ -160,13 +165,13 @@ const Navbar = () => {
               </h3>
             </a>
           </li>
-          <li className="hack4bengal__navbar-hamburger-navitem">
+          {/* <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#contactus" onClick={toggleMenu}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Contact Us
               </h3>
             </a>
-          </li>
+          </li> */}
           {/* <button className="hack4bengal__navbar-hamburger-brochure-button hack4bengal__navbar-brochure-button">
             <img src={downArrow} />
             <a href={brochure} download="Brochure">

@@ -20,11 +20,11 @@
     justify-content: space-evenly;
 }
 
-.hack4bengal__section9-body {
+/* .hack4bengal__section9-body {
     display: flex;
     flex-direction: row;
 }
-
+ */
 .hack4bengal__section9-title1 {
     font-style: medium;
     font-weight: 470;
@@ -119,5 +119,157 @@
 
     .hack4bengal__section9-boxInfo {
         font-size: 16px;
+    }
+}
+
+/* //* Prizes section */
+
+.prizes_box_main {
+    /*  display: flex;
+   
+    justify-content: center;
+     */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8rem;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.prizebox {
+    min-height: 16rem;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 20rem;
+
+}
+
+.prizebox:hover {}
+
+.prizebox img {
+    width: 8rem;
+}
+
+.prizebox1 {
+    margin-top: 5rem;
+    min-height: 16rem;
+}
+
+.prizebox2 {
+    margin-top: 0rem;
+    min-height: 10rem;
+}
+
+.prizebox1 {
+    margin-top: 5rem;
+    min-height: 16rem;
+}
+
+.prizebox1_imgdiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: -4.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.prizes_textdiv {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    transition: all .8s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    min-height: 95%;
+    background: linear-gradient(180deg, #142137, #0b121f 99.99%, rgba(20, 33, 55, 0));
+    color: #fff;
+}
+
+.prizes_textdiv:hover {
+    box-shadow: 0 0 10px 0 #e13b3c;
+}
+
+.prizes_textdiv2 {
+    min-height: 80%;
+}
+
+
+
+.prize_textdiv_texts {
+    font-family: Poppins;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+.prize_textdiv_texts h1 {
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+
+.prize_textdiv_texts h2 {
+    font-size: 1.75rem;
+}
+
+.prizes_btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .prizes_box_main {
+        flex-wrap: wrap;
+        margin-top: 0rem;
+    }
+
+    .prizebox1 {
+        margin-top: 0rem;
+        min-height: 16rem;
+    }
+
+    .prizebox2 {
+        margin-top: 0rem;
+        min-height: 16rem;
+    }
+
+    .prizes_textdiv2 {
+        min-height: 95%;
+    }
+
+    .prizebox3 {
+        margin-top: 0rem;
+        min-height: 16rem;
+    }
+
+    .prizes_textdiv {
+        margin-top: 90px;
+        padding-top: 40px;
+    }
+
+    .prizebox1_imgdiv {
+        margin-top: 3rem;
+    }
+
+    .prizes_btndiv {
+        margin-top: 5rem;
+
     }
 }
