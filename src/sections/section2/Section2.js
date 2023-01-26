@@ -7,6 +7,7 @@ import WordGlobe from "../../components/wordGlobe/WordGlobe";
 import h4byoga from "../../assets/lottiefiles/h4byoga.json";
 
 import { motion } from "framer-motion";
+import TimelineOne from "../../components/timeline/TimelineOne";
 
 const Section2 = () => {
   return (
@@ -56,8 +57,11 @@ const Section2 = () => {
             </div>
           </div>
         </div>
-
-
+        <div style={{marginTop:'35px'}}>
+          <h1>Timeline</h1>
+          <hr />
+          <TimelineOne/>
+        </div>
       </div>
 
     </motion.div>

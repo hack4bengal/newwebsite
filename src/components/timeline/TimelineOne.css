@@ -1,0 +1,144 @@
+.headers-timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.row-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.headers {
+  flex: 1;
+  padding: 20px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxed {
+  background-color: rgba(34, 34, 34, 0.25);
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #E13B3C;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins";
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 999;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #E13B3C;
+  position: absolute;
+  bottom: -15px;
+}
+
+.active {
+  background-color: #E13B3C;
+  color: white;
+  box-shadow: 0 0 10px 0 #E13B3C;
+}
+
+.boxed:hover {
+  background-color: #E13B3C;
+  color: white;
+  box-shadow: 0 0 10px 0 #E13B3C;
+  cursor: pointer;
+}
+
+.timeline-card {
+  min-height: 200px;
+  width: 70%;
+  background-color: rgba(34, 34, 34, 0.25);
+  border: 2px solid #E13B3C;
+  border-radius: 5px;
+}
+
+.timeline-card-header {
+  display: flex;
+  flex-direction: row;
+  min-height: 40%;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins";
+
+}
+
+.col-1 {
+  width: 20%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8px;
+  background-color: #E13B3C;
+}
+
+.col-2 {
+  width: 80%;
+  background-color: #343a40;
+  border-top-right-radius: 5px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8px;
+}
+
+.timeline-card-body {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 500;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .row-one {
+    flex-wrap: wrap;
+  }
+
+  .headers {
+    flex: 0 0 50%;
+  }
+
+  .col-1 {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .col-2 {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .timeline-card-header {
+    flex-direction: column;
+
+  }
+
+}
