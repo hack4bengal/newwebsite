@@ -39,7 +39,6 @@ const Section1 = () => {
             <h1>Hack4Bengal 2.0</h1>
           </div>
 
-
           <div className="hack4bengal__section1-para">
             Bringing together the best of the field and provide a platform
             showcase of skills
