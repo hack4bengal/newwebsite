@@ -1,7 +1,7 @@
 import "./TimelineOne.css";
 import { useState } from "react";
 export default function TimelineOne() {
-  const [active, setActive] = useState(1);
+  const [active, setActive] = useState(0);
   const data = [
     {
       time: "1st February",
@@ -42,7 +42,7 @@ export default function TimelineOne() {
         <div className="row-one">
           <div className="headers">
             <div
-              className={`boxed ${active === 0 ? "active" : ""}`}
+              className={`boxed ${active === 0 ? "active-timelineOne" : ""}`}
               onClick={() => setActive(0)}
             >
               <div className="time-head">{data[0].time}</div>
@@ -52,7 +52,7 @@ export default function TimelineOne() {
           </div>
           <div className="headers">
             <div
-              className={`boxed ${active === 1 ? "active" : ""}`}
+              className={`boxed ${active === 1 ? "active-timelineOne" : ""}`}
               onClick={() => setActive(1)}
             >
               <div className="time-head">{data[1].time}</div>
@@ -62,7 +62,7 @@ export default function TimelineOne() {
           </div>
           <div className="headers">
             <div
-              className={`boxed ${active === 2 ? "active" : ""}`}
+              className={`boxed ${active === 2 ? "active-timelineOne" : ""}`}
               onClick={() => setActive(2)}
             >
               <div className="time-head">{data[2].time}</div>
@@ -72,7 +72,7 @@ export default function TimelineOne() {
           </div>
           <div className="headers">
             <div
-              className={`boxed ${active === 3 ? "active" : ""}`}
+              className={`boxed ${active === 3 ? "active-timelineOne" : ""}`}
               onClick={() => setActive(3)}
             >
               <div className="time-head">{data[3].time}</div>
