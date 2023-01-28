@@ -1,5 +1,4 @@
 .hack4bengal__section7 {
-  /* display: flex; */
   padding-top: 2rem;
   color: white;
   font-family: "Poppins";
@@ -40,6 +39,7 @@
 }
 
 .hack4bengal__section7-part2 {
+  max-width: 80%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -123,6 +123,23 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .section7-question {
+    max-width: 90%;
+  }
+
+
+  .hack4bengal__section7-part2 {
+    max-width: 100%;
+  }
+
+  .hack4bengal__section7-questions {
+    max-width: 90%;
+  }
+
+  .hack4bengal__section7-image {
+    display: none;
+  }
+
   .hack4bengal__section7-part2 {
     flex-direction: column;
     gap: 2rem;

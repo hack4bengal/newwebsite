@@ -21,11 +21,6 @@
     justify-content: space-evenly;
 }
 
-/* .hack4bengal__section9-body {
-    display: flex;
-    flex-direction: row;
-}
- */
 .hack4bengal__section9-title1 {
     font-style: medium;
     font-weight: 470;
@@ -126,10 +121,6 @@
 /* //* Prizes section */
 
 .prizes_box_main {
-    /*  display: flex;
-   
-    justify-content: center;
-     */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -148,8 +139,6 @@
 
 }
 
-.prizebox:hover {}
-
 .prizebox img {
     width: 8rem;
 }
@@ -163,6 +152,11 @@
     margin-top: 0rem;
     min-height: 10rem;
     display: block;
+}
+
+.prizebox3 {
+    margin-top: 5rem;
+    min-height: 16rem;
 }
 
 .prizebox4 {

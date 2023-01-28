@@ -22,7 +22,6 @@ export default class HomePage extends Component {
           <Navbar />
         </div>
         <div className=" mx-auto">
-          {" "}
           <Section1 />
         </div>
         <InfiniteCarousel />

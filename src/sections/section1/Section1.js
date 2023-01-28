@@ -1,6 +1,5 @@
 import React, { Component, useEffect } from "react";
 import "./Section1.css";
-/* import codeutsavaTitle from "../../assets/img/pre.gif"; */
 import h4blogo from "../../assets/img/square-grey-logo.png";
 import discord from "../../assets/img/discord-mark-blue.png";
 
@@ -34,10 +33,12 @@ const Section1 = () => {
       >
         <div className="hack4bengal__section1-menu">
           <div className="hack4bengal__section1-heading">Welcome To</div>
-          <div className="hack4bengal__section1-image">
-            <img className="banner" src={h4blogo} alt="hack4bengal"></img>
+
+          <div className="hack4bengal_section1_header">
+            <img src={h4blogo} alt="hack4bengal"></img>
             <h1>Hack4Bengal 2.0</h1>
           </div>
+
 
           <div className="hack4bengal__section1-para">
             Bringing together the best of the field and provide a platform
@@ -48,12 +49,6 @@ const Section1 = () => {
           className="hack4bengal__section1-button-container"
           style={{ display: "flex", placeContent: "center" }}
         >
-          {/* <div
-            className="apply-button"
-            data-hackathon-slug="YOUR-HACKATHON-SLUG"
-            data-button-theme="dark-inverted"
-            style={{ height: "44px", width: "312px" }}
-          ></div> */}
           <div className="hack4bengal__section1-discord">
             <a className="hack4bengal__section1-discord-link">
               <img src={discord} />
