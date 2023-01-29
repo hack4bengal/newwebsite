@@ -61,10 +61,36 @@ const Team = () => {
             />
           ))}
         </div>
-        <div className="hack4bengal__team-title">Executives</div>
+        <div className="hack4bengal__team-title">Leaders</div>
+        <hr />
+        <div className="hack4bengal_team-leaders">
+          <div className="hack4bengal__team-members">
+            {executives.slice(0, 2).map((member, index) => (
+              <TeamCard
+                key={index}
+                img={member.Photo}
+                name={member.Name}
+                linkedin={member.linkedin}
+                domain={member.Domain}
+              />
+            ))}
+          </div>
+          <div className="hack4bengal__team-members leaders">
+            {executives.slice(2, 5).map((member, index) => (
+              <TeamCard
+                key={index}
+                img={member.Photo}
+                name={member.Name}
+                linkedin={member.linkedin}
+                domain={member.Domain}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="hack4bengal__team-title">Core Team</div>
         <hr />
         <div className="hack4bengal__team-members">
-          {executives.map((member, index) => (
+          {executives.slice(5).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}
