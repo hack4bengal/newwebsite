@@ -62,10 +62,6 @@
   flex-wrap: wrap;
 }
 
-.hack4bengal_team-leaders .leaders {
-  margin-top: 2rem;
-}
-
 @media screen and (max-width: 650px) {
   .hack4bengal__team-header-container img {
     width: 80px;

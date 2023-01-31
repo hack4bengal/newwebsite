@@ -65,18 +65,7 @@ const Team = () => {
         <hr />
         <div className="hack4bengal_team-leaders">
           <div className="hack4bengal__team-members">
-            {executives.slice(0, 2).map((member, index) => (
-              <TeamCard
-                key={index}
-                img={member.Photo}
-                name={member.Name}
-                linkedin={member.linkedin}
-                domain={member.Domain}
-              />
-            ))}
-          </div>
-          <div className="hack4bengal__team-members leaders">
-            {executives.slice(2, 5).map((member, index) => (
+            {executives.slice(0, 6).map((member, index) => (
               <TeamCard
                 key={index}
                 img={member.Photo}

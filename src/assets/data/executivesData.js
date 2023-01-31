@@ -45,6 +45,12 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/dev-kumar-gupta-02a4b2215/",
   },
   {
+    Name: "Tushar Mukhopadhyay",
+    Photo: Tushar,
+    Domain: "Event Management Lead",
+    linkedin: "https://www.linkedin.com/in/tushar-mukhopadhyay-025a78200/",
+  },
+  {
     Name: "Prosenjit Swarnakar",
     Photo: Prosenjit,
     Domain: "PR & OutReach Lead",
@@ -67,12 +73,6 @@ const executives = [
     Photo: Susmita,
     Domain: "Web Development Team",
     linkedin: "https://www.linkedin.com/in/susmita-dey-15a15a210/",
-  },
-  {
-    Name: "Tushar Mukhopadhyay",
-    Photo: Tushar,
-    Domain: "Event Management Team",
-    linkedin: "https://www.linkedin.com/in/tushar-mukhopadhyay-025a78200/",
   },
   {
     Name: "Himanshu Rai",
