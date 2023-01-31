@@ -19,7 +19,6 @@
   flex: 1;
   padding: 20px;
 
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,15 +116,35 @@
   padding: 10px;
 }
 
+.timeline-card-mobile {
+  display: none;
+}
+
+
 @media (max-width: 991px) {
+
+  .timeline-card-mobile {
+    display: block;
+  }
+
+  .timeline-card-xl {
+    display: none;
+  }
+
   .row-one {
     flex-wrap: wrap;
   }
-  .timeline-card{
+
+  .timeline-card {
     width: 85%;
   }
+
   .headers {
-    flex: 0 0 50%;
+    /* flex: 0 0 50%; */
+  }
+
+  .boxed {
+    width: 90%;
   }
 
   .col-1 {
