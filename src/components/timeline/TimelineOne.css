@@ -19,7 +19,6 @@
   flex: 1;
   padding: 20px;
 
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +71,7 @@
 
 .timeline-card {
   min-height: 200px;
-  width: 70%;
+  width: 93%;
   background-color: rgba(34, 34, 34, 0.25);
   border: 2px solid #E13B3C;
   border-radius: 5px;
@@ -117,13 +116,35 @@
   padding: 10px;
 }
 
-@media (max-width: 768px) {
+.timeline-card-mobile {
+  display: none;
+}
+
+
+@media (max-width: 991px) {
+
+  .timeline-card-mobile {
+    display: block;
+  }
+
+  .timeline-card-xl {
+    display: none;
+  }
+
   .row-one {
     flex-wrap: wrap;
   }
 
+  .timeline-card {
+    width: 85%;
+  }
+
   .headers {
-    flex: 0 0 50%;
+    /* flex: 0 0 50%; */
+  }
+
+  .boxed {
+    width: 90%;
   }
 
   .col-1 {

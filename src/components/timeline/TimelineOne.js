@@ -50,6 +50,17 @@ export default function TimelineOne() {
               <div className={`${active === 0 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
+
+          <div className="timeline-card timeline-card-mobile">
+            <div className="timeline-card-header">
+              <div className="col-1">{data[0].date}</div>
+              <div className="col-2">{data[0].dateDesc}</div>
+            </div>
+            <div>
+              <div className="timeline-card-body">{data[0].descInDepth}</div>
+            </div>
+          </div>
+
           <div className="headers">
             <div
               className={`boxed ${active === 1 ? "active-timelineOne" : ""}`}
@@ -60,6 +71,18 @@ export default function TimelineOne() {
               <div className={`${active === 1 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
+
+          <div className="timeline-card timeline-card-mobile">
+            <div className="timeline-card-header">
+              <div className="col-1">{data[1].date}</div>
+              <div className="col-2">{data[1].dateDesc}</div>
+            </div>
+            <div>
+              <div className="timeline-card-body">{data[1].descInDepth}</div>
+            </div>
+          </div>
+
+
           <div className="headers">
             <div
               className={`boxed ${active === 2 ? "active-timelineOne" : ""}`}
@@ -70,6 +93,19 @@ export default function TimelineOne() {
               <div className={`${active === 2 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
+
+
+          <div className="timeline-card timeline-card-mobile">
+            <div className="timeline-card-header">
+              <div className="col-1">{data[2].date}</div>
+              <div className="col-2">{data[2].dateDesc}</div>
+            </div>
+            <div>
+              <div className="timeline-card-body">{data[2].descInDepth}</div>
+            </div>
+          </div>
+
+
           <div className="headers">
             <div
               className={`boxed ${active === 3 ? "active-timelineOne" : ""}`}
@@ -81,7 +117,17 @@ export default function TimelineOne() {
             </div>
           </div>
         </div>
-        <div className="timeline-card">
+        <div className="timeline-card timeline-card-mobile">
+          <div className="timeline-card-header">
+            <div className="col-1">{data[3].date}</div>
+            <div className="col-2">{data[3].dateDesc}</div>
+          </div>
+          <div>
+            <div className="timeline-card-body">{data[3].descInDepth}</div>
+          </div>
+        </div>
+
+        <div className="timeline-card timeline-card-xl">
           <div className="timeline-card-header">
             <div className="col-1">{data[active].date}</div>
             <div className="col-2">{data[active].dateDesc}</div>

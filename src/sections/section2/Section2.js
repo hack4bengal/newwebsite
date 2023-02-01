@@ -3,7 +3,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 import "./Section2.css";
 
-import WordGlobe from "../../components/wordGlobe/WordGlobe";
+// import WordGlobe from "../../components/wordGlobe/WordGlobe";
 import h4byoga from "../../assets/lottiefiles/h4byoga.json";
 
 import { motion } from "framer-motion";
