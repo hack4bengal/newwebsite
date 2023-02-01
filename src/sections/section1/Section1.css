@@ -65,7 +65,7 @@
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.909);
   border-radius: 12px;
   max-width: fit-content;
   cursor: pointer;
@@ -268,5 +268,8 @@
 
   .hack4bengal_section1_header {
     margin-bottom: 2rem;
+  }
+  .hack4bengal_section1_header h1 {
+    font-size: 40px;
   }
 }
