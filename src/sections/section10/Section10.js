@@ -21,9 +21,11 @@ const section10 = () => {
         <div className="hack4bengal__team-subtitle hack4bengal__section10-title2 ">
           H4B is a team of 30+ enthusiastic folks, led by 3!
         </div>
-        <button className="hack4bengal__section10-button">
-          <Link to="/team">Meet our Team</Link>
-        </button>
+        <Link to="/team">
+          <button className="hack4bengal__section10-button">
+            Meet our Team
+          </button>
+        </Link>
       </div>
     </motion.div>
   );

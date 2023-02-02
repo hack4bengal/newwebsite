@@ -12,7 +12,7 @@ import TeamCard from "../../components/teamCard/TeamCard";
 import TeamCard3 from "../../components/teamCard3/TeamCard3";
 import { motion } from "framer-motion";
 
-import tcp from "../../assets/img/H4B-logo-black.png";
+// import tcp from "../../assets/img/H4B-logo-black.png";
 
 const Team = () => {
   return (
@@ -71,6 +71,7 @@ const Team = () => {
                 img={member.Photo}
                 name={member.Name}
                 linkedin={member.linkedin}
+                position={member.position}
                 domain={member.Domain}
               />
             ))}
@@ -79,12 +80,13 @@ const Team = () => {
         <div className="hack4bengal__team-title">Core Team</div>
         <hr />
         <div className="hack4bengal__team-members">
-          {executives.slice(5).map((member, index) => (
+          {executives.slice(6).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}
               name={member.Name}
               linkedin={member.linkedin}
+              position={member.position}
               domain={member.Domain}
             />
           ))}

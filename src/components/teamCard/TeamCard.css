@@ -72,8 +72,10 @@
 
 .hack4bengal__team-card .title {
   display: block;
-  font-size: 17px;
-  color: #ff1717;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #e47b73;
   text-transform: capitalize;
   margin-top: 4px;
 }
