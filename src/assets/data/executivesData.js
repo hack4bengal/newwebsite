@@ -18,6 +18,9 @@ import Subhanjan from "../team/Subhanjan.png";
 import Tamal from "../team/Tamal Das.png";
 import Amandeep from "../team/Amandeep Singh.png";
 import Ankita from "../team/Ankita.png";
+import Shubhayu from "../team/Shubhayu.jpeg";
+import Kunal from "../team/Kunal.jpg";
+import Priyasu from "../team/Priyasu.jpg";
 
 const executives = [
   {
@@ -30,7 +33,7 @@ const executives = [
   {
     Name: "Sugato Bagchi",
     Photo: Sugato,
-    position: "Frelancer",
+    position: "Freelancer",
     Domain: "Content Lead",
     linkedin: "https://www.linkedin.com/in/sugato-bagchi/",
   },
@@ -40,6 +43,13 @@ const executives = [
     position: "Student Trainee @InterralIT",
     Domain: "Web Development Lead",
     linkedin: "https://www.linkedin.com/in/00-ayush-jha/",
+  },
+  {
+    Name: "Shubhayu Majumdar",
+    Photo: Shubhayu,
+    position: "ML Research Intern at IIT KGP",
+    Domain: "App Development Lead",
+    linkedin: "https://www.linkedin.com/in/shubhayumajumdar/",
   },
   {
     Name: "Dev Kumar Gupta",
@@ -159,6 +169,20 @@ const executives = [
     position: "PR and Outreach Lead @GFG SNU",
     Domain: "PR & OutReach Team",
     linkedin: "https://www.linkedin.com/in/ankita-panda-b4a71821a/",
+  },
+  {
+    Name: "Kunal Ghosh",
+    Photo: Kunal,
+    position: "Intern @Cognizant",
+    Domain: "Marketing Consultant",
+    linkedin: "https://www.linkedin.com/in/kunalghosh-li",
+  },
+  {
+    Name: "Priyasu Guin",
+    Photo: Priyasu,
+    position: "Data Analyst Intern @Databricks",
+    Domain: "App Developer",
+    linkedin: "https://www.linkedin.com/in/priyasu-guin/",
   },
 ];
 
