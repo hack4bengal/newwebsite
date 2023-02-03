@@ -16,11 +16,11 @@ const Section6 = () => {
     >
       <div className="hack4bengal__section6-body">
         <div className="hack4bengal__section6-title">Sponsors</div>
+        <hr />
         <div className="hack4bengal__section6-content">
           On behalf of team TCP, we would like to publicly thank the generous
           sponsors without whom this event could not be held so smoothly.
         </div>
-
 
         {/* <div className="hack4bengal__section6-sponsers">
           <div className="hack4bengal__section6-sponser-title">
@@ -63,17 +63,26 @@ const Section6 = () => {
           </div>
         </div> */}
 
-        <div className="sponsorsbox box-plat" style={{marginTop:'40px'}}>
+        <div className="sponsorsbox box-plat" style={{ marginTop: "40px" }}>
           <div className="sponsorstitle plat">Platinum Sponsors</div>
           <div className="sponsorslist">
             <div className="sponsors-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -82,46 +91,70 @@ const Section6 = () => {
           <div className="sponsorstitle h4b-gold">Gold Sponsors</div>
           <div className="sponsorslist">
             <div className="sponsors-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
-
 
         <div className="sponsorsbox h4b-box-silver">
           <div className="sponsorstitle h4b-silver">Silver Sponsors</div>
           <div className="sponsorslist">
             <div className="sponsors-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
-
-
 
         <div className="sponsorsbox h4b-box-bronze">
           <div className="sponsorstitle h4b-bronze">Bronze Sponsors</div>
           <div className="sponsorslist">
             <div className="sponsors-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
             <div className="sponsor-image">
-              <img src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg" alt="" />
+              <img
+                src="https://diversion.tech/static/media/github-logo.29d41e7936996d4cdb4cc6f41de5d1e7.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>

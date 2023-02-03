@@ -20,7 +20,7 @@
   letter-spacing: 1px;
 }
 
-.hack4bengal__section3-events-container{
+.hack4bengal__section3-events-container {
   max-width: 98%;
 }
 
@@ -33,25 +33,22 @@
 
 .slick-prev:before,
 .slick-next:before {
-  display:none;
-}
-
-.hack4bengal__section3-events-container .slider .slick-arrow .slick-prev button{
   display: none;
 }
-.hack4bengal__section3-events-container .slider .slick-list .slick-slide > div {
+
+.hack4bengal__section3-events-container .slider .slick-arrow .slick-prev button {
+  display: none;
+}
+
+.hack4bengal__section3-events-container .slider .slick-list .slick-slide>div {
   padding: 0 35px;
 }
 
 @media (min-width: 1024px) {
-  .hack4bengal__section3-events-container
-    .slider
-    .slick-list
-    .slick-slide.slick-active.slick-current
-    + .slick-slide {
+  .hack4bengal__section3-events-container .slider .slick-list .slick-slide.slick-active.slick-current+.slick-slide {
     transition: all 1000ms ease-out;
     scale: 1.1;
-    transform: translateY(50px);
+    transform: translateY(-30px);
   }
 }
 
@@ -60,18 +57,21 @@
   .hack4bengal__section3-body {
     margin: 0 1rem;
   }
-  .hack4bengal__section3{
+
+  .hack4bengal__section3 {
     padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .hack4bengal__section3-events-container .slider .slick-list .slick-slide > div {
+  .hack4bengal__section3-events-container .slider .slick-list .slick-slide>div {
     padding: 0 0;
   }
+
   .hack4bengal__section3-slider {
     padding-top: 1rem;
   }
+
   .hack4bengal__section3-title {
     font-size: 36px;
   }

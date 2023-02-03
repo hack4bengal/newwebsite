@@ -1,11 +1,10 @@
 import React from "react";
-
 import "./Section4.css";
-
 import speakers from "../../assets/data/speakersData.js";
-
 import SpeakerCard from "../../components/speakerCard/SpeakerCard";
 import { motion } from "framer-motion";
+import Slider from "react-slick";
+import { sliderSettings } from "../../motionUtils";
 
 const Section4 = () => {
   return (
@@ -13,15 +12,16 @@ const Section4 = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 1 } }}
       viewport={{ once: false }}
-      className="hack4bengal__section4"
+      className="hack4bengal__section3"
       id="speakers"
     >
-      <div className="hack4bengal__section4-body">
-        <div className="hack4bengal__section4-title">Speakers</div>
-        <div className="hack4bengal__section4-speakers">
-          {speakers.map((speaker, index) => (
+      <div className="hack4bengal__section3-title">Speakers</div>
+      <hr />
+      <div className="hack4bengal__section3-events-container">
+        <Slider {...sliderSettings} className="slider">
+          {speakers.map((speaker, key) => (
             <SpeakerCard
-              key={index}
+              index={key}
               img={speaker.img}
               name={speaker.name}
               position={speaker.position}
@@ -33,7 +33,7 @@ const Section4 = () => {
               youtube={speaker.youtube}
             />
           ))}
-        </div>
+        </Slider>
       </div>
     </motion.div>
   );

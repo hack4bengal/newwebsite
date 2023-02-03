@@ -36,7 +36,7 @@ const Section2 = () => {
               students to showcase their skills and work.
             </div>
 
-            <div className="h4b_about_more">
+            {/*  <div className="h4b_about_more">
               <div className="h4b_about_more_element">
                 <img
                   src="https://uploads-ssl.webflow.com/6327d6e9409aa34035883fac/6360a92f701e5f07088826a4_Flower-small.png"
@@ -74,7 +74,7 @@ const Section2 = () => {
                   Hackers and still counting.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div style={{ marginTop: "5rem" }}>

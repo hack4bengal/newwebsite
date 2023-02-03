@@ -37,7 +37,16 @@
     gap: 2rem;
     flex-direction: column;
   }
+
   .hack4bengal__section4-title {
     font-size: 36px;
   }
+}
+
+
+hr {
+  width: 10%;
+  margin: auto;
+  border: 1px solid #E13B3C;
+  margin-bottom: 2rem;
 }

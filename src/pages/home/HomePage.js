@@ -29,7 +29,7 @@ export default class HomePage extends Component {
         <div className="container mx-auto">
           <Section2 />
           <Section9 />
-          <Section3 />
+          {/*  <Section3 /> */}
           <Section4 />
           <Section6 />
           <Section7 />
