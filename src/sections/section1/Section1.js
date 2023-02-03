@@ -73,7 +73,7 @@ const Section1 = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.instagram.com/codeutsavanitrr/">
+          <a target="_blank" href="https://www.instagram.com/hack4bengal/">
             <svg
               fill="#eee"
               width="28"
@@ -86,7 +86,7 @@ const Section1 = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/TCP-Tech">
+          <a target="_blank" href="https://github.com/hack4bengal">
             <svg
               fill="#eee"
               width="28"
@@ -99,7 +99,7 @@ const Section1 = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/codeutsavanitrr?lang=en">
+          <a target="_blank" href="https://twitter.com/hack4bengal">
             <svg
               fill="#eee"
               width="28"

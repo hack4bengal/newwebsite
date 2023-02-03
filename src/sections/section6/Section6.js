@@ -1,8 +1,6 @@
 import React from "react";
 
 import "./Section6.css";
-
-import sponsers from "../../assets/data/sponsersData.js";
 import { motion } from "framer-motion";
 
 const Section6 = () => {

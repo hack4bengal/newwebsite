@@ -114,9 +114,9 @@ const Navbar = () => {
             <div className="hack4bengal__navbar-hamburger-logo">
               <img src={hack4bengal} alt="logo" />
             </div>
-            <div className="hack4bengal__navbar-hamburger-logo">
+            {/* <div className="hack4bengal__navbar-hamburger-logo">
               <img src={tcp} alt="logo" />
-            </div>
+            </div> */}
           </nav>
         </div>
         <ul
