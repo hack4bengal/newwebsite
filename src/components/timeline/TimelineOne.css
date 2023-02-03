@@ -6,6 +6,8 @@
 
 }
 
+
+
 .row-one {
   display: flex;
   justify-content: center;
@@ -122,7 +124,16 @@
 
 
 @media (max-width: 991px) {
+  .show-mob-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .hid-mob-time{
+    display: none;
+  }
   .timeline-card-mobile {
     display: block;
   }

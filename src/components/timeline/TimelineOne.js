@@ -40,6 +40,7 @@ export default function TimelineOne() {
     <div>
       <div className="headers-timeline">
         <div className="row-one">
+          
           <div className="headers">
             <div
               className={`boxed ${active === 0 ? "active-timelineOne" : ""}`}
@@ -50,14 +51,15 @@ export default function TimelineOne() {
               <div className={`${active === 0 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
-
-          <div className="timeline-card timeline-card-mobile">
-            <div className="timeline-card-header">
-              <div className="col-1">{data[0].date}</div>
-              <div className="col-2">{data[0].dateDesc}</div>
-            </div>
-            <div>
-              <div className="timeline-card-body">{data[0].descInDepth}</div>
+          <div className={`${active === 0 ? 'show-mob-time' : 'hid-mob-time'}`}>
+            <div className={`timeline-card timeline-card-mobile ${active === 0 ? 'show-mob-time' : 'hid-mob-time'}`} >
+              <div className="timeline-card-header">
+                <div className="col-1">{data[0].date}</div>
+                <div className="col-2">{data[0].dateDesc}</div>
+              </div>
+              <div>
+                <div className="timeline-card-body">{data[0].descInDepth}</div>
+              </div>
             </div>
           </div>
 
@@ -71,17 +73,18 @@ export default function TimelineOne() {
               <div className={`${active === 1 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
+          <div className={`${active === 1 ? 'show-mob-time' : 'hid-mob-time'}`}>
+            <div className={`timeline-card timeline-card-mobile ${active === 1 ? 'show-mob-time' : 'hid-mob-time'}`}>
+              <div className="timeline-card-header">
+                <div className="col-1">{data[1].date}</div>
+                <div className="col-2">{data[1].dateDesc}</div>
+              </div>
+              <div>
+                <div className="timeline-card-body">{data[1].descInDepth}</div>
+              </div>
+            </div>
 
-          <div className="timeline-card timeline-card-mobile">
-            <div className="timeline-card-header">
-              <div className="col-1">{data[1].date}</div>
-              <div className="col-2">{data[1].dateDesc}</div>
-            </div>
-            <div>
-              <div className="timeline-card-body">{data[1].descInDepth}</div>
-            </div>
           </div>
-
 
           <div className="headers">
             <div
@@ -93,18 +96,18 @@ export default function TimelineOne() {
               <div className={`${active === 2 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
-
-
-          <div className="timeline-card timeline-card-mobile">
-            <div className="timeline-card-header">
-              <div className="col-1">{data[2].date}</div>
-              <div className="col-2">{data[2].dateDesc}</div>
+          <div className={`${active === 2 ? 'show-mob-time' : 'hid-mob-time'}`}>
+            <div className='timeline-card timeline-card-mobile'>
+              <div className="timeline-card-header">
+                <div className="col-1">{data[2].date}</div>
+                <div className="col-2">{data[2].dateDesc}</div>
+              </div>
+              <div>
+                <div className="timeline-card-body">{data[2].descInDepth}</div>
+              </div>
             </div>
-            <div>
-              <div className="timeline-card-body">{data[2].descInDepth}</div>
-            </div>
+
           </div>
-
 
           <div className="headers">
             <div
@@ -116,15 +119,18 @@ export default function TimelineOne() {
               <div className={`${active === 3 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
-        </div>
-        <div className="timeline-card timeline-card-mobile">
-          <div className="timeline-card-header">
-            <div className="col-1">{data[3].date}</div>
-            <div className="col-2">{data[3].dateDesc}</div>
+          <div className={`${active === 3 ? 'show-mob-time' : 'hid-mob-time'}`}>
+            <div className='timeline-card timeline-card-mobile'>
+              <div className="timeline-card-header">
+                <div className="col-1">{data[3].date}</div>
+                <div className="col-2">{data[3].dateDesc}</div>
+              </div>
+              <div>
+                <div className="timeline-card-body">{data[3].descInDepth}</div>
+              </div>
+            </div>
           </div>
-          <div>
-            <div className="timeline-card-body">{data[3].descInDepth}</div>
-          </div>
+
         </div>
 
         <div className="timeline-card timeline-card-xl">

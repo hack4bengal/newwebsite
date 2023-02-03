@@ -16,7 +16,7 @@ const Section6 = () => {
         <div className="hack4bengal__section6-title">Sponsors</div>
         <hr />
         <div className="hack4bengal__section6-content">
-          On behalf of team TCP, we would like to publicly thank the generous
+          On behalf of team Hack4Bengal, we would like to publicly thank the generous
           sponsors without whom this event could not be held so smoothly.
         </div>
 
@@ -155,6 +155,9 @@ const Section6 = () => {
               />
             </div>
           </div>
+        </div>
+        <div className="hack4bengal__section6-content" style={{marginTop:'50px', fontWeight:'bold'}}>
+          Want to sponsor us? <a href="mailto:sample" className="link-us-sponsor" style={{color:'#E13B3C'}}>Contact us</a>
         </div>
       </div>
     </motion.div>
