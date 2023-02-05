@@ -111,7 +111,7 @@ const executives = [
     Name: "Shatanik Mahanty",
     Photo: Shatanik,
     position: "Content Writer @Girlscript Siliguri",
-    Domain: "Founder @OpenCodeyard",
+    Domain: "PR & OutReach Team",
     linkedin: "https://linkedin.com/in/shatanikmahanty",
   },
   {

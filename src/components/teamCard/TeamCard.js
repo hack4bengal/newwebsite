@@ -16,7 +16,7 @@ const TeamCard = ({
   return (
     <div className="hack4bengal__team-card">
       <div className="hack4bengal__team-card-img">
-        <img src={img} />
+        <img src={img} alt="team-card-img" />
       </div>
       <div className="hack4bengal__team-card-content">
         <h3 className="name">{name}</h3>
@@ -34,7 +34,7 @@ const TeamCard = ({
           <a href="" className="fa fa-github" aria-hidden="true"></a>
         </li> */}
         <li>
-          <a href={linkedin} target="_blank" className="fa fa-linkedin" aria-hidden="true"></a>
+          <a href={linkedin} target="_blank" rel="noreferrer" className="fa fa-linkedin" aria-hidden="true"></a>
         </li>
       </ul>
     </div>

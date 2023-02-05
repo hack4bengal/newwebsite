@@ -26,7 +26,7 @@ const TeamCard3 = ({
       <div className="line"></div>
       <ul className="social3">
         <li>
-          <a href={facebook} target="_blank" aria-hidden="true">
+          <a href={facebook} target="_blank" rel="noreferrer" aria-hidden="true">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -58,7 +58,7 @@ const TeamCard3 = ({
           </a>
         </li>
         <li>
-          <a href={twitter} target="_blank" aria-hidden="true">
+          <a href={twitter} target="_blank" rel="noreferrer" aria-hidden="true">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -88,13 +88,13 @@ const TeamCard3 = ({
         <li>
           <a
             href={github}
-            target="_blank"
+            target="_blank" rel="noreferrer"
             className="fa fa-github fa-2x"
             aria-hidden="true"
           ></a>
         </li>
         <li>
-          <a href={linkedin} target="_blank" aria-hidden="true">
+          <a href={linkedin} target="_blank" rel="noreferrer" aria-hidden="true">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
