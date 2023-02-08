@@ -15,12 +15,15 @@ const Section6 = () => {
       <div className="hack4bengal__section6-body">
         <div className="hack4bengal__section6-title">Sponsors</div>
         <hr />
-        <div className="hack4bengal__section6-content">
-          On behalf of team Hack4Bengal, we would like to publicly thank the generous
-          sponsors without whom this event could not be held so smoothly.
-        </div>
+        {/* <div className="hack4bengal__section6-content">
+          On behalf of team Hack4Bengal, we would like to publicly thank the
+          generous sponsors without whom this event could not be held so
+          smoothly.
+        </div> */}
 
-        {/* <div className="hack4bengal__section6-sponsers">
+        {/* 
+        
+        <div className="hack4bengal__section6-sponsers">
           <div className="hack4bengal__section6-sponser-title">
             Platinum Sponsors
           </div>
@@ -60,7 +63,11 @@ const Section6 = () => {
             ))}
           </div>
         </div> */}
+        <h2>To be Declared Soon</h2>
 
+        {/*  code to be uncommented
+        
+        
         <div className="sponsorsbox box-plat" style={{ marginTop: "40px" }}>
           <div className="sponsorstitle plat">Platinum Sponsors</div>
           <div className="sponsorslist">
@@ -155,9 +162,19 @@ const Section6 = () => {
               />
             </div>
           </div>
-        </div>
-        <div className="hack4bengal__section6-content" style={{marginTop:'50px', fontWeight:'bold'}}>
-          Want to sponsor us? <a href="mailto:sample" className="link-us-sponsor" style={{color:'#E13B3C'}}>Contact us</a>
+        </div> */}
+        <div
+          className="hack4bengal__section6-content"
+          style={{ marginTop: "50px", fontWeight: "bold" }}
+        >
+          Want to sponsor us?{" "}
+          <a
+            href="mailto: hack4bengal@gmail.com"
+            className="link-us-sponsor"
+            style={{ color: "#E13B3C" }}
+          >
+            Contact us
+          </a>
         </div>
       </div>
     </motion.div>

@@ -26,9 +26,11 @@ const Team = () => {
       <div className="hack4bengal__team-body">
         <div className="hack4bengal__team-header-container">
           {/*  <img src={tcp} /> */}
-          <div className="hack4bengal__team-main-title">Team H4B 2023</div>
+          <div className="hack4bengal__team-main-title">
+            Team Hack4Bengal 2023
+          </div>
           <div className="hack4bengal__team-subtitle">
-            H4B is a team of 30+ enthusiastic folks, led by 3!
+            Hack4Bengal is a team of 30+ enthusiastic folks, led by 3!
           </div>
         </div>
         <div className="hack4bengal__team-title">Lead Organizers</div>

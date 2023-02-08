@@ -24,7 +24,7 @@ const Section9 = () => {
           Win exciting prizes worth upto 10 lakhs
         </div>
       </div>
-      <div className="hack4bengal__section9-body">
+      {/* <div className="hack4bengal__section9-body">
         <div className="hack4bengal__section9-description">
           <div className="prizes_box_main">
             <div className="prizebox prizebox4">
@@ -99,7 +99,7 @@ const Section9 = () => {
             view more prizes
           </button>
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
