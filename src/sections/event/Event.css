@@ -102,3 +102,60 @@
     font-size: 18px;
     margin-top: 5px;
 }
+
+@media screen and (max-width:1300px) {
+
+    .events_dateparent {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .events_date {
+        margin-bottom: 0px;
+        max-height: 60px;
+        min-height: 60px;
+    }
+
+    .event_detailsparent {
+        justify-content: center;
+    }
+
+    .event_mainparent {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .event_eventcard {
+        width: 95vw;
+        height: auto;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .eventcard_leftdiv {
+        width: 100%;
+    }
+
+    .eventcard_leftdiv img {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+    }
+
+    .eventcard_rightdiv {
+        padding: 0 20px 20px 20px;
+        text-align: center !important;
+    }
+
+    .eventcard_rightdiv h1 {
+
+        text-align: center !important;
+    }
+
+    .eventcard_time {
+        text-align: center !important;
+    }
+}
