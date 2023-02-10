@@ -5,6 +5,7 @@ import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/img/tcp.png";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,17 +45,20 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">Prizes</h3>
                 </a>
               </li>
-              {/*   <li className="hack4bengal__navbar-navitem">
-                <a href="#events">
-                  <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
-                </a>
-              </li> */}
 
               <li className="hack4bengal__navbar-navitem">
                 <a href="#speakers">
                   <h3 className="hack4bengal__navbar-menu-heading">Speakers</h3>
                 </a>
               </li>
+              {/*  <li className="hack4bengal__navbar-navitem">
+                <a href="#speakers">
+                  <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
+                </a>
+              </li> */}
+              <Link to={"/events"}>
+                <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
+              </Link>
               <li className="hack4bengal__navbar-navitem">
                 <a href="#sponsers">
                   <h3 className="hack4bengal__navbar-menu-heading">Sponsors</h3>
@@ -65,24 +69,8 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">FAQ</h3>
                 </a>
               </li>
-              {/* <li className="hack4bengal__navbar-navitem">
-                <a href="#contactus">
-                  <h3 className="hack4bengal__navbar-menu-heading">
-                    Contact Us
-                  </h3>
-                </a>
-              </li> */}
             </ul>
           </nav>
-          {/* <div className="hack4bengal__navbar-logo hack4bengal__navbar-brochure">
-            <img src={tcp} />
-            <button className="hack4bengal__navbar-brochure-button">
-              <img src={downArrow} />
-              <a href={brochure} download="Brochure">
-                BROCHURE
-              </a>
-            </button>
-          </div> */}
         </div>
       </header>
       <header
@@ -114,9 +102,6 @@ const Navbar = () => {
             <div className="hack4bengal__navbar-hamburger-logo">
               <img src={hack4bengal} alt="logo" />
             </div>
-            {/* <div className="hack4bengal__navbar-hamburger-logo">
-              <img src={tcp} alt="logo" />
-            </div> */}
           </nav>
         </div>
         <ul
@@ -138,13 +123,7 @@ const Navbar = () => {
               </h3>
             </a>
           </li>
-          {/*  <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#events" onClick={toggleMenu}>
-              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
-                Events
-              </h3>
-            </a>
-          </li> */}
+
           <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#speakers" onClick={toggleMenu}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
@@ -166,19 +145,6 @@ const Navbar = () => {
               </h3>
             </a>
           </li>
-          {/* <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#contactus" onClick={toggleMenu}>
-              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
-                Contact Us
-              </h3>
-            </a>
-          </li> */}
-          {/* <button className="hack4bengal__navbar-hamburger-brochure-button hack4bengal__navbar-brochure-button">
-            <img src={downArrow} />
-            <a href={brochure} download="Brochure">
-              Download Brochure
-            </a>
-          </button> */}
         </ul>
       </header>
     </motion.div>

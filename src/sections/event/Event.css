@@ -1,0 +1,104 @@
+.event_mainparent {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 470;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    padding: 0 80px;
+    margin-bottom: 2rem;
+}
+
+.event_subparent {
+    margin-top: 4rem;
+}
+
+.events_dateparent {
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+
+}
+
+.events_dateparent p {
+    background: rgba(255, 255, 255, 0.2);
+
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event_detailsparent {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.event_eventcard {
+    background: rgba(255, 255, 255, 0.097);
+
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    width: 640px;
+    height: 360px;
+    gap: 2rem;
+}
+
+.eventcard_leftdiv {
+    width: 250px;
+}
+
+.eventcard_leftdiv img {
+    object-fit: cover;
+    width: 250px;
+    height: 360px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.eventcard_rightdiv h1 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-top: 1rem;
+
+    text-align: left;
+    margin-bottom: 20px;
+    color: #E13B3C;
+}
+
+.eventcard_rightdiv h1>span {
+    font-weight: 600;
+    color: #e62020;
+}
+
+.eventcard_rightdiv:nth-child(2) {
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif !important;
+    color: #E13B3C;
+}
+
+.eventcard_time {
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white
+}
+
+.eventcard_desc {
+    color: white;
+    font-weight: 500 !important;
+    font-size: 18px;
+    margin-top: 5px;
+}
