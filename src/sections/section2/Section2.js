@@ -8,6 +8,7 @@ import h4byoga from "../../assets/lottiefiles/h4byoga.json";
 
 import { motion } from "framer-motion";
 import TimelineOne from "../../components/timeline/TimelineOne";
+import Timer from "../../components/timer/Timer";
 
 const Section2 = () => {
   return (
@@ -81,6 +82,11 @@ const Section2 = () => {
           <h1>Timeline</h1>
           <hr />
           <TimelineOne />
+        </div>
+        <div style={{ marginTop: "5rem" }}>
+          <h1>Registrations</h1>
+          <hr style={{marginBottom:"70px"}}/>
+          <Timer />
         </div>
       </div>
     </motion.div>
