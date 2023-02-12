@@ -11,8 +11,8 @@
     padding: 1.5rem;
     padding-bottom: 0.5rem;
     max-width: 370px;
-    max-height: 460px;
-    min-height: 460px;
+    max-height: 500px;
+    min-height: 500px;
 }
 
 .hack4bengal__section4-speaker-img-container {
@@ -22,7 +22,9 @@
 }
 
 .hack4bengal__section4-speaker-img {
-    max-width: 100%;
+    /*  max-width: 100%; */
+    width: 240px;
+    height: 240px;
     margin: auto;
     height: auto;
     border-radius: 50%;
