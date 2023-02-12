@@ -20,12 +20,14 @@ const SpeakerCard = ({
       </div>
       <div className="hack4bengal__section4-speaker-menu">
         <h1>{name}</h1>
+        <div className="hack4bengal__section4-speaker-divider"></div>
+
         <h3>{position}</h3>
         {/*  <p>{description}</p> */}
       </div>
-      <div className="hack4bengal__section4-speaker-divider"></div>
+
       <div className="hack4bengal__section4-speaker-contact">
-        <h3>Contact</h3>
+        {/*  <h3>Contact</h3> */}
         <div className="hack4bengal__section4-speaker-contact-links">
           {facebook != "" ? (
             <a

@@ -22,7 +22,9 @@
 }
 
 .hack4bengal__section4-speaker-img {
-    max-width: 70%;
+    /*  max-width: 100%; */
+    width: 240px;
+    height: 240px;
     margin: auto;
     height: auto;
     border-radius: 50%;
@@ -39,10 +41,11 @@
     font-weight: 700;
     font-size: 27px;
     line-height: 33px;
-    text-transform: uppercase;
+    /*  text-transform: uppercase; */
     text-align: center;
     color: black;
     padding-top: 1rem;
+    margin-bottom: 10px;
 }
 
 .hack4bengal__section4-speaker-menu h3 {
@@ -52,6 +55,7 @@
     padding-top: 0.5rem;
     margin-bottom: 20px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .hack4bengal__section4-speaker-menu p {
@@ -104,14 +108,18 @@
 }
 
 @media screen and (max-width: 650px) {
-    .hack4bengal__section4-speaker-card {
+    /*   .hack4bengal__section4-speaker-card {
         transform: scale(0.9);
-    }
+    } */
 }
 
 @media screen and (max-width: 480px) {
     .hack4bengal__section3-events-container .slider .slick-list .slick-slide>div {
         padding: 0 0;
+    }
+
+    .hack4bengal__section3-events-container .slider .slick-list {
+        margin: 0 0;
     }
 
 }

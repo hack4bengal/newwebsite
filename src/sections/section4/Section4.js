@@ -15,7 +15,7 @@ const Section4 = () => {
       className="hack4bengal__section3"
       id="speakers"
     >
-      <div className="hack4bengal__section3-title">Speakers</div>
+      <div className="hack4bengal__section3-title">Past Speakers</div>
       <hr />
       <div className="hack4bengal__section3-events-container">
         <Slider {...sliderSettings} className="slider">
