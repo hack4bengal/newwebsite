@@ -124,6 +124,20 @@ const Navbar = () => {
               </h3>
             </a>
           </li>
+          <li className="hack4bengal__navbar-hamburger-navitem">
+            <a href="#timeline" onClick={toggleMenu}>
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                Timeline
+              </h3>
+            </a>
+          </li>
+          <li className="hack4bengal__navbar-hamburger-navitem">
+            <a href="#prizes" onClick={toggleMenu}>
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                Prizes
+              </h3>
+            </a>
+          </li>
 
           <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#speakers" onClick={toggleMenu}>
@@ -131,6 +145,13 @@ const Navbar = () => {
                 Speakers
               </h3>
             </a>
+          </li>
+          <li className="hack4bengal__navbar-hamburger-navitem">
+            <Link to={"/events"}>
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                Events
+              </h3>
+            </Link>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#sponsers" onClick={toggleMenu}>
