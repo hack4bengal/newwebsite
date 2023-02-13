@@ -6,9 +6,60 @@ import avinaba from "../images/speakers/avinaba.jpeg";
 import Manish from "../images/speakers/Manish.jpeg";
 import niloy from "../images/speakers/niloy.jpeg";
 import Sagnik from "../images/speakers/Sagnik.jpeg";
-
+import soumyadip from "../images/speakers/soumyadip.jpg";
+import riddhi from "../images/speakers/riddhi.jpg";
+import debashish from "../images/speakers/debashish.png";
 const speakers = [
+    {
+    name: "Arsh Goyal",
+    position: "Senior Software Engineer at Samsung",
+    description:
+      "SSE at Optum. B.Tech in Information Technology - NIT Raipur 2019 Batch. Runner-Up Hero Campus Challenge Season 4",
+    img: arsh,
+    facebook: "",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/arshgoyal/",
+    github: "",
+    youtube: "",
+  },
   {
+    name: "Riddhi Dutta",
+    position: "SDE-2",
+    description: "ex SDE-Amazon | Youtube 35K+ | Teacher | Codechef 5* | Java | Angular",
+    img: riddhi,
+    facebook: "",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/riddhi-dutta/",
+    github: "",
+    youtube: "",
+  },
+
+  {
+    name: "Soumyadip Chowdhury",
+    position: "SWE at RedHat",
+    description:
+      "28k+ @Linkedln. Teaching @Println (YouTube). Ex-HoiChoi, Bajaj Finserv Health. Former DSC Lead @UEMK. Book Chapter author on DTN & Blockchain",
+    img: soumyadip,
+    facebook: "",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/soumyadip-chowdhury/",
+    github: "",
+    youtube: "",
+  },
+
+  {
+    name: "Shri Debashish Sen",
+    position: " IAS",
+    description: "Chairman & MD, HIDCO",
+    img: debashish,
+    facebook: "",
+    twitter: "",
+    linkedin: "",
+    github: "",
+    youtube: "",
+  },
+  {
+    
     name: "Avinaba Roy",
     position: "SDE at BlueOptima",
     description:
@@ -32,42 +83,7 @@ const speakers = [
     github: "",
     youtube: "",
   },
-  {
-    name: "Sagnik Mitra",
-    position: "SDE @Odessa",
-    description:
-      "The founder of interview preparation community, TECHDOSE. Youtube channel with over 130K subscribers, features Programming, DSA, Tutorials etc.",
-    img: Sagnik,
-    facebook: "",
-    twitter: "",
-    linkedin: "https://www.linkedin.com/in/sagnikmitra/",
-    github: "",
-    youtube: "",
-  },
-  {
-    name: "Arsh Goyal",
-    position: "Senior Software Engineer at Samsung",
-    description:
-      "SSE at Optum. B.Tech in Information Technology - NIT Raipur 2019 Batch. Runner-Up Hero Campus Challenge Season 4",
-    img: arsh,
-    facebook: "",
-    twitter: "",
-    linkedin: "https://www.linkedin.com/in/arshgoyal/",
-    github: "",
-    youtube: "",
-  },
-  {
-    name: "Manish Kumar Barnwal",
-    position: "Technical Writer at Economize",
-    description:
-      "SSE at Optum. B.Tech in Information Technology - NIT Raipur 2019 Batch. Runner-Up Hero Campus Challenge Season 4",
-    img: Manish,
-    facebook: "",
-    twitter: "",
-    linkedin: "https://www.linkedin.com/in/imanishbarnwal/",
-    github: "",
-    youtube: "",
-  },
+  
 ];
 
 export default speakers;
