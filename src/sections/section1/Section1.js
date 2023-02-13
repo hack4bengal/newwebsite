@@ -48,13 +48,23 @@ const Section1 = () => {
           className="hack4bengal__section1-button-container"
           style={{ display: "flex", placeContent: "center" }}
         >
-          <div className="hack4bengal__section1-discord">
-            <a className="hack4bengal__section1-discord-link" href="https://discord.io/Hack4Bengal" target="_blank">
-              <img src={discord} alt="discord" />{"  "}<span>Join Discord</span>
+          <div className="hack4bengal__section1-discord" id="discord">
+            <a
+              className="hack4bengal__section1-discord-link"
+              href="https://discord.io/Hack4Bengal"
+              target="_blank"
+            >
+              <img src={discord} alt="discord" />
+              {"  "}
+              <span>Join Discord</span>
             </a>
           </div>
           <div className="hack4bengal__section1-register">
-            <a className="hack4bengal__section1-register-link" href="https://forms.gle/2Ehe6UyD4BLisVRr5" target="_blank">
+            <a
+              className="hack4bengal__section1-register-link"
+              href="https://forms.gle/2Ehe6UyD4BLisVRr5"
+              target="_blank"
+            >
               <span>{"</> "}</span>Pre-register
             </a>
           </div>
@@ -65,7 +75,11 @@ const Section1 = () => {
         className="hack4bengal__section1-side-links"
       >
         <li>
-          <a target="_blank" rel="noreferrer" href="https://www.facebook.com/hack4bengal/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/hack4bengal/"
+          >
             <svg
               fill="#eee"
               width="28"
@@ -78,7 +92,11 @@ const Section1 = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/hack4bengal/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/hack4bengal/"
+          >
             <svg
               fill="#eee"
               width="28"
@@ -91,7 +109,11 @@ const Section1 = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://github.com/hack4bengal">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/hack4bengal"
+          >
             <svg
               fill="#eee"
               width="28"
@@ -104,7 +126,11 @@ const Section1 = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://twitter.com/hack4bengal">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/hack4bengal"
+          >
             <svg
               fill="#eee"
               width="28"
@@ -118,7 +144,8 @@ const Section1 = () => {
         </li>
         <li>
           <a
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/company/hack4bengal/"
           >
             <svg
