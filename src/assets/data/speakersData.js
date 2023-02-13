@@ -1,68 +1,89 @@
-import speaker1 from "../images/speaker1.jpeg";
+/* import speaker1 from "../images/speaker1.jpeg";
 import speaker2 from "../images/speaker2.jpg";
-import speaker3 from "../images/speaker3.jpeg";
-
+import speaker3 from "../images/speaker3.jpeg"; */
+import arsh from "../images/speakers/arsh.jpeg";
+import avinaba from "../images/speakers/avinaba.jpeg";
+import Manish from "../images/speakers/Manish.jpeg";
+import niloy from "../images/speakers/niloy.jpeg";
+import Sagnik from "../images/speakers/Sagnik.jpeg";
+import soumyadip from "../images/speakers/soumyadip.jpg";
+import riddhi from "../images/speakers/riddhi.jpg";
+import debashish from "../images/speakers/debashish.png";
 const speakers = [
-  {
-    name: "Rohit Agarwal",
-    position: "Senior Software Engineer",
+    {
+    name: "Arsh Goyal",
+    position: "Senior Software Engineer at Samsung",
     description:
       "SSE at Optum. B.Tech in Information Technology - NIT Raipur 2019 Batch. Runner-Up Hero Campus Challenge Season 4",
-    img: speaker1,
+    img: arsh,
     facebook: "",
     twitter: "",
-    linkedin: "https://www.linkedin.com/in/rohit-agarwal-711b82111/",
+    linkedin: "https://www.linkedin.com/in/arshgoyal/",
     github: "",
     youtube: "",
   },
   {
-    name: "Prateek Narang",
-    position: "Co-founder - Coding Minutes",
-    description:
-      "Taught 100k students. Udemy, Scaler. Ex - Google, SanDisk. B.Tech in Computer Science - DTU 2016. MS in ML, AI - IIT Delhi 2020.",
-    img: speaker2,
+    name: "Riddhi Dutta",
+    position: "SDE-2",
+    description: "ex SDE-Amazon | Youtube 35K+ | Teacher | Codechef 5* | Java | Angular",
+    img: riddhi,
     facebook: "",
     twitter: "",
-    linkedin: "https://www.linkedin.com/in/prateeknarang27/",
+    linkedin: "https://www.linkedin.com/in/riddhi-dutta/",
+    github: "",
+    youtube: "",
+  },
+
+  {
+    name: "Soumyadip Chowdhury",
+    position: "SWE at RedHat",
+    description:
+      "28k+ @Linkedln. Teaching @Println (YouTube). Ex-HoiChoi, Bajaj Finserv Health. Former DSC Lead @UEMK. Book Chapter author on DTN & Blockchain",
+    img: soumyadip,
+    facebook: "",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/soumyadip-chowdhury/",
+    github: "",
+    youtube: "",
+  },
+
+  {
+    name: "Shri Debashish Sen",
+    position: " IAS",
+    description: "Chairman & MD, HIDCO",
+    img: debashish,
+    facebook: "",
+    twitter: "",
+    linkedin: "",
     github: "",
     youtube: "",
   },
   {
-    name: "Surya Pratap Kahar",
-    position: "Founder - Techdose",
-    description:
-      "The founder of interview preparation community, TECHDOSE. Youtube channel with over 130K subscribers, features Programming, DSA, Tutorials etc.",
-    img: speaker3,
-    facebook: "",
-    twitter: "",
-    linkedin: "https://www.linkedin.com/in/surya-pratap-kahar/",
-    github: "",
-    youtube: "https://www.youtube.com/channel/UCnxhETjJtTPs37hOZ7vQ88g",
-  },
-  {
-    name: "Rohit Agarwal",
-    position: "Senior Software Engineer",
+    
+    name: "Avinaba Roy",
+    position: "SDE at BlueOptima",
     description:
       "SSE at Optum. B.Tech in Information Technology - NIT Raipur 2019 Batch. Runner-Up Hero Campus Challenge Season 4",
-    img: speaker1,
+    img: avinaba,
     facebook: "",
     twitter: "",
-    linkedin: "https://www.linkedin.com/in/rohit-agarwal-711b82111/",
+    linkedin: "https://www.linkedin.com/in/avinabaray/",
     github: "",
     youtube: "",
   },
   {
-    name: "Prateek Narang",
-    position: "Co-founder - Coding Minutes",
+    name: "Niloy Sikdar",
+    position: "GSoC'22@SCoRe Lab",
     description:
       "Taught 100k students. Udemy, Scaler. Ex - Google, SanDisk. B.Tech in Computer Science - DTU 2016. MS in ML, AI - IIT Delhi 2020.",
-    img: speaker2,
+    img: niloy,
     facebook: "",
     twitter: "",
-    linkedin: "https://www.linkedin.com/in/prateeknarang27/",
+    linkedin: "https://www.linkedin.com/in/niloysikdar/",
     github: "",
     youtube: "",
   },
+  
 ];
 
 export default speakers;

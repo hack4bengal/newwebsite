@@ -88,6 +88,7 @@
 
 .hack4bengal__section1-button-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 3rem 0;
@@ -131,12 +132,37 @@
   border-radius: 4px;
   margin-left: 14px;
   cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  color: #ff1717;
 }
 
 .hack4bengal__section1-discord-link img {
   height: 25px;
   width: auto;
 }
+
+.hack4bengal__section1-discord-link span {
+  margin-top: -15rem;
+}
+
+.hack4bengal__section1-register {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.909);
+  padding: 12px 22px 13px;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  color: #ff1717;
+}
+/* 
+.hack4bengal__section1-register span {
+  color: #ff1717;
+} */
 
 .hack4bengal__section1-side-links {
   position: absolute;
@@ -245,6 +271,10 @@
 @media screen and (max-width: 650px) {
   .hack4bengal__section1-button-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
   }
   .hack4bengal__section1 {
     background-position: center;

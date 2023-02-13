@@ -49,8 +49,13 @@ const Section1 = () => {
           style={{ display: "flex", placeContent: "center" }}
         >
           <div className="hack4bengal__section1-discord">
-            <a className="hack4bengal__section1-discord-link">
-              <img src={discord} alt="discord" />
+            <a className="hack4bengal__section1-discord-link" href="https://discord.io/Hack4Bengal" target="_blank">
+              <img src={discord} alt="discord" />{"  "}<span>Join Discord</span>
+            </a>
+          </div>
+          <div className="hack4bengal__section1-register">
+            <a className="hack4bengal__section1-register-link" href="https://forms.gle/2Ehe6UyD4BLisVRr5" target="_blank">
+              <span>{"</> "}</span>Pre-register
             </a>
           </div>
         </div>
