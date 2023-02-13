@@ -56,10 +56,10 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">Speakers</h3>
                 </a>
               </li>
-
+              {/* 
               <Link to={"/events"}>
                 <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
-              </Link>
+              </Link> */}
               <li className="hack4bengal__navbar-navitem">
                 <a href="#sponsers">
                   <h3 className="hack4bengal__navbar-menu-heading">Sponsors</h3>
@@ -146,13 +146,13 @@ const Navbar = () => {
               </h3>
             </a>
           </li>
-          <li className="hack4bengal__navbar-hamburger-navitem">
+          {/* <li className="hack4bengal__navbar-hamburger-navitem">
             <Link to={"/events"}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Events
               </h3>
             </Link>
-          </li>
+          </li> */}
           <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#sponsers" onClick={toggleMenu}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
