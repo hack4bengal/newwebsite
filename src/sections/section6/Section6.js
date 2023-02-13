@@ -169,7 +169,7 @@ const Section6 = () => {
         >
           Want to sponsor us?{" "}
           <a
-            href="mailto: hack4bengal@gmail.com"
+            href="https://forms.gle/Y77QCcKmMAMpPAmQ9"
             className="link-us-sponsor"
             style={{ color: "#E13B3C" }}
           >
