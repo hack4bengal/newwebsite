@@ -55,4 +55,9 @@
     font-size: 36px;
     line-height: normal;
   }
+
+  .hack4bengal__section10-title2 {
+    font-size: 30px !important;
+    margin-top: 20px;
+  }
 }

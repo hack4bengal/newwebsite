@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React from "react";
 import "./Section1.css";
 import h4blogo from "../../assets/img/square-grey-logo.png";
 import discord from "../../assets/img/discord-mark-blue.png";
@@ -53,6 +53,7 @@ const Section1 = () => {
               className="hack4bengal__section1-discord-link"
               href="https://discord.io/Hack4Bengal"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={discord} alt="discord" />
               {"  "}
@@ -64,6 +65,7 @@ const Section1 = () => {
               className="hack4bengal__section1-register-link"
               href="https://forms.gle/2Ehe6UyD4BLisVRr5"
               target="_blank"
+              rel="noreferrer"
             >
               <span>{"</> "}</span>Pre-register
             </a>

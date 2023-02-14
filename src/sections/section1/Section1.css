@@ -93,6 +93,7 @@
   align-items: center;
   margin: 3rem 0;
   width: 50%;
+  font-family: "Poppins";
 }
 
 /* .banner {
@@ -141,6 +142,7 @@
   height: 17px;
   width: auto;
 }
+
 #discord {
   padding-left: 23px;
   padding-top: 12px;
@@ -165,6 +167,7 @@
   font-weight: bold;
   color: #ff1717;
 }
+
 /* 
 .hack4bengal__section1-register span {
   color: #ff1717;
@@ -231,6 +234,7 @@
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
@@ -249,6 +253,7 @@
 }
 
 @media screen and (max-width: 1000px) {
+
   .hack4bengal__section1-scrollDown,
   .hack4bengal__section1-side-links {
     display: none;
@@ -282,6 +287,7 @@
     justify-content: space-around;
     gap: 1rem;
   }
+
   .hack4bengal__section1 {
     background-position: center;
   }
@@ -305,14 +311,17 @@
   .hack4bengal_section1_header {
     margin-bottom: 2rem;
   }
+
   .hack4bengal_section1_header h1 {
     font-size: 40px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .hack4bengal_section1_header h1 {
     font-size: 25px;
   }
+
   .hack4bengal__section1-heading {
     font-size: 28px;
   }
