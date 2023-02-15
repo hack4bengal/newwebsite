@@ -31,7 +31,8 @@
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
-  width: 90%;
+  width: 65%;
+  margin-left: 15%;
   margin-top: 30px;
 }
 .button:hover .border {

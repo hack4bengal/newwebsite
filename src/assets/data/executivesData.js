@@ -15,7 +15,7 @@ import Aniruddha from "../team/Aniruddha Sarkar.png";
 import Suvankar from "../team/Suvankar Sen.png";
 import Alapan from "../team/Alapan Das.png";
 import Subhanjan from "../team/Subhanjan.png";
-import Tamal from "../team/Tamal Das.png";
+import Tamal from "../team/Tamal.png";
 import Amandeep from "../team/Amandeep Singh.png";
 import Ankita from "../team/Ankita.png";
 import Shubhayu from "../team/Shubhayu.jpeg";
@@ -87,6 +87,13 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/diganta-kr-banik-1659121a7/",
   },
   {
+    Name: "Tamal Das",
+    Photo: Tamal,
+    position: "Devrel @CIC",
+    Domain: "Web Development Team",
+    linkedin: "https://www.linkedin.com/in/hello-tamal/",
+  },
+  {
     Name: "Susmita Dey",
     Photo: Susmita,
     position: "Web Developer @Digitea",
@@ -148,13 +155,6 @@ const executives = [
     position: "Lead @GDSC GCECT",
     Domain: "Event Management Team",
     linkedin: "https://www.linkedin.com/in/alapan-das-0171131b3/",
-  },
-  {
-    Name: "Tamal Das",
-    Photo: Tamal,
-    position: "Devrel @CodeIn Community",
-    Domain: "Web Development Team",
-    linkedin: "https://www.linkedin.com/in/hello-tamal/",
   },
   {
     Name: "Amandeep Singh",
