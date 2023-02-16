@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
 import TeamTCP from "./pages/teamTcp/TeamTcp";
 import "./App.css";
@@ -16,6 +16,7 @@ export default class App extends Component {
           <Route path="/team" element={<TeamTCP />} />
           <Route path="/prizes" element={<PrizeTcp />} />
           <Route path="/events" element={<EventTcp />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
     );
