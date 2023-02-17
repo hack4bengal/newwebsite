@@ -91,17 +91,19 @@
 }
 
 .col-1 {
-  width: 20%;
+  width: 50%;
   min-height: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 8px;
   background-color: #E13B3C;
+  text-align: center;
 }
 
 .col-2 {
-  width: 80%;
+  width: 50%;
+  text-align: center;
   background-color: #343a40;
   border-top-right-radius: 5px;
   min-height: 50px;
