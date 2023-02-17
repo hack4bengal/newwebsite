@@ -27,7 +27,7 @@ import Vimal2 from "../team/Vimal2.jpeg";
 
 const executives = [
   {
-    Name: "Sristi Majumdar",
+    Name: "Srishti Majumder",
     Photo: Srishti,
     position: "Content Writer @Girlscript Siliguri",
     Domain: "Marketing Lead",
@@ -36,12 +36,12 @@ const executives = [
   {
     Name: "Sugato Bagchi",
     Photo: Sugato,
-    position: "Freelancer",
+    position: "MERN Developer",
     Domain: "Community Relations Lead",
     linkedin: "https://www.linkedin.com/in/sugato-bagchi/",
   },
   {
-    Name: "Varun",
+    Name: "Varun Doshi",
     Photo: Varun,
     position: "Blockchain Developer",
     Domain: "Content Lead",
@@ -57,7 +57,7 @@ const executives = [
   {
     Name: "Shubhayu Majumdar",
     Photo: Shubhayu,
-    position: "ML Research Intern @ IIT KGP",
+    position: "ML Research Intern @IIT KGP",
     Domain: "App Development Lead",
     linkedin: "https://www.linkedin.com/in/shubhayumajumdar/",
   },
@@ -85,7 +85,7 @@ const executives = [
   {
     Name: "Debanita Roy Bhowmick",
     Photo: Debanita,
-    position: "Cloud Lead @GDSC NSEC",
+    position: "Social media head @NSEC",
     Domain: "Content Team",
     linkedin: "https://www.linkedin.com/in/debanita-roy-bhowmick/",
   },
