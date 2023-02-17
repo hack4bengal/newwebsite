@@ -12,7 +12,6 @@ import Shafin from "../team/Shafin Kausar.png";
 import Shatanik from "../team/Shatanik.png";
 import Randrita from "../team/Randrita.png";
 import Aniruddha from "../team/Aniruddha Sarkar.png";
-import Suvankar from "../team/Suvankar Sen.png";
 import Alapan from "../team/Alapan Das.png";
 import Subhanjan from "../team/Subhanjan.png";
 import Tamal from "../team/Tamal.png";
@@ -21,6 +20,10 @@ import Ankita from "../team/Ankita.png";
 import Shubhayu from "../team/Shubhayu.jpeg";
 import Kunal from "../team/Kunal.jpg";
 import Priyasu from "../team/Priyasu.jpg";
+import Aharna from "../team/Aharna.jpeg";
+import Varun from "../team/Varun.jpeg";
+import Srijanna from "../team/Srijanna.jpg";
+import Vimal2 from "../team/Vimal2.jpeg";
 
 const executives = [
   {
@@ -34,8 +37,15 @@ const executives = [
     Name: "Sugato Bagchi",
     Photo: Sugato,
     position: "Freelancer",
-    Domain: "Content Lead",
+    Domain: "Community Relations Lead",
     linkedin: "https://www.linkedin.com/in/sugato-bagchi/",
+  },
+  {
+    Name: "Varun",
+    Photo: Varun,
+    position: "Blockchain Developer",
+    Domain: "Content Lead",
+    linkedin: "https://www.linkedin.com/in/varun-doshi-aaba38184/",
   },
   {
     Name: "Ayush Jha",
@@ -129,11 +139,25 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/subhanjan-dutta/",
   },
   {
+    Name: "Vimal Anand",
+    Photo: Vimal2,
+    position: "Intern @Oasis Infobyte",
+    Domain: "Marketing Team",
+    linkedin: "https://www.linkedin.com/in/vimal-anand-9917a1212",
+  },
+  {
     Name: "Randrita Sarkar",
     Photo: Randrita,
     position: "Intern @IQApex Labs",
     Domain: "Graphics Team",
     linkedin: "https://www.linkedin.com/in/randrita-sarkar-8690591a1/",
+  },
+  {
+    Name: "Srijanna Das",
+    Photo: Srijanna,
+    position: "Skipper @Skill Academia",
+    Domain: "Content Team",
+    linkedin: "https://www.linkedin.com/in/srijanna-das-1705641b8",
   },
   {
     Name: "Aniruddha Sarkar",
@@ -143,11 +167,11 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/aniruddha-sarkar-3733791b7/",
   },
   {
-    Name: "Suvankar Sen",
-    Photo: Suvankar,
-    position: "Co-Founder @OVELOSEC",
-    Domain: "Event Management Team",
-    linkedin: "https://www.linkedin.com/in/suvankar-sen-7ab364191/",
+    Name: "Aharna Haque",
+    Photo: Aharna,
+    position: "Keploy API Fellow",
+    Domain: "Marketing Team",
+    linkedin: "https://www.linkedin.com/in/aharna-haque-b44832219/",
   },
   {
     Name: "Alapan Das",

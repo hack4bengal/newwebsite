@@ -36,13 +36,13 @@ const Team = () => {
         <hr />
         <div className="hack4bengal__team-members">
           {overAllCoordinaters.map((member, index) => (
-            <TeamCard3
+            <TeamCard
               key={index}
               img={member.Photo}
               name={member.Name}
-              facebook={member.facebook}
-              twitter={member.twitter}
-              github={member.github}
+              // facebook={member.facebook}
+              // twitter={member.twitter}
+              // github={member.github}
               linkedin={member.linkedin}
               position={member.position}
               domain={member.Domain}
@@ -53,7 +53,7 @@ const Team = () => {
         <hr />
         <div className="hack4bengal_team-leaders">
           <div className="hack4bengal__team-members">
-            {executives.slice(0, 7).map((member, index) => (
+            {executives.slice(0, 8).map((member, index) => (
               <TeamCard
                 key={index}
                 img={member.Photo}
@@ -68,7 +68,7 @@ const Team = () => {
         <div className="hack4bengal__team-title">Core Team</div>
         <hr />
         <div className="hack4bengal__team-members">
-          {executives.slice(7).map((member, index) => (
+          {executives.slice(8).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}

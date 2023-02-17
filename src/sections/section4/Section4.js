@@ -2,6 +2,7 @@ import React from "react";
 import "./Section4.css";
 import speakers from "../../assets/data/speakersData.js";
 import SpeakerCard from "../../components/speakerCard/SpeakerCard";
+import TeamCard from "../../components/teamCard/TeamCard";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
 import { sliderSettings } from "../../motionUtils";
@@ -20,7 +21,7 @@ const Section4 = () => {
       <div className="hack4bengal__section3-events-container">
         <Slider {...sliderSettings} className="slider">
           {speakers.map((speaker, key) => (
-            <SpeakerCard
+            <TeamCard
               index={key}
               img={speaker.img}
               name={speaker.name}
