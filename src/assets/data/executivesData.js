@@ -57,7 +57,7 @@ const executives = [
   {
     Name: "Shubhayu Majumdar",
     Photo: Shubhayu,
-    position: "ML Research Intern at IIT KGP",
+    position: "ML Research Intern @ IIT KGP",
     Domain: "App Development Lead",
     linkedin: "https://www.linkedin.com/in/shubhayumajumdar/",
   },
