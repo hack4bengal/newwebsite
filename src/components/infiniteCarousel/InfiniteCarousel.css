@@ -10,7 +10,7 @@
   overflow: hidden;
   white-space: nowrap;
   width: 800%;
-  animation: scrollInfinite 40s linear infinite;
+  animation: scrollInfinite 10s linear infinite;
 }
 
 .hack4bengal__sponsers-carousel:hover {
