@@ -19,10 +19,8 @@ const Section7 = () => {
         <div className="hack4bengal__section7-part1">
           <div className="hack4bengal__section7-title">Have a question?</div>
           <div className="hack4bengal__section7-content">
-            We know that many of you would be first-time hackers here and there
-            must be many questions buzzing in your mind. But don't worry, we got
-            you covered! Go through these FAQs and you'll get most of your
-            queries solved.
+            It doesn't matter if you are a beginner or a seasoned hacker, we got
+            you covered!. Our FAQs will solve most of your doubts and queries.
           </div>
         </div>
         <div className="hack4bengal__section7-part2">
