@@ -9,7 +9,7 @@ export default function TimelineOne() {
       date: "TBA",
       dateDesc: "Pre-Registrations!",
       descInDepth:
-        "Join the Excitement, Kick-Start Your Hackathon Experience! The Ideas start brewing in your mind, your imagination becomes wild and you get a thought of something which might help the community!",
+        "A pre-hackathon is an event held before the actual hackathon, usually a few weeks before. It serves as a kickoff to the hackathon, allowing participants to meet, network, and get familiar with the event. Pre-hackathons may include workshops, training sessions, and talks from experts in relevant fields. They may also include team building activities, brainstorming sessions, and problem-solving exercises to help participants refine their ideas and develop their pitches. The pre-hackathon is a critical part of the hackathon process, helping participants to build connections, establish a plan of action, and prepare themselves for the intense period of hacking ahead.",
     },
     // {
     //   time: "TBA",
@@ -25,7 +25,7 @@ export default function TimelineOne() {
       date: "TBA",
       dateDesc: "Hackathon Start - Opening Ceremony",
       descInDepth:
-        "Join us for the kick-off of the Hack4bengal “ - an epic weekend of coding, creativity, and collaboration! we're ready to unleash the power of innovation and creativity. Join us for the opening ceremony, where we'll set the stage for a weekend of coding, problem-solving, and collaboration. On [date]. \n During the opening ceremony, you'll have the opportunity to meet with other participants, hear from industry leaders and experts, and learn about the exciting challenges and opportunities that await you. With prizes, workshops, and mentorship opportunities, this is an event you won't want to miss.\n So, gather your team, sharpen your skills, and get ready to make a difference. We're ready for an unforgettable weekend of innovation, and we hope you are too! Register now and let's get this hackathon started! \n We Welcome everyone to our Hackathon.",
+        "Join us for the kick-off of the Hack4bengal - an epic weekend of coding, creativity, and collaboration! we're ready to unleash the power of innovation and creativity. Join us for the opening ceremony, where we'll set the stage for a weekend of coding, problem-solving, and collaboration. On [date]. \n During the opening ceremony, you'll have the opportunity to meet with other participants, hear from industry leaders and experts, and learn about the exciting challenges and opportunities that await you. With prizes, workshops, and mentorship opportunities, this is an event you won't want to miss.\n So, gather your team, sharpen your skills, and get ready to make a difference. We're ready for an unforgettable weekend of innovation, and we hope you are too! Register now and let's get this hackathon started! \n We Welcome everyone to our Hackathon.",
     },
     {
       time: "TBA",
@@ -33,7 +33,7 @@ export default function TimelineOne() {
       date: "TBA",
       dateDesc: "Hackathon In Progress",
       descInDepth:
-        "Get ready to bring your tech skills to the forefront! Hack4Bengal 2.0 registrations will be open. Join us on 'COMING SOON' and get a chance to show your expertise, work on exciting projects, and win amazing prizes. This is a unique opportunity to network with industry experts, learn new technologies, and build something incredible. So, don't miss out! Register now and take the first step towards a fulfilling experience.",
+        "Excitement is in the air as the Hack4Bengal 2.0 is now in full swing! Participants from all over are hard at work, collaborating and creating innovative solutions. The energy is high as they work tirelessly to build unique projects and compete for the grand prize. Our expert judges are on the lookout for the best ideas and talent, while sponsors are providing valuable resources and support. It's a true tech extravaganza with non-stop learning and networking opportunities. Stay tuned for updates and results! Don't miss the chance to witness these amazing projects and talented individuals in action.",
     },
     {
       time: "TBA",
@@ -41,7 +41,7 @@ export default function TimelineOne() {
       date: "TBA",
       dateDesc: "Hackathon End - Closing Ceremony",
       descInDepth:
-        "Winner Time! With things ending, new things will begin. Did we tell about goodies and pizzas? and if that doesn't excite you we dont know what will :P"
+        "Manifestation of your crazy ideas begins! It's time to announce the Winners. As hours of utter dedication and hard work end, the time has come to appreciate the efforts and ideas that strived to make a difference and reflect their creativity to the world. As well as extending a hearty vote of thanks to all our partners without whom, Hack4Bengal won't be so massive. Hope you take away tons of goodies and good vibes with you!"
         ,
     },
   ];
