@@ -32,13 +32,19 @@ const Section2 = () => {
           <div className="h4b_about_textdiv">
             <div cn="h4b_about_textdiv_sub">
               <span>
-                A Community of enthusiastic hackers, who are ready to take up
-                any challenge. <br />
+                Hack4Bengal believes in building for the future, empowering
+                people irrespective of their fields, to showcase their skills
+                and creativity for solving real-life problems.
+                <br />
               </span>{" "}
               <br />
-              Hack4Bengal began with the idea of bringing together the best of
-              the best in the field of technology and provide a platform for the
-              students to showcase their skills and work.
+              What started with three enthusiastic people in the year 2021, is
+              now a community of over 1500 developers. Hack4Bengal has been
+              growing from strength to strength and our aim is to go beyond the
+              horizons and impact millions of tech talents by providing them
+              with a platform to enhance their skills, collaborate and create.
+              This time Hack4Bengal is back to leverage your expertise in the
+              offline mode. See you there!
             </div>
           </div>
         </div>
