@@ -24,7 +24,7 @@ const speakers = [
   },
   {
     name: "Riddhi Dutta",
-    position: "SDE-2",
+    position: "ex SDE-2 at Amazon",
     description: "ex SDE-Amazon | Youtube 35K+ | Teacher | Codechef 5* | Java | Angular",
     img: riddhi,
     facebook: "",
@@ -36,7 +36,7 @@ const speakers = [
 
   {
     name: "Soumyadip Chowdhury",
-    position: "SWE at RedHat",
+    position: "Software Engineer at RedHat",
     description:
       "28k+ @Linkedln. Teaching @Println (YouTube). Ex-HoiChoi, Bajaj Finserv Health. Former DSC Lead @UEMK. Book Chapter author on DTN & Blockchain",
     img: soumyadip,
@@ -49,7 +49,7 @@ const speakers = [
 
   {
     name: "Shri Debashish Sen",
-    position: " IAS",
+    position: " IAS, Chairman & MD, HIDCO",
     description: "Chairman & MD, HIDCO",
     img: debashish,
     facebook: "",

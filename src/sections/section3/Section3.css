@@ -45,6 +45,10 @@
   padding: 0 35px;
 }
 
+.slick-slide{
+  
+}
+
 @media (min-width: 1024px) {
   .hack4bengal__section3-events-container .slider .slick-list .slick-slide.slick-active.slick-current+.slick-slide {
     transition: all 1000ms ease-out;
