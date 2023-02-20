@@ -5,14 +5,14 @@ p {
 
 .privacy {
     padding: 2rem;
-    /* color:white; */
-    color: #E13B3C;
+    color:white;
+    /* color: #E13B3C; */
 
     font-family: "Poppins";
 }
 
 .privacy h2 {
-    /* color:#E13B3C; */
+    color:#E13B3C;
 
-    color: white;
+    /* color: white; */
 }

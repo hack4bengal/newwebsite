@@ -7,6 +7,7 @@
   border-radius: 20px;
   min-width: 320px;
   max-width: 320px;
+  
 }
 
 .hack4bengal__team-card .hack4bengal__team-card-img {
@@ -117,4 +118,19 @@
 .hack4bengal__team-card .social li a:hover {
   color: #1369ce;
   background-color: #f7f5ec;
+}
+
+/* .slider{
+  border:1px solid blue;
+  margin: 0 auto;
+} */
+
+.slick-slide div{
+  /* border:1px solid blue; */
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slider{
+  
 }

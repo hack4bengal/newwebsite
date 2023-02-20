@@ -21,7 +21,8 @@
 }
 
 .hack4bengal__section3-events-container {
-  max-width: 98%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .hack4bengal__section3-events-container .slider .slick-list {
