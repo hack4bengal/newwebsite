@@ -1,7 +1,7 @@
 import Srishti from "../team/Srishti.png";
 import Sugato from "../team/Sugato.png";
 import Ayush from "../team/Ayush.png";
-import Dev from "../team/Dev Kumar Gupta.png";
+import Dev from "../team/Dev.JPG";
 import Prosenjit from "../team/Prosenjit.png";
 import Debanita from "../team/Debanita.png";
 import Diganta from "../team/Diganta.png";
@@ -24,19 +24,20 @@ import Aharna from "../team/Aharna.jpeg";
 import Varun from "../team/Varun.jpeg";
 import Srijanna from "../team/Srijanna.jpg";
 import Vimal2 from "../team/Vimal2.jpeg";
+import Ayushman from "../team/Ayushman.jpg";
 
 const executives = [
   {
-    Name: "Srishti Majumder",
+    Name: "Srishti Majumdar",
     Photo: Srishti,
-    position: "Content Writer @Girlscript Siliguri",
+    position: "Co-organizer @Girlscript Siliguri",
     Domain: "Marketing Lead",
     linkedin: "https://www.linkedin.com/in/srishti-majumder-6560bb200/",
   },
   {
     Name: "Sugato Bagchi",
     Photo: Sugato,
-    position: "MERN Developer",
+    position: "Freelancer",
     Domain: "Community Relations Lead",
     linkedin: "https://www.linkedin.com/in/sugato-bagchi/",
   },
@@ -57,7 +58,7 @@ const executives = [
   {
     Name: "Shubhayu Majumdar",
     Photo: Shubhayu,
-    position: "ML Research Intern @IIT KGP",
+    position: "ML Research Intern at IIT KGP",
     Domain: "App Development Lead",
     linkedin: "https://www.linkedin.com/in/shubhayumajumdar/",
   },
@@ -76,16 +77,16 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/tushar-mukhopadhyay-025a78200/",
   },
   {
-    Name: "Prosenjit Swarnakar",
-    Photo: Prosenjit,
-    position: "Co-founder @OpenCodeyard",
+    Name: "Ankita Panda",
+    Photo: Ankita,
+    position: "PR and Outreach Lead @GFG SNU",
     Domain: "PR & OutReach Lead",
-    linkedin: "https://www.linkedin.com/in/prosenjit-swarnakar-5baa59236",
+    linkedin: "https://www.linkedin.com/in/ankita-panda-b4a71821a/",
   },
   {
     Name: "Debanita Roy Bhowmick",
     Photo: Debanita,
-    position: "Social media head @NSEC",
+    position: "Cloud Lead @GDSC NSEC",
     Domain: "Content Team",
     linkedin: "https://www.linkedin.com/in/debanita-roy-bhowmick/",
   },
@@ -188,11 +189,11 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/amandeep-singh-452949246/",
   },
   {
-    Name: "Ankita Panda",
-    Photo: Ankita,
-    position: "PR and Outreach Lead @GFG SNU",
+    Name: "Prosenjit Swarnakar",
+    Photo: Prosenjit,
+    position: "Co-founder @OpenCodeyard",
     Domain: "PR & OutReach Team",
-    linkedin: "https://www.linkedin.com/in/ankita-panda-b4a71821a/",
+    linkedin: "https://www.linkedin.com/in/prosenjit-swarnakar-5baa59236",
   },
   {
     Name: "Kunal Ghosh",
@@ -207,6 +208,13 @@ const executives = [
     position: "Data Analyst Intern @Databricks",
     Domain: "App Developer",
     linkedin: "https://www.linkedin.com/in/priyasu-guin/",
+  },
+  {
+    Name: "Ayushman Sural",
+    Photo: Ayushman,
+    position: "Video Editor @HuddleMedia Pvt Ltd",
+    Domain: "Graphics Team",
+    linkedin: "https://www.linkedin.com/in/ayushmaan-sural-b16248210",
   },
 ];
 

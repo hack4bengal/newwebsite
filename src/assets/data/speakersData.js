@@ -10,7 +10,7 @@ import soumyadip from "../images/speakers/soumyadip.jpg";
 import riddhi from "../images/speakers/riddhi.jpg";
 import debashish from "../images/speakers/debashish.png";
 const speakers = [
-    {
+  {
     name: "Arsh Goyal",
     position: "Senior Software Engineer at Samsung",
     description:
@@ -54,12 +54,12 @@ const speakers = [
     img: debashish,
     facebook: "",
     twitter: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/debashis-senias",
     github: "",
     youtube: "",
   },
   {
-    
+
     name: "Avinaba Roy",
     position: "SDE at BlueOptima",
     description:
@@ -83,7 +83,7 @@ const speakers = [
     github: "",
     youtube: "",
   },
-  
+
 ];
 
 export default speakers;
