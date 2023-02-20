@@ -198,4 +198,43 @@ $(".shift-camera-button").click(function () {
   ]);
 });
 
+// any keyboard keydown
+document.addEventListener("keydown", function (event) {
+  let introTimeline = new TimelineMax();
+
+  introTimeline.add([
+    TweenLite.fromTo(
+      introContainer,
+      0.5,
+      { opacity: 1 },
+      { opacity: 0, ease: Power3.easeIn }
+    ),
+    TweenLite.to(camera.rotation, 3, {
+      x: Math.PI / 2,
+      ease: Power3.easeInOut,
+    }),
+    TweenLite.to(camera.position, 2.5, { z: 20, ease: Power3.easeInOut }),
+    TweenLite.to(camera.position, 3, { y: 120, ease: Power3.easeInOut }),
+    TweenLite.to(plane.scale, 3, { x: 2, y: 0, ease: Power3.easeInOut }),
+  ]);
+
+  introTimeline.add([
+    TweenLite.to(skyContainer, 0.1, {
+      opacity: 1,
+      display: "block",
+      position: "sticky",
+      ease: Power3.easeInOut,
+    }),
+    TweenLite.to(root, 0.1, {
+      opacity: 1,
+      display: "block",
+      ease: Power3.easeInOut,
+    }),
+    TweenLite.to(canv, 0.1, {
+      display: "none",
+      ease: Power3.easeInOut,
+    }),
+  ]);
+});
+
 render();
