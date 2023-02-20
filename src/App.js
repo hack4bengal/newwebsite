@@ -6,6 +6,8 @@ import "./App.css";
 import ScrollToTop from "./ScrollToTop";
 import PrizeTcp from "./pages/prizeTcp/PrizeTcp";
 import EventTcp from "./pages/eventTcp/EventTcp";
+import PrivacyPolicy from "./pages/privacyPolicy/PrivacyPolicy";
+import Terms from "./pages/Terms/Terms";
 export default class App extends Component {
   render() {
     return (
@@ -16,6 +18,8 @@ export default class App extends Component {
           <Route path="/team" element={<TeamTCP />} />
           <Route path="/prizes" element={<PrizeTcp />} />
           <Route path="/events" element={<EventTcp />} />
+          <Route path="privacy" element={<PrivacyPolicy/>} />
+          <Route path="terms" element={<Terms/>} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
