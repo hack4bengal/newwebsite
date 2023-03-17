@@ -11,7 +11,7 @@ function getTimeLeft(endTime) {
 
 function Timer() {
 
-  const endTime = new Date("2023-03-16T00:00:00").getTime();
+  const endTime = new Date("2023-04-01T00:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(endTime));
   const screenWidth = window.innerWidth;
@@ -52,7 +52,7 @@ function Timer() {
           <div className="hour">
             {timeLeft.days < 10 ? `0${timeLeft.days}` : timeLeft.days}
           </div>
-          
+
           <div className='time-label'>Days</div>
         </div>
         {screenWidth > 991 ?
@@ -61,7 +61,7 @@ function Timer() {
               :
             </div>
           </div> : null
-          }
+        }
         <div className='timer'>
           <div className="hour">
             {timeLeft.hours < 10 ? `0${timeLeft.hours}` : timeLeft.hours}
@@ -75,7 +75,7 @@ function Timer() {
               :
             </div>
           </div> : null
-          }
+        }
 
 
         <div className='timer timer-mar'>
@@ -91,7 +91,7 @@ function Timer() {
               :
             </div>
           </div> : null
-          }
+        }
 
 
         <div className='timer timer-mar'>
