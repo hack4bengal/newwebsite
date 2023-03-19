@@ -1,6 +1,7 @@
 import Manish from "../team/team-1.png";
 import Sagnik from "../team/team-2.png";
 import Shubham from "../team/team-3.png";
+import Kajal from "../team/Kajal.jpg";
 
 const overAllCoordinaters = [
   {
@@ -13,6 +14,14 @@ const overAllCoordinaters = [
     twitter: "https://twitter.com/imanishbarnwal",
     github: "https://github.com/imanishbarnwal",
     linkedin: "https://www.linkedin.com/in/imanishbarnwal/",
+  },
+  {
+    Name: "Kajal Jaiswal",
+    Photo: Kajal,
+    position:
+      "Beta MLSA",
+    Domain: "Lead Organizer",
+    linkedin: "https://www.linkedin.com/in/kj18",
   },
   {
     Name: "Sagnik Mitra",

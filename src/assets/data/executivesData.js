@@ -25,6 +25,8 @@ import Varun from "../team/Varun.jpeg";
 import Srijanna from "../team/Srijanna.jpg";
 import Vimal2 from "../team/Vimal2.jpeg";
 import Ayushman from "../team/Ayushman.jpg";
+import Kiran from "../team/Kiran.jpg";
+import Koyena from "../team/Koyena.jpg";
 
 const executives = [
   {
@@ -154,6 +156,13 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/randrita-sarkar-8690591a1/",
   },
   {
+    Name: "Kiran Mishra",
+    Photo: Kiran,
+    position: "Alpha MLSA",
+    Domain: "Content Team",
+    linkedin: "https://www.linkedin.com/in/kiranmishra21",
+  },
+  {
     Name: "Srijanna Das",
     Photo: Srijanna,
     position: "Skipper @Skill Academia",
@@ -194,6 +203,13 @@ const executives = [
     position: "Co-founder @OpenCodeyard",
     Domain: "PR & OutReach Team",
     linkedin: "https://www.linkedin.com/in/prosenjit-swarnakar-5baa59236",
+  },
+  {
+    Name: "Koyena Mondal",
+    Photo: Koyena,
+    position: "Social Media Intern @Shuvidha Foundation",
+    Domain: "PR & OutReach Team",
+    linkedin: "https://www.linkedin.com/in/koyena-mondal-6a3903228/",
   },
   {
     Name: "Kunal Ghosh",
