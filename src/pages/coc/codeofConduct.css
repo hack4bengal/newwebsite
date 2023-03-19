@@ -1,0 +1,18 @@
+p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.privacy {
+  padding: 2rem;
+  color: white;
+  /* color: #E13B3C; */
+
+  font-family: "Poppins";
+}
+
+.privacy h2 {
+  color: #e13b3c;
+
+  /* color: white; */
+}

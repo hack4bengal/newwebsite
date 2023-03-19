@@ -12,7 +12,7 @@ export default function Terms() {
         <NavbarTeam />
       </div>
       <div className="privacy">
-        <h2 style={{ textAlign: "center" }}>Code of Conduct</h2>
+        <h2 style={{ textAlign: "center" }}>Terms and Conditions</h2>
         <p>
           By downloading or using the app, these terms will automatically apply
           to you – you should make sure therefore that you read them carefully
