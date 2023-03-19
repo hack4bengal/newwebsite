@@ -106,8 +106,7 @@ export default function CodeofConduct() {
               take appropriate action to address the situation.</p>
             <p>Hack4Bengal reserves the right to amend or make exceptions or otherwise revise
               the policies either partially or fully. If you have any questions
-              regarding the policies, please contact us at
-              <a href='partners@hack4bengal.tech'>partners@hack4bengal.tech</a>.</p>
+              regarding the policies, please contact us at <a href='partners@hack4bengal.tech'>partners@hack4bengal.tech</a>.</p>
           </p>
         </div>
       </div>
