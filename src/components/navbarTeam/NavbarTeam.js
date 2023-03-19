@@ -2,7 +2,6 @@ import React from "react";
 import { useRef, useState } from "react";
 import "./NavbarTeam.css";
 import hack4bengal from "../../assets/img/Hack4Bengal.png";
-import tcp from "../../assets/img/H4B-logo-black.png";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link } from "react-router-dom";
@@ -79,9 +78,9 @@ const NavbarTeam = () => {
             <div className="hack4bengal__navbarTeam-hamburger-logo">
               <img src={hack4bengal} alt="hack4bengal" />
             </div>
-            <div className="hack4bengal__navbarTeam-hamburger-logo">
+            {/* <div className="hack4bengal__navbarTeam-hamburger-logo">
               <img src={tcp} alt="hack4bengal" />
-            </div>
+            </div> */}
           </nav>
         </div>
         <ul

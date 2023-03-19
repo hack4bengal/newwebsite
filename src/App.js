@@ -18,8 +18,8 @@ export default class App extends Component {
           <Route path="/team" element={<TeamTCP />} />
           <Route path="/prizes" element={<PrizeTcp />} />
           <Route path="/events" element={<EventTcp />} />
-          <Route path="privacy" element={<PrivacyPolicy/>} />
-          <Route path="terms" element={<Terms/>} />
+          <Route path="privacy" element={<PrivacyPolicy />} />
+          <Route path="coc" element={<Terms />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>

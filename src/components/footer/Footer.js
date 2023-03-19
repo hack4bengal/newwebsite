@@ -93,6 +93,9 @@ const Footer = () => {
             </a>
           </div>
           <p className="hack4bengal__footer-social-text">
+            <Link to="/coc">Code of Conduct</Link>
+          </p>
+          <p className="hack4bengal__footer-social-text">
             Email us for more details,
           </p>
           <p className="hack4bengal__footer-social-text">

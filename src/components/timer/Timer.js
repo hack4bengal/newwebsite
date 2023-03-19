@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import "./Timer.css";
 function getTimeLeft(endTime) {
   const totalSeconds = (new Date(endTime) - new Date()) / 1000;
@@ -10,8 +10,7 @@ function getTimeLeft(endTime) {
 }
 
 function Timer() {
-
-  const endTime = new Date("2023-04-01T00:00:00").getTime();
+  const endTime = new Date("2023-03-21T00:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(endTime));
   const screenWidth = window.innerWidth;
@@ -43,66 +42,57 @@ function Timer() {
   //     <div className='timer__seconds-label'>Seconds</div>
   //   </div>
 
-
   // </div>
   return (
-    <div className='time'>
-      <div className='timer-body'>
-        <div className='timer'>
+    <div className="time">
+      <div className="timer-body">
+        <div className="timer">
           <div className="hour">
             {timeLeft.days < 10 ? `0${timeLeft.days}` : timeLeft.days}
           </div>
 
-          <div className='time-label'>Days</div>
+          <div className="time-label">Days</div>
         </div>
-        {screenWidth > 991 ?
-          <div className='timer'>
-            <div className="separator">
-              :
-            </div>
-          </div> : null
-        }
-        <div className='timer'>
+        {screenWidth > 991 ? (
+          <div className="timer">
+            <div className="separator">:</div>
+          </div>
+        ) : null}
+        <div className="timer">
           <div className="hour">
             {timeLeft.hours < 10 ? `0${timeLeft.hours}` : timeLeft.hours}
           </div>
-          <div className='time-label'>Hours</div>
+          <div className="time-label">Hours</div>
         </div>
 
-        {screenWidth > 991 ?
-          <div className='timer'>
-            <div className="separator">
-              :
-            </div>
-          </div> : null
-        }
+        {screenWidth > 991 ? (
+          <div className="timer">
+            <div className="separator">:</div>
+          </div>
+        ) : null}
 
-
-        <div className='timer timer-mar'>
+        <div className="timer timer-mar">
           <div className="minute">
             {timeLeft.minutes < 10 ? `0${timeLeft.minutes}` : timeLeft.minutes}
           </div>
-          <div className='time-label'>Minutes</div>
+          <div className="time-label">Minutes</div>
         </div>
 
-        {screenWidth > 991 ?
-          <div className='timer'>
-            <div className="separator">
-              :
-            </div>
-          </div> : null
-        }
+        {screenWidth > 991 ? (
+          <div className="timer">
+            <div className="separator">:</div>
+          </div>
+        ) : null}
 
-
-        <div className='timer timer-mar'>
+        <div className="timer timer-mar">
           <div className="second">
             {timeLeft.seconds < 10 ? `0${timeLeft.seconds}` : timeLeft.seconds}
           </div>
-          <div className='time-label'>Seconds</div>
+          <div className="time-label">Seconds</div>
         </div>
       </div>
     </div>
-  )
+  );
   // const deadline = new Date("2023-04-08T20:00:00").getTime();
   //      const [timeLeft, setTimeLeft] = useState({
   //   days: 0,
@@ -204,6 +194,5 @@ function Timer() {
   //       </div>
   //     </div>
   //   </div>
-
 }
 export default Timer;
