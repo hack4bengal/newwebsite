@@ -116,138 +116,137 @@ const InfiniteCarousel = () => {
          </div> */
 
     <div className="h4b_reg_text_wrapper">
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
-      <p>Registration starting soon</p>
-      <p>Follow our socials !</p>
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
+
+      <p>Registrations starting soon</p>
     </div>
   );
 };

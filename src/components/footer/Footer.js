@@ -99,7 +99,7 @@ const Footer = () => {
             Email us for more details,
           </p>
           <p className="hack4bengal__footer-social-text">
-            hack4bengal@gmail.com
+            <a href="mailto:hack4bengal@gmail.com" style={{ color: "#e13b3c" }}>hack4bengal@gmail.com</a>
           </p>
         </div>
       </div>
@@ -167,7 +167,7 @@ const Footer = () => {
         </div>
 
         <div className="hack4bengal__footer-social-map">
-          <a href="https://s1.hack4bengal.tech/">
+          <a href="https://s1.hack4bengal.tech/" target="_blank" rel="noreferrer">
             <svg
               width="24"
               height="24"
@@ -202,7 +202,7 @@ const Footer = () => {
                 fill="red"
               ></path>{" "}
             </svg>
-            Season 1
+            Visit Season 1
           </a>
         </div>
       </div>

@@ -40,7 +40,7 @@ const Section1 = () => {
           </div>
 
           <div className="hack4bengal__section1-para">
-            Bringing together the best of the field and provide a platform
+            Bringing together the best of the field and providing a platform
             showcase of skills
           </div>
         </div>
