@@ -24,9 +24,12 @@ const NavbarTeam = () => {
     >
       <header className="hack4bengal__navbarTeam">
         <div className="hack4bengal__navbarTeam-body">
-          <div className="hack4bengal__navbarTeam-logo">
-            <img src={hack4bengal} alt="hack4bengal" />
-          </div>
+          <Link to={"/"}>
+            <div className="hack4bengal__navbarTeam-logo">
+              <img src={hack4bengal} alt="hack4bengal" />
+            </div>
+          </Link>
+
           <nav className="hack4bengal__navbarTeam-menu">
             <ul className="hack4bengal__navbarTeam-navlist">
               <li className="hack4bengal__navbarTeam-navitem">

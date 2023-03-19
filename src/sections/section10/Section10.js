@@ -14,7 +14,7 @@ const section10 = () => {
       className="hack4bengal__section10"
       id="my-team"
     >
-      <div className="hack4bengal__section10-body">
+      <div className="hack4bengal__section10-body" id="team">
         <div className="hack4bengal__section10-title">
           Wondering who all make this possible?
         </div>

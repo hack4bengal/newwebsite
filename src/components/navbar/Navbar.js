@@ -25,9 +25,17 @@ const Navbar = () => {
     >
       <header className="hack4bengal__navbar">
         <div className="hack4bengal__navbar-body">
-          <div className="hack4bengal__navbar-logo">
-            <img src={hack4bengal} alt="logo" />
-          </div>
+
+          <Link to={"/"}>
+
+
+
+            <div className="hack4bengal__navbar-logo">
+              <img src={hack4bengal} alt="logo" />
+
+            </div>
+
+          </Link>
           <nav className="hack4bengal__navbar-menu">
             <ul className="hack4bengal__navbar-navlist">
               <li className="hack4bengal__navbar-navitem">
@@ -70,14 +78,18 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">FAQ</h3>
                 </a>
               </li>
+              <li className="hack4bengal__navbar-navitem">
+                <a href="#team">
+                  <h3 className="hack4bengal__navbar-menu-heading">Team</h3>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
       </header>
       <header
-        className={`hack4bengal__navbar-hamburger ${
-          isOpen ? `hamburger-open` : ``
-        }`}
+        className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
+          }`}
       >
         <div className="hack4bengal__navbar-hamburger-body">
           <nav className="hack4bengal__navbar-hamburger-nav">
@@ -106,9 +118,8 @@ const Navbar = () => {
           </nav>
         </div>
         <ul
-          className={`hack4bengal__navbar-hamburger-navlist ${
-            isOpen ? `activeMenu slide-bottom` : ``
-          }`}
+          className={`hack4bengal__navbar-hamburger-navlist ${isOpen ? `activeMenu slide-bottom` : ``
+            }`}
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
             <a href="#home" onClick={toggleMenu}>
