@@ -140,7 +140,7 @@ export default function CodeofConduct() {
             </p>
           </div>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
