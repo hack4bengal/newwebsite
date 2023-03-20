@@ -5,6 +5,7 @@
   max-width: 80rem;
   margin: 0px auto;
   overflow-y: hidden;
+  background-color: #202020 !important;
 }
 
 .hack4bengal__footer-container1 {
@@ -163,15 +164,17 @@
   color: white;
 }
 
-.hack4bengal__footer-back-to-top a {
+.hack4bengal__footer-back-to-top p {
   text-decoration: none;
   color: white;
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-bottom: 0px;
+  cursor: pointer;
 }
 
-.hack4bengal__footer-back-to-top a:hover {
+.hack4bengal__footer-back-to-top p:hover {
   color: var(--primary-c);
 }
 

@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./Team.css";
 
 import overAllCoordinaters from "../../assets/data/overAllCoordinatorsData";
@@ -11,6 +10,7 @@ import TeamCard from "../../components/teamCard/TeamCard";
 // import TeamCard2 from "../../components/teamCard2/TeamCard2";
 import TeamCard3 from "../../components/teamCard3/TeamCard3";
 import { motion } from "framer-motion";
+import Footer from "../../components/footer/Footer";
 
 // import tcp from "../../assets/img/H4B-logo-black.png";
 

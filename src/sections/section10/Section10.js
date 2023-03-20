@@ -19,7 +19,7 @@ const section10 = () => {
           Wondering who all make this possible?
         </div>
         <div className="hack4bengal__team-subtitle hack4bengal__section10-title2 ">
-          Hack4Bengal is a team of 30+ enthusiastic folks, led by 3!
+          Hack4Bengal is a team of 30+ enthusiastic folks, led by 4!
         </div>
         <Link to="/team">
           <button className="hack4bengal__section10-button">

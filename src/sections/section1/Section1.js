@@ -60,16 +60,33 @@ const Section1 = () => {
               <span>Join Discord</span>
             </a>
           </div>
-          <div className="hack4bengal__section1-register">
+          {/* <div className="hack4bengal__section1-register">
             <a
               className="hack4bengal__section1-register-link"
               href="https://forms.gle/2Ehe6UyD4BLisVRr5"
               target="_blank"
               rel="noreferrer"
             >
-              <span>{"</> "}</span>Pre-register
+              <span>{"</> "}</span>Coming Soon
+            </a>
+          </div> */}
+
+          <div className="hack4bengal__section1-register">
+            <a className="hack4bengal__section1-register-link" href="#">
+              <span>{"</> "}</span>Coming Soon
             </a>
           </div>
+
+          {/*  <div className="hack4bengal__section1-register">
+            <a
+              className="hack4bengal__section1-register-link"
+              href="https://lu.ma/hack4bengal"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>{"</> "}</span>Register Now
+            </a>
+          </div> */}
         </div>
       </motion.div>
       <motion.ul

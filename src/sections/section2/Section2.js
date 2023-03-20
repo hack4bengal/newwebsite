@@ -48,10 +48,12 @@ const Section2 = () => {
             </div>
           </div>
         </div>
-        <div style={{ marginTop: "5rem" }} id="timeline">
-          <h1>Timeline</h1>
-          <hr />
-          <TimelineOne />
+        <div id="timeline">
+          <div style={{ marginTop: "5rem" }} >
+            <h1>Timeline</h1>
+            <hr />
+            <TimelineOne />
+          </div>
         </div>
       </div>
     </motion.div>

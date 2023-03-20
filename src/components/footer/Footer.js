@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Footer.css";
 import footer from "../../assets/img/footer.gif";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -92,14 +92,19 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <p className="hack4bengal__footer-social-text">
-            <Link to="/coc">Code of Conduct</Link>
-          </p>
+          {window.location.pathname !== "/coc" && (
+            <p className="hack4bengal__footer-social-text">
+              <Link to="/coc">Code of Conduct</Link>
+            </p>
+          )}
+
           <p className="hack4bengal__footer-social-text">
             Email us for more details,
           </p>
           <p className="hack4bengal__footer-social-text">
-            <a href="mailto:hack4bengal@gmail.com" style={{ color: "#e13b3c" }}>hack4bengal@gmail.com</a>
+            <a href="mailto:hack4bengal@gmail.com" style={{ color: "#e13b3c" }}>
+              hack4bengal@gmail.com
+            </a>
           </p>
         </div>
       </div>
@@ -150,8 +155,10 @@ const Footer = () => {
         <div className="hack4bengal__footer-social-team">
           Developed By <Link to="/team">Hack4Bengal</Link>
         </div>
-        <div className="hack4bengal__footer-back-to-top">
-          <a href="#home">
+        <div className="hack4bengal__footer-back-to-top" onClick={() => {
+          window.scrollTo(0, 0);
+        }}>
+          <p>
             Back to Top
             <svg
               fill="#ff1717"
@@ -163,11 +170,15 @@ const Footer = () => {
             >
               <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
             </svg>
-          </a>
+          </p>
         </div>
 
         <div className="hack4bengal__footer-social-map">
-          <a href="https://s1.hack4bengal.tech/" target="_blank" rel="noreferrer">
+          <a
+            href="https://s1.hack4bengal.tech/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg
               width="24"
               height="24"

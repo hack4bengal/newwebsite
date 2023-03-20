@@ -92,9 +92,9 @@ const NavbarTeam = () => {
           }`}
         >
           <li className="hack4bengal__navbarTeam-hamburger-navitem">
-            <Link to="/" onClick={toggleMenu}>
+            <Link to="/#prizes" onClick={toggleMenu}>
               <h3 className="hack4bengal__navbarTeam-hamburger-menu-heading">
-                Back To Home Page
+                Back To Home Page 2
               </h3>
             </Link>
           </li>

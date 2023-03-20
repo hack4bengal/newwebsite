@@ -5,7 +5,7 @@ import hack4bengal from "../../assets/img/Hack4Bengal.png";
 import tcp from "../../assets/img/tcp.png";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,6 +14,21 @@ const Navbar = () => {
     setIsOpen(!isOpen);
     hamburger.current.classList.toggle("active");
   }
+  const navigate = useNavigate();
+  let element;
+
+  const gotoId = (id) => {
+    if (window.location.pathname !== "/") {
+      navigate("/");
+      setTimeout(() => {
+        element = document.getElementById(id);
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 500);
+
+    } else {
+      window.location.href = "#" + id;
+    }
+  };
 
   return (
     <motion.div
@@ -25,63 +40,96 @@ const Navbar = () => {
     >
       <header className="hack4bengal__navbar">
         <div className="hack4bengal__navbar-body">
-
           <Link to={"/"}>
-
-
-
             <div className="hack4bengal__navbar-logo">
               <img src={hack4bengal} alt="logo" />
-
             </div>
-
           </Link>
           <nav className="hack4bengal__navbar-menu">
             <ul className="hack4bengal__navbar-navlist">
               <li className="hack4bengal__navbar-navitem">
-                <a href="#home">
+                <p
+                  /* href="#home" */
+                  onClick={() => {
+                    gotoId("home");
+                    toggleMenu();
+                  }}
+                >
                   <h3 className="hack4bengal__navbar-menu-heading">Home</h3>
-                </a>
+                </p>
               </li>
               <li className="hack4bengal__navbar-navitem">
-                <a href="#aboutus">
+                <p
+                  onClick={() => {
+                    gotoId("aboutus");
+                    toggleMenu();
+                  }}
+                >
                   <h3 className="hack4bengal__navbar-menu-heading">About Us</h3>
-                </a>
+                </p>
               </li>
               <li className="hack4bengal__navbar-navitem">
-                <a href="#timeline">
+                <p
+                  onClick={() => {
+                    gotoId("timeline");
+                    toggleMenu();
+                  }}
+                >
                   <h3 className="hack4bengal__navbar-menu-heading">Timeline</h3>
-                </a>
-              </li>
-              <li className="hack4bengal__navbar-navitem">
-                <a href="#prizes">
-                  <h3 className="hack4bengal__navbar-menu-heading">Prizes</h3>
-                </a>
+                </p>
               </li>
 
               <li className="hack4bengal__navbar-navitem">
-                <a href="#speakers">
+                <p
+                  onClick={() => {
+                    gotoId("prizes");
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="hack4bengal__navbar-menu-heading">Prizes</h3>
+                </p>
+              </li>
+
+              <li className="hack4bengal__navbar-navitem">
+                <p
+                  onClick={() => {
+                    gotoId("speakers");
+                    toggleMenu();
+                  }}
+                >
                   <h3 className="hack4bengal__navbar-menu-heading">Speakers</h3>
-                </a>
+                </p>
               </li>
-              {/* 
-              <Link to={"/events"}>
-                <h3 className="hack4bengal__navbar-menu-heading">Events</h3>
-              </Link> */}
+
               <li className="hack4bengal__navbar-navitem">
-                <a href="#sponsers">
+                <p
+                  onClick={() => {
+                    gotoId("sponsers");
+                    toggleMenu();
+                  }}
+                >
                   <h3 className="hack4bengal__navbar-menu-heading">Sponsors</h3>
-                </a>
+                </p>
               </li>
               <li className="hack4bengal__navbar-navitem">
-                <a href="#faq">
+                <p
+                  onClick={() => {
+                    gotoId("faq");
+                    toggleMenu();
+                  }}
+                >
                   <h3 className="hack4bengal__navbar-menu-heading">FAQ</h3>
-                </a>
+                </p>
               </li>
               <li className="hack4bengal__navbar-navitem">
-                <a href="#team">
+                <p
+                  onClick={() => {
+                    gotoId("team");
+                    toggleMenu();
+                  }}
+                >
                   <h3 className="hack4bengal__navbar-menu-heading">Team</h3>
-                </a>
+                </p>
               </li>
             </ul>
           </nav>
@@ -99,7 +147,10 @@ const Navbar = () => {
                 viewBox="0 0 100 100"
                 width="80"
                 ref={hamburger}
-                onClick={toggleMenu}
+                onClick={() => {
+                  gotoId("aboutus");
+                  toggleMenu();
+                }}
               >
                 <path
                   className="line top"
@@ -122,40 +173,58 @@ const Navbar = () => {
             }`}
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#home" onClick={toggleMenu}>
+            <p
+
+              onClick={() => {
+                gotoId("home");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Home
               </h3>
-            </a>
+            </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#aboutus" onClick={toggleMenu}>
+            <p onClick={() => {
+              gotoId("aboutus");
+              toggleMenu();
+            }}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 About Us
               </h3>
-            </a>
+            </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#timeline" onClick={toggleMenu}>
+            <p onClick={() => {
+              gotoId("timeline");
+              toggleMenu();
+            }}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Timeline
               </h3>
-            </a>
+            </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#prizes" onClick={toggleMenu}>
+            <p onClick={() => {
+              gotoId("prizes");
+              toggleMenu();
+            }}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Prizes
               </h3>
-            </a>
+            </p>
           </li>
 
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#speakers" onClick={toggleMenu}>
+            <p onClick={() => {
+              gotoId("speakers");
+              toggleMenu();
+            }}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Speakers
               </h3>
-            </a>
+            </p>
           </li>
           {/* <li className="hack4bengal__navbar-hamburger-navitem">
             <Link to={"/events"}>
@@ -165,18 +234,34 @@ const Navbar = () => {
             </Link>
           </li> */}
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#sponsers" onClick={toggleMenu}>
+            <p onClick={() => {
+              gotoId("sponsers");
+              toggleMenu();
+            }}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Sponsors
               </h3>
-            </a>
+            </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <a href="#faq" onClick={toggleMenu}>
+            <p onClick={() => {
+              gotoId("team");
+              toggleMenu();
+            }}>
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                Team
+              </h3>
+            </p>
+          </li>
+          <li className="hack4bengal__navbar-hamburger-navitem">
+            <p onClick={() => {
+              gotoId("faq");
+              toggleMenu();
+            }}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 FAQ
               </h3>
-            </a>
+            </p>
           </li>
         </ul>
       </header>
