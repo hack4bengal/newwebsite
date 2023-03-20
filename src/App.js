@@ -9,6 +9,7 @@ import EventTcp from "./pages/eventTcp/EventTcp";
 import PrivacyPolicy from "./pages/privacyPolicy/PrivacyPolicy";
 import Terms from "./pages/Terms/Terms";
 import CodeofConduct from "./pages/coc/CodeofConduct";
+import Assets from "./pages/assets/Assets";
 export default class App extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ export default class App extends Component {
           <Route path="privacy" element={<PrivacyPolicy />} />
           <Route path="tnc" element={<Terms />} />
           <Route path="coc" element={<CodeofConduct />} />
+          <Route path="/assets" element={<Assets />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
