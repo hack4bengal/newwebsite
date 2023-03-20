@@ -187,7 +187,7 @@ const executives = [
   {
     Name: "Alapan Das",
     Photo: Alapan,
-    position: "Lead @GDSC GCECT",
+    position: "Data Scientist @Quouch",
     Domain: "Event Management Team",
     linkedin: "https://www.linkedin.com/in/alapan-das-0171131b3/",
   },
