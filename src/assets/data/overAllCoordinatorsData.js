@@ -38,7 +38,7 @@ const overAllCoordinaters = [
     Name: "Shubham Tribedi",
     Photo: Shubham,
     position:
-      "Program Coordinator @Unacademy",
+      "Program Coordinator @CodeChef",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/shubham.tribedi",
     twitter: "https://twitter.com/shubham_tribedi",
