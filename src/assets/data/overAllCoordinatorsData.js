@@ -1,7 +1,7 @@
 import Manish from "../team/team-1.png";
 import Sagnik from "../team/team-2.png";
 import Shubham from "../team/team-3.png";
-import Kajal from "../team/Kajal.jpg";
+import Kajal from "../team/Kajal.png";
 
 const overAllCoordinaters = [
   {

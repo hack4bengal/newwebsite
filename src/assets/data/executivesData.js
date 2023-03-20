@@ -27,6 +27,7 @@ import Vimal2 from "../team/Vimal2.jpeg";
 import Ayushman from "../team/Ayushman.jpg";
 import Kiran from "../team/Kiran.jpg";
 import Koyena from "../team/Koyena.jpg";
+import Souradeep from "../team/Souradeep.jpeg";
 
 const executives = [
   {
@@ -89,7 +90,7 @@ const executives = [
     Name: "Debanita Roy Bhowmick",
     Photo: Debanita,
     position: "Cloud Lead @GDSC NSEC",
-    Domain: "Content Team",
+    Domain: "PR & Outreach Team",
     linkedin: "https://www.linkedin.com/in/debanita-roy-bhowmick/",
   },
   {
@@ -191,6 +192,13 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/alapan-das-0171131b3/",
   },
   {
+    Name: "Souradeep Mukherjee",
+    Photo: Souradeep,
+    position: "Postman Students Expert",
+    Domain: "Event Management Team",
+    linkedin: "https://www.linkedin.com/in/souradeep-mukherjee-a07379224",
+  },
+  {
     Name: "Amandeep Singh",
     Photo: Amandeep,
     position: "Android App Developer",
@@ -207,7 +215,7 @@ const executives = [
   {
     Name: "Koyena Mondal",
     Photo: Koyena,
-    position: "Social Media Intern @Shuvidha Foundation",
+    position: "Marketing Intern @Shuvidha Foundation",
     Domain: "PR & OutReach Team",
     linkedin: "https://www.linkedin.com/in/koyena-mondal-6a3903228/",
   },
