@@ -31,9 +31,9 @@ import Souradeep from "../team/Souradeep.jpeg";
 
 const executives = [
   {
-    Name: "Srishti Majumdar",
+    Name: "Srishti Majumder",
     Photo: Srishti,
-    position: "Co-organizer @Girlscript Siliguri",
+    position: "Co-organizer @GDG Siliguri",
     Domain: "Marketing Lead",
     linkedin: "https://www.linkedin.com/in/srishti-majumder-6560bb200/",
   },
