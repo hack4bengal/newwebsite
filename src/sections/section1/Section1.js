@@ -2,7 +2,7 @@ import React from "react";
 import "./Section1.css";
 import h4blogo from "../../assets/img/square-grey-logo.png";
 import discord from "../../assets/img/discord-mark-blue.png";
-
+import newbanner from "../../assets/updates/newbanner.png"
 import { motion, transform } from "framer-motion";
 import { staggerChildren, fadeIn } from "../../motionUtils";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
@@ -35,13 +35,15 @@ const Section1 = () => {
           <div className="hack4bengal__section1-heading">Welcome To</div>
 
           <div className="hack4bengal_section1_header">
-            <img src={h4blogo} alt="hack4bengal"></img>
-            <h1>Hack4Bengal 2.0</h1>
+            <h1>
+              <img src={newbanner} alt="hack4bengal"></img>
+            </h1>
           </div>
 
           <div className="hack4bengal__section1-para">
-            Bringing together the best of the field and providing a platform
-            showcase of skills
+            In Collaboration with<br></br> Department of Information Technology
+            and Electronics <br></br>Government of West Bengal & Cyber Security
+            Center of Excellence
           </div>
         </div>
         <div

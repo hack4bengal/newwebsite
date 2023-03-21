@@ -22,10 +22,13 @@
 
 .hack4bengal__section1-menu {
   display: flex;
+  width: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(21, 19, 19, 0.775);
 }
 
 .hack4bengal__section1-heading {
@@ -35,8 +38,8 @@
   font-size: 56px;
   line-height: 56px;
   color: #ffffff;
-  margin: 1rem;
-  margin-bottom: 2rem;
+  padding-top: 20px;
+  margin-bottom: 0.1rem;
 }
 
 .hack4bengal__section1-subheading {
@@ -50,14 +53,16 @@
 }
 
 .hack4bengal__section1-para {
+  margin-top: -90px;
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 26px;
+  font-size: 13px;
   letter-spacing: 1px;
   color: white;
   text-align: center;
-  width: 60%;
+  width: 79%;
   user-select: none;
+  padding-bottom: 20px;
 }
 
 .hack4bengal_section1_header {
@@ -66,15 +71,14 @@
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.909);
+  /* background-color: rgba(255, 255, 255, 0.909); */
   border-radius: 12px;
   max-width: fit-content;
   user-select: none;
-
 }
 
 .hack4bengal_section1_header img {
-  width: 120px;
+  width: 700px;
 }
 
 .hack4bengal_section1_header h1 {
@@ -191,7 +195,7 @@
   content: "";
   width: 2px;
   height: 42px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(27, 25, 25, 0.2);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 12px;
@@ -236,7 +240,6 @@
 }
 
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -255,7 +258,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
   .hack4bengal__section1-scrollDown,
   .hack4bengal__section1-side-links {
     display: none;
@@ -327,4 +329,7 @@
   .hack4bengal__section1-heading {
     font-size: 28px;
   }
+}
+.test {
+  width: 60%;
 }
