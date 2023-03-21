@@ -144,22 +144,22 @@ const Navbar = () => {
               </li> */}
             </ul>
           </nav>
-//           <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank">
-//             <div
-//               className="hack4bengal__navbar-logo"
-//               style={{ zIndex: "9999" }}
-//             >
-//               <img
-//                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
-//                 alt="logo"
-//                 style={{
-//                   transform: "scale(1.8)",
-//                   zIndex: "999",
-//                   marginTop: "10px",
-//                 }}
-//               />
-//             </div>
-//           </a>
+          {/* <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank">
+            <div
+              className="hack4bengal__navbar-logo"
+              style={{ zIndex: "9999" }}
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
+                alt="logo"
+                style={{
+                  transform: "scale(1.8)",
+                  zIndex: "999",
+                  marginTop: "10px",
+                }}
+              />
+            </div>
+          </a> */}
         </div>
       </header>
       <header
@@ -193,17 +193,17 @@ const Navbar = () => {
             <div className="hack4bengal__navbar-hamburger-logo">
               <img src={hack4bengal} alt="logo" />
             </div>
-//             <div
-//               className="hack4bengal__navbar-hamburger-logo"
-//               style={{ transform: "scale(2)", marginTop: "40px" }}
-//             >
-//               <img
-//                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
-//                 alt="logo"
-//                 style={{ cursor: "pointer" }}
-//                 onClick={() => (window.location.href = "https://itewb.gov.in/")}
-//               />
-//             </div>
+            {/* <div
+              className="hack4bengal__navbar-hamburger-logo"
+              style={{ transform: "scale(2)", marginTop: "40px" }}
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
+                alt="logo"
+                style={{ cursor: "pointer" }}
+                onClick={() => (window.location.href = "https://itewb.gov.in/")}
+              />
+            </div> */}
           </nav>
         </div>
         <ul
