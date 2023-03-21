@@ -70,14 +70,14 @@ const Section1 = () => {
               <span>{"</> "}</span>Coming Soon
             </a>
           </div> */}
-
+          {/* 
           <div className="hack4bengal__section1-register">
             <a className="hack4bengal__section1-register-link" href="#">
               <span>{"</> "}</span>Coming Soon
             </a>
-          </div>
+          </div> */}
 
-          {/*  <div className="hack4bengal__section1-register">
+          <div className="hack4bengal__section1-register">
             <a
               className="hack4bengal__section1-register-link"
               href="https://lu.ma/hack4bengal"
@@ -86,7 +86,7 @@ const Section1 = () => {
             >
               <span>{"</> "}</span>Register Now
             </a>
-          </div> */}
+          </div>
         </div>
       </motion.div>
       <motion.ul
