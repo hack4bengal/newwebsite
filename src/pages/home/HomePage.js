@@ -21,6 +21,7 @@ export default class HomePage extends Component {
         <div className="hack4bengal__navbar-container">
           <Navbar />
         </div>
+
         <div className=" mx-auto">
           <Section1 />
         </div>

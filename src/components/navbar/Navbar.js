@@ -6,6 +6,7 @@ import tcp from "../../assets/img/tcp.png";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link, useNavigate } from "react-router-dom";
+import wblogo from "../../assets/images/navbar/wblogo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -144,7 +145,18 @@ const Navbar = () => {
               </li> */}
             </ul>
           </nav>
-          {/* <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank">
+
+
+          {/* <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank" className="wb_logo_navbar">
+
+            <img
+              src={wblogo}
+              alt="logo"
+
+            />
+          </a> */}
+
+          {/*  <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank">
             <div
               className="hack4bengal__navbar-logo"
               style={{ zIndex: "9999" }}
@@ -152,15 +164,20 @@ const Navbar = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
                 alt="logo"
-                style={{
-                  transform: "scale(1.8)",
-                  zIndex: "999",
-                  marginTop: "10px",
-                }}
+
               />
             </div>
           </a> */}
         </div>
+
+        <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank" className="wb_logo_navbar">
+
+          <img
+            src={wblogo}
+            alt="logo"
+
+          />
+        </a>
       </header>
       <header
         className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
@@ -193,7 +210,7 @@ const Navbar = () => {
             <div className="hack4bengal__navbar-hamburger-logo">
               <img src={hack4bengal} alt="logo" />
             </div>
-            {/* <div
+            <div
               className="hack4bengal__navbar-hamburger-logo"
               style={{ transform: "scale(2)", marginTop: "40px" }}
             >
@@ -203,7 +220,7 @@ const Navbar = () => {
                 style={{ cursor: "pointer" }}
                 onClick={() => (window.location.href = "https://itewb.gov.in/")}
               />
-            </div> */}
+            </div>
           </nav>
         </div>
         <ul
@@ -316,6 +333,9 @@ const Navbar = () => {
           </li>
         </ul>
       </header>
+
+
+
     </motion.div>
   );
 };

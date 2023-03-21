@@ -6,8 +6,9 @@
   position: relative;
   padding: 0px;
   z-index: 1;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
+
 .hack4bengal__navbar-hamburger {
   background-color: #1b1b1b;
   backdrop-filter: blur(10px);
@@ -41,6 +42,19 @@
   height: 50px;
   display: flex;
   justify-content: center;
+}
+
+
+
+.wb_logo_navbar img {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: fixed;
+  right: 5px;
+  top: 0;
+  width: 10%;
+  z-index: 10000;
 }
 
 .hack4bengal__navbar-logo img {
@@ -160,7 +174,7 @@
 
 @media screen and (max-width: 1000px) {
   .hack4bengal__navbar {
-    display: none;
+    display: none !important;
   }
 
   .hack4bengal__navbar-hamburger {
