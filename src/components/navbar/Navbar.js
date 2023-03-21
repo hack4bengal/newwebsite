@@ -131,8 +131,26 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">Team</h3>
                 </p>
               </li>
+
+              {/* <li className="hack4bengal__navbar-navitem" style={{ right: 0, position: 'absolute' }}>
+                <p
+                  onClick={() => {
+                    gotoId("team");
+                    toggleMenu();
+                  }}
+                >
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png' alt="logo" />
+
+                </p>
+              </li> */}
+
             </ul>
           </nav>
+          <Link to={"/"}>
+            <div className="hack4bengal__navbar-logo" style={{ zIndex: '9999' }}>
+              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png' alt="logo" style={{ transform: 'scale(1.8)', zIndex: '999', marginTop: '10px' }} />
+            </div>
+          </Link>
         </div>
       </header>
       <header
@@ -165,6 +183,9 @@ const Navbar = () => {
             </div>
             <div className="hack4bengal__navbar-hamburger-logo">
               <img src={hack4bengal} alt="logo" />
+            </div>
+            <div className="hack4bengal__navbar-hamburger-logo" style={{ transform: 'scale(2)', marginTop: '40px' }}>
+              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png' alt="logo" />
             </div>
           </nav>
         </div>
