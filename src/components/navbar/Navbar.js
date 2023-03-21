@@ -22,9 +22,8 @@ const Navbar = () => {
       navigate("/");
       setTimeout(() => {
         element = document.getElementById(id);
-        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        element.scrollIntoView({ behavior: "smooth", block: "center" });
       }, 500);
-
     } else {
       window.location.href = "#" + id;
     }
@@ -143,14 +142,24 @@ const Navbar = () => {
 
                 </p>
               </li> */}
-
             </ul>
           </nav>
-          <Link to={"/"}>
-            <div className="hack4bengal__navbar-logo" style={{ zIndex: '9999' }}>
-              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png' alt="logo" style={{ transform: 'scale(1.8)', zIndex: '999', marginTop: '10px' }} />
+          <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank">
+            <div
+              className="hack4bengal__navbar-logo"
+              style={{ zIndex: "9999" }}
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
+                alt="logo"
+                style={{
+                  transform: "scale(1.8)",
+                  zIndex: "999",
+                  marginTop: "10px",
+                }}
+              />
             </div>
-          </Link>
+          </a>
         </div>
       </header>
       <header
@@ -184,8 +193,16 @@ const Navbar = () => {
             <div className="hack4bengal__navbar-hamburger-logo">
               <img src={hack4bengal} alt="logo" />
             </div>
-            <div className="hack4bengal__navbar-hamburger-logo" style={{ transform: 'scale(2)', marginTop: '40px' }}>
-              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png' alt="logo" />
+            <div
+              className="hack4bengal__navbar-hamburger-logo"
+              style={{ transform: "scale(2)", marginTop: "40px" }}
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
+                alt="logo"
+                style={{ cursor: "pointer" }}
+                onClick={() => (window.location.href = "https://itewb.gov.in/")}
+              />
             </div>
           </nav>
         </div>
@@ -195,7 +212,6 @@ const Navbar = () => {
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
-
               onClick={() => {
                 gotoId("home");
                 toggleMenu();
@@ -207,30 +223,36 @@ const Navbar = () => {
             </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <p onClick={() => {
-              gotoId("aboutus");
-              toggleMenu();
-            }}>
+            <p
+              onClick={() => {
+                gotoId("aboutus");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 About Us
               </h3>
             </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <p onClick={() => {
-              gotoId("timeline");
-              toggleMenu();
-            }}>
+            <p
+              onClick={() => {
+                gotoId("timeline");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Timeline
               </h3>
             </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <p onClick={() => {
-              gotoId("prizes");
-              toggleMenu();
-            }}>
+            <p
+              onClick={() => {
+                gotoId("prizes");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Prizes
               </h3>
@@ -238,10 +260,12 @@ const Navbar = () => {
           </li>
 
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <p onClick={() => {
-              gotoId("speakers");
-              toggleMenu();
-            }}>
+            <p
+              onClick={() => {
+                gotoId("speakers");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Speakers
               </h3>
@@ -255,30 +279,36 @@ const Navbar = () => {
             </Link>
           </li> */}
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <p onClick={() => {
-              gotoId("sponsers");
-              toggleMenu();
-            }}>
+            <p
+              onClick={() => {
+                gotoId("sponsers");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Sponsors
               </h3>
             </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <p onClick={() => {
-              gotoId("team");
-              toggleMenu();
-            }}>
+            <p
+              onClick={() => {
+                gotoId("team");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Team
               </h3>
             </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
-            <p onClick={() => {
-              gotoId("faq");
-              toggleMenu();
-            }}>
+            <p
+              onClick={() => {
+                gotoId("faq");
+                toggleMenu();
+              }}
+            >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 FAQ
               </h3>

@@ -19,7 +19,7 @@ const Section2 = () => {
     >
       <div className="h4b_about_main">
         <div style={{ marginTop: "5rem" }}>
-          <h1>Registrations begin in</h1>
+          <h1>Hackathon starts in</h1>
           <hr style={{ marginBottom: "70px" }} />
           <Timer />
         </div>
@@ -49,7 +49,7 @@ const Section2 = () => {
           </div>
         </div>
         <div id="timeline">
-          <div style={{ marginTop: "5rem" }} >
+          <div style={{ marginTop: "5rem" }}>
             <h1>Timeline</h1>
             <hr />
             <TimelineOne />
