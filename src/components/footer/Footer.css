@@ -63,6 +63,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #999;
+  margin-top:-15px;
   /*  margin-top: 20px; */
 }
 
@@ -146,7 +147,7 @@
 }
 
 .hack4bengal__footer-container3 {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   align-items: center;
   flex-direction: row;
