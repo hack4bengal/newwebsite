@@ -145,9 +145,8 @@ const Navbar = () => {
         </a>
       </header>
       <header
-        className={`hack4bengal__navbar-hamburger ${
-          isOpen ? `hamburger-open` : ``
-        }`}
+        className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
+          }`}
       >
         <div className="hack4bengal__navbar-hamburger-body">
           <nav className="hack4bengal__navbar-hamburger-nav">
@@ -178,7 +177,7 @@ const Navbar = () => {
             </div>
             <div
               className="hack4bengal__navbar-hamburger-logo"
-              style={{ transform: "scale(2)", marginTop: "40px" }}
+              style={{ display: "none", transform: "scale(2)", marginTop: "40px" }}
             >
               <img
                 src={wblogo}
@@ -190,9 +189,8 @@ const Navbar = () => {
           </nav>
         </div>
         <ul
-          className={`hack4bengal__navbar-hamburger-navlist ${
-            isOpen ? `activeMenu slide-bottom` : ``
-          }`}
+          className={`hack4bengal__navbar-hamburger-navlist ${isOpen ? `activeMenu slide-bottom` : ``
+            }`}
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p

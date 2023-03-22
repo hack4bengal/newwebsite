@@ -47,7 +47,7 @@
 
 
 .wb_logo_navbar img {
-  display: block;
+  display: none;
   max-width: 100px;
   min-width: 60px;
   position: fixed;
