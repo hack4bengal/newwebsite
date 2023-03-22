@@ -10,9 +10,19 @@ const faqs = [
       "People participate in hackathons for lots of reason: the challenge, the creative outlet, the community collaboration, the networking, the swag and maybe Prizes!",
   },
   {
-    question: "What if I don't have a team or idea?",
+    question: "Can I participate remotely ?",
     answer:
-      "We'll have team formation and ideation events geared towards helping you find a team. Make sure you join the discord server.",
+      "Hack4Bengal 2.0 is an in-person hackathon. So remote participation is not applicable.",
+  },
+  {
+    question: "How much does it cost to participate ?",
+    answer:
+      "Nothing, participation in Hack4Bengal 2.0 is absolutely FREE!!🎉 We’ll have meals, snacks, and beverages onsite at the hackathon, in addition to swags, prizes, fun mini-events and more.",
+  },
+  {
+    question: "What is the maximum/minimum team size? ",
+    answer:
+      "​​We encourage you to make a team of minimum 2 and maximum 4 members. If you are a Solo Hacker and do not have a team, you can still register and we will help you find a team on our Discord Server.",
   },
   {
     question: "Who can participate?",
@@ -20,24 +30,9 @@ const faqs = [
       "Everyone is welcome to apply, any student or working professionals. If you can innovate or just want to have a fun weekend, you are most welcome.",
   },
   {
-    question: "What are the prerequisites for participating?",
+    question: " I have more questions, how and where can I reach out",
     answer:
-      "Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need strong presentation skills and brilliant ideas.",
-  },
-  {
-    question: "I don't have a team, what to do?",
-    answer:
-      "While you can work alone, Hack4Bengal is a team event, so working with others is encouraged. There are a few ways to find teammates: You can pick your team from people you already know, post in our Discord Server to other members, find a team member via DevPost, meet them at pre-hackathon info sessions or the kickoff party.",
-  },
-  {
-    question: "How can I prepare myself?",
-    answer:
-      "Other than finding fellow brilliant minds with complementary skills to team up with, there is nothing that you need to prepare in advance.",
-  },
-  {
-    question: "Is there any fees involved?",
-    answer:
-      "It's free for everyone to participate. There is no money involved at any point during this Hackathon.",
+      "You can reach out to us on our Discord Server (https://discord.io/hack4bengal) in #🎫ticket-support or email us at hack4bengal@gmail.com!",
   },
 ];
 

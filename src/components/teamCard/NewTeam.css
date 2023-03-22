@@ -1,15 +1,15 @@
 .hack4bengal__team-cards {
   padding: 50px 20px;
   background-color: #242424;
-  border:4px solid #ff1717;
+  border: 4px solid #ff1717;
   border-radius: 5px;
   text-align: center;
   overflow: hidden;
   position: relative;
   border-radius: 20px;
-  min-width: 320px;
-  max-width: 320px;
-  
+  min-width: 340px;
+  max-width: 340px;
+
 }
 
 .hack4bengal__team-cards .hack4bengal__team-card-img {
@@ -19,7 +19,7 @@
   margin-bottom: 15px;
   z-index: 1;
   position: relative;
-  border:2px solid red;
+  border: 2px solid red;
   border-radius: 100%;
 }
 
@@ -113,7 +113,7 @@
 .hack4bengal__team-cards .social li a {
   display: block;
   padding: 10px;
-  margin-top:3px;
+  margin-top: 3px;
   font-size: 17px;
   color: white;
   transition: all 0.3s ease 0s;
@@ -132,12 +132,10 @@
   margin: 0 auto;
 } */
 
-.slick-slide div{
+.slick-slide div {
   /* border:1px solid blue; */
   margin: 0 auto;
   width: 100%;
 }
 
-.slider{
-  
-}
+.slider {}
