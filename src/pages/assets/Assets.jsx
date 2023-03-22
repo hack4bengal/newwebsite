@@ -5,7 +5,7 @@ export default function Assets() {
     <div>
       <iframe
         className="assets-frame"
-        src="https://sagnikmitra.com/hack4bengal"
+        src="https://drive.google.com/drive/folders/1rwyYqMLUTWPkpGndF67uXEVczvCJlUMX"
       ></iframe>
     </div>
   );
