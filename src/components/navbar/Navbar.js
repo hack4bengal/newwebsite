@@ -1,12 +1,12 @@
 import React from "react";
 import { useRef, useState } from "react";
 import "./Navbar.css";
-import hack4bengal from "../../assets/img/Hack4Bengal.png";
+import hack4bengal from "../../assets/images/navbar/h4blogo.png";
 import tcp from "../../assets/img/tcp.png";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link, useNavigate } from "react-router-dom";
-import wblogo from "../../assets/images/navbar/wblogo.png"
+import wblogo from "../../assets/images/navbar/wblogo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -131,57 +131,23 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">Team</h3>
                 </p>
               </li>
-
-              {/* <li className="hack4bengal__navbar-navitem" style={{ right: 0, position: 'absolute' }}>
-                <p
-                  onClick={() => {
-                    gotoId("team");
-                    toggleMenu();
-                  }}
-                >
-                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png' alt="logo" />
-
-                </p>
-              </li> */}
             </ul>
           </nav>
-
-
-          {/* <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank" className="wb_logo_navbar">
-
-            <img
-              src={wblogo}
-              alt="logo"
-
-            />
-          </a> */}
-
-          {/*  <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank">
-            <div
-              className="hack4bengal__navbar-logo"
-              style={{ zIndex: "9999" }}
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
-                alt="logo"
-
-              />
-            </div>
-          </a> */}
         </div>
 
-        <a href={"https://itewb.gov.in/"} rel="noreferrer" target="_blank" className="wb_logo_navbar">
-
-          <img
-            src={wblogo}
-            alt="logo"
-
-          />
+        <a
+          href={"https://itewb.gov.in/"}
+          rel="noreferrer"
+          target="_blank"
+          className="wb_logo_navbar"
+        >
+          <img src={wblogo} alt="logo" />
         </a>
       </header>
       <header
-        className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
-          }`}
+        className={`hack4bengal__navbar-hamburger ${
+          isOpen ? `hamburger-open` : ``
+        }`}
       >
         <div className="hack4bengal__navbar-hamburger-body">
           <nav className="hack4bengal__navbar-hamburger-nav">
@@ -215,7 +181,7 @@ const Navbar = () => {
               style={{ transform: "scale(2)", marginTop: "40px" }}
             >
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png"
+                src={wblogo}
                 alt="logo"
                 style={{ cursor: "pointer" }}
                 onClick={() => (window.location.href = "https://itewb.gov.in/")}
@@ -224,8 +190,9 @@ const Navbar = () => {
           </nav>
         </div>
         <ul
-          className={`hack4bengal__navbar-hamburger-navlist ${isOpen ? `activeMenu slide-bottom` : ``
-            }`}
+          className={`hack4bengal__navbar-hamburger-navlist ${
+            isOpen ? `activeMenu slide-bottom` : ``
+          }`}
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
@@ -333,9 +300,6 @@ const Navbar = () => {
           </li>
         </ul>
       </header>
-
-
-
     </motion.div>
   );
 };

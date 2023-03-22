@@ -24,17 +24,14 @@ const NewTeamCard = ({
         <h4 className="domain">{domain}</h4>
       </div>
       <ul className="social">
-        {/* <li>
-          <a href="" className="fa fa-facebook" aria-hidden="true"></a>
-        </li> */}
-        {/* <li>
-          <a href="" className="fa fa-twitter" aria-hidden="true"></a>
-        </li> */}
-        {/* <li>
-          <a href="" className="fa fa-github" aria-hidden="true"></a>
-        </li> */}
         <li>
-          <a href={linkedin} target="_blank" rel="noreferrer" className="fa fa-linkedin" aria-hidden="true"></a>
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="fa fa-linkedin"
+            aria-hidden="true"
+          ></a>
         </li>
       </ul>
     </div>
