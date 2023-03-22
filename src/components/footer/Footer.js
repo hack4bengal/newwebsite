@@ -1,8 +1,7 @@
 import React from "react";
-
 import "./Footer.css";
 import footer from "../../assets/img/footer.gif";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -108,56 +107,17 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      {/* <div className="hack4bengal__footer-container2">
-        <div className="hack4bengal__footer-container2-left">
-          <div className="hack4bengal__footer-container2-left-content">
-            <img src={NIT} />
-            <div className="hack4bengal__footer-container2-left-text">
-              <h4>About NIT Raipur</h4>
-              <p>
-                The institute is committed to the challenging task of
-                development of technical education by preparing seasoned
-                graduates in highly sophisticated field of engineering and
-                technology. For about five decades we have been doing it with
-                sincerity and commitment at NIT Raipur.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="hack4bengal__footer-container2-right">
-          <a href="#home" className="hack4bengal__footer-container2-right-links">
-            <p className="hack4bengal__footer-container2-right-text">Home</p>
-          </a>
-          <a
-            href="#aboutus"
-            className="hack4bengal__footer-container2-right-links"
-          >
-            <p className="hack4bengal__footer-container2-right-text">About Us</p>
-          </a>
-          <a
-            href="#events"
-            className="hack4bengal__footer-container2-right-links"
-          >
-            <p className="hack4bengal__footer-container2-right-text">Events</p>
-          </a>
-          <a
-            href="#sponsers"
-            className="hack4bengal__footer-container2-right-links"
-          >
-            <p className="hack4bengal__footer-container2-right-text">Sponsers</p>
-          </a>
-          <a href="#faq" className="hack4bengal__footer-container2-right-links">
-            <p className="hack4bengal__footer-container2-right-text">FAQ</p>
-          </a>
-        </div>
-      </div> */}
+
       <div className="hack4bengal__footer-container3">
         <div className="hack4bengal__footer-social-team">
           Developed By <Link to="/team">Hack4Bengal</Link>
         </div>
-        <div className="hack4bengal__footer-back-to-top" onClick={() => {
-          window.scrollTo(0, 0);
-        }}>
+        <div
+          className="hack4bengal__footer-back-to-top"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
           <p>
             Back to Top
             <svg

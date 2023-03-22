@@ -47,11 +47,11 @@
 
 
 .wb_logo_navbar img {
-  display: block;
+  display: none;
   max-width: 100px;
   min-width: 60px;
   position: fixed;
-  right: 5px;
+  right: 15px;
   top: 0;
   width: 10%;
   z-index: 10000;

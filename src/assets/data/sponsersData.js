@@ -46,24 +46,24 @@ const silver = [
   },
   {
     img: sponser10,
-  }, 
+  },
   {
     img: sponser11,
-  }
+  },
 ];
 
-// const bronze = [
-//     {
-//       img: sponser6,
-//     },
-//     {
-//       img: sponser7,
-//     },
-//     {
-//       img: sponser5,
-//     }, // repeated to show wrapping
-// ];
+const bronze = [
+  {
+    img: sponser6,
+  },
+  {
+    img: sponser7,
+  },
+  {
+    img: sponser5,
+  }, // repeated to show wrapping
+];
 
-const sponsers = { platinum, gold, silver };
+const sponsers = { platinum, gold, silver, bronze };
 
 export default sponsers;
