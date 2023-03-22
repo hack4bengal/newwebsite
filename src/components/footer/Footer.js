@@ -93,7 +93,7 @@ const Footer = () => {
             </a>
           </div>
           {window.location.pathname !== "/coc" && (
-            <p className="hack4bengal__footer-social-text">
+            <p className="hack4bengal__footer-social-text" style={{ marginTop: '20px' }}>
               <Link to="/coc">Code of Conduct</Link>
             </p>
           )}
