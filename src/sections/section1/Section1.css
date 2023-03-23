@@ -157,7 +157,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 
 }
 
@@ -178,7 +178,7 @@
   color: white;
   width: 300px;
   height: 60px;
-  min-width: 250px;
+  min-width: 300px;
 
 }
 
@@ -315,7 +315,7 @@
   }
 
   .hack4bengal__section1-para .span2 {
-    margin-top: 20px;
+    margin-top: 13px;
   }
 
   .hack4bengal_section1_header h1 {
@@ -346,12 +346,13 @@
 
 @media screen and (max-width: 700px) {
   .hack4bengal__section1-heading {
-    font-size: 40px;
+    font-size: 35px;
+    margin-bottom: 0px;
   }
 
   .hack4bengal__section1-para {
 
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 8px;
     padding-right: 8px;
     width: 100%;

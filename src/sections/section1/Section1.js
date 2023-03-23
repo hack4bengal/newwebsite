@@ -19,9 +19,6 @@ const Section1 = () => {
     };
   }, []);
 
-
-
-
   return (
     <motion.div
       initial="hidden"
@@ -43,9 +40,10 @@ const Section1 = () => {
           </div>
 
           <div className="hack4bengal__section1-para">
-            <p className="span1"  >  In Collaboration with</p>    <p className="span2">
-              Department of Information Technology and Electronics <br /> Government of West Bengal & Cyber Security
-              Center of Excellence
+            <p className="span1"> In Collaboration with</p>{" "}
+            <p className="span2">
+              Department of Information Technology and Electronics <br />{" "}
+              Government of West Bengal & Cyber Security Center of Excellence
             </p>
           </div>
         </div>
@@ -89,7 +87,8 @@ const Section1 = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p><span>{"</> "}</span>Register Now</p>
+              <span>{"</> "}</span>
+              <p>Register Now</p>
             </a>
           </div>
         </div>
