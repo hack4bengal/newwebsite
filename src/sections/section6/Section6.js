@@ -17,8 +17,8 @@ const Section6 = () => {
         <hr />
         <div className="hack4bengal__section6-content">
           On behalf of team Hack4Bengal, we would like to publicly thank the
-          generous partners and sponsors without whom this event could not be held so
-          smoothly.
+          generous partners and sponsors without whom this event could not be
+          held so smoothly.
         </div>
         <div className="hack4bengal__section6-sponsers">
           <div className="hack4bengal__section6-sponser-title">
@@ -28,7 +28,9 @@ const Section6 = () => {
             {sponsers.platinum.map((sponser, index) => (
               <div className="hack4bengal__section6-sponser-image">
                 <img key={index} src={sponser.img} />
-                <div style={{ textAlign: 'center', paddingTop: '15px' }}>{sponser.txt}</div>
+                <div style={{ textAlign: "center", paddingTop: "15px" }}>
+                  {sponser.txt}
+                </div>
               </div>
             ))}
           </div>
@@ -44,7 +46,6 @@ const Section6 = () => {
               </div>
             ))}
           </div> */}
-
         </div>
         <h2>To be Declared Soon</h2>
 
