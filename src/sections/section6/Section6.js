@@ -13,53 +13,39 @@ const Section6 = () => {
       id="sponsers"
     >
       <div className="hack4bengal__section6-body">
-        {/*  <div className="hack4bengal__section6-title">Sponsors</div>
+        <div className="hack4bengal__section6-title">Partners And Sponsors</div>
         <hr />
         <div className="hack4bengal__section6-content">
           On behalf of team Hack4Bengal, we would like to publicly thank the
-          generous sponsors without whom this event could not be held so
+          generous partners and sponsors without whom this event could not be held so
           smoothly.
         </div>
         <div className="hack4bengal__section6-sponsers">
           <div className="hack4bengal__section6-sponser-title">
-            Platinum Sponsors
+            In Collaboration With
           </div>
           <div className="hack4bengal__section6-sponser-list platinum">
             {sponsers.platinum.map((sponser, index) => (
               <div className="hack4bengal__section6-sponser-image">
                 <img key={index} src={sponser.img} />
+                <div style={{ textAlign: 'center', paddingTop: '15px' }}>{sponser.txt}</div>
               </div>
             ))}
           </div>
-          <div className="hack4bengal__section6-sponser-title">
-            Gold Sponsors
+          {/* <div className="hack4bengal__section6-sponser-title">
+            Incubation Partner
           </div>
           <div className="hack4bengal__section6-sponser-list gold">
             {sponsers.gold.map((sponser, index) => (
-              <div className="hack4bengal__section6-sponser-image">
+              <div className="hack4bengal__section6-sponser-image" >
                 <img key={index} src={sponser.img} />
+                <div style={{ textAlign: 'center' }}>{sponser.txt}</div>
+
               </div>
             ))}
-          </div>
-          <div className="hack4bengal__section6-sponser-title">Sponsors</div>
-          <div className="hack4bengal__section6-sponser-list bronze">
-            {sponsers.silver.map((sponser, index) => (
-              <div className="hack4bengal__section6-sponser-image">
-                <img key={index} src={sponser.img} />
-              </div>
-            ))}
-          </div>
-          <div className="hack4bengal__section6-sponser-title">
-            Bronze Sponsors
-          </div>
-          <div className="hack4bengal__section6-sponser-list bronze">
-            {sponsers.bronze.map((sponser, index) => (
-              <div className="hack4bengal__section6-sponser-image">
-                <img key={index} src={sponser.img} />
-              </div>
-            ))}
-          </div>
-        </div> */}
+          </div> */}
+
+        </div>
         <h2>To be Declared Soon</h2>
 
         <div

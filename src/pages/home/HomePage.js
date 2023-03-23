@@ -14,6 +14,7 @@ import Section8 from "../../sections/section8/Section8";
 import Section10 from "../../sections/section10/Section10";
 import Footer from "../../components/footer/Footer";
 import Timeline from "../../components/timeline/TimelineOne.js";
+import Section11 from "../../sections/section-event/Section11";
 export default class HomePage extends Component {
   render() {
     return (
@@ -31,7 +32,9 @@ export default class HomePage extends Component {
           <Section2 />
           <Section9 />
           <Section4 />
+          {/* <Section11 /> */}
           <Section6 />
+          {/* <Section11 /> */}
           <Section7 />
           <Section10 />
         </div>
