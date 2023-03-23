@@ -53,7 +53,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 0.75rem;
   gap: 3rem;
   width: 100%;
@@ -61,12 +61,16 @@
 }
 
 .hack4bengal__section6-sponser-image {
-  width: 300px;
+  width: 250px;
 }
 
 .hack4bengal__section6-sponser-image img {
   width: 100%;
   height: auto;
+}
+
+.nasscom{
+
 }
 
 .platinum {
