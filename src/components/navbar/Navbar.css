@@ -1,5 +1,5 @@
 .hack4bengal__navbar {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   background-color: #1b1b1b;
   backdrop-filter: blur(10px);
