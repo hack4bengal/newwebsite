@@ -298,10 +298,9 @@
   }
 
   .hack4bengal__section1-menu {
-    max-width: 95vw;
-    padding-left: 50px;
-    padding-right: 50px;
-
+    max-width: 90vw;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .hack4bengal__section1-para {
@@ -359,7 +358,7 @@
   }
 
   .hack4bengal__section1-para .span1 {
-    font-size: 20px !important;
+    font-size: 16px !important;
   }
 
   .hack4bengal__section1-discord,
@@ -369,6 +368,12 @@
 }
 
 @media screen and (max-width: 500px) {
+
+  .hack4bengal__section1-menu {
+    padding: 10px 10px !important;
+  }
+
+
   .hack4bengal__section1-para {
     width: auto;
   }

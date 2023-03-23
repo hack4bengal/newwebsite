@@ -7,9 +7,9 @@
   overflow: hidden;
   position: relative;
   border-radius: 20px;
-  min-width: 340px;
-  max-width: 340px;
-
+  min-width: 360px;
+  max-width: 360px;
+  height: 400px;
 }
 
 .hack4bengal__team-cards .hack4bengal__team-card-img {

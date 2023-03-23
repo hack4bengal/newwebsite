@@ -20,7 +20,7 @@
 .headers {
   flex: 1;
   padding: 20px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,7 +117,7 @@
   color: white;
   font-family: "Poppins";
   font-weight: 500;
-  padding: 10px;
+  padding: 15px;
 }
 
 .timeline-card-mobile {
@@ -126,22 +126,24 @@
 
 
 @media (max-width: 991px) {
-  .row-one{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .show-mob-time{
+  .row-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .hid-mob-time{
+  .show-mob-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hid-mob-time {
     display: none;
   }
+
   .timeline-card-mobile {
     display: block;
   }
