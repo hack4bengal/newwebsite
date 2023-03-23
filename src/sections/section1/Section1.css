@@ -22,14 +22,12 @@
 
 .hack4bengal__section1-menu {
   display: flex;
-  width: 90%;
+  width: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 10px 50px;
+
   background-color: rgba(21, 19, 19, 0.775);
   border-radius: 15px;
 }
@@ -42,6 +40,7 @@
   line-height: 56px;
   color: #ffffff;
   padding-top: 20px;
+  margin-bottom: -10px;
 }
 
 .hack4bengal__section1-subheading {
@@ -55,16 +54,24 @@
 }
 
 .hack4bengal__section1-para {
-  margin-top: -90px;
+  margin-top: -50px;
   font-family: "Poppins";
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
   color: white;
   text-align: center;
-  width: 79%;
   user-select: none;
   padding-bottom: 20px;
+}
+
+.hack4bengal__section1-para .span1 {
+
+  font-size: 17px;
+}
+
+.hack4bengal__section1-para .span2 {
+  font-size: 20px;
 }
 
 .hack4bengal_section1_header {
@@ -80,7 +87,7 @@
 }
 
 .hack4bengal_section1_header img {
-  margin-top: -20px;
+  /*   margin-top: -20px; */
   width: 700px;
 }
 
@@ -135,10 +142,9 @@
 
 .hack4bengal__section1-discord {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.909);
-  padding: 9px 14px 8px;
   border-radius: 4px;
   margin-left: 14px;
   cursor: pointer;
@@ -147,34 +153,52 @@
   color: #ff1717;
 }
 
-.hack4bengal__section1-discord-link img {
+.landingpagebtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.landingpagebtn p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+.landingpagebtn img {
   height: 17px;
   width: auto;
 }
 
-#discord {
-  padding-left: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-right: 25px;
+.hack4bengal__section1-discord,
+.hack4bengal__section1-register {
+  background-color: rgba(21, 19, 19, 0.775);
+  color: white;
+  width: 300px;
+  height: 60px;
+  min-width: 250px;
+
 }
 
-.hack4bengal__section1-discord-link span {
-  margin-top: -15rem;
+
+.hack4bengal__section1-discord:hover,
+.hack4bengal__section1-register:hover {
+  background-color: rgba(10, 10, 10, 0.941);
 }
+
 
 .hack4bengal__section1-register {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.909);
-  padding: 12px 22px 13px;
   border-radius: 4px;
   margin-left: 14px;
   cursor: pointer;
   font-size: large;
   font-weight: bold;
-  color: #ff1717;
+
 }
 
 /* 
@@ -243,6 +267,7 @@
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
@@ -261,23 +286,37 @@
 }
 
 @media screen and (max-width: 1000px) {
+
   .hack4bengal__section1-scrollDown,
   .hack4bengal__section1-side-links {
     display: none;
   }
 
   .hack4bengal_section1_header img {
-    width: auto;
-    height: 70px;
+    width: 75vw;
+
   }
+
   .hack4bengal__section1-menu {
+    max-width: 95vw;
     padding-left: 50px;
     padding-right: 50px;
+
   }
 
   .hack4bengal__section1-para {
     width: 80%;
     font-size: 10px;
+  }
+
+  .hack4bengal__section1-para .span1 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .hack4bengal__section1-para .span2 {
+    margin-top: 20px;
   }
 
   .hack4bengal_section1_header h1 {
@@ -312,9 +351,20 @@
   }
 
   .hack4bengal__section1-para {
-    padding-top: 30px;
-    font-size: 8px;
+
+    padding-top: 50px;
+    padding-left: 8px;
+    padding-right: 8px;
     width: 100%;
+  }
+
+  .hack4bengal__section1-para .span1 {
+    font-size: 20px !important;
+  }
+
+  .hack4bengal__section1-discord,
+  .hack4bengal__section1-register {
+    width: 230px;
   }
 }
 
@@ -326,9 +376,10 @@
   .hack4bengal_section1_header {
     margin-bottom: 2rem;
   }
+
   .hack4bengal__section1-menu {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .hack4bengal_section1_header h1 {
@@ -345,6 +396,7 @@
     font-size: 20px;
   }
 }
+
 .test {
   width: 60%;
 }
