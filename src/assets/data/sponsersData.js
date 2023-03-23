@@ -17,12 +17,12 @@ const platinum = [
   {
     img: wb,
     txt: 'Department of IT&E, Govt of West Bengal',
-    link: ''
+    link: 'https://itewb.gov.in/'
   },
   {
     img: cscoe,
     txt: 'Cyber Security Centre of Excellence',
-    link: ''
+    link: 'https://cscoe.itewb.gov.in/'
   },
 ];
 
@@ -30,7 +30,7 @@ const gold = [
   {
     img: nasscom,
     txt: 'Nasscom',
-    link: ''
+    link: 'https://nasscom.in/regional-council-kolkata'
   }
 
 ];

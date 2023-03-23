@@ -12,6 +12,14 @@
   height: 400px;
 }
 
+@media screen and (max-width: 768px) {
+  .hack4bengal__team-cards {
+    min-width: 340px;
+    max-width: 340px;
+  }
+
+}
+
 .hack4bengal__team-cards .hack4bengal__team-card-img {
   display: inline-block;
   height: 170px;

@@ -19,7 +19,7 @@ const overAllCoordinaters = [
     Name: "Kajal Jaiswal",
     Photo: Kajal,
     position:
-      "Beta MLSA",
+      "Beta Microsoft LSA",
     Domain: "Lead Organizer",
     linkedin: "https://www.linkedin.com/in/kj18",
   },
@@ -27,7 +27,7 @@ const overAllCoordinaters = [
     Name: "Sagnik Mitra",
     Photo: Sagnik,
     position:
-      "SDE @Odessa",
+      "Software Engineer @Odessa",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/sagnikmitr",
     twitter: "https://twitter.com/MitraSagnik",

@@ -61,6 +61,7 @@ const Team = () => {
                 linkedin={member.linkedin}
                 position={member.position}
                 domain={member.Domain}
+                idx={index}
               />
             ))}
           </div>
