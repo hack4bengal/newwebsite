@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Who can participate?",
     answer:
-      "Everyone is welcome to apply, any student or working professionals. If you can innovate or just want to have a fun weekend, you are most welcome.",
+      "Students in college, schools can apply. If you can innovate or just want to have a fun weekend, you are most welcome.",
   },
   {
     question: " I have more questions, how and where can I reach out",
