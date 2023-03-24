@@ -157,7 +157,7 @@ const Navbar = () => {
                 width="80"
                 ref={hamburger}
                 onClick={() => {
-                  gotoId("aboutus");
+                  // gotoId("aboutus");
                   toggleMenu();
                 }}
               >

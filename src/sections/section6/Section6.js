@@ -16,9 +16,11 @@ const Section6 = () => {
         <div className="hack4bengal__section6-title">Partners And Sponsors</div>
         <hr />
         <div className="hack4bengal__section6-content">
-          On behalf of team Hack4Bengal, we would like to publicly thank the
-          generous partners and sponsors without whom this event could not be
-          held so smoothly.
+          On behalf of the Hack4Bengal team, we would like to extend our
+          heartfelt gratitude to the partners and sponsors who will be
+          generously supporting us for the upcoming event. Their valuable
+          contributions will play an instrumental role in ensuring the smooth
+          running of the event, and we look forward to their support.
         </div>
         <div className="hack4bengal__section6-sponsers">
           <div className="hack4bengal__section6-sponser-title">
@@ -29,10 +31,10 @@ const Section6 = () => {
               <div className="hack4bengal__section6-sponser-image">
                 <a href={sponser.link}>
                   <img key={index} src={sponser.img} />
-                  <div style={{ textAlign: 'center', paddingTop: '15px' }}>{sponser.txt}</div>
+                  <div style={{ textAlign: "center", paddingTop: "15px" }}>
+                    {sponser.txt}
+                  </div>
                 </a>
-
-
               </div>
             ))}
           </div>

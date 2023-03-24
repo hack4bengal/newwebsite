@@ -26,7 +26,7 @@
 
 .hack4bengal__section6-content {
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   width: 85%;
   line-height: 36px;
   text-align: center;
@@ -69,8 +69,7 @@
   height: auto;
 }
 
-.nasscom{
-
+.nasscom {
 }
 
 .platinum {
@@ -190,8 +189,6 @@
   transform: scaleX(1);
 }
 
-
-
 .sponsorsbox {
   background-color: #343a40;
   /* padding: 200px; */
@@ -226,7 +223,6 @@
   .sponsorslist {
     grid-template-columns: repeat(1, 1fr);
   }
-
 }
 
 .sponsorslist img {
@@ -254,7 +250,7 @@
   left: 0;
   width: 0;
   height: 5px;
-  background-color: #E5E4E2;
+  background-color: #e5e4e2;
   border-radius: 10px;
   transition: width 2s ease-in-out;
   animation: glowing-plat 2s ease-in-out infinite;
@@ -266,29 +262,29 @@
 
 @keyframes glowing {
   0% {
-    box-shadow: 0 0 0px #E13B3C;
+    box-shadow: 0 0 0px #e13b3c;
   }
 
   50% {
-    box-shadow: 0 0 10px #E13B3C;
+    box-shadow: 0 0 10px #e13b3c;
   }
 
   100% {
-    box-shadow: 0 0 0px #E13B3C;
+    box-shadow: 0 0 0px #e13b3c;
   }
 }
 
 @keyframes glowing-plat {
   0% {
-    box-shadow: 0 0 0px #E5E4E2;
+    box-shadow: 0 0 0px #e5e4e2;
   }
 
   50% {
-    box-shadow: 0 0 10px #E5E4E2;
+    box-shadow: 0 0 10px #e5e4e2;
   }
 
   100% {
-    box-shadow: 0 0 0px #E5E4E2;
+    box-shadow: 0 0 0px #e5e4e2;
   }
 }
 
@@ -323,7 +319,6 @@
   }
 }
 
-
 .h4b-silver::after {
   content: "";
   position: absolute;
@@ -355,7 +350,6 @@
   }
 }
 
-
 .h4b-bronze::after {
   content: "";
   position: absolute;
@@ -363,7 +357,7 @@
   left: 0;
   width: 0;
   height: 5px;
-  background-color: #CD7F32;
+  background-color: #cd7f32;
   border-radius: 10px;
   transition: width 2s ease-in-out;
   animation: glowing-bronze 2s ease-in-out infinite;
@@ -375,20 +369,19 @@
 
 @keyframes glowing-bronze {
   0% {
-    box-shadow: 0 0 0px #CD7F32;
+    box-shadow: 0 0 0px #cd7f32;
   }
 
   50% {
-    box-shadow: 0 0 10px #CD7F32;
+    box-shadow: 0 0 10px #cd7f32;
   }
 
   100% {
-    box-shadow: 0 0 0px #CD7F32;
+    box-shadow: 0 0 0px #cd7f32;
   }
 }
 
 @media screen and (max-width: 430px) {
-
   .sponsorsbox {
     width: 90%;
   }
