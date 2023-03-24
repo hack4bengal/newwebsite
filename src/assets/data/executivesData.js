@@ -5,7 +5,6 @@ import Dev from "../team/Dev.JPG";
 import Prosenjit from "../team/Prosenjit.png";
 import Debanita from "../team/Debanita.png";
 import Diganta from "../team/Diganta.png";
-import Susmita from "../team/Susmita.png";
 import Tushar from "../team/tushar.png";
 import Himanshu from "../team/Himanshu Rai.png";
 import Shafin from "../team/Shafin Kausar.png";
@@ -101,18 +100,11 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/diganta-kr-banik-1659121a7/",
   },
   {
-    Name: 'Tamal Das',
+    Name: "Tamal Das",
     Photo: Tamal,
     position: "Devrel @CIC",
     Domain: "Web Dev Team",
     linkedin: "https://www.linkedin.com/in/hello-tamal/",
-  },
-  {
-    Name: "Susmita Dey",
-    Photo: Susmita,
-    position: "Web Developer @Digitea",
-    Domain: "Web Dev Team",
-    linkedin: "https://www.linkedin.com/in/susmita-dey-15a15a210/",
   },
   {
     Name: "Himanshu Rai",
