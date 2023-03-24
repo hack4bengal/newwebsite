@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Section1.css";
 import h4blogo from "../../assets/img/square-grey-logo.png";
 import discord from "../../assets/img/discord-mark-blue.png";
-
+import newbanner from "../../assets/updates/newbanner.png";
 import { motion, transform } from "framer-motion";
 import { staggerChildren, fadeIn } from "../../motionUtils";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
@@ -18,6 +18,7 @@ const Section1 = () => {
       document.body.removeChild(script);
     };
   }, []);
+
   return (
     <motion.div
       initial="hidden"
@@ -35,13 +36,15 @@ const Section1 = () => {
           <div className="hack4bengal__section1-heading">Welcome To</div>
 
           <div className="hack4bengal_section1_header">
-            <img src={h4blogo} alt="hack4bengal"></img>
-            <h1>Hack4Bengal 2.0</h1>
+            <img src={newbanner} alt="hack4bengal"></img>
           </div>
 
           <div className="hack4bengal__section1-para">
-            Bringing together the best of the field and providing a platform
-            showcase of skills
+            <p className="span1"> In Collaboration with</p>{" "}
+            <p className="span2">
+              Department of Information Technology and Electronics <br />{" "}
+              Government of West Bengal & Cyber Security Center of Excellence
+            </p>
           </div>
         </div>
         <div
@@ -50,14 +53,14 @@ const Section1 = () => {
         >
           <div className="hack4bengal__section1-discord" id="discord">
             <a
-              className="hack4bengal__section1-discord-link"
+              className="hack4bengal__section1-discord-link landingpagebtn"
               href="https://discord.io/Hack4Bengal"
               target="_blank"
               rel="noreferrer"
             >
               <img src={discord} alt="discord" />
               {"  "}
-              <span>Join Discord</span>
+              <p>Join Discord</p>
             </a>
           </div>
           {/* <div className="hack4bengal__section1-register">
@@ -79,12 +82,13 @@ const Section1 = () => {
 
           <div className="hack4bengal__section1-register">
             <a
-              className="hack4bengal__section1-register-link"
+              className="hack4bengal__section1-register-link landingpagebtn"
               href="https://lu.ma/hack4bengal"
               target="_blank"
               rel="noreferrer"
             >
-              <span>{"</> "}</span>Register Now
+              <span>{"</> "}</span>
+              <p>Register Now</p>
             </a>
           </div>
         </div>

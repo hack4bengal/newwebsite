@@ -97,6 +97,7 @@
   line-height: 36px;
   font-family: "Poppins";
   letter-spacing: -0.5px;
+  width: 80%;
 }
 
 /* activate toggle */
@@ -172,12 +173,12 @@
   }
 
   .section7-question {
-    font-size: 14px;
+    font-size: 17px;
     padding: 12px 0;
   }
 
   .section7-answer {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .section7-control {

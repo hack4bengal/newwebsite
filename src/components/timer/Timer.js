@@ -53,11 +53,9 @@ function Timer() {
 
           <div className="time-label">Days</div>
         </div>
-        {screenWidth > 991 ? (
-          <div className="timer">
-            <div className="separator">:</div>
-          </div>
-        ) : null}
+        <div className="timer">
+          <div className="separator">:</div>
+        </div>
         <div className="timer">
           <div className="hour">
             {timeLeft.hours < 10 ? `0${timeLeft.hours}` : timeLeft.hours}
@@ -65,30 +63,30 @@ function Timer() {
           <div className="time-label">Hours</div>
         </div>
 
-        {screenWidth > 991 ? (
-          <div className="timer">
-            <div className="separator">:</div>
-          </div>
-        ) : null}
+        <div className="timer">
+          <div className="separator">:</div>
+        </div>
 
         <div className="timer timer-mar">
           <div className="minute">
             {timeLeft.minutes < 10 ? `0${timeLeft.minutes}` : timeLeft.minutes}
           </div>
-          <div className="time-label">Minutes</div>
+          <div className="time-label">
+            {window.innerWidth < 992 ? "Mins" : "Minutes"}
+          </div>
         </div>
 
-        {screenWidth > 991 ? (
-          <div className="timer">
-            <div className="separator">:</div>
-          </div>
-        ) : null}
+        <div className="timer">
+          <div className="separator">:</div>
+        </div>
 
         <div className="timer timer-mar">
           <div className="second">
             {timeLeft.seconds < 10 ? `0${timeLeft.seconds}` : timeLeft.seconds}
           </div>
-          <div className="time-label">Seconds</div>
+          <div className="time-label">
+            {window.innerWidth < 992 ? "Secs" : "Seconds"}
+          </div>
         </div>
       </div>
     </div>

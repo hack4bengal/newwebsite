@@ -1,4 +1,4 @@
-.hack4bengal__team-cards {
+.hack4bengal__event-cards {
   padding: 50px 20px;
   background-color: #242424;
   border: 4px solid #ff1717;
@@ -7,35 +7,27 @@
   overflow: hidden;
   position: relative;
   border-radius: 20px;
-  min-width: 360px;
-  max-width: 360px;
-  height: 400px;
-}
-
-@media screen and (max-width: 768px) {
-  .hack4bengal__team-cards {
-    min-width: 340px;
-    max-width: 340px;
-  }
+  min-width: 400px;
+  max-width: 400px;
 
 }
 
-.hack4bengal__team-cards .hack4bengal__team-card-img {
+.hack4bengal__event-cards .hack4bengal__event-card-img {
   display: inline-block;
-  height: 170px;
-  width: 170px;
+  height: 300px;
+  width: 300px;
   margin-bottom: 15px;
   z-index: 1;
   position: relative;
   border: 2px solid red;
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
-.hack4bengal__team-cards .hack4bengal__team-card-img::before {
+.hack4bengal__event-cards .hack4bengal__event-card-img::before {
   content: "";
   width: 100%;
   height: 0;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   background-color: #ff1717;
   position: absolute;
   bottom: 135%;
@@ -46,15 +38,15 @@
   transition: all 0.3s linear 0s;
 }
 
-.hack4bengal__team-cards:hover .hack4bengal__team-card-img::before {
+.hack4bengal__event-cards:hover .hack4bengal__event-card-img::before {
   height: 100%;
 }
 
-.hack4bengal__team-cards .hack4bengal__team-card-img::after {
+.hack4bengal__event-cards .hack4bengal__event-card-img::after {
   content: "";
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   background-color: #ff1717;
   position: absolute;
   top: 0;
@@ -62,28 +54,28 @@
   z-index: -1;
 }
 
-.hack4bengal__team-cards .hack4bengal__team-card-img img {
+.hack4bengal__event-cards .hack4bengal__event-card-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
+  /* object-fit: cover; */
+  /* border-radius: 50%; */
   transform: scale(1);
   transition: all 0.9s ease 0s;
 }
 
-.hack4bengal__team-cards:hover .hack4bengal__team-card-img img {
+.hack4bengal__event-cards:hover .hack4bengal__event-card-img img {
   box-shadow: 0 0 0 14px #fff;
   transform: scale(0.75);
 }
 
-.hack4bengal__team-cards .name {
+.hack4bengal__event-cards .name {
   display: block;
   font-size: 22px;
   color: #ff1717;
   text-transform: capitalize;
 }
 
-.hack4bengal__team-cards .title {
+.hack4bengal__event-cards .title {
   display: block;
   font-size: 0.85rem;
   font-style: italic;
@@ -99,7 +91,7 @@
   margin-bottom: 1rem;
 }
 
-.hack4bengal__team-cards .social {
+.hack4bengal__event-cards .social {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -110,15 +102,15 @@
   transition: all 0.5s ease 0s;
 }
 
-.hack4bengal__team-cards:hover .social {
+.hack4bengal__event-cards:hover .social {
   bottom: 0;
 }
 
-.hack4bengal__team-cards .social li {
+.hack4bengal__event-cards .social li {
   display: inline-block;
 }
 
-.hack4bengal__team-cards .social li a {
+.hack4bengal__event-cards .social li a {
   display: block;
   padding: 10px;
   margin-top: 3px;
@@ -129,7 +121,7 @@
 
 }
 
-.hack4bengal__team-cards .social li a:hover {
+.hack4bengal__event-cards .social li a:hover {
   color: #ff1717;
   background-color: #f7f5ec;
   border-radius: 5px;
@@ -140,10 +132,10 @@
   margin: 0 auto;
 } */
 
-.slick-slide div {
-  /* border:1px solid blue; */
+/* .slick-slide div {
+
   margin: 0 auto;
   width: 100%;
-}
+} */
 
 .slider {}

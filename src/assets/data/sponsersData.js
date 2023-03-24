@@ -9,59 +9,38 @@ import sponser8 from "../images/sponsers/sponser8.png";
 import sponser9 from "../images/sponsers/sponser9.png";
 import sponser10 from "../images/sponsers/sponser10.png";
 import sponser11 from "../images/sponsers/sponser11.png";
+import cscoe from '../images/sponsers/cscoe.png'
+import wb from '../images/sponsers/wb.png'
+import nasscom from '../images/sponsers/nasscom.png'
 
 const platinum = [
   {
-    img: sponser1,
+    img: wb,
+    txt: 'Department of IT&E, Govt of West Bengal',
+    link: 'https://itewb.gov.in/'
   },
   {
-    img: sponser2,
+    img: cscoe,
+    txt: 'Cyber Security Centre of Excellence',
+    link: 'https://cscoe.itewb.gov.in/'
   },
 ];
 
 const gold = [
   {
-    img: sponser4,
-  },
-  {
-    img: sponser3,
-  },
-  {
-    img: sponser5,
-  },
+    img: nasscom,
+    txt: 'Nasscom',
+    link: 'https://nasscom.in/regional-council-kolkata'
+  }
+
 ];
 
 const silver = [
-  {
-    img: sponser6,
-  },
-  {
-    img: sponser7,
-  },
-  {
-    img: sponser8,
-  },
-  {
-    img: sponser9,
-  },
-  {
-    img: sponser10,
-  },
-  {
-    img: sponser11,
-  },
+
 ];
 
 const bronze = [
-  {
-    img: sponser6,
-  },
-  {
-    img: sponser7,
-  },
-  {
-    img: sponser5,
-  }, // repeated to show wrapping
+
 ];
 
 const sponsers = { platinum, gold, silver, bronze };
