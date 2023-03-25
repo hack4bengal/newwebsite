@@ -60,17 +60,26 @@
   background-color: rgb(32, 32, 32);
 }
 
-.hack4bengal__section6-sponser-image {
-  width: 250px;
+.hack4bengal__section6-sponser-image a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .hack4bengal__section6-sponser-image img {
-  width: 100%;
+  width: 200px;
   height: auto;
 }
 
-.nasscom {
+.hack4bengal__section6-sponser-image p {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 20px;
+
 }
+
+.nasscom {}
 
 .platinum {
   transition: all 0.8s ease;
@@ -152,12 +161,42 @@
   .hack4bengal__section6-title {
     font-size: 36px;
   }
+
+  .hack4bengal__section6-sponser-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hack4bengal__section6-sponser-image a {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .hack4bengal__section6-sponser-image img {
+    width: 180px;
+  }
+
+  .hack4bengal__section6-sponser-image p {
+    font-size: 14px;
+
+  }
+
+  .hack4bengal__section6-sponser-list {
+    padding: 3rem 1rem;
+  }
+
+
 }
 
 @media screen and (max-width: 350px) {
   .hack4bengal__section6-sponser-list {
     max-width: 200px;
   }
+
+
 }
 
 /* make a underlin come from left to right for the class x-b-c */

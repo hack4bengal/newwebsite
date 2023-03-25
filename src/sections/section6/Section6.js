@@ -2,6 +2,7 @@ import React from "react";
 import sponsers from "../../assets/data/sponsersData";
 import "./Section6.css";
 import { motion } from "framer-motion";
+import cscoe from "../../assets/images/sponsers/cscoe.png";
 
 const Section6 = () => {
   return (
@@ -31,12 +32,30 @@ const Section6 = () => {
               <div className="hack4bengal__section6-sponser-image">
                 <a href={sponser.link}>
                   <img key={index} src={sponser.img} />
+                  <div style={{ textAlign: "center" }}>
+                    <p>
+                      {sponser.txt.split("\n").map((line, index) => (
+                        <React.Fragment key={index}>
+                          {line}
+                          <br />
+                        </React.Fragment>
+                      ))}
+                    </p>
+                  </div>
+                </a>
+              </div>
+            ))}
+
+            {/*   {sponsers.platinum.map((sponser, index) => (
+              <div className="hack4bengal__section6-sponser-image">
+                <a href={sponser.link}>
+                  <img key={index} src={sponser.img} />
                   <div style={{ textAlign: "center", paddingTop: "15px" }}>
                     {sponser.txt}
                   </div>
                 </a>
               </div>
-            ))}
+            ))} */}
           </div>
           {/* <div className="hack4bengal__section6-sponser-title">
             Incubation Partner

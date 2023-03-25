@@ -14,14 +14,14 @@ import wb from "../images/sponsers/wb.png";
 import nasscom from "../images/sponsers/nasscom.png";
 
 const platinum = [
-  /* {
+  /*   {
     img: wb,
-    txt: 'Department of IT&E, Govt of West Bengal',
-    link: 'https://itewb.gov.in/'
+    txt: "Department of IT&E, Govt of West Bengal",
+    link: "https://itewb.gov.in/",
   }, */
   {
     img: cscoe,
-    txt: "CS-CoE, Dept. of IT & E, Govt. of West Bengal",
+    txt: "   Cyber Security Center of Excellence \n Department of Information Technology & Electronics \n Government of West Bengal",
     link: "https://cscoe.itewb.gov.in/",
   },
 ];
