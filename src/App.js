@@ -11,6 +11,7 @@ import Terms from "./pages/Terms/Terms";
 import CodeofConduct from "./pages/coc/CodeofConduct";
 import Assets from "./pages/assets/Assets";
 import Register from "./pages/register/Register";
+import Evengelist from "./pages/evangelist/Evengelist";
 export default class App extends Component {
   render() {
     return (
@@ -26,6 +27,7 @@ export default class App extends Component {
           <Route path="coc" element={<CodeofConduct />} />
           <Route path="/assets" element={<Assets />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/evengelist" element={<Evengelist />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
