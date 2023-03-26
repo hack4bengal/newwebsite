@@ -1,5 +1,5 @@
 const Evengelist = () => {
-  window.location.replace("https://lu.ma/h4b-evengelist");
+  window.location.replace("https://lu.ma/h4b-evangelist");
   return null;
 };
 
