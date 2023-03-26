@@ -27,7 +27,7 @@ export default class App extends Component {
           <Route path="coc" element={<CodeofConduct />} />
           <Route path="/assets" element={<Assets />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/evengelist" element={<Evengelist />} />
+          <Route path="/evangelist" element={<Evengelist />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
