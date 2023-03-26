@@ -51,6 +51,12 @@
 }
 
 @media screen and (max-width: 650px) {
+
+  .hack4bengal__section10 {
+    padding-top: 2rem;
+  }
+
+
   .hack4bengal__section10-title {
     font-size: 36px;
     line-height: normal;

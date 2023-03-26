@@ -52,9 +52,11 @@ const TeamCard = ({
                                                                   name === 'Shubham Tribedi' ? <span> Shubham  <br /> Tribedi</span> :
                                                                     name === 'Prosenjit Swarnakar' ? <span> Prosenjit  <br /> Swarnakar</span> :
                                                                       name === 'Shubhayu Majumdar' ? <span> Shubhayu   <br /> Majumdar</span> :
+                                                                        name === 'Aditya Seth' ? <span> Aditya   <br /> Seth</span> :
+                                                                          name === 'Abhrajit Ghosh' ? <span> Abhrajit   <br /> Ghosh</span> :
 
 
-                                                                        name
+                                                                            name
       }</h3>
 
       <h4 className="domain">{domain}</h4>
