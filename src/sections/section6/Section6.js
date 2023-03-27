@@ -32,7 +32,7 @@ const Section6 = () => {
               {sponsers.platinum.map((sponser, index) => (
                 <a href={sponser.link}>
                   <img key={index} src={sponser.img} />
-                  {/* <div style={{ textAlign: "center" }}>
+                  <div style={{ textAlign: "center" }}>
                     <p>
                       {sponser.txt.split("\n").map((line, index) => (
                         <React.Fragment key={index}>
@@ -41,7 +41,7 @@ const Section6 = () => {
                         </React.Fragment>
                       ))}
                     </p>
-                  </div> */}
+                  </div>
                 </a>
               ))}
             </div>
@@ -69,6 +69,27 @@ const Section6 = () => {
               </div>
             ))}
           </div> */}
+          <div className="hack4bengal__section6-sponser-title">
+            Digital Media Partner
+          </div>
+          <div className="hack4bengal__section6-sponser-list platinum">
+            <div className="hack4bengal__section6-sponser-image">
+              {sponsers.media.map((sponser, index) => (
+                <a href={sponser.link}>
+                  <img style={{ borderRadius: '20px', }} key={index} src={sponser.img} />
+                  <div style={{ textAlign: "center" }}>
+                    <p>
+                      {sponser.txt.split("\n").map((line, index) => (
+                        <React.Fragment key={index}>
+                          {line}
+                        </React.Fragment>
+                      ))}
+                    </p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
         <h2>Sponsors To be Declared Soon</h2>
 
