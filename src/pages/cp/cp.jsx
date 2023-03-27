@@ -1,6 +1,6 @@
-const cp = () => {
+const Partner = () => {
   window.location.replace("https://lu.ma/h4b-cp");
   return null;
 };
 
-export default cp;
+export default Partner;
