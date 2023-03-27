@@ -1,0 +1,53 @@
+.event_slider {
+    position: relative;
+    height: 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 45px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 32px;
+    user-select: none;
+}
+
+.arrow-right {
+    right: 32px;
+    user-select: none;
+}
+
+.event_slide {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.dot {
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.dot.active {
+    opacity: 1;
+}

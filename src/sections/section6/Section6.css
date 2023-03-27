@@ -64,18 +64,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 55px;
 }
 
 .hack4bengal__section6-sponser-image img {
-  width: 180px;
+  width: 170px;
   height: auto;
 }
 
 .hack4bengal__section6-sponser-image p {
   margin: 0px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 24px;
 
 }
 
