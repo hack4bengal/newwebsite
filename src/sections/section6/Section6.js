@@ -28,11 +28,11 @@ const Section6 = () => {
             In Collaboration With
           </div>
           <div className="hack4bengal__section6-sponser-list platinum">
-            {sponsers.platinum.map((sponser, index) => (
-              <div className="hack4bengal__section6-sponser-image">
+            <div className="hack4bengal__section6-sponser-image">
+              {sponsers.platinum.map((sponser, index) => (
                 <a href={sponser.link}>
                   <img key={index} src={sponser.img} />
-                  <div style={{ textAlign: "center" }}>
+                  {/* <div style={{ textAlign: "center" }}>
                     <p>
                       {sponser.txt.split("\n").map((line, index) => (
                         <React.Fragment key={index}>
@@ -41,10 +41,10 @@ const Section6 = () => {
                         </React.Fragment>
                       ))}
                     </p>
-                  </div>
+                  </div> */}
                 </a>
-              </div>
-            ))}
+              ))}
+            </div>
 
             {/*   {sponsers.platinum.map((sponser, index) => (
               <div className="hack4bengal__section6-sponser-image">

@@ -60,15 +60,17 @@
   background-color: rgb(32, 32, 32);
 }
 
-.hack4bengal__section6-sponser-image a {
+
+
+.hack4bengal__section6-sponser-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 .hack4bengal__section6-sponser-image img {
-  width: 180px;
+  width: 220px;
   height: auto;
 }
 

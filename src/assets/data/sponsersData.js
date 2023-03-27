@@ -9,8 +9,8 @@ import sponser8 from "../images/sponsers/sponser8.png";
 import sponser9 from "../images/sponsers/sponser9.png";
 import sponser10 from "../images/sponsers/sponser10.png";
 import sponser11 from "../images/sponsers/sponser11.png";
-import cscoe from "../images/sponsers/cscoe.png";
-import wb from "../images/sponsers/wb.png";
+import cscoe from "../images/sponsers/cscoe2.png";
+import wb from "../images/sponsers/wb2.png";
 import nasscom from "../images/sponsers/nasscom.png";
 
 const platinum = [
@@ -21,8 +21,13 @@ const platinum = [
   }, */
   {
     img: cscoe,
-    txt: "   Cyber Security Center of Excellence \n Department of Information Technology & Electronics \n Government of West Bengal",
+    txt: "   Cyber Security Center of Excellence \n Government of West Bengal",
     link: "https://cscoe.itewb.gov.in/",
+  },
+  {
+    img: wb,
+    txt: "  Department of Information Technology & Electronics \n Government of West Bengal",
+    link: "https://itewb.gov.in/",
   },
 ];
 
