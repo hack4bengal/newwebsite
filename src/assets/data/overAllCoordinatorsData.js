@@ -1,14 +1,14 @@
 import Manish from "../team/team-1.png";
 import Sagnik from "../team/team-2.png";
-import Shubham from "../team/team-3.png";
+import Shubham from "../../assets/team/shubham.jpeg";
 import Kajal from "../team/Kajal.png";
+import Sanmoy from "../../assets/team/sanmoy.jpg";
 
 const overAllCoordinaters = [
   {
     Name: "Manish Kr Barnwal",
     Photo: Manish,
-    position:
-      "GitHub Campus Expert",
+    position: "GitHub Campus Expert",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/imanishbarnwal",
     twitter: "https://twitter.com/imanishbarnwal",
@@ -16,18 +16,9 @@ const overAllCoordinaters = [
     linkedin: "https://www.linkedin.com/in/imanishbarnwal/",
   },
   {
-    Name: "Kajal Jaiswal",
-    Photo: Kajal,
-    position:
-      "Beta Microsoft LSA",
-    Domain: "Lead Organizer",
-    linkedin: "https://www.linkedin.com/in/kj18",
-  },
-  {
     Name: "Sagnik Mitra",
     Photo: Sagnik,
-    position:
-      "Software Engineer @Odessa",
+    position: "Software Engineer @Odessa",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/sagnikmitr",
     twitter: "https://twitter.com/MitraSagnik",
@@ -37,13 +28,30 @@ const overAllCoordinaters = [
   {
     Name: "Shubham Tribedi",
     Photo: Shubham,
-    position:
-      "Program Coordinator @CodeChef",
+    position: "Program Coordinator @CodeChef",
     Domain: "Lead Organizer",
     facebook: "https://www.facebook.com/shubham.tribedi",
     twitter: "https://twitter.com/shubham_tribedi",
     github: "https://github.com/CoderShubham2000",
     linkedin: "https://www.linkedin.com/in/shubham-tribedi/",
+  },
+  {
+    Name: "Kajal Jaiswal",
+    Photo: Kajal,
+    position: "Beta Microsoft LSA",
+    Domain: "Lead Organizer",
+    linkedin: "https://www.linkedin.com/in/kj18",
+  },
+
+  {
+    Name: "Sanmoy Dam",
+    Photo: Sanmoy,
+    position: "President at GeeksforGeeks SNU chapter",
+    Domain: "Lead Organizer",
+    facebook: "",
+    twitter: "",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/sanmoydam/",
   },
 ];
 
