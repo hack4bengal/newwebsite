@@ -21,7 +21,7 @@ import Kunal from "../team/Kunal.jpg";
 import Priyasu from "../team/Priyasu.jpg";
 import Aharna from "../team/Aharna.jpeg";
 import Varun from "../team/Varun.jpeg";
-import Srijanna from "../team/Srijanna.jpg";
+import prachi from "../team/prachi.jpeg";
 import Vimal2 from "../team/Vimal2.jpeg";
 import Ayushman from "../team/Ayushman.jpg";
 import Kiran from "../team/Kiran.jpg";
@@ -104,7 +104,7 @@ const executives = [
   {
     Name: "Tamal Das",
     Photo: Tamal,
-    position: "Devrel @CIC",
+    position: "DevRel @CIC",
     Domain: "Web Dev Team",
     linkedin: "https://www.linkedin.com/in/hello-tamal/",
   },
@@ -158,11 +158,11 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/kiranmishra21",
   },
   {
-    Name: "Srijanna Das",
-    Photo: Srijanna,
-    position: "Skipper @Skill Academia",
+    Name: "Prachi Kumari",
+    Photo: prachi,
+    position: "B.Tech'24 | Computer science and Business systems",
     Domain: "Content Team",
-    linkedin: "https://www.linkedin.com/in/srijanna-das-1705641b8",
+    linkedin: "https://www.linkedin.com/in/prachi-kumari-1b8184201/",
   },
   {
     Name: "Aniruddha Sarkar",
@@ -247,7 +247,7 @@ const executives = [
     position: "Lead Youcampus",
     Domain: "PR Team",
     linkedin: "linkedin.com/in/abhrajit-ghosh-1a54081b2/",
-  }
+  },
 ];
 
 export default executives;
