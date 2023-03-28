@@ -9,10 +9,11 @@ import sponser8 from "../images/sponsers/sponser8.png";
 import sponser9 from "../images/sponsers/sponser9.png";
 import sponser10 from "../images/sponsers/sponser10.png";
 import sponser11 from "../images/sponsers/sponser11.png";
-import cscoe from "../images/sponsers/cscoe.png";
-import wb from "../images/sponsers/wb.png";
+import cscoe from "../images/sponsers/cscoe3.png";
+import wb from "../images/sponsers/wb3.png";
 import nasscom from "../images/sponsers/nasscom.png";
-
+import tte from "../images/sponsers/tte4.png";
+import tte2 from "../images/sponsers/tte2.png";
 const platinum = [
   /*   {
     img: wb,
@@ -20,10 +21,16 @@ const platinum = [
     link: "https://itewb.gov.in/",
   }, */
   {
+    img: wb,
+    txt: "  Department of IT & Electronics \n Government of West Bengal",
+    link: "https://itewb.gov.in/",
+  },
+  {
     img: cscoe,
-    txt: "   Cyber Security Center of Excellence \n Department of Information Technology & Electronics \n Government of West Bengal",
+    txt: "Cyber Security Center of Excellence \n Government of West Bengal",
     link: "https://cscoe.itewb.gov.in/",
   },
+
 ];
 
 const gold = [
@@ -34,10 +41,22 @@ const gold = [
   },
 ];
 
+const media = [
+  {
+    img: tte,
+    txt: "TT-Edugraph",
+    link: "",
+  },
+  // {
+  //   img: tte2,
+  //   txt: "Edugraph",
+  //   link: "",
+  // }
+]
 const silver = [];
 
 const bronze = [];
 
-const sponsers = { platinum, gold, silver, bronze };
+const sponsers = { platinum, gold, silver, bronze, media };
 
 export default sponsers;

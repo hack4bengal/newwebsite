@@ -34,21 +34,61 @@ const Team = () => {
         </div>
         <div className="hack4bengal__team-title">Lead Organizers</div>
         <hr />
-        <div className="hack4bengal__team-members">
-          {overAllCoordinaters.map((member, index) => (
-            <TeamCard
-              key={index}
-              img={member.Photo}
-              name={member.Name}
-              // facebook={member.facebook}
-              // twitter={member.twitter}
-              // github={member.github}
-              linkedin={member.linkedin}
-              position={member.position}
-              domain={member.Domain}
-            />
-          ))}
-        </div>
+        {window.innerWidth > 768 ? (
+          <>
+            <div className="hack4bengal__team-members">
+              {overAllCoordinaters.slice(0, 3).map((member, index) => (
+                <TeamCard
+                  key={index}
+                  img={member.Photo}
+                  name={member.Name}
+                  // facebook={member.facebook}
+                  // twitter={member.twitter}
+                  // github={member.github}
+                  linkedin={member.linkedin}
+                  position={member.position}
+                  domain={member.Domain}
+                />
+              ))}
+            </div>
+
+            <div
+              className="hack4bengal__team-members"
+              style={{ marginTop: "2rem" }}
+            >
+              {overAllCoordinaters.slice(3).map((member, index) => (
+                <TeamCard
+                  key={index}
+                  img={member.Photo}
+                  name={member.Name}
+                  // facebook={member.facebook}
+                  // twitter={member.twitter}
+                  // github={member.github}
+                  linkedin={member.linkedin}
+                  position={member.position}
+                  domain={member.Domain}
+                />
+              ))}
+            </div>
+          </>
+        ) : (
+          <div className="hack4bengal__team-members">
+            {overAllCoordinaters.map((member, index) => (
+              <TeamCard
+                key={index}
+                img={member.Photo}
+                name={member.Name}
+                // facebook={member.facebook}
+                // twitter={member.twitter}
+                // github={member.github}
+                linkedin={member.linkedin}
+                position={member.position}
+                domain={member.Domain}
+              />
+            ))}
+          </div>
+        )}
+
         <div className="hack4bengal__team-title">Leaders</div>
         <hr />
         <div className="hack4bengal_team-leaders">

@@ -60,23 +60,33 @@
   background-color: rgb(32, 32, 32);
 }
 
+
+
+.hack4bengal__section6-sponser-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
 .hack4bengal__section6-sponser-image a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 55px;
+  flex-direction: column;
 }
 
 .hack4bengal__section6-sponser-image img {
-  width: 170px;
+  width: 220px;
   height: auto;
 }
 
 .hack4bengal__section6-sponser-image p {
   margin: 0px;
-  font-weight: 600;
-  font-size: 24px;
-
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 12px;
+  text-align: center;
 }
 
 .nasscom {}
