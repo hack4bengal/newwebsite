@@ -32,12 +32,12 @@ export default class HomePage extends Component {
         <div className="container mx-auto">
           <Section2 />
 
-          {/*   <Events /> */}
+          {/*  <Events /> */}
           <Section9 />
           <Section4 />
-          {/*  <Section11 /> */}
+
           <Section6 />
-          {/* <Section11 /> */}
+
           <Section7 />
           <Section10 />
         </div>
