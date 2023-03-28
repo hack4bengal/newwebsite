@@ -12,6 +12,7 @@ import CodeofConduct from "./pages/coc/CodeofConduct";
 import Assets from "./pages/assets/Assets";
 import Register from "./pages/register/Register";
 import Evengelist from "./pages/evangelist/Evengelist";
+import Partner from "./pages/cp/cp";
 export default class App extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ export default class App extends Component {
           <Route path="/assets" element={<Assets />} />
           <Route path="/register" element={<Register />} />
           <Route path="/evangelist" element={<Evengelist />} />
+          <Route path="/cp" element={<Partner />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>

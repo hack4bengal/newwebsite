@@ -1,0 +1,26 @@
+.title {
+    font-family: "Teko", sans-serif;
+    font-weight: 600;
+    font-size: 55.9314px;
+    line-height: 56px;
+    letter-spacing: 0.15rem;
+    color: #010101;
+}
+
+.title+hr {
+    border: 2px solid #5E2B70;
+    height: 2px;
+    background-color: #5E2B70;
+    width: 10%;
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .title+hr {
+        margin: auto;
+    }
+}
