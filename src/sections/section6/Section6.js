@@ -69,31 +69,120 @@ const Section6 = () => {
               </div>
             ))}
           </div> */}
+          <div className='partner-two-group'>
+            <div className="two-group-class" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+                Digital Media Partner
+              </div>
+              <div className="hack4bengal__section6-sponser-list platinum">
+                <div className="hack4bengal__section6-sponser-image">
+                  {sponsers.media.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img style={{ borderRadius: '20px', }} key={index} src={sponser.img} />
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: '2px' }}>
+                          {sponser.txt.split("\n").map((line, index) => (
+                            <React.Fragment key={index}>
+                              {line}
+                            </React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+
+                </div>
+              </div>
+
+            </div>
+            <div className="two-group-class" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+                Domain Partner
+              </div>
+              <div className="hack4bengal__section6-sponser-list platinum">
+                <div className="hack4bengal__section6-sponser-image">
+                  {sponsers.domain.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img style={{ borderRadius: '20px', width: '158px' }} key={index} src={sponser.img} />
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: '2px' }}>
+                          {sponser.txt.split("\n").map((line, index) => (
+                            <React.Fragment key={index}>
+                              {line}
+                            </React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
           <div className="hack4bengal__section6-sponser-title">
-            Digital Media Partner
+            Partners
           </div>
           <div className="hack4bengal__section6-sponser-list platinum">
             <div className="hack4bengal__section6-sponser-image">
-              {sponsers.media.map((sponser, index) => (
+              {sponsers.partners.map((sponser, index) => (
                 <a href={sponser.link}>
-                  <img style={{ borderRadius: '20px', }} key={index} src={sponser.img} />
-                  <div style={{ textAlign: "center" }}>
-                    <p>
-                      {sponser.txt.split("\n").map((line, index) => (
-                        <React.Fragment key={index}>
-                          {line}
-                        </React.Fragment>
-                      ))}
-                    </p>
-                  </div>
+
+                  {index === 2 ?
+                    <span>
+                      <img key={index} src={sponser.img} style={{ marginTop: '9px' }} />
+                      <div style={{ textAlign: "center", paddingTop: '11px' }}>
+                        <p>
+                          {sponser.txt.split("\n").map((line, index) => (
+                            <React.Fragment key={index}>
+                              {line}
+                              <br />
+                            </React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </span>
+                    :
+                    index === 1 ?
+                      <span style={{ position: 'relative', }}>
+                        <img key={index} src={sponser.img} style={{ width: '180px', borderRadius: '10px' }} />
+                        <div style={{ textAlign: "center", marginTop: '3px' }}>
+                          <p>
+                            {sponser.txt.split("\n").map((line, index) => (
+                              <React.Fragment key={index}>
+                                {line}
+                                <br />
+                              </React.Fragment>
+                            ))}
+                          </p>
+                        </div>
+                      </span> :
+                      <span style={{ position: 'relative' }}>
+                        <img key={index} src={sponser.img} />
+                        <div style={{ textAlign: "center" }}>
+                          <p>
+                            {sponser.txt.split("\n").map((line, index) => (
+                              <React.Fragment key={index}>
+                                {line}
+                                <br />
+                              </React.Fragment>
+                            ))}
+                          </p>
+                        </div>
+                      </span>
+
+                  }
                 </a>
               ))}
             </div>
           </div>
 
-          <div className="hack4bengal__section6-sponser-title">
-            Domain Partner
-          </div>
+
+
+          {/* 
           <div className="hack4bengal__section6-sponser-list platinum">
             <div className="hack4bengal__section6-sponser-image">
               {sponsers.domain.map((sponser, index) => (
@@ -111,15 +200,16 @@ const Section6 = () => {
                 </a>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
-        <h2>Sponsors To be Declared Soon</h2>
+        <h2>More Sponsors To be Declared Soon</h2>
 
         <div
           className="hack4bengal__section6-content"
           style={{ marginTop: "50px", fontWeight: "bold" }}
         >
           Want to sponsor us?{" "}
+          <br />
           <a
             href="https://forms.gle/Y77QCcKmMAMpPAmQ9"
             className="link-us-sponsor"

@@ -12,6 +12,41 @@
   flex-direction: column;
 }
 
+.partner-two-group{
+  display: flex;
+  flex-direction: row;
+   align-items: center;
+    justify-content: center;
+     gap: 40px;
+}
+
+@media screen and (max-width: 900px){
+  .partner-two-group{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    width:100%;
+  }
+
+}
+.two-group-class{
+  width: 500px;
+}
+@media screen and (max-width: 900px){
+  .two-group-class{
+    width:300px;
+  }
+}
+.sponser-two-dual{
+  padding-bottom:15px;
+}
+@media screen and (max-width: 900px){
+  .sponser-two-dual{
+    padding-bottom:15px;
+
+  }
+}
 .hack4bengal__section6-title {
   font-style: normal;
   font-weight: 600;
@@ -182,8 +217,9 @@
   .hack4bengal__section6-sponser-image a {
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
   }
+
 
   .hack4bengal__section6-sponser-image img {
     width: 180px;
