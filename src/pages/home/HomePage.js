@@ -32,7 +32,7 @@ export default class HomePage extends Component {
         <div className="container mx-auto">
           <Section2 />
 
-          {/*  <Events /> */}
+          <Events />
           <Section9 />
           <Section4 />
 
