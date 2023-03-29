@@ -116,7 +116,7 @@ const TeamCard = ({
         ) : name === "Tushar Mukherjee" ? (
           <span>
             Tushar
-            <br /> Mukherjee
+            <br /> Mukhopadhyay
           </span>
         ) : name === "Shatanik Mahanty" ? (
           <span>
