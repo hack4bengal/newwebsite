@@ -14,6 +14,10 @@ import wb from "../images/sponsers/wb3.png";
 import nasscom from "../images/sponsers/nasscom.png";
 import tte from "../images/sponsers/tte4.png";
 import tte2 from "../images/sponsers/tte2.png";
+import xyz from "../images/sponsers/xyz-logo-white.png";
+import taskcade from "../images/sponsers/taskade.png";
+import echo3D from "../images/sponsers/echo3D.png";
+import axure from "../images/sponsers/axure.png";
 const platinum = [
   /*   {
     img: wb,
@@ -47,6 +51,7 @@ const media = [
     txt: "TT-Edugraph",
     link: "",
   },
+
   // {
   //   img: tte2,
   //   txt: "Edugraph",
@@ -56,7 +61,35 @@ const media = [
 const silver = [];
 
 const bronze = [];
+const domain = [
+  {
+    img: xyz,
+    txt: ".xyz",
+    link: "",
+  },
 
-const sponsers = { platinum, gold, silver, bronze, media };
+]
+
+const partners = [
+  {
+    img: taskcade,
+    txt: "taskade",
+    link: "",
+    paddingTop: 0
+  },
+  {
+    img: axure,
+    txt: "axure",
+    link: ''
+  },
+  {
+    img: echo3D,
+    txt: "echo3D",
+    link: "",
+    paddingTop: 20
+  },
+]
+
+const sponsers = { platinum, gold, silver, bronze, media, domain, partners };
 
 export default sponsers;
