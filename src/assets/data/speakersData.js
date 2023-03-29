@@ -24,8 +24,9 @@ const speakers = [
   },
   {
     name: "Riddhi Dutta",
-    position: "ex SDE-2 at Amazon",
-    description: "ex SDE-Amazon | Youtube 35K+ | Teacher | Codechef 5* | Java | Angular",
+    position: "SDE-2 At Salesforce",
+    description:
+      "ex SDE-Amazon | Youtube 35K+ | Teacher | Codechef 5* | Java | Angular",
     img: riddhi,
     facebook: "",
     twitter: "",
@@ -59,7 +60,6 @@ const speakers = [
     youtube: "",
   },
   {
-
     name: "Avinaba Roy",
     position: "SDE at BlueOptima",
     description:
@@ -83,7 +83,6 @@ const speakers = [
     github: "",
     youtube: "",
   },
-
 ];
 
 export default speakers;
