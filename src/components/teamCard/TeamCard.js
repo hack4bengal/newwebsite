@@ -191,6 +191,21 @@ const TeamCard = ({
             {" "}
             Abhrajit <br /> Ghosh
           </span>
+        ) : name === "Sanmoy Dam" ? (
+          <span>
+            {" "}
+            Sanmoy <br /> Dam
+          </span>
+        ) : name === "Debanita Roy Bhowmick" ? (
+          <span>
+            {" "}
+            Debanita <br /> Roy Bhowmick
+          </span>
+        ) : name === "Prachi Kumari" ? (
+          <span>
+            {" "}
+            Prachi <br /> Kumari
+          </span>
         ) : (
           name
         )}

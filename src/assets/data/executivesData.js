@@ -160,16 +160,9 @@ const executives = [
   {
     Name: "Prachi Kumari",
     Photo: prachi,
-    position: "B.Tech'24 | Computer science and Business systems",
+    position: "B.Tech '24 | CSBS",
     Domain: "Content Team",
     linkedin: "https://www.linkedin.com/in/prachi-kumari-1b8184201/",
-  },
-  {
-    Name: "Aniruddha Sarkar",
-    Photo: Aniruddha,
-    position: "Graphic Design Enthuiast",
-    Domain: "Graphics Team",
-    linkedin: "https://www.linkedin.com/in/aniruddha-sarkar-3733791b7/",
   },
   {
     Name: "Aharna Haque",

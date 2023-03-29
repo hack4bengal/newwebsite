@@ -46,7 +46,7 @@ const overAllCoordinaters = [
   {
     Name: "Sanmoy Dam",
     Photo: Sanmoy,
-    position: "President at GeeksforGeeks SNU chapter",
+    position: "President at GFG SNU chapter",
     Domain: "Lead Organizer",
     facebook: "",
     twitter: "",
