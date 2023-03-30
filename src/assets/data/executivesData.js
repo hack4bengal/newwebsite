@@ -239,7 +239,7 @@ const executives = [
     Photo: Abhrajit,
     position: "Lead Youcampus",
     Domain: "PR Team",
-    linkedin: "linkedin.com/in/abhrajit-ghosh-1a54081b2/",
+    linkedin: "https://www.linkedin.com/in/abhrajit-ghosh-1a54081b2/",
   },
 ];
 
