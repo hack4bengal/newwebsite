@@ -18,6 +18,9 @@ import xyz from "../images/sponsers/xyz-logo-white.png";
 import taskcade from "../images/sponsers/taskade.png";
 import echo3D from "../images/sponsers/echo3D.png";
 import axure from "../images/sponsers/axure.png";
+import postman from "../images/sponsers/Postman.png";
+import foss from "../images/sponsers/foss.png";
+import egk from "../images/sponsers/egk.png";
 const platinum = [
   /*   {
     img: wb,
@@ -34,7 +37,6 @@ const platinum = [
     txt: "Cyber Security Center of Excellence \n Government of West Bengal",
     link: "https://cscoe.itewb.gov.in/",
   },
-
 ];
 
 const gold = [
@@ -49,7 +51,7 @@ const media = [
   {
     img: tte,
     txt: "TT-Edugraph",
-    link: "",
+    link: "https://www.telegraphindia.com/edugraph",
   },
 
   // {
@@ -57,39 +59,67 @@ const media = [
   //   txt: "Edugraph",
   //   link: "",
   // }
-]
-const silver = [];
+];
+const silver = [
+  {
+    img: postman,
+    txt: "Postman",
+    link: "https://www.postman.com/",
+  },
+];
 
-const bronze = [];
+const bronze = [
+  {
+    img: foss,
+    txt: "FOSS United",
+    link: "https://fossunited.org/",
+  },
+];
 const domain = [
   {
     img: xyz,
     txt: ".xyz",
-    link: "",
+    link: "https://gen.xyz/",
   },
-
-]
+];
 
 const partners = [
   {
     img: taskcade,
     txt: "taskade",
-    link: "",
-    paddingTop: 0
+    link: "https://www.taskade.com/",
+    paddingTop: 0,
   },
   {
     img: axure,
     txt: "axure",
-    link: ''
+    link: "https://www.axure.com/",
   },
   {
     img: echo3D,
     txt: "echo3D",
-    link: "",
-    paddingTop: 20
+    link: "https://www.echo3d.com/",
+    paddingTop: 20,
   },
-]
+];
+const social = [
+  {
+    img: egk,
+    txt: "Esho Golpo Kori",
+    link: "https://www.instagram.com/eshogolpokori/",
+    paddingTop: 0,
+  },
+];
 
-const sponsers = { platinum, gold, silver, bronze, media, domain, partners };
+const sponsers = {
+  platinum,
+  gold,
+  silver,
+  bronze,
+  media,
+  domain,
+  partners,
+  social,
+};
 
 export default sponsers;
