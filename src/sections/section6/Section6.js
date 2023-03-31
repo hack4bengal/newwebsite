@@ -444,7 +444,7 @@ const Section6 = () => {
             </div>
           </div>
 
-          <div
+          {/*   <div
             className="hack4bengal__section6-sponser-title"
             style={{ marginBottom: "-40px" }}
           >
@@ -507,6 +507,46 @@ const Section6 = () => {
                   )}
                 </a>
               ))}
+            </div>
+          </div> */}
+
+          <div
+            className="two-group-class"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+            }}
+          >
+            <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+              In-Kind Sponsor
+            </div>
+            <div className="hack4bengal__section6-sponser-list platinum">
+              <div className="hack4bengal__section6-sponser-image">
+                {sponsers.inkind.map((sponser, index) => (
+                  <a href={sponser.link}>
+                    <img
+                      style={{
+                        borderRadius: "20px",
+                        width: "200px",
+                        height: "100px",
+                        objectFit: "contain",
+                      }}
+                      key={index}
+                      src={sponser.img}
+                    />
+                    <div style={{ textAlign: "center" }}>
+                      <p style={{ paddingTop: "2px" }}>
+                        {sponser.txt.split("\n").map((line, index) => (
+                          <React.Fragment key={index}>{line}</React.Fragment>
+                        ))}
+                      </p>
+                    </div>
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
 

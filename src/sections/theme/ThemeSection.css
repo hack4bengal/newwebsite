@@ -72,8 +72,8 @@
 .flip-box-front,
 .flip-box-back {
     /*  background-color: rgb(34, 34, 34); */
-    background-image: url("../../assets/themes/card_bg.png");
-    border: 2px solid #E13B3C;
+    border: 2px solid #ffffff;
+    /*  border: 2px solid #ff1717; */
     border-radius: 5px;
 
 
@@ -186,7 +186,7 @@
     background-color: transparent;
     border: 2px solid #fff;
     border-radius: 2px;
-    color: #fff;
+    color: #ff1717;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;

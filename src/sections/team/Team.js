@@ -24,14 +24,7 @@ const Team = () => {
       id="speakers"
     >
       <div className="hack4bengal__team-body">
-        <div className="hack4bengal__team-header-container">
-          {/* <div className="hack4bengal__team-main-title">
-            Team Hack4Bengal 2023
-          </div>
-          <div className="hack4bengal__team-subtitle">
-            Hack4Bengal is a team of 30+ enthusiastic folks, led by 3!
-          </div> */}
-        </div>
+        <div className="hack4bengal__team-header-container"></div>
         <div className="hack4bengal__team-title">Lead Organizers</div>
         <hr />
         {window.innerWidth > 768 ? (
@@ -42,9 +35,6 @@ const Team = () => {
                   key={index}
                   img={member.Photo}
                   name={member.Name}
-                  // facebook={member.facebook}
-                  // twitter={member.twitter}
-                  // github={member.github}
                   linkedin={member.linkedin}
                   position={member.position}
                   domain={member.Domain}

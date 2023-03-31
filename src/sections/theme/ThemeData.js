@@ -1,5 +1,5 @@
-import edu from "../../assets/themes/edu.png";
-import acess from "../../assets/themes/acess.png";
+import edu from "../../assets/themes/education.png";
+import acess from "../../assets/themes/access.png";
 import climate from "../../assets/themes/climate.png";
 import health from "../../assets/themes/health.png";
 import fintech from "../../assets/themes/fintech.png";

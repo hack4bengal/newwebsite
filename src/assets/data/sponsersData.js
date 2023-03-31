@@ -115,7 +115,7 @@ const energy = [
   },
 ];
 
-const partners = [
+const inkind = [
   {
     img: taskcade,
     txt: "taskade",
@@ -157,7 +157,7 @@ const sponsers = {
   bronze,
   media,
   domain,
-  partners,
+  inkind,
   social,
   energy,
 };
