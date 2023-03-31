@@ -22,6 +22,12 @@ import postman from "../images/sponsers/Postman.png";
 import foss from "../images/sponsers/foss.png";
 import egk from "../images/sponsers/egk.png";
 import balsamiq from "../images/sponsers/balsamiq.png";
+import solana from "../images/sponsers/solana.png";
+import sharedeum from "../images/sponsers/shardeum.png";
+import fcf from "../images/sponsers/fcf.png";
+import fvm from "../images/sponsers/fvm.png";
+import hellenergy from "../images/sponsers/hell-energy.png";
+
 const platinum = [
   /*   {
     img: wb,
@@ -40,7 +46,7 @@ const platinum = [
   },
 ];
 
-const gold = [
+const incubation = [
   {
     img: nasscom,
     txt: "Nasscom",
@@ -54,18 +60,31 @@ const media = [
     txt: "TT-Edugraph",
     link: "https://www.telegraphindia.com/edugraph",
   },
-
-  // {
-  //   img: tte2,
-  //   txt: "Edugraph",
-  //   link: "",
-  // }
 ];
+
+const gold = [
+  {
+    img: fcf,
+    txt: "Filecoin Foundation",
+    link: "https://filecoin.io/",
+  },
+  {
+    img: fvm,
+    txt: "Filecoin Virtual Machine",
+    link: "https://filecoin.io/",
+  },
+];
+
 const silver = [
   {
     img: postman,
     txt: "Postman",
     link: "https://www.postman.com/",
+  },
+  {
+    img: solana,
+    txt: "Solana",
+    link: "https://solana.com/",
   },
 ];
 
@@ -75,12 +94,24 @@ const bronze = [
     txt: "FOSS United",
     link: "https://fossunited.org/",
   },
+  {
+    img: sharedeum,
+    txt: "Sharedeum",
+    link: "https://sharedeum.com/",
+  },
 ];
 const domain = [
   {
     img: xyz,
     txt: ".xyz",
     link: "https://gen.xyz/",
+  },
+];
+const energy = [
+  {
+    img: hellenergy,
+    txt: "Hell Energy Drink",
+    link: "https://hellenergy.com/",
   },
 ];
 
@@ -120,6 +151,7 @@ const social = [
 
 const sponsers = {
   platinum,
+  incubation,
   gold,
   silver,
   bronze,
@@ -127,6 +159,7 @@ const sponsers = {
   domain,
   partners,
   social,
+  energy,
 };
 
 export default sponsers;

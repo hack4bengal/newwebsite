@@ -195,7 +195,80 @@ const Section6 = () => {
 
               </div>
             ))}
+
+            
           </div> */}
+
+          <div
+            className="two-group-class"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "550px",
+            }}
+          >
+            <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+              Gold Sponsor
+            </div>
+            <div className="hack4bengal__section6-sponser-list platinum">
+              <div className="hack4bengal__section6-sponser-image">
+                {sponsers.gold.map((sponser, index) => (
+                  <a href={sponser.link}>
+                    <img
+                      style={{ borderRadius: "20px" }}
+                      key={index}
+                      src={sponser.img}
+                    />
+                    <div style={{ textAlign: "center" }}>
+                      <p style={{ paddingTop: "2px" }}>
+                        {sponser.txt.split("\n").map((line, index) => (
+                          <React.Fragment key={index}>{line}</React.Fragment>
+                        ))}
+                      </p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div
+            className="two-group-class"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "550px",
+            }}
+          >
+            <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+              Silver Sponsor
+            </div>
+            <div className="hack4bengal__section6-sponser-list platinum">
+              <div className="hack4bengal__section6-sponser-image">
+                {sponsers.silver.map((sponser, index) => (
+                  <a href={sponser.link}>
+                    <img
+                      style={{ borderRadius: "20px" }}
+                      key={index}
+                      src={sponser.img}
+                    />
+                    <div style={{ textAlign: "center" }}>
+                      <p style={{ paddingTop: "2px" }}>
+                        {sponser.txt.split("\n").map((line, index) => (
+                          <React.Fragment key={index}>{line}</React.Fragment>
+                        ))}
+                      </p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+
           <div className="partner-two-group">
             <div
               className="two-group-class"
@@ -204,39 +277,7 @@ const Section6 = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-              }}
-            >
-              <div className="hack4bengal__section6-sponser-title sponser-two-dual">
-                Silver Partner
-              </div>
-              <div className="hack4bengal__section6-sponser-list platinum">
-                <div className="hack4bengal__section6-sponser-image">
-                  {sponsers.silver.map((sponser, index) => (
-                    <a href={sponser.link}>
-                      <img
-                        style={{ borderRadius: "20px" }}
-                        key={index}
-                        src={sponser.img}
-                      />
-                      <div style={{ textAlign: "center" }}>
-                        <p style={{ paddingTop: "2px" }}>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>{line}</React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div
-              className="two-group-class"
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
+                width: "550px",
               }}
             >
               <div className="hack4bengal__section6-sponser-title sponser-two-dual">
@@ -328,7 +369,46 @@ const Section6 = () => {
               </div>
             </div>
           </div>
+
           <div className="partner-two-group">
+            <div
+              className="two-group-class"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+                Energy Partner
+              </div>
+              <div className="hack4bengal__section6-sponser-list platinum">
+                <div className="hack4bengal__section6-sponser-image">
+                  {sponsers.energy.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img
+                        style={{
+                          borderRadius: "20px",
+                          width: "240px",
+                          height: "100px",
+                          objectFit: "contain",
+                        }}
+                        key={index}
+                        src={sponser.img}
+                      />
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
+                          {sponser.txt.split("\n").map((line, index) => (
+                            <React.Fragment key={index}>{line}</React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
             <div
               className="two-group-class"
               style={{
@@ -368,7 +448,7 @@ const Section6 = () => {
             className="hack4bengal__section6-sponser-title"
             style={{ marginBottom: "-40px" }}
           >
-            In-kind Partners
+            In-kind Partner
           </div>
           <div className="hack4bengal__section6-sponser-list platinum">
             <div className="hack4bengal__section6-sponser-image">
