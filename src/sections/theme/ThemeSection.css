@@ -21,7 +21,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding: 35px 22px;
     width: 100%;
 }
@@ -71,15 +71,18 @@
 
 .flip-box-front,
 .flip-box-back {
-    background-color: rgb(34, 34, 34);
-    box-shadow: 0 0 10px 0 #E13B3C;
+    /*  background-color: rgb(34, 34, 34); */
+    background-image: url("../../assets/themes/card_bg.png");
+    border: 2px solid #E13B3C;
+    border-radius: 5px;
+
 
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 8px;
-    min-height: 475px;
+    min-height: 420px;
     -ms-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
     transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
     -webkit-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
@@ -169,8 +172,8 @@
     color: white;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 22px;
     letter-spacing: 1px;
 }
 

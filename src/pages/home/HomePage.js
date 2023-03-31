@@ -34,7 +34,7 @@ export default class HomePage extends Component {
           <Section2 />
           <Events />
 
-          {/*  <ThemeSection /> */}
+          <ThemeSection />
           <Section9 />
 
           <Section4 />

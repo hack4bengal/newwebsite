@@ -18,11 +18,12 @@ const ThemeSection = () => {
 
                         return (
                             <div className="box-item" key={index}>
-                                <div className="flip-box">
+                                <div className="flip-box" onClick={() => {
+                                }}>
                                     <div className="flip-box-front text-center"  >
                                         <div className="inner color-white">
 
-                                            <img src={item.img} alt="" className="flip-box-icon" />
+                                            {/*  <img src={item.img} alt="" className="flip-box-icon" /> */}
                                             <h3 className="flip-box-header">
                                                 {item.name.split('\n').map((str, index) => (
                                                     <span key={index}>
@@ -35,7 +36,11 @@ const ThemeSection = () => {
                                             <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" />
                                         </div>
                                     </div>
-                                    <div className="flip-box-back text-center"  >
+                                    <div className="flip-box-back text-center" onClick={() => {
+
+
+
+                                    }}  >
                                         <div className="inner color-white">
 
                                             <p>{item.desc}</p>
