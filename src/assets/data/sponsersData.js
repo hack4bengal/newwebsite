@@ -21,6 +21,7 @@ import axure from "../images/sponsers/axure.png";
 import postman from "../images/sponsers/Postman.png";
 import foss from "../images/sponsers/foss.png";
 import egk from "../images/sponsers/egk.png";
+import balsamiq from "../images/sponsers/balsamiq.png";
 const platinum = [
   /*   {
     img: wb,
@@ -99,6 +100,12 @@ const partners = [
     img: echo3D,
     txt: "echo3D",
     link: "https://www.echo3d.com/",
+    paddingTop: 20,
+  },
+  {
+    img: balsamiq,
+    txt: "balsamiq",
+    link: "https://balsamiq.com/",
     paddingTop: 20,
   },
 ];
