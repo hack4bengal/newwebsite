@@ -23,7 +23,7 @@ const ThemeSection = () => {
                                     <div className="flip-box-front text-center"  >
                                         <div className="inner color-white">
 
-                                            <img src={item.img} alt="" className="flip-box-icon" />
+                                            {/*  <img src={item.img} alt="" className="flip-box-icon" /> */}
                                             <h3 className="flip-box-header">
                                                 {item.name.split('\n').map((str, index) => (
                                                     <span key={index}>
