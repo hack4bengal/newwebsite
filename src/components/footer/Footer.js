@@ -3,7 +3,7 @@ import "./Footer.css";
 import footer from "../../assets/img/footer.gif";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className="hack4bengal__footer" id="contactus">
       <div className="hack4bengal__footer-container1">
@@ -181,4 +181,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+
