@@ -15,6 +15,7 @@ import Section10 from "../../sections/section10/Section10";
 import Footer from "../../components/footer/Footer";
 import Timeline from "../../components/timeline/TimelineOne.js";
 import Events from "../../sections/section-event/Events";
+import ThemeSection from "../../sections/theme/ThemeSection";
 
 export default class HomePage extends Component {
   render() {
@@ -31,9 +32,11 @@ export default class HomePage extends Component {
 
         <div className="container mx-auto">
           <Section2 />
-
           <Events />
+
+          {/*  <ThemeSection /> */}
           <Section9 />
+
           <Section4 />
 
           <Section6 />
