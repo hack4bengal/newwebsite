@@ -9,7 +9,6 @@ import Tushar from "../team/tushar.png";
 import Himanshu from "../team/Himanshu Rai.png";
 import Shafin from "../team/Shafin Kausar.png";
 import Shatanik from "../team/Shatanik.png";
-import Randrita from "../team/Randrita.png";
 import Aniruddha from "../team/Aniruddha Sarkar.png";
 import Alapan from "../team/Alapan Das.png";
 import Subhanjan from "../team/Subhanjan.png";
@@ -29,6 +28,7 @@ import Koyena from "../team/Koyena.jpg";
 import Souradeep from "../team/Souradeep.jpeg";
 import Aditya from "../team/aditya.jpg";
 import Abhrajit from "../team/abhrajit.png";
+import Rohit from "../team/rohitroy.jpg";
 
 const executives = [
   {
@@ -106,7 +106,14 @@ const executives = [
     Photo: Tamal,
     position: "DevRel @CIC",
     Domain: "Web Dev Team",
-    linkedin: "https://www.linkedin.com/in/hello-tamal/",
+    linkedin: "https://www.linkedin.com/in/say-hello-to-tamal/",
+  },
+  {
+    Name: "Rohit Roy",
+    Photo: Rohit,
+    position: "JS dev @shunya.Ek",
+    Domain: "Web Dev Team",
+    linkedin: "https://www.linkedin.com/in/roy-rohit/",
   },
   {
     Name: "Himanshu Rai",
@@ -143,13 +150,7 @@ const executives = [
     Domain: "Marketing Team",
     linkedin: "https://www.linkedin.com/in/vimal-anand-9917a1212",
   },
-  {
-    Name: "Randrita Sarkar",
-    Photo: Randrita,
-    position: "Intern @IQApex Labs",
-    Domain: "Graphics Team",
-    linkedin: "https://www.linkedin.com/in/randrita-sarkar-8690591a1/",
-  },
+
   {
     Name: "Kiran Mishra",
     Photo: Kiran,

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import "./ThemeSection.css"
+import redbtn from "../../assets/themes/redbtn.png"
 import themedata from "./ThemeData"
 
 const ThemeSection = () => {
@@ -20,7 +21,7 @@ const ThemeSection = () => {
                             <div className="box-item" key={index}>
                                 <div className="flip-box" onClick={() => {
                                 }}>
-                                    <div className="flip-box-front text-center"  >
+                                    <div className="flip-box-front text-center" style={{ backgroundImage: `url(${item.img})`, }}  >
                                         <div className="inner color-white">
 
                                             {/*  <img src={item.img} alt="" className="flip-box-icon" /> */}
@@ -33,14 +34,10 @@ const ThemeSection = () => {
                                                 ))}
                                             </h3>
 
-                                            <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" />
+                                            <img src={redbtn} alt="" className="flip-box-img" />
                                         </div>
                                     </div>
-                                    <div className="flip-box-back text-center" onClick={() => {
-
-
-
-                                    }}  >
+                                    <div className="flip-box-back text-center" style={{ backgroundImage: `url(${item.img})` }}  >
                                         <div className="inner color-white">
 
                                             <p>{item.desc}</p>

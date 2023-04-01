@@ -128,10 +128,10 @@ const TeamCard = ({
             Subhanjan
             <br /> Dutta
           </span>
-        ) : name === "Randrita Sarkar" ? (
+        ) : name === "Rohit Roy" ? (
           <span>
-            Randrita
-            <br /> Sarkar
+            Rohit
+            <br /> Roy
           </span>
         ) : name === "Aniruddha Sarkar" ? (
           <span>
