@@ -1,19 +1,19 @@
-.hack4bengal__section9 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.prize_section {
+    /*  padding-top: 2rem;
+    padding-bottom: 2rem; */
     color: white;
     font-family: 'Poppins';
-    margin-top: 5rem;
+
 }
 
-.hack4bengal__section9-boxtitle,
-.hack4bengal__section9-box,
-.hack4bengal__section9-title {
+.prize_section-boxtitle,
+.prize_section-box,
+.prize_section-title {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 
-.hack4bengal__section9-description {
+.prize_section-description {
 
     display: flex;
     flex-wrap: wrap;
@@ -21,17 +21,17 @@
     justify-content: space-evenly;
 }
 
-.hack4bengal__section9-title1 {
-    font-style: medium;
-    font-weight: 470;
+.prize_section-title1 {
+    font-style: normal;
+    font-weight: 600;
     font-size: 48px;
-    line-height: 82px;
     text-align: center;
     letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
-.hack4bengal__section9-title2 {
+.prize_section-title2 {
     font-style: medium;
     font-weight: 370;
     font-size: 40px;
@@ -42,7 +42,7 @@
 
 }
 
-.hack4bengal__section9-box {
+.prize_section-box {
     width: 40%;
     font-size: 20px;
     display: flex;
@@ -63,14 +63,14 @@
     cursor: pointer;
 }
 
-.hack4bengal__section9-box:hover {
+.prize_section-box:hover {
 
     box-shadow: 0 8px 32px 0 rgba(135, 33, 31, 0.57);
 }
 
 
 
-.hack4bengal__section9-boxtitle {
+.prize_section-boxtitle {
     font-size: 30px;
     font-style: normal;
     margin: 1rem 0;
@@ -80,7 +80,7 @@
     text-align: center;
 }
 
-.hack4bengal__section9-title hr {
+.prize_section-title hr {
     width: 10%;
     margin: auto;
     border: 1px solid #E13B3C;
@@ -88,32 +88,32 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .hack4bengal__section9-box {
+    .prize_section-box {
         width: 80%;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .hack4bengal__section9-title1 {
+    .prize_section-title1 {
         font-size: 36px;
         line-height: normal;
     }
 
-    .hack4bengal__section9-title2 {
+    .prize_section-title2 {
         line-height: normal;
         font-size: 16px;
     }
 
-    .hack4bengal__section9-box {
+    .prize_section-box {
         width: 100%;
         padding: 3.5rem;
     }
 
-    .hack4bengal__section9-boxtitle {
+    .prize_section-boxtitle {
         font-size: 24px;
     }
 
-    .hack4bengal__section9-boxInfo {
+    .prize_section-boxInfo {
         font-size: 16px;
     }
 }

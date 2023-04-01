@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./Teampage.css";
 import "../../App.css";
 import Team from "../../sections/team/Team";
@@ -13,7 +13,7 @@ export default class TeamPage extends Component {
           <Navbar />
           {/*  <NavbarTeam /> */}
         </div>
-        <div className="container mx-auto">
+        <div className="teampage_container_main">
           <Team />
         </div>
 

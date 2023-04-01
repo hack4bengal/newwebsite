@@ -38,7 +38,7 @@ const Navbar = () => {
       viewport={{ once: false, amount: 0.25 }}
       className="hack4bengal__navbar-container"
     >
-      <header className="hack4bengal__navbar">
+      <header className="hack4bengal__navbar ">
         <div className="hack4bengal__navbar-body">
           <Link to={"/"}>
             <div className="hack4bengal__navbar-logo">
@@ -79,6 +79,16 @@ const Navbar = () => {
                 </p>
               </li>
 
+              <li className="hack4bengal__navbar-navitem">
+                <p
+                  onClick={() => {
+                    gotoId("themes");
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="hack4bengal__navbar-menu-heading">Themes</h3>
+                </p>
+              </li>
               <li className="hack4bengal__navbar-navitem">
                 <p
                   onClick={() => {
@@ -177,7 +187,11 @@ const Navbar = () => {
             </div>
             <div
               className="hack4bengal__navbar-hamburger-logo"
-              style={{ display: "none", transform: "scale(2)", marginTop: "40px" }}
+              style={{
+                display: "none",
+                transform: "scale(2)",
+                marginTop: "40px",
+              }}
             >
               <img
                 src={wblogo}
@@ -225,6 +239,18 @@ const Navbar = () => {
             >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 Timeline
+              </h3>
+            </p>
+          </li>
+          <li className="hack4bengal__navbar-hamburger-navitem">
+            <p
+              onClick={() => {
+                gotoId("themes");
+                toggleMenu();
+              }}
+            >
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                Themes
               </h3>
             </p>
           </li>

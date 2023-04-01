@@ -1,7 +1,6 @@
 import React from "react";
-
-import {Player} from "@lottiefiles/react-lottie-player";
-import {motion} from "framer-motion";
+import { Player } from "@lottiefiles/react-lottie-player";
+import { motion } from "framer-motion";
 import h4byoga from "../../assets/lottiefiles/h4byoga.json";
 import "./AboutUsSection.css";
 
@@ -9,9 +8,9 @@ const AboutUsSection = () => {
   return (
     <>
       <motion.div
-        initial={{opacity: 0}}
-        whileInView={{opacity: 1, transition: {duration: 1}}}
-        viewport={{once: false}}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { duration: 1 } }}
+        viewport={{ once: false }}
         className="hack4bengal__section2"
         id="aboutus"
       >

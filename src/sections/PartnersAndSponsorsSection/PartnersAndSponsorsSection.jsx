@@ -1,7 +1,7 @@
 import React from "react";
 import sponsers from "../../assets/data/sponsersData";
 import "./PartnersAndSponsorsSection.css";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const PartnersAndSponsorsSection = () => {
   return (
@@ -51,164 +51,15 @@ const PartnersAndSponsorsSection = () => {
                 ))}
               </div>
             </div>
-            {/* <div className="hack4bengal__section6-sponser-title">
-            Silver Sponsor
-          </div>
-          <div className="hack4bengal__section6-sponser-list platinum">
-            <div className="hack4bengal__section6-sponser-image">
-              {sponsers.silver.map((sponser, index) => (
-                <a href={sponser.link}>
-                  {index === 2 ? (
-                    <span>
-                      <img
-                        key={index}
-                        src={sponser.img}
-                        style={{ marginTop: "9px" }}
-                      />
-                      <div style={{ textAlign: "center", paddingTop: "11px" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  ) : index === 1 ? (
-                    <span style={{ position: "relative" }}>
-                      <img
-                        key={index}
-                        src={sponser.img}
-                        style={{ width: "180px", borderRadius: "10px" }}
-                      />
-                      <div style={{ textAlign: "center", marginTop: "3px" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  ) : (
-                    <span style={{ position: "relative" }}>
-                      <img key={index} src={sponser.img} />
-                      <div style={{ textAlign: "center" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  )}
-                </a>
-              ))}
-            </div>
-          </div>
-          <div className="hack4bengal__section6-sponser-title">
-            Bronze Sponsor
-          </div>
-          <div className="hack4bengal__section6-sponser-list platinum">
-            <div className="hack4bengal__section6-sponser-image">
-              {sponsers.bronze.map((sponser, index) => (
-                <a href={sponser.link}>
-                  {index === 2 ? (
-                    <span>
-                      <img
-                        key={index}
-                        src={sponser.img}
-                        style={{ marginTop: "9px" }}
-                      />
-                      <div style={{ textAlign: "center", paddingTop: "11px" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  ) : index === 1 ? (
-                    <span style={{ position: "relative" }}>
-                      <img
-                        key={index}
-                        src={sponser.img}
-                        style={{ width: "180px", borderRadius: "10px" }}
-                      />
-                      <div style={{ textAlign: "center", marginTop: "3px" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  ) : (
-                    <span style={{ position: "relative" }}>
-                      <img key={index} src={sponser.img} />
-                      <div style={{ textAlign: "center" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  )}
-                </a>
-              ))}
-            </div>
-          </div> */}
-            {/*   {sponsers.platinum.map((sponser, index) => (
-              <div className="hack4bengal__section6-sponser-image">
-                <a href={sponser.link}>
-                  <img key={index} src={sponser.img} />
-                  <div style={{ textAlign: "center", paddingTop: "15px" }}>
-                    {sponser.txt}
-                  </div>
-                </a>
-              </div>
-            ))} */}
-
-            {/* <div className="hack4bengal__section6-sponser-title">
-            Incubation Partner
-          </div>
-          <div className="hack4bengal__section6-sponser-list gold">
-            {sponsers.gold.map((sponser, index) => (
-              <div className="hack4bengal__section6-sponser-image" >
-                <img key={index} src={sponser.img} />
-                <div style={{ textAlign: 'center' }}>{sponser.txt}</div>
-
-              </div>
-            ))}
-
-            
-          </div> */}
 
             <div
-              className="two-group-class"
+              className="two-group-class w-550"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                width: "550px",
+
               }}
             >
               <div className="hack4bengal__section6-sponser-title sponser-two-dual">
@@ -237,13 +88,13 @@ const PartnersAndSponsorsSection = () => {
             </div>
 
             <div
-              className="two-group-class"
+              className="two-group-class w-550"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                width: "550px",
+
               }}
             >
               <div className="hack4bengal__section6-sponser-title sponser-two-dual">
@@ -273,13 +124,13 @@ const PartnersAndSponsorsSection = () => {
 
             <div className="partner-two-group">
               <div
-                className="two-group-class"
+                className="two-group-class w-550"
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
-                  width: "550px",
+
                 }}
               >
                 <div className="hack4bengal__section6-sponser-title sponser-two-dual">
@@ -456,72 +307,6 @@ const PartnersAndSponsorsSection = () => {
               </div>
             </div>
 
-            {/*   <div
-            className="hack4bengal__section6-sponser-title"
-            style={{ marginBottom: "-40px" }}
-          >
-            In-kind Partner
-          </div>
-          <div className="hack4bengal__section6-sponser-list platinum">
-            <div className="hack4bengal__section6-sponser-image">
-              {sponsers.partners.map((sponser, index) => (
-                <a href={sponser.link}>
-                  {index === 2 ? (
-                    <span>
-                      <img
-                        key={index}
-                        src={sponser.img}
-                        style={{ marginTop: "9px" }}
-                      />
-                      <div style={{ textAlign: "center", paddingTop: "11px" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  ) : index === 1 ? (
-                    <span style={{ position: "relative" }}>
-                      <img
-                        key={index}
-                        src={sponser.img}
-                        style={{ width: "180px", borderRadius: "10px" }}
-                      />
-                      <div style={{ textAlign: "center", marginTop: "3px" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  ) : (
-                    <span style={{ position: "relative" }}>
-                      <img key={index} src={sponser.img} />
-                      <div style={{ textAlign: "center" }}>
-                        <p>
-                          {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                      </div>
-                    </span>
-                  )}
-                </a>
-              ))}
-            </div>
-          </div> */}
-
             <div
               className="two-group-class"
               style={{
@@ -562,25 +347,6 @@ const PartnersAndSponsorsSection = () => {
               </div>
             </div>
 
-            {/* 
-          <div className="hack4bengal__section6-sponser-list platinum">
-            <div className="hack4bengal__section6-sponser-image">
-              {sponsers.domain.map((sponser, index) => (
-                <a href={sponser.link}>
-                  <img style={{ borderRadius: '20px', }} key={index} src={sponser.img} />
-                  <div style={{ textAlign: "center" }}>
-                    <p>
-                      {sponser.txt.split("\n").map((line, index) => (
-                        <React.Fragment key={index}>
-                          {line}
-                        </React.Fragment>
-                      ))}
-                    </p>
-                  </div>
-                </a>
-              ))}
-            </div>
-          </div> */}
           </div>
           <h2>More Sponsors To be Declared Soon</h2>
 
