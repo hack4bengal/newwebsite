@@ -16,7 +16,11 @@ const SpeakerCard = ({
   return (
     <div className="hack4bengal__section4-speaker-card">
       <div className="hack4bengal__section4-speaker-img-container">
-        <img src={img} className="hack4bengal__section4-speaker-img" />
+        <img
+          src={img}
+          className="hack4bengal__section4-speaker-img"
+          alt="h4b"
+        />
       </div>
       <div className="hack4bengal__section4-speaker-menu">
         <h1>{name}</h1>

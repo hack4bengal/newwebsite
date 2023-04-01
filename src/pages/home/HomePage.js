@@ -5,31 +5,31 @@ import "../../App.css";
 // NavbarSection
 import Navbar from "../../components/navbar/Navbar";
 // Section1
-import WelcomeSection from "../../sections/section1/WelcomeSection";
+import WelcomeSection from "../../sections/WelcomeSection/WelcomeSection.jsx";
 // Section2
-import InfiniteCarouselSection from "../../components/InfiniteCarouselSection/InfiniteCarouselSection";
+import InfiniteCarouselSection from "../../components/InfiniteCarouselSection/InfiniteCarouselSection.jsx";
 // Section3
-import HackathonCountdownSection from "../../sections/HackathonCountdownSection/HackathonCountdownSection";
+import HackathonCountdownSection from "../../sections/HackathonCountdownSection/HackathonCountdownSection.jsx";
 // Section
-import AboutUsSection from "../../sections/AboutUsSection/AboutUsSection";
+import AboutUsSection from "../../sections/AboutUsSection/AboutUsSection.jsx";
 // Section5
-import TimelineSection from "../../sections/TimelineSection/TimelineSection";
+import TimelineSection from "../../sections/TimelineSection/TimelineSection.jsx";
 // Section6
-import OfflineEventsSection from "../../sections/OfflineEventsSection/OfflineEventsSection";
+import OfflineEventsSection from "../../sections/OfflineEventsSection/OfflineEventsSection.jsx";
 // Section7
-import ThemesSection from "../../sections/ThemesSection/ThemesSection";
+import ThemesSection from "../../sections/ThemesSection/ThemesSection.jsx";
 // Section8
-import PrizesSection from "../../sections/PrizesSection/PrizesSection";
+import PrizesSection from "../../sections/PrizesSection/PrizesSection.jsx";
 // Section9
-import PastSpeakersSection from "../../sections/PastSpeakersSection/PastSpeakersSection";
+import PastSpeakersSection from "../../sections/PastSpeakersSection/PastSpeakersSection.jsx";
 // Section10
-import PartnersAndSponsorsSection from "../../sections/PartnersAndSponsorsSection/PartnersAndSponsorsSection";
+import PartnersAndSponsorsSection from "../../sections/PartnersAndSponsorsSection/PartnersAndSponsorsSection.jsx";
 // Section11
-import FAQSection from "../../sections/FAQSection/FAQSection";
+import FAQSection from "../../sections/FAQSection/FAQSection.jsx";
 // Section12
-import MeetOuTeamSection from "../../sections/MeetOuTeamSection/MeetOuTeamSection";
+import MeetOurTeamSection from "../../sections/MeetOurTeamSection/MeetOurTeamSection.jsx";
 //FooterSection
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/Footer.jsx";
 
 // import Section3 from "../../sections/section3/Section3";
 // import Section8 from "../../sections/section8/Section8";
@@ -59,7 +59,7 @@ export default class HomePage extends Component {
           <PastSpeakersSection />
           <PartnersAndSponsorsSection />
           <FAQSection />
-          <MeetOuTeamSection />
+          <MeetOurTeamSection />
         </div>
 
         <div className="hack4bengal__footer-container">

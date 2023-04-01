@@ -16,7 +16,7 @@ const TeamCard3 = ({
   return (
     <div className="hack4bengal__team-card3">
       <div className="hack4bengal__team-card3-img">
-        <img src={img} />
+        <img src={img} alt="h4b" />
       </div>
       <div className="hack4bengal__team-card3-content">
         <h3 className="name3">{name}</h3>
@@ -26,7 +26,12 @@ const TeamCard3 = ({
       <div className="line"></div>
       <ul className="social3">
         <li>
-          <a href={facebook} target="_blank" rel="noreferrer" aria-hidden="true">
+          <a
+            href={facebook}
+            target="_blank"
+            rel="noreferrer"
+            aria-hidden="true"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -88,13 +93,19 @@ const TeamCard3 = ({
         <li>
           <a
             href={github}
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
             className="fa fa-github fa-2x"
             aria-hidden="true"
           ></a>
         </li>
         <li>
-          <a href={linkedin} target="_blank" rel="noreferrer" aria-hidden="true">
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noreferrer"
+            aria-hidden="true"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"

@@ -44,7 +44,7 @@ const Prize = () => {
                         <div className="event_eventcard">
 
                             <div className="eventcard_leftdiv">
-                                <img src="https://h4b.vercel.app/static/media/team-1.6f107ad07e02eca9b80b.png" alt="" />
+                                <img src="https://h4b.vercel.app/static/media/team-1.6f107ad07e02eca9b80b.png" alt="h4b" />
                             </div>
 
                             <div className="eventcard_rightdiv">
@@ -57,7 +57,7 @@ const Prize = () => {
                         <div className="event_eventcard">
 
                             <div className="eventcard_leftdiv">
-                                <img src="https://h4b.vercel.app/static/media/team-1.6f107ad07e02eca9b80b.png" alt="" />
+                                <img src="https://h4b.vercel.app/static/media/team-1.6f107ad07e02eca9b80b.png" alt="h4b" />
                             </div>
 
                             <div className="eventcard_rightdiv">
@@ -70,7 +70,7 @@ const Prize = () => {
                         <div className="event_eventcard">
 
                             <div className="eventcard_leftdiv">
-                                <img src="https://h4b.vercel.app/static/media/team-1.6f107ad07e02eca9b80b.png" alt="" />
+                                <img src="https://h4b.vercel.app/static/media/team-1.6f107ad07e02eca9b80b.png" alt="h4b" />
                             </div>
 
                             <div className="eventcard_rightdiv">
@@ -89,7 +89,7 @@ const Prize = () => {
                         <div className="event_eventcard">
 
                             <div className="eventcard_leftdiv">
-                                <img src="https://h4b.vercel.app/static/media/team-2.7aff1325763731dae1c3.png" alt="" />
+                                <img src="https://h4b.vercel.app/static/media/team-2.7aff1325763731dae1c3.png" alt="h4b" />
                             </div>
 
                             <div className="eventcard_rightdiv">
@@ -102,7 +102,7 @@ const Prize = () => {
                         <div className="event_eventcard">
 
                             <div className="eventcard_leftdiv">
-                                <img src="https://h4b.vercel.app/static/media/team-2.7aff1325763731dae1c3.png" alt="" />
+                                <img src="https://h4b.vercel.app/static/media/team-2.7aff1325763731dae1c3.png" alt="h4b" />
                             </div>
 
                             <div className="eventcard_rightdiv">
@@ -115,7 +115,7 @@ const Prize = () => {
                         <div className="event_eventcard">
 
                             <div className="eventcard_leftdiv">
-                                <img src="https://h4b.vercel.app/static/media/team-2.7aff1325763731dae1c3.png" alt="" />
+                                <img src="https://h4b.vercel.app/static/media/team-2.7aff1325763731dae1c3.png" alt="h4b" />
                             </div>
 
                             <div className="eventcard_rightdiv">
