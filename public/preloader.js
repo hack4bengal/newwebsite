@@ -3,8 +3,8 @@
 
 let camera, scene, renderer;
 let plane;
-let willAnimate = true;
-let closingtime = 85;
+//let willAnimate = true;
+//let closingtime = 85;
 let raycaster = new THREE.Raycaster();
 let normalizedMouse = {
   x: 0,
@@ -92,12 +92,12 @@ function init() {
 let timer = 0;
 
 function render() {
-  if (willAnimate) {
+  //if (willAnimate) {
     requestAnimationFrame(render);
-  } else if (closingtime != 0) {
-    closingtime -= 1;
-    requestAnimationFrame(render);
-  }
+ // } else if (closingtime != 0) {
+   // closingtime -= 1;
+    //requestAnimationFrame(render);
+  //}
 
   timer += 0.01;
   let vertices = plane.geometry.vertices;
@@ -203,7 +203,7 @@ $(".shift-camera-button").click(function () {
       ease: Power3.easeInOut,
     }),
   ]);
-  willAnimate = false;
+ // willAnimate = false;
 });
 
 //any keyboard keydown
@@ -245,7 +245,7 @@ document.addEventListener("keydown", function (event) {
       }),
     ]);
   }
-  willAnimate = false;
+ // willAnimate = false;
 });
 
 render();
