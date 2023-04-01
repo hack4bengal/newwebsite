@@ -3,9 +3,7 @@ import speaker2 from "../images/speaker2.jpg";
 import speaker3 from "../images/speaker3.jpeg"; */
 import arsh from "../images/speakers/arsh.jpeg";
 import avinaba from "../images/speakers/avinaba.jpeg";
-import Manish from "../images/speakers/Manish.jpeg";
 import niloy from "../images/speakers/niloy.jpeg";
-import Sagnik from "../images/speakers/Sagnik.jpeg";
 import soumyadip from "../images/speakers/soumyadip.jpg";
 import riddhi from "../images/speakers/riddhi.jpg";
 import debashish from "../images/speakers/debashish.png";
