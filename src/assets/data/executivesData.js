@@ -9,7 +9,7 @@ import Tushar from "../team/tushar.png";
 import Himanshu from "../team/Himanshu Rai.png";
 import Shafin from "../team/Shafin Kausar.png";
 import Shatanik from "../team/Shatanik.png";
-import Aniruddha from "../team/Aniruddha Sarkar.png";
+
 import Alapan from "../team/Alapan Das.png";
 import Subhanjan from "../team/Subhanjan.png";
 import Tamal from "../team/Tamal.png";
