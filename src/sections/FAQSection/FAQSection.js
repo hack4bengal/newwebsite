@@ -1,17 +1,17 @@
 import React from "react";
 
-import "./Section7.css";
+import "./FAQSection.css";
 
 import file10 from "../../assets/images/file10.png";
 import AccordionDiv from "../../components/faq/QuestionAccordian";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
-const Section7 = () => {
+const FAQSection = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 1 } }}
-      viewport={{ once: false }}
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1, transition: {duration: 1}}}
+      viewport={{once: false}}
       className="hack4bengal__section7"
       id="faq"
     >
@@ -36,4 +36,4 @@ const Section7 = () => {
   );
 };
 
-export default Section7;
+export default FAQSection;

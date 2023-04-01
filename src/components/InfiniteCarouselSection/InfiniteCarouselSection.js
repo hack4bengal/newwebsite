@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./InfiniteCarousel.css";
+import "./InfiniteCarouselSection.css";
 
-const InfiniteCarousel = () => {
+const InfiniteCarouselSection = () => {
   return (
     <div className="h4b_reg_text_wrapper">
       <p>Registrations are now Open !</p>
@@ -140,4 +140,4 @@ const InfiniteCarousel = () => {
   );
 };
 
-export default InfiniteCarousel;
+export default InfiniteCarouselSection;

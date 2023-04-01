@@ -1,18 +1,18 @@
 import React from "react";
-import "./Section4.css";
+import "./PastSpeakersSection.css";
 import speakers from "../../assets/data/speakersData.js";
 import SpeakerCard from "../../components/speakerCard/SpeakerCard";
 import NewTeamCard from "../../components/teamCard/NewTeamCard";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 import Slider from "react-slick";
-import { sliderSettings } from "../../motionUtils";
+import {sliderSettings} from "../../motionUtils";
 
-const Section4 = () => {
+const PastSpeakersSection = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 1 } }}
-      viewport={{ once: false }}
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1, transition: {duration: 1}}}
+      viewport={{once: false}}
       className="hack4bengal__section3"
       id="speakers"
     >
@@ -40,4 +40,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default PastSpeakersSection;
