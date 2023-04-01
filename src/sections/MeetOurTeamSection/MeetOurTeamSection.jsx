@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./MeetOuTeamSection.css";
+import "./MeetOurTeamSection.css";
 import {motion} from "framer-motion";
 
 import {Link} from "react-router-dom";
