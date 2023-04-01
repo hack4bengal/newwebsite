@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .h4b_about_main {
-  margin-top: 5rem;
   color: white;
   font-family: 'Poppins';
 }
@@ -14,7 +13,6 @@
   font-size: 48px;
   text-align: center;
   letter-spacing: 1px;
-  margin-top: 8rem;
 }
 
 .h4b_about_main hr {
@@ -34,7 +32,7 @@
 
 .playeryoga {
   width: 400px;
-  /* height: 300px; */
+  height: 400px;
 }
 
 .h4b_about_textdiv {

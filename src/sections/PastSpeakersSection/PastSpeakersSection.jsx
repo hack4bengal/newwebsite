@@ -1,24 +1,22 @@
 import React from "react";
 import "./PastSpeakersSection.css";
 import speakers from "../../assets/data/speakersData.js";
-import SpeakerCard from "../../components/speakerCard/SpeakerCard";
 import NewTeamCard from "../../components/teamCard/NewTeamCard";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
 import { sliderSettings } from "../../motionUtils";
-import "../section3/Section3.css"
 const PastSpeakersSection = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 1 } }}
       viewport={{ once: false }}
-      className="hack4bengal__section3"
+      className="pastspeaker_section"
       id="speakers"
     >
-      <div className="hack4bengal__section3-title">Past Speakers</div>
+      <div className="pastspeaker_section-title">Past Speakers</div>
       <hr />
-      <div className="hack4bengal__section3-events-container">
+      <div className="pastspeaker_section-events-container">
         <Slider {...sliderSettings} className="slider">
           {speakers.map((speaker, key) => (
             <NewTeamCard

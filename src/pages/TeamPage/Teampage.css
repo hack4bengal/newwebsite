@@ -4,3 +4,15 @@
   position: sticky;
   top: 0px;
 }
+
+.teampage_container_main {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+@media screen and (max-width:768px) {
+  .teampage_container_main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

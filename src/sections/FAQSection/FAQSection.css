@@ -1,25 +1,25 @@
-.hack4bengal__section7 {
-  padding-top: 2rem;
+.faq_section {
+
   color: white;
   font-family: "Poppins";
   margin: 0;
 }
 
-.hack4bengal__section7-body {
+.faq_section-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.hack4bengal__section7-part1 {
+.faq_section-part1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.hack4bengal__section7-title {
+.faq_section-title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -27,10 +27,9 @@
   letter-spacing: -1px;
   color: #ffffff;
   text-align: center;
-  margin: 1.5rem 0;
 }
 
-.hack4bengal__section7-content {
+.faq_section-content {
   font-style: normal;
   font-size: 20px;
   line-height: 36px;
@@ -38,7 +37,7 @@
   width: 85%;
 }
 
-.hack4bengal__section7-part2 {
+.faq_section-part2 {
   max-width: 80%;
   display: flex;
   justify-content: space-evenly;
@@ -111,15 +110,15 @@
   transition: height ease 0.2s;
 }
 
-.hack4bengal__section7-image {
+.faq_section-image {
   width: 40%;
 }
 
-.hack4bengal__section7-image img {
+.faq_section-image img {
   width: 100%;
 }
 
-.hack4bengal__section7-questions {
+.faq_section-questions {
   max-width: 70%;
 }
 
@@ -129,43 +128,43 @@
   }
 
 
-  .hack4bengal__section7-part2 {
+  .faq_section-part2 {
     max-width: 100%;
     min-height: 660px;
   }
 
-  .hack4bengal__section7-questions {
+  .faq_section-questions {
     max-width: 90%;
   }
 
-  .hack4bengal__section7-image {
+  .faq_section-image {
     display: none;
   }
 
-  .hack4bengal__section7-part2 {
+  .faq_section-part2 {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem 0;
   }
 
-  .hack4bengal__section7-questions ul {
+  .faq_section-questions ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
 
-  .hack4bengal__section7-image {
+  .faq_section-image {
     width: 30%;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .hack4bengal__section7-title {
+  .faq_section-title {
     font-size: 36px;
   }
 
-  .hack4bengal__section7-content {
+  .faq_section-content {
     font-size: 16px;
   }
 

@@ -2,8 +2,8 @@ import React from "react";
 
 // import Prizes from "../../assets/data/PrizesData";
 // import PrizeBox from "../../components/prizeBox/PrizeBox.js";
-import {motion} from "framer-motion";
-import {useNavigate} from "react-router-dom";
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 import "./PrizesSection.css";
 
@@ -11,21 +11,21 @@ const PrizesSection = () => {
   const navigate = useNavigate();
   return (
     <motion.div
-      initial={{opacity: 0}}
-      whileInView={{opacity: 1, transition: {duration: 1}}}
-      viewport={{once: false}}
-      className="hack4bengal__section9"
-      id="prizes"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { duration: 1 } }}
+      viewport={{ once: false }}
+      className="prize_section"
+
     >
-      <div className="hack4bengal__section9-title">
-        <div className="hack4bengal__section9-title1">Prizes</div>
+      <div className="prize_section-title" id="prizes">
+        <div className="prize_section-title1">Prizes</div>
         <hr />
-        <div className="hack4bengal__section9-title2">
+        <div className="prize_section-title2">
           Win exciting prizes and swags!
         </div>
       </div>
-      {/* <div className="hack4bengal__section9-body">
-        <div className="hack4bengal__section9-description">
+      {/* <div className="prize_section-body">
+        <div className="prize_section-description">
           <div className="prizes_box_main">
             <div className="prizebox prizebox4">
               <div className="prizebox_imgdiv prizebox1_imgdiv">

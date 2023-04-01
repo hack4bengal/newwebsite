@@ -1,18 +1,9 @@
 import React from "react";
 import "./Team.css";
-
 import overAllCoordinaters from "../../assets/data/overAllCoordinatorsData";
-// import headCoordinaters from "../../assets/data/headCoordinatorsData";
-// import managers from "../../assets/data/managersData";
 import executives from "../../assets/data/executivesData";
-
 import TeamCard from "../../components/teamCard/TeamCard";
-// import TeamCard2 from "../../components/teamCard2/TeamCard2";
-import TeamCard3 from "../../components/teamCard3/TeamCard3";
 import { motion } from "framer-motion";
-import Footer from "../../components/footer/Footer";
-
-// import tcp from "../../assets/img/H4B-logo-black.png";
 
 const Team = () => {
   return (
@@ -51,9 +42,6 @@ const Team = () => {
                   key={index}
                   img={member.Photo}
                   name={member.Name}
-                  // facebook={member.facebook}
-                  // twitter={member.twitter}
-                  // github={member.github}
                   linkedin={member.linkedin}
                   position={member.position}
                   domain={member.Domain}
@@ -68,9 +56,6 @@ const Team = () => {
                 key={index}
                 img={member.Photo}
                 name={member.Name}
-                // facebook={member.facebook}
-                // twitter={member.twitter}
-                // github={member.github}
                 linkedin={member.linkedin}
                 position={member.position}
                 domain={member.Domain}

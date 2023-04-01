@@ -1,17 +1,17 @@
-.hack4bengal__section10 {
-  padding-top: 4rem;
+.meetourteam_section {
+
   color: white;
   font-family: 'Poppins';
 }
 
-.hack4bengal__section10-body {
+.meetourteam_section-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.hack4bengal__section10-title {
+.meetourteam_section-title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -20,11 +20,11 @@
   letter-spacing: 1px;
 }
 
-.hack4bengal__section10-title2 {
+.meetourteam_section-title2 {
   margin-bottom: 3rem;
 }
 
-.hack4bengal__section10-button {
+.meetourteam_section-button {
   border: 1px solid #ff1717;
   border-radius: 10px;
   cursor: pointer;
@@ -42,7 +42,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.hack4bengal__section10-button:hover {
+.meetourteam_section-button:hover {
   transition: all 0.2s ease-in-out;
   color: white;
   background-color: #ff1717;
@@ -50,16 +50,16 @@
 }
 
 @media screen and (max-width: 650px) {
-  .hack4bengal__section10 {
+  .meetourteam_section {
     padding-top: 2rem;
   }
 
-  .hack4bengal__section10-title {
+  .meetourteam_section-title {
     font-size: 36px;
     line-height: normal;
   }
 
-  .hack4bengal__section10-title2 {
+  .meetourteam_section-title2 {
     font-size: 30px !important;
     margin-top: 20px;
   }

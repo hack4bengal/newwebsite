@@ -6,7 +6,7 @@ import Sanmoy from "../../assets/team/sanmoy.jpg";
 
 const overAllCoordinaters = [
   {
-    Name: "Manish Kr Barnwal",
+    Name: "Manish Kr \n Barnwal",
     Photo: Manish,
     position: "GitHub Campus Expert",
     Domain: "Lead Organizer",
@@ -16,7 +16,7 @@ const overAllCoordinaters = [
     linkedin: "https://www.linkedin.com/in/imanishbarnwal/",
   },
   {
-    Name: "Sagnik Mitra",
+    Name: "Sagnik \n Mitra",
     Photo: Sagnik,
     position: "Software Engineer @Odessa",
     Domain: "Lead Organizer",
@@ -26,7 +26,7 @@ const overAllCoordinaters = [
     linkedin: "https://www.linkedin.com/in/sagnikmitra/",
   },
   {
-    Name: "Shubham Tribedi",
+    Name: "Shubham \n Tribedi",
     Photo: Shubham,
     position: "Program Coordinator @CodeChef",
     Domain: "Lead Organizer",
@@ -36,7 +36,7 @@ const overAllCoordinaters = [
     linkedin: "https://www.linkedin.com/in/shubham-tribedi/",
   },
   {
-    Name: "Kajal Jaiswal",
+    Name: "Kajal \n Jaiswal",
     Photo: Kajal,
     position: "Beta Microsoft LSA",
     Domain: "Lead Organizer",
@@ -44,7 +44,7 @@ const overAllCoordinaters = [
   },
 
   {
-    Name: "Sanmoy Dam",
+    Name: "Sanmoy \n Dam",
     Photo: Sanmoy,
     position: "President at GFG SNU chapter",
     Domain: "Lead Organizer",
