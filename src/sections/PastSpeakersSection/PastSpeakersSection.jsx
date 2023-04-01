@@ -5,7 +5,6 @@ import NewTeamCard from "../../components/teamCard/NewTeamCard";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
 import { sliderSettings } from "../../motionUtils";
-
 const PastSpeakersSection = () => {
   return (
     <motion.div

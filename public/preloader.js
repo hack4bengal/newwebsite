@@ -4,7 +4,7 @@
 let camera, scene, renderer;
 let plane;
 let willAnimate = true;
-let closingtime = 120;
+let closingtime = 85;
 let raycaster = new THREE.Raycaster();
 let normalizedMouse = {
   x: 0,
