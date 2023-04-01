@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import "./Section1.css";
+import React, {useEffect} from "react";
+import "./WelcomeSection.css";
 import h4blogo from "../../assets/img/square-grey-logo.png";
 import discord from "../../assets/img/discord-mark-blue.png";
 import newbanner from "../../assets/updates/newbanner.png";
 import newbanner2 from "../../assets/updates/newbanner3.png";
-import { motion, transform } from "framer-motion";
-import { staggerChildren, fadeIn } from "../../motionUtils";
+import {motion, transform} from "framer-motion";
+import {staggerChildren, fadeIn} from "../../motionUtils";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
 
-const Section1 = () => {
+const WelcomeSection = () => {
   React.useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -25,7 +25,7 @@ const Section1 = () => {
       initial="hidden"
       whileInView="show"
       variants={staggerChildren}
-      viewport={{ once: true, amount: 0.25 }}
+      viewport={{once: true, amount: 0.25}}
       className="hack4bengal__section1"
       id="home"
     >
@@ -51,7 +51,7 @@ const Section1 = () => {
         </div>
         <div
           className="hack4bengal__section1-button-container"
-          style={{ display: "flex", placeContent: "center" }}
+          style={{display: "flex", placeContent: "center"}}
         >
           <div className="hack4bengal__section1-discord" id="discord">
             <a
@@ -206,4 +206,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default WelcomeSection;

@@ -1,16 +1,16 @@
 import React from "react";
 
-import "./Section10.css";
-import { motion } from "framer-motion";
+import "./MeetOuTeamSection.css";
+import {motion} from "framer-motion";
 
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
-const section10 = () => {
+const MeetOuTeamSection = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 1 } }}
-      viewport={{ once: false }}
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1, transition: {duration: 1}}}
+      viewport={{once: false}}
       className="hack4bengal__section10"
       id="my-team"
     >
@@ -31,4 +31,4 @@ const section10 = () => {
   );
 };
 
-export default section10;
+export default MeetOuTeamSection;

@@ -1,19 +1,19 @@
 import React from "react";
 
-import Prizes from "../../assets/data/PrizesData";
-import PrizeBox from "../../components/prizeBox/PrizeBox.js";
-import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+// import Prizes from "../../assets/data/PrizesData";
+// import PrizeBox from "../../components/prizeBox/PrizeBox.js";
+import {motion} from "framer-motion";
+import {useNavigate} from "react-router-dom";
 
-import "./Section9.css";
+import "./PrizesSection.css";
 
-const Section9 = () => {
+const PrizesSection = () => {
   const navigate = useNavigate();
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 1 } }}
-      viewport={{ once: false }}
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1, transition: {duration: 1}}}
+      viewport={{once: false}}
       className="hack4bengal__section9"
       id="prizes"
     >
@@ -104,4 +104,4 @@ const Section9 = () => {
   );
 };
 
-export default Section9;
+export default PrizesSection;

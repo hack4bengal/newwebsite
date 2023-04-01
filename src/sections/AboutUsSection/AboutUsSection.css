@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .h4b_about_main {
   margin-top: 5rem;
   color: white;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .h4b_about_main h1 {
   color: white;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -44,26 +44,6 @@
 
 .h4b_about_textdiv span {
   color: #e13b3c;
-}
-
-.h4b_about_more {
-  display: flex;
-  gap: 1rem;
-  padding-top: 2rem;
-}
-
-.h4b_about_more_element img {
-  height: 3rem;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-.h4b_about_more_element_title {
-  color: #e13b3c !important;
-  font-weight: 600;
-  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1000px) {

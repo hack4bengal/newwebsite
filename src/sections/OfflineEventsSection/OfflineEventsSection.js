@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import "./Event.css";
+import React, {useEffect} from "react";
+import "./OfflineEventsSection.css";
 
 import land1 from "../../assets/events/landscape/land1.png";
 import land2 from "../../assets/events/landscape/land2.png";
@@ -13,7 +13,7 @@ import ver3 from "../../assets/events/potrait/ver3.png";
 import ver4 from "../../assets/events/potrait/ver4.png";
 import ver5 from "../../assets/events/potrait/ver5.png";
 
-function Events() {
+function OfflineEventsSection() {
   return (
     <>
       <div className="events_main">
@@ -93,4 +93,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default OfflineEventsSection;

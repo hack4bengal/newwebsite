@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import React, {Component} from "react";
+import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
-import TeamTCP from "./pages/teamTcp/TeamTcp";
+import TeamPage from "./pages/TeamPage/TeamPage";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop";
 import PrizeTcp from "./pages/prizeTcp/PrizeTcp";
@@ -20,7 +20,7 @@ export default class App extends Component {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/team" element={<TeamTCP />} />
+          <Route path="/team" element={<TeamPage />} />
           <Route path="/prizes" element={<PrizeTcp />} />
           <Route path="/events" element={<EventTcp />} />
           <Route path="privacy" element={<PrivacyPolicy />} />

@@ -1,21 +1,39 @@
-import React, { Component } from "react";
-import Navbar from "../../components/navbar/Navbar";
+import React, {Component} from "react";
 import "./HomePage.css";
 import "../../App.css";
-import InfiniteCarousel from "../../components/infiniteCarousel/InfiniteCarousel";
-import Section1 from "../../sections/section1/Section1";
-import Section2 from "../../sections/section2/Section2";
-import Section3 from "../../sections/section3/Section3";
-import Section4 from "../../sections/section4/Section4";
-import Section6 from "../../sections/section6/Section6";
-import Section7 from "../../sections/section7/Section7";
-import Section9 from "../../sections/section9/Section9";
-import Section8 from "../../sections/section8/Section8";
-import Section10 from "../../sections/section10/Section10";
+
+// NavbarSection
+import Navbar from "../../components/navbar/Navbar";
+// Section1
+import WelcomeSection from "../../sections/section1/WelcomeSection";
+// Section2
+import InfiniteCarouselSection from "../../components/InfiniteCarouselSection/InfiniteCarouselSection";
+// Section3
+import HackathonCountdownSection from "../../sections/HackathonCountdownSection/HackathonCountdownSection";
+// Section
+import AboutUsSection from "../../sections/AboutUsSection/AboutUsSection";
+// Section5
+import TimelineSection from "../../sections/TimelineSection/TimelineSection";
+// Section6
+import OfflineEventsSection from "../../sections/OfflineEventsSection/OfflineEventsSection";
+// Section7
+import ThemesSection from "../../sections/ThemesSection/ThemesSection";
+// Section8
+import PrizesSection from "../../sections/PrizesSection/PrizesSection";
+// Section9
+import PastSpeakersSection from "../../sections/PastSpeakersSection/PastSpeakersSection";
+// Section10
+import PartnersAndSponsorsSection from "../../sections/PartnersAndSponsorsSection/PartnersAndSponsorsSection";
+// Section11
+import FAQSection from "../../sections/FAQSection/FAQSection";
+// Section12
+import MeetOuTeamSection from "../../sections/MeetOuTeamSection/MeetOuTeamSection";
+//FooterSection
 import Footer from "../../components/footer/Footer";
-import Timeline from "../../components/timeline/TimelineOne.js";
-import Events from "../../sections/section-event/Events";
-import ThemeSection from "../../sections/theme/ThemeSection";
+
+// import Section3 from "../../sections/section3/Section3";
+// import Section8 from "../../sections/section8/Section8";
+// import Timeline from "../../components/timeline/TimelineOne.js";
 
 export default class HomePage extends Component {
   render() {
@@ -26,24 +44,24 @@ export default class HomePage extends Component {
         </div>
 
         <div className=" mx-auto">
-          <Section1 />
+          <WelcomeSection />
         </div>
-        <InfiniteCarousel />
+
+        <InfiniteCarouselSection />
 
         <div className="container mx-auto">
-          <Section2 />
-          <Events />
-
-          <ThemeSection />
-          <Section9 />
-
-          <Section4 />
-
-          <Section6 />
-
-          <Section7 />
-          <Section10 />
+          <HackathonCountdownSection />
+          <AboutUsSection />
+          <TimelineSection />
+          <OfflineEventsSection />
+          <ThemesSection />
+          <PrizesSection />
+          <PastSpeakersSection />
+          <PartnersAndSponsorsSection />
+          <FAQSection />
+          <MeetOuTeamSection />
         </div>
+
         <div className="hack4bengal__footer-container">
           <Footer />
         </div>
