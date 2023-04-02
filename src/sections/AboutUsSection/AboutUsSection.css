@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+.about_god {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .h4b_about_main {
   color: white;
   font-family: 'Poppins';
+
 }
 
 .h4b_about_main h1 {
@@ -23,11 +30,12 @@
 }
 
 .h4b_about_sub {
+  width: 1200px;
   display: flex;
-  /*     justify-content: space-between; */
+  justify-content: space-between;
   gap: 3rem;
   align-items: center;
-  justify-content: center;
+  /*  justify-content: center; */
 }
 
 .playeryoga {
@@ -37,7 +45,7 @@
 
 .h4b_about_textdiv {
   font-size: 19px;
-  width: 50%;
+  width: 60%;
 }
 
 .h4b_about_textdiv span {
@@ -51,6 +59,7 @@
     padding: 0 2rem;
     justify-content: center;
     text-align: center;
+    width: 100vw;
   }
 
   .h4b_about_textdiv_sub {
@@ -58,7 +67,7 @@
   }
 
   .h4b_about_textdiv {
-    width: 100%;
+    width: 90%;
   }
 }
 
