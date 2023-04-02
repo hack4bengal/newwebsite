@@ -14,6 +14,7 @@ export default class Schedulepage extends Component {
             {schedule.map((schedule, index) => (
               <li class="event" data-date={schedule.time}>
                 <h3>{schedule.heading}</h3>
+                <p className='mob-time'>{schedule.time}</p>
                 <p>{schedule.Discription}</p>
               </li>
             ))}
