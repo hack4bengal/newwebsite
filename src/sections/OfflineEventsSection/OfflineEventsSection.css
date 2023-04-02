@@ -1,7 +1,15 @@
 /* //* EVENTS  */
 
+.events_main_parent {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .events_main {
-  width: 100%;
+  width: 1200px;
+
 }
 
 .offlineevents {
@@ -16,7 +24,7 @@
 
 .eventsflex_maindiv {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
 }
 

@@ -1,21 +1,32 @@
+.headers-timeline_main {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .headers-timeline {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 1200px;
 }
 
 .row-one {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   width: 100%;
+  gap: 20px;
+
 }
 
 .headers {
   flex: 1;
-  padding: 20px;
+  /*   padding: 20px; */
 
   display: flex;
   flex-direction: column;
@@ -25,7 +36,7 @@
 
 .boxed {
   background-color: rgba(34, 34, 34, 0.25);
-  width: 80%;
+  width: 100%;
   min-height: 110px;
   /*   padding: 20px; */
   margin: 20px;
@@ -69,7 +80,7 @@
 
 .timeline-card {
   min-height: 200px;
-  width: 93%;
+  width: 100%;
   background-color: rgba(34, 34, 34, 0.25);
   border: 2px solid #e13b3c;
   border-radius: 5px;

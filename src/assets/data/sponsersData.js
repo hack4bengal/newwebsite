@@ -80,7 +80,7 @@ const bronze = [
   {
     img: sharedeum,
     txt: "Sharedeum",
-    link: "https://sharedeum.com/",
+    link: "https://sharedeum.org/",
   },
 ];
 const domain = [

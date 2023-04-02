@@ -1,3 +1,14 @@
+.themesection_god {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.themesection_parent {
+
+    width: 1200px;
+}
+
 .themesection_title {
     color: white;
     font-family: "Poppins";
@@ -20,7 +31,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     /*     padding: 35px 22px; */
     width: 100%;
 }
@@ -31,10 +42,6 @@
 
     flex-direction: column;
     justify-content: space-around;
-    /*     padding-top: 50px;
-    padding-bottom: 35px;
-    padding-left: 22px;
-    padding-right: 22px; */
     width: 100%;
 }
 
@@ -44,7 +51,7 @@
     .box-container2 {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 4rem;
+        gap: 2rem;
     }
 }
 
