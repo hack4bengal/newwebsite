@@ -6,7 +6,7 @@ const Timeline = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <div>
+    <div className="headers-timeline_main">
       <div className="headers-timeline">
         <div className="row-one">
           <div className="headers">
