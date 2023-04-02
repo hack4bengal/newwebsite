@@ -6,7 +6,7 @@
 
 .offlineevents {
   color: white;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -32,7 +32,7 @@
   color: #e13b3c;
   font-weight: 600;
   font-size: 3rem;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   margin: 0px !important;
   margin-top: 10px !important;
   line-height: 44px;
@@ -43,18 +43,15 @@
   font-weight: 500;
 }
 
-
 .events_flexcol:nth-child(2) .event_flextext,
 .events_flexcol:nth-child(3) .event_flextext {
   color: white;
 }
 
-
 .event_smallimg {
   width: 222px;
   height: 169px;
   border-radius: 8px;
-
 }
 
 .event_largeimg {
@@ -62,7 +59,6 @@
   height: 283px;
   border-radius: 8px;
 }
-
 
 /* .events_flexmain:nth-child(odd) .event_largeimg {
   margin-top: 10px;
@@ -80,7 +76,6 @@
 } */
 
 @media screen and (max-width: 768px) {
-
   .eventsflex_maindiv {
     flex-wrap: wrap;
   }
@@ -97,7 +92,6 @@
     width: 212px;
     height: 159px;
     border-radius: 8px;
-
   }
 
   .event_largeimg {

@@ -1,21 +1,17 @@
 import React from "react";
-
-// import Prizes from "../../assets/data/PrizesData";
-// import PrizeBox from "../../components/prizeBox/PrizeBox.js";
-import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import {motion} from "framer-motion";
+// import {useNavigate} from "react-router-dom";
 
 import "./PrizesSection.css";
 
-const PrizesSection = () => {
-  const navigate = useNavigate();
+const PrizesSection1 = () => {
+  // const navigate = useNavigate();
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 1 } }}
-      viewport={{ once: false }}
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1, transition: {duration: 1}}}
+      viewport={{once: false}}
       className="prize_section"
-
     >
       <div className="prize_section-title" id="prizes">
         <div className="prize_section-title1">Prizes</div>
@@ -23,8 +19,9 @@ const PrizesSection = () => {
         <div className="prize_section-title2">
           Win exciting prizes and swags!
         </div>
-      </div>
-      {/* <div className="prize_section-body">
+
+        {/* previousCode */}
+        {/* <div className="prize_section-body">
         <div className="prize_section-description">
           <div className="prizes_box_main">
             <div className="prizebox prizebox4">
@@ -100,8 +97,9 @@ const PrizesSection = () => {
           </button>
         </div>
       </div> */}
+      </div>
     </motion.div>
   );
 };
 
-export default PrizesSection;
+export default PrizesSection1;
