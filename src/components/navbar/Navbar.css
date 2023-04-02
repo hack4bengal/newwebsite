@@ -125,6 +125,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  max-width: 90%;
+  /*  overflow: hidden; */
 }
 
 .hack4bengal__navbar-navlist {

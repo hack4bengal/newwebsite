@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useRef, useState } from "react";
 import "./Navbar.css";
 import hack4bengal from "../../assets/images/navbar/h4blogo.png";
@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link, useNavigate } from "react-router-dom";
 import wblogo from "../../assets/images/navbar/wblogo.png";
+import Dropdown from "./dropdown/Dropdown";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,24 @@ const Navbar = () => {
     }
   };
 
+  let menuRef = useRef();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setOpen(false);
+        console.log(menuRef.current);
+      }
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
+
   return (
     <motion.div
       initial="hidden"
@@ -39,7 +58,7 @@ const Navbar = () => {
       className="hack4bengal__navbar-container"
     >
       <header className="hack4bengal__navbar ">
-        <div className="hack4bengal__navbar-body">
+        <div className="hack4bengal__navbar-body" ref={menuRef}>
           <Link to={"/"}>
             <div className="hack4bengal__navbar-logo">
               <img src={hack4bengal} alt="logo" />
@@ -65,7 +84,7 @@ const Navbar = () => {
                     toggleMenu();
                   }}
                 >
-                  <h3 className="hack4bengal__navbar-menu-heading">About Us</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">About</h3>
                 </p>
               </li>
               <li className="hack4bengal__navbar-navitem">
@@ -100,7 +119,7 @@ const Navbar = () => {
                 </p>
               </li>
 
-              <li className="hack4bengal__navbar-navitem">
+              {/*  <li className="hack4bengal__navbar-navitem">
                 <p
                   onClick={() => {
                     gotoId("speakers");
@@ -140,8 +159,24 @@ const Navbar = () => {
                 >
                   <h3 className="hack4bengal__navbar-menu-heading">Team</h3>
                 </p>
-              </li>
+              </li> */}
+              <div style={{ position: "relative" }}>
+                <li className="hack4bengal__navbar-navitem">
+                  <p
+                    onClick={() => {
+                      console.log("Hello mf");
+                      setOpen(!open)
+                    }}
+                  >
+                    <h3 className="hack4bengal__navbar-menu-heading">More</h3>
+                  </p>
+                </li>
+
+                <Dropdown open={open} setOpen={setOpen} />
+              </div>
             </ul>
+
+
           </nav>
         </div>
 
@@ -324,7 +359,7 @@ const Navbar = () => {
           </li>
         </ul>
       </header>
-    </motion.div>
+    </motion.div >
   );
 };
 
