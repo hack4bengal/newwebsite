@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
+import React, { Component } from "react";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
 import TeamPage from "./pages/TeamPage/TeamPage";
 import "./App.css";
@@ -13,6 +13,7 @@ import Assets from "./pages/assets/Assets";
 import Register from "./pages/register/Register";
 import Evengelist from "./pages/evangelist/Evengelist";
 import Partner from "./pages/cp/cp";
+import Schedulepage from "./pages/schedule/Schedulepage";
 export default class App extends Component {
   render() {
     return (
@@ -30,6 +31,7 @@ export default class App extends Component {
           <Route path="/register" element={<Register />} />
           <Route path="/evangelist" element={<Evengelist />} />
           <Route path="/cp" element={<Partner />} />
+          <Route path="/schedule" element={<Schedulepage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
