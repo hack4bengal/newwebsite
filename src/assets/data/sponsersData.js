@@ -15,6 +15,7 @@ import sharedeum from "../images/sponsers/shardeum.png";
 import fcf from "../images/sponsers/fcf.png";
 import fvm from "../images/sponsers/fvm.png";
 import hellenergy from "../images/sponsers/hell-energy.png";
+import gdgKolkata from "../images/sponsers/gdg_Kolkata.png";
 
 const platinum = [
   {
@@ -99,6 +100,12 @@ const energy = [
 ];
 
 const inkind = [
+  {
+    img: gdgKolkata,
+    txt: "GDG Kolkata",
+    link: "https://gdgcloud.kolkata.dev/",
+    paddingTop: 0,
+  },
   {
     img: taskcade,
     txt: "taskade",
