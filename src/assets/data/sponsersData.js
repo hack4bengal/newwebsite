@@ -102,7 +102,7 @@ const energy = [
 const inkind = [
   {
     img: gdgKolkata,
-    txt: "GDG Kolkata",
+    txt: "GDG cloud Kolkata",
     link: "https://gdgcloud.kolkata.dev/",
     paddingTop: 0,
   },
