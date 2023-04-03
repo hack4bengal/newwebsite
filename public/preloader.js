@@ -200,7 +200,7 @@ $(".shift-camera-button").click(function () {
       ease: Power3.easeInOut,
     }),
   ]);
-  setTimeout(() => (willAnimate = false), 3500);
+  setTimeout(() => (willAnimate = false), 3000);
 });
 
 //any keyboard keydown
@@ -242,7 +242,7 @@ document.addEventListener("keydown", function (event) {
       }),
     ]);
   }
-  setTimeout(() => (willAnimate = false), 3500);
+  setTimeout(() => (willAnimate = false), 3000);
 });
 
 render();
