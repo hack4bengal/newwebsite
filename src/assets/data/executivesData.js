@@ -72,7 +72,7 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/dev-kumar-gupta-02a4b2215/",
   },
   {
-    Name: "Tushar \n Mukherjee",
+    Name: "Tushar \n Mukhopadhyay",
     Photo: Tushar,
     position: "Community Manager @IndiGG",
     Domain: "Events Lead",
