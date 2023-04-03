@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import "./PrizesSection2.css";
 import Certificates from "../../components/Certificates/Certificates.jsx";
 
@@ -79,3 +79,4 @@ function PrizesSection2() {
 }
 
 export default PrizesSection2;
+ */

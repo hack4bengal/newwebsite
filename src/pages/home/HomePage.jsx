@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./HomePage.css";
 import "../../App.css";
 
@@ -16,6 +16,7 @@ import PartnersAndSponsorsSection from "../../sections/PartnersAndSponsorsSectio
 import FAQSection from "../../sections/FAQSection/FAQSection.jsx";
 import MeetOurTeamSection from "../../sections/MeetOurTeamSection/MeetOurTeamSection.jsx";
 import Footer from "../../components/footer/Footer.jsx";
+import PrizesSection1 from "../../sections/PrizesSection/PrizesSection";
 
 export default class HomePage extends Component {
   render() {
@@ -37,7 +38,7 @@ export default class HomePage extends Component {
           <TimelineSection />
           <OfflineEventsSection />
           <ThemesSection />
-          <PrizesSection2 />
+          <PrizesSection1 />
           <PastSpeakersSection />
           <PartnersAndSponsorsSection />
           <FAQSection />
