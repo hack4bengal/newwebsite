@@ -1,11 +1,10 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./WelcomeSection.css";
-import h4blogo from "../../assets/img/square-grey-logo.png";
 import discord from "../../assets/img/discord-mark-blue.png";
-import newbanner from "../../assets/updates/newbanner.png";
+
 import newbanner2 from "../../assets/updates/newbanner3.png";
-import {motion, transform} from "framer-motion";
-import {staggerChildren, fadeIn} from "../../motionUtils";
+import { motion, transform } from "framer-motion";
+import { staggerChildren, fadeIn } from "../../motionUtils";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
 
 const WelcomeSection = () => {
@@ -26,7 +25,7 @@ const WelcomeSection = () => {
         initial="hidden"
         whileInView="show"
         variants={staggerChildren}
-        viewport={{once: true, amount: 0.25}}
+        viewport={{ once: true, amount: 0.25 }}
         className="hack4bengal__section1"
         id="home"
       >
@@ -52,7 +51,7 @@ const WelcomeSection = () => {
           </div>
           <div
             className="hack4bengal__section1-button-container"
-            style={{display: "flex", placeContent: "center"}}
+            style={{ display: "flex", placeContent: "center" }}
           >
             <div className="hack4bengal__section1-discord" id="discord">
               <a

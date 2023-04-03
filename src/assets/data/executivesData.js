@@ -25,7 +25,6 @@ import Ayushman from "../team/Ayushman.jpg";
 import Kiran from "../team/Kiran.jpg";
 import Koyena from "../team/Koyena.jpg";
 import Souradeep from "../team/Souradeep.jpeg";
-import Aditya from "../team/aditya.jpg";
 import Abhrajit from "../team/abhrajit.png";
 import Rohit from "../team/rohitroy.jpg";
 
@@ -226,13 +225,6 @@ const executives = [
     position: "Video Editor @HuddleMedia Pvt Ltd",
     Domain: "Graphics Team",
     linkedin: "https://www.linkedin.com/in/ayushmaan-sural-b16248210",
-  },
-  {
-    Name: "Aditya \n Seth",
-    Photo: Aditya,
-    position: "Beta MLSA",
-    Domain: "PR Team",
-    linkedin: "https://www.linkedin.com/in/aditya-seth-270833233/",
   },
   {
     Name: "Abhrajit \n Ghosh",

@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import { useRef, useState } from "react";
 import "./Navbar.css";
 import hack4bengal from "../../assets/images/navbar/h4blogo.png";
-import tcp from "../../assets/img/tcp.png";
+
 import { motion } from "framer-motion";
 import { headerVariants } from "../../motionUtils";
 import { Link, useNavigate } from "react-router-dom";
-import wblogo from "../../assets/images/navbar/wblogo.png";
 import Dropdown from "./dropdown/Dropdown";
 
 const Navbar = () => {
@@ -180,14 +179,6 @@ const Navbar = () => {
           </nav>
         </div>
 
-        <a
-          href={"https://itewb.gov.in/"}
-          rel="noreferrer"
-          target="_blank"
-          className="wb_logo_navbar"
-        >
-          <img src={wblogo} alt="logo" />
-        </a>
       </header>
       <header
         className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
@@ -228,12 +219,7 @@ const Navbar = () => {
                 marginTop: "40px",
               }}
             >
-              <img
-                src={wblogo}
-                alt="logo"
-                style={{ cursor: "pointer" }}
-                onClick={() => (window.location.href = "https://itewb.gov.in/")}
-              />
+
             </div>
           </nav>
         </div>
