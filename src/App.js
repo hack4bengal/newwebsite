@@ -14,6 +14,7 @@ import Register from "./pages/register/Register";
 import Evengelist from "./pages/evangelist/Evengelist";
 import Partner from "./pages/cp/cp";
 import Schedulepage from "./pages/schedule/Schedulepage";
+import Guide from "./pages/guide/Guide";
 export default class App extends Component {
   render() {
     return (
@@ -32,6 +33,7 @@ export default class App extends Component {
           <Route path="/evangelist" element={<Evengelist />} />
           <Route path="/cp" element={<Partner />} />
           <Route path="/schedule" element={<Schedulepage />} />
+          <Route path="/guide" element={<Guide />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
