@@ -204,12 +204,77 @@
 }
 
 @media screen and (max-width:768px) {
+
+    .moreprizesection_title {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .flip-moreprizesbox-icon {
+        display: none;
+    }
+
+
+    .flip-moreprizesbox-front,
+    .flip-moreprizesbox-back {
+        min-height: 300px;
+    }
+
+
     .moreprizesbox-item {
-        margin-bottom: 4rem;
+        min-width: calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
     }
 
     .moreprizesbox-container2 {
         padding-top: 0px;
     }
+
+    .moreprizesbox-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .moreprizesbox-container2 {
+        align-items: center;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .flip-prizebox .inner {
+        padding: 15px;
+    }
+
+    .flip-prizebox h3 {
+        font-size: 20px !important;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*    background-color: #ff1717; */
+        justify-content: center;
+    }
+
+    .flip-prizebox p {
+        color: white;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px !important;
+        letter-spacing: 1px;
+    }
+
+
+    .inner>h3 {}
+
+    .flip-box p {}
 
 }

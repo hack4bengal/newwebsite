@@ -11,6 +11,7 @@ import fcf from "../../assets/images/sponsers/fcf.png"
 import { Link, useNavigate } from "react-router-dom";
 import Postman from "../../assets/images/sponsers/Postman.png";
 import CCD from "../../assets/images/sponsers/CCD.png";
+import girlsteam from "../../assets/images/sponsers/girlsteam.png";
 
 const MorePrizesPage = () => {
 
@@ -39,7 +40,7 @@ const MorePrizesPage = () => {
         <>
           <div className="moreprizesection_god">
             <div className="moreprizesection_parent" id="themes">
-              <h1 className="moreprizesection_title">Track prizes, swags & more !</h1>
+              <h1 className="moreprizesection_title">Track prizes, swags <br /> & more !</h1>
               <hr style={{ marginBottom: "70px" }} />
 
               <div className="moreprizesbox-container">
@@ -96,7 +97,9 @@ const MorePrizesPage = () => {
 
                     >
                       <div className="inner color-white text-center">
-                        <p>₹70,000 (Prize pool) <br /> Bounty</p>
+                        <p>1st Team - ₹24,000</p>
+                        <p>  2nd Team - ₹16,000</p>
+                        <p>Rest of the Prize Pool of ₹24,000 for the Best Projects build on Shardeum.</p>
 
                       </div>
                     </div>
@@ -114,7 +117,7 @@ const MorePrizesPage = () => {
                         <img src={fvm} alt="" className="flip-moreprizesbox-icon" />
 
                         <h3 className="flip-moreprizesbox-header">
-                          Best use of <br /> Filecoin/FVM (2)
+                          Best use of <br /> Filecoin/FVM
                         </h3>
 
                         <img src={redbtn} alt="" className="flip-moreprizesbox-img" />
@@ -170,7 +173,7 @@ const MorePrizesPage = () => {
 
                     >
                       <div className="inner color-white">
-                        {/*  <img src={Postman} alt="" className="flip-moreprizesbox-icon" /> */}
+                        <img src={girlsteam} alt="" className="flip-moreprizesbox-icon" />
 
                         <h3 className="flip-moreprizesbox-header">
                           Best Girls Team <br /> (GDG Cloud Kolkata)
@@ -198,10 +201,10 @@ const MorePrizesPage = () => {
 
                     >
                       <div className="inner color-white">
-                        <img src={CCD} alt="" className="flip-moreprizesbox-icon" />
+                        <img src={CCD} alt="" className="flip-moreprizesbox-icon" style={{ width: "60%", height: "74px" }} />
 
                         <h3 className="flip-moreprizesbox-header">
-                          Hackday <br /> Best Use of Cloud (3)
+                          Hackday <br /> Best Use of Cloud
                         </h3>
 
                         <img src={redbtn} alt="" className="flip-moreprizesbox-img" />
@@ -213,10 +216,15 @@ const MorePrizesPage = () => {
                     >
                       <div className="inner color-white text-center">
 
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} >  1st Team - $85 in cash, GCP Credits, along with free tickets to Google Cloud Community Days, Kolkata
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} >  1st  - $85 in cash, GCP Credits, along with free tickets to Google Cloud Community Days, Kolkata
                         </p>
-                        <br /> <br />
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} > 2nd & 3rd Team - Win GCP Credits, along with free tickets to Google Cloud Community Days, Kolkata</p>
+
+                        {window.innerWidth > 800 && <>
+                          <br />
+                          <br />
+                        </>}
+
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} > 2nd & 3rd - Win GCP Credits, along with free tickets to GCCD, Kolkata</p>
 
                       </div>
                     </div>
