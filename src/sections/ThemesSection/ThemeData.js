@@ -9,7 +9,7 @@ const themedata = [
   {
     img: edu,
     name: "Quality \n Education",
-    desc: "Promote sustainable development in West Bengal by improving access to education through e-learning platforms & literacy programs.",
+    desc: "Drive sustainable development in West Bengal by enhancing education access through e-learning platforms and literacy initiatives.",
   },
   {
     img: health,
@@ -19,12 +19,12 @@ const themedata = [
   {
     img: climate,
     name: "Climate \n Action",
-    desc: "Develop climate solutions in West Bengal for environmental sustainability - carbon reduction tech & adaptation strategies to combat climate change.",
+    desc: "Create climate solutions in West Bengal for sustainability - tech for carbon reduction & adaptation strategies to combat climate change.",
   },
   {
     img: fintech,
     name: "Fintech inclusion for all",
-    desc: "Use Fintech to promote financial inclusion, remove barriers & boost economic growth for people of all socio-economic backgrounds in West Bengal.",
+    desc: "Leverage Fintech for inclusive finance, break barriers & drive growth in West Bengal for all socio-economic levels.",
   },
   {
     img: acess,

@@ -33,7 +33,7 @@ export default class HomePage extends Component {
         <InfiniteCarousel />
 
         <div className="hack4bengal_container hack4bengal_container_vertical">
-          <HackathonCountdownSection />
+          {/*  <HackathonCountdownSection /> */}
           <AboutUsSection />
           <TimelineSection />
           <OfflineEventsSection />
