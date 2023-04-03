@@ -24,9 +24,6 @@ function OfflineEventsSection() {
       <div className="events_main_parent">
         <div className="events_main">
 
-          <button onClick={() => {
-            console.log(window.innerWidth);
-          }}>SHOW</button>
           <p className="offlineevents">Offline Events</p>
           <hr />
 

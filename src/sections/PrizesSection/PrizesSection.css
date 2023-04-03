@@ -375,3 +375,65 @@
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width:450px) {
+  .mb_prizebox>div>h3 {
+    font-size: 2.2rem;
+  }
+
+  .mb_prizebox>div>p {
+    font-size: 1.5rem;
+  }
+
+  .mb_prizebox>img {
+    width: 100px;
+  }
+
+  .mb_prizebox1 {
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .prizebox2 {
+    /*  */
+    display: none;
+  }
+
+  .prizebox4 {
+    dispmb_lay: block;
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .prizes_textdiv2 {
+    min-height: 95%;
+  }
+
+  .mb_prizebox3 {
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .mb_prizebox2 {
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .prizes_textdiv {
+    margin-top: 90px;
+    padding-top: 40px;
+  }
+
+  .prizebox1_imgdiv {
+    margin-top: 3rem;
+  }
+
+  .prizes_btndiv {
+    margin-top: 2rem;
+  }
+
+}
