@@ -47,16 +47,6 @@
 
 
 
-.wb_logo_navbar img {
-  display: none;
-  max-width: 100px;
-  min-width: 60px;
-  position: fixed;
-  right: 15px;
-  top: 0;
-  width: 10%;
-  z-index: 10000;
-}
 
 .hack4bengal__navbar-logo img {
   width: auto;
