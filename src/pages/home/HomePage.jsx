@@ -38,7 +38,7 @@ export default class HomePage extends Component {
           <TimelineSection />
           <OfflineEventsSection />
           <ThemesSection />
-          {/*  <PrizesSection1 /> */}
+          <PrizesSection1 />
           <PastSpeakersSection />
           <PartnersAndSponsorsSection />
           <FAQSection />
