@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import "./Teampage.css";
 import "../../App.css";
-import Team from "../../sections/team/Team";
-// import NavbarTeam from "../../components/navbarTeam/NavbarTeam";
+
+import Prize from "../../sections/MorePrizesSection/MorePrizesSection";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-export default class TeamPage extends Component {
+
+export default class MorePrizesPage extends Component {
   render() {
     return (
       <>
@@ -13,9 +13,8 @@ export default class TeamPage extends Component {
           <Navbar />
         </div>
         <div className="teampage_container_main">
-          <Team />
+          <Prize />
         </div>
-
         <div className="hack4bengal__footer-container">
           <Footer />
         </div>

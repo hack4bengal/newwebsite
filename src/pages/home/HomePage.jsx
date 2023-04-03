@@ -10,13 +10,13 @@ import AboutUsSection from "../../sections/AboutUsSection/AboutUsSection.jsx";
 import TimelineSection from "../../sections/TimelineSection/TimelineSection.jsx";
 import OfflineEventsSection from "../../sections/OfflineEventsSection/OfflineEventsSection.jsx";
 import ThemesSection from "../../sections/ThemesSection/ThemesSection.jsx";
-import PrizesSection from "../../sections/PrizesSection/PrizesSection.jsx";
+import PrizesSection2 from "../../sections/PrizesSection/PrizesSection2.jsx";
 import PastSpeakersSection from "../../sections/PastSpeakersSection/PastSpeakersSection.jsx";
 import PartnersAndSponsorsSection from "../../sections/PartnersAndSponsorsSection/PartnersAndSponsorsSection.jsx";
 import FAQSection from "../../sections/FAQSection/FAQSection.jsx";
 import MeetOurTeamSection from "../../sections/MeetOurTeamSection/MeetOurTeamSection.jsx";
 import Footer from "../../components/footer/Footer.jsx";
-
+import PrizesSection1 from "../../sections/PrizesSection/PrizesSection";
 
 export default class HomePage extends Component {
   render() {
@@ -38,7 +38,7 @@ export default class HomePage extends Component {
           <TimelineSection />
           <OfflineEventsSection />
           <ThemesSection />
-          <PrizesSection />
+          <PrizesSection1 />
           <PastSpeakersSection />
           <PartnersAndSponsorsSection />
           <FAQSection />
