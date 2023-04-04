@@ -273,3 +273,27 @@
     }
 
 }
+
+@media screen and (max-width:450px) {
+    .flip-prizebox .inner {
+        padding: 2px;
+    }
+
+    .flip-prizebox .inner>p {
+        font-size: 13px !important;
+        margin: 0;
+    }
+
+    .flip-prizebox h3 {
+        font-size: 18px !important;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: #ff1717; */
+        justify-content: center;
+        margin-bottom: 0px;
+        padding: 0 5px;
+    }
+
+}

@@ -39,7 +39,7 @@ export default class HomePage extends Component {
           <OfflineEventsSection />
           <ThemesSection />
           <PrizesSection1 />
-          {/* <JudgesSection /> */}
+          <JudgesSection />
           <MorePrizesPage />
           {/*  <PastSpeakersSection /> */}
           <PartnersAndSponsorsSection />
