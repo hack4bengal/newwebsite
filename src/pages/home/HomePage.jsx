@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "./HomePage.css";
 import "../../App.css";
 
@@ -11,6 +11,7 @@ import TimelineSection from "../../sections/TimelineSection/TimelineSection.jsx"
 import OfflineEventsSection from "../../sections/OfflineEventsSection/OfflineEventsSection.jsx";
 import ThemesSection from "../../sections/ThemesSection/ThemesSection.jsx";
 import JudgesSection from "../../sections/JudgesSection/JudgesSection.jsx";
+import TestimonialSection from "../../sections/TestimonialSection/TestimonialSection.jsx";
 import PartnersAndSponsorsSection from "../../sections/PartnersAndSponsorsSection/PartnersAndSponsorsSection.jsx";
 import FAQSection from "../../sections/FAQSection/FAQSection.jsx";
 import MeetOurTeamSection from "../../sections/MeetOurTeamSection/MeetOurTeamSection.jsx";
@@ -43,6 +44,7 @@ export default class HomePage extends Component {
           <JudgesSection />
           {/*  <PastSpeakersSection /> */}
           <PartnersAndSponsorsSection />
+          <TestimonialSection />
           <FAQSection />
           <MeetOurTeamSection />
         </div>
