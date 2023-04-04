@@ -32,7 +32,7 @@ function OfflineEventsSection() {
               <div className="events_flexcol">
                 <img src={land1} alt="h4b" className="event_smallimg" />
                 <p className="event_flextext">
-                  500+ <br /> <span className="event_flextext2">Hackers</span>
+                  2500+ <br /> <span className="event_flextext2">Hackers</span>
                 </p>
               </div>
 
@@ -44,7 +44,7 @@ function OfflineEventsSection() {
 
               <div className="events_flexcol">
                 <p className="event_flextext">
-                  30+ <br /> <span>Partners</span>
+                  50+ <br /> <span>Partners</span>
                 </p>
 
                 <img src={land2} alt="h4b" className="event_smallimg" />
@@ -67,7 +67,7 @@ function OfflineEventsSection() {
 
               <div className="events_flexcol">
                 <p className="event_flextext">
-                  15+ <br /> <span>Sponsors</span>
+                  220+ <br /> <span>Projects</span>
                 </p>
 
                 <img src={land4} alt="h4b" className="event_smallimg" />
@@ -78,7 +78,7 @@ function OfflineEventsSection() {
               <div className="events_flexcol">
                 <img src={land5} alt="h4b" className="event_smallimg" />
                 <p className="event_flextext">
-                  300+ <br /> <span>Registration</span>
+                  36+ <br /> <span>Hack Hours</span>
                 </p>
               </div>
 
