@@ -7,9 +7,9 @@
   overflow: hidden;
   position: relative;
   border-radius: 20px;
-  min-width: 360px;
-  max-width: 360px;
-  height: 370px;
+  min-width: 330px;
+  max-width: 330px;
+  height: 390px;
 }
 
 @media screen and (max-width: 768px) {
@@ -144,5 +144,4 @@
   width: 100%;
 }
 
-.slider {
-}
+.slider {}

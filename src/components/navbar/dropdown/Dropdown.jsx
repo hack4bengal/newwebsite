@@ -11,8 +11,9 @@ const Dropdown = ({ open, setOpen }) => {
     return (
         <div className={`dropdown-menu ${open ? 'active' : 'inactive'}`} >
 
-            <DropdownItem text={"Speakers"} parentid={"speakers"} setOpen={setOpen} />
+            {/*  <DropdownItem text={"Speakers"} parentid={"speakers"} setOpen={setOpen} /> */}
             <DropdownItem text={"Sponsors"} parentid="sponsers" setOpen={setOpen} />
+            <DropdownItem text={"Testimonials"} parentid="testimonials" setOpen={setOpen} />
             <DropdownItem text={"FAQ"} parentid="faq" setOpen={setOpen} />
             <DropdownItem text={"Team"} parentid="team" setOpen={setOpen} />
         </div>

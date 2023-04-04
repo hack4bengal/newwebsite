@@ -57,6 +57,45 @@ export const sliderSettings = {
   ],
 };
 
+export const sliderSettingsforTestimonials = {
+  infinite: true,
+  prevArrow: false,
+  nextArrow: false,
+  speed: 1000,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  initialSlide: 0,
+  touchMove: true,
+  useCSS: true,
+  autoplay: true,
+  autoplaySpeed: 10000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2,
+      },
+    },
+    {
+      breakpoint: 780,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
+
 export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
     x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
@@ -173,7 +212,7 @@ export const footerVariants = {
 };
 
 export const staggerChildren = {
-  hidden: {opacity: 0},
+  hidden: { opacity: 0 },
   show: {
     opacity: 1,
     transition: {
@@ -185,6 +224,6 @@ export const staggerChildren = {
 export const getMenuStyles = (menuOpened) => {
   if (document.documentElement.clientWidth <= 640) {
     console.log("outside of sidebar reached");
-    return {right: !menuOpened && "-100%"};
+    return { right: !menuOpened && "-100%" };
   }
 };
