@@ -33,15 +33,15 @@ const MorePrizesPage = () => {
 
   return (
     <>
-      <div className="hack4bengal__navbar-container">
+      {/*  <div className="hack4bengal__navbar-container">
         <Navbar />
-      </div>
+      </div> */}
       <div className="prizepage_container_main">
         <>
           <div className="moreprizesection_god">
             <div className="moreprizesection_parent" id="themes">
-              <h1 className="moreprizesection_title">Track prizes, swags <br /> & more !</h1>
-              <hr style={{ marginBottom: "70px" }} />
+              {/* <h1 className="moreprizesection_title">Track prizes, swags <br /> & more !</h1>
+              <hr style={{ marginBottom: "70px" }} /> */}
 
               <div className="moreprizesbox-container">
 
@@ -235,7 +235,7 @@ const MorePrizesPage = () => {
           </div>
 
 
-          <div className="prizes_btndiv">
+          {/* <div className="prizes_btndiv">
             <button
               class="hack4bengal__section10-button"
               onClick={() => {
@@ -244,12 +244,12 @@ const MorePrizesPage = () => {
             >
               Back to home
             </button>
-          </div>
+          </div> */}
         </>
       </div>
-      <div className="hack4bengal__footer-container">
+      {/* <div className="hack4bengal__footer-container">
         <Footer />
-      </div>
+      </div> */}
     </>
   )
 }

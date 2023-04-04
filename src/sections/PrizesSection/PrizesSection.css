@@ -3,10 +3,6 @@
   font-family: 'Poppins';
 }
 
-.prize_section-body {}
-
-
-
 .prize_section-boxtitle,
 .prize_section-box,
 .prize_section-title {
@@ -46,7 +42,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  /*   background-color: #222222; */
   justify-content: center;
   padding: 4rem;
   border-radius: 40px;
@@ -118,9 +113,9 @@
 .prizes_box_main {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 8rem;
-  padding: 1rem;
+  /*   padding: 1rem; */
   gap: 3rem;
   width: 1200px;
 }
@@ -213,15 +208,7 @@
   align-items: center;
   padding: 0.5rem;
   min-height: 95%;
-  /*  background: linear-gradient(180deg,
-      #142137,
-      #0b121f 99.99%,
-      rgba(20, 33, 55, 0)); */
   color: #fff;
-}
-
-.prizes_textdiv:hover {
-  /* box-shadow: 0 0 10px 0 #e13b3c; */
 }
 
 .prizes_textdiv2 {
@@ -291,7 +278,6 @@
   }
 
   .prizebox2 {
-    /*  */
     display: none;
   }
 
@@ -396,12 +382,11 @@
   }
 
   .prizebox2 {
-    /*  */
     display: none;
   }
 
   .prizebox4 {
-    dispmb_lay: block;
+    display: block;
     margin-top: 0rem;
     min-height: 14rem;
 
