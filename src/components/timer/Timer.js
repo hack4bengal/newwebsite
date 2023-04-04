@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import "./Timer.css";
 function getTimeLeft(endTime) {
   const totalSeconds = (new Date(endTime) - new Date()) / 1000;
@@ -6,9 +6,8 @@ function getTimeLeft(endTime) {
   const hours = Math.floor(totalSeconds / (60 * 60)) % 24;
   const minutes = Math.floor(totalSeconds / 60) % 60;
   const seconds = Math.floor(totalSeconds) % 60;
-  return { days, hours, minutes, seconds };
+  return {days, hours, minutes, seconds};
 }
-
 function Timer() {
   const endTime = new Date("2023-04-28T18:00:00").getTime();
 
@@ -46,48 +45,107 @@ function Timer() {
   return (
     <div className="time">
       <div className="timer-body">
-        <div className="timer">
-          <div className="hour">
-            {timeLeft.days < 10 ? `0${timeLeft.days}` : timeLeft.days}
-          </div>
+        {screenWidth > 450 ? (
+          <>
+            <div className="timer">
+              <div className="hour">
+                {timeLeft.days < 10 ? `0${timeLeft.days}` : timeLeft.days}
+              </div>
+              <div className="time-label">Days</div>
+            </div>
+            <div className="timer">
+              <div className="separator">:</div>
+            </div>
+            <div className="timer">
+              <div className="hour">
+                {timeLeft.hours < 10 ? `0${timeLeft.hours}` : timeLeft.hours}
+              </div>
+              <div className="time-label">Hours</div>
+            </div>
 
-          <div className="time-label">Days</div>
-        </div>
-        <div className="timer">
-          <div className="separator">:</div>
-        </div>
-        <div className="timer">
-          <div className="hour">
-            {timeLeft.hours < 10 ? `0${timeLeft.hours}` : timeLeft.hours}
-          </div>
-          <div className="time-label">Hours</div>
-        </div>
+            <div className="timer">
+              <div className="separator">:</div>
+            </div>
 
-        <div className="timer">
-          <div className="separator">:</div>
-        </div>
+            <div className="timer timer-mar">
+              <div className="minute">
+                {timeLeft.minutes < 10
+                  ? `0${timeLeft.minutes}`
+                  : timeLeft.minutes}
+              </div>
+              <div className="time-label">
+                {window.innerWidth < 992 ? "Mins" : "Minutes"}
+              </div>
+            </div>
+            <div className="timer">
+              <div className="separator">:</div>
+            </div>
+            <div className="timer timer-mar">
+              <div className="second">
+                {timeLeft.seconds < 10
+                  ? `0${timeLeft.seconds}`
+                  : timeLeft.seconds}
+              </div>
+              <div className="time-label">
+                {window.innerWidth < 992 ? "Secs" : "Seconds"}
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="column_cut_450">
+              <div className="row_cut_450">
+                <div className="timer">
+                  <div className="hour">
+                    {timeLeft.days < 10 ? `0${timeLeft.days}` : timeLeft.days}
+                  </div>
+                  <div className="time-label">Days</div>
+                </div>
 
-        <div className="timer timer-mar">
-          <div className="minute">
-            {timeLeft.minutes < 10 ? `0${timeLeft.minutes}` : timeLeft.minutes}
-          </div>
-          <div className="time-label">
-            {window.innerWidth < 992 ? "Mins" : "Minutes"}
-          </div>
-        </div>
+                <div className="timer">
+                  <div className="separator">:</div>
+                </div>
 
-        <div className="timer">
-          <div className="separator">:</div>
-        </div>
+                <div className="timer">
+                  <div className="hour">
+                    {timeLeft.hours < 10
+                      ? `0${timeLeft.hours}`
+                      : timeLeft.hours}
+                  </div>
+                  <div className="time-label">Hours</div>
+                </div>
+              </div>
 
-        <div className="timer timer-mar">
-          <div className="second">
-            {timeLeft.seconds < 10 ? `0${timeLeft.seconds}` : timeLeft.seconds}
-          </div>
-          <div className="time-label">
-            {window.innerWidth < 992 ? "Secs" : "Seconds"}
-          </div>
-        </div>
+              <div className="row_cut_450">
+                <div className="timer timer-mar">
+                  <div className="minute">
+                    {timeLeft.minutes < 10
+                      ? `0${timeLeft.minutes}`
+                      : timeLeft.minutes}
+                  </div>
+                  <div className="time-label">
+                    {window.innerWidth < 992 ? "Mins" : "Minutes"}
+                  </div>
+                </div>
+
+                <div className="timer">
+                  <div className="separator">:</div>
+                </div>
+
+                <div className="timer timer-mar">
+                  <div className="second">
+                    {timeLeft.seconds < 10
+                      ? `0${timeLeft.seconds}`
+                      : timeLeft.seconds}
+                  </div>
+                  <div className="time-label">
+                    {window.innerWidth < 992 ? "Secs" : "Seconds"}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

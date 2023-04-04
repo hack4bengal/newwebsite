@@ -7,7 +7,6 @@
   color: #fff;
   font-weight: bolder;
   gap: 40px;
-
 }
 
 .time {
@@ -24,7 +23,6 @@
   align-items: center;
   line-height: 1;
   animation: glowingt 2s ease-in-out infinite;
-
 }
 
 .time-label {
@@ -33,24 +31,18 @@
   font-weight: bold;
 }
 
-/* glowingt animation */
-
-/* @keyframes glowingt {
-  0% {
-
-    text-shadow: 0 0 7px #E13B3C;
-  }
-
-  50% {
-
-    text-shadow: 0 0 14px #E13B3C;
-  }
-
-  100% {
-
-    text-shadow: 0 0 7px #E13B3C;
-  }
-} */
+.row_cut_450 {
+  gap: 25px;
+  line-height: 1;
+  display: flex;
+  flex-direction: row;
+}
+.column_cut_450 {
+  gap: 25px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+}
 
 @media screen and (max-width: 991px) {
   .timer-body {
@@ -60,7 +52,4 @@
     justify-items: center;
     justify-content: center;
   }
-
-
-
 }
