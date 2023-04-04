@@ -37,7 +37,7 @@ const Navbar = () => {
     let handler = (e) => {
       if (!menuRef.current.contains(e.target)) {
         setOpen(false);
-        console.log(menuRef.current);
+        // console.log(menuRef.current);
       }
     };
 
@@ -163,8 +163,8 @@ const Navbar = () => {
                 <li className="hack4bengal__navbar-navitem">
                   <p
                     onClick={() => {
-                      console.log("Hello mf");
-                      setOpen(!open)
+                      //console.log("Hello mf");
+                      setOpen(!open);
                     }}
                   >
                     <h3 className="hack4bengal__navbar-menu-heading">More</h3>
@@ -174,15 +174,13 @@ const Navbar = () => {
                 <Dropdown open={open} setOpen={setOpen} />
               </div>
             </ul>
-
-
           </nav>
         </div>
-
       </header>
       <header
-        className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
-          }`}
+        className={`hack4bengal__navbar-hamburger ${
+          isOpen ? `hamburger-open` : ``
+        }`}
       >
         <div className="hack4bengal__navbar-hamburger-body">
           <nav className="hack4bengal__navbar-hamburger-nav">
@@ -218,14 +216,13 @@ const Navbar = () => {
                 transform: "scale(2)",
                 marginTop: "40px",
               }}
-            >
-
-            </div>
+            ></div>
           </nav>
         </div>
         <ul
-          className={`hack4bengal__navbar-hamburger-navlist ${isOpen ? `activeMenu slide-bottom` : ``
-            }`}
+          className={`hack4bengal__navbar-hamburger-navlist ${
+            isOpen ? `activeMenu slide-bottom` : ``
+          }`}
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
@@ -345,7 +342,7 @@ const Navbar = () => {
           </li>
         </ul>
       </header>
-    </motion.div >
+    </motion.div>
   );
 };
 

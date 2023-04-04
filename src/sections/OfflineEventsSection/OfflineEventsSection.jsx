@@ -14,10 +14,16 @@ import ver4 from "../../assets/events/potrait/ver4.png";
 import ver5 from "../../assets/events/potrait/ver5.png";
 
 function OfflineEventsSection() {
+
+  /*   useEffect(() => {
+      console.log(window.innerWidth);
+    }, [window.innerWidth]); */
+
   return (
     <>
       <div className="events_main_parent">
         <div className="events_main">
+
           <p className="offlineevents">Offline Events</p>
           <hr />
 
@@ -26,23 +32,19 @@ function OfflineEventsSection() {
               <div className="events_flexcol">
                 <img src={land1} alt="h4b" className="event_smallimg" />
                 <p className="event_flextext">
-                  500+ <br /> <span className="event_flextext2">Hackers</span>
+                  2500+ <br /> <span className="event_flextext2">Hackers</span>
                 </p>
               </div>
 
-              <div>
-                <img src={ver1} alt="h4b" className="event_largeimg" />
-              </div>
+              <img src={ver1} alt="h4b" className="event_largeimg" />
             </div>
 
             <div className="events_flexmain2 events_flexmain">
-              <div>
-                <img src={ver2} alt="h4b" className="event_largeimg" />
-              </div>
+              <img src={ver2} alt="h4b" className="event_largeimg" />
 
               <div className="events_flexcol">
                 <p className="event_flextext">
-                  30+ <br /> <span>Partners</span>
+                  50+ <br /> <span>Partners</span>
                 </p>
 
                 <img src={land2} alt="h4b" className="event_smallimg" />
@@ -57,19 +59,15 @@ function OfflineEventsSection() {
                 </p>
               </div>
 
-              <div>
-                <img src={ver3} alt="h4b" className="event_largeimg" />
-              </div>
+              <img src={ver3} alt="h4b" className="event_largeimg" />
             </div>
 
             <div className="events_flexmain4 events_flexmain">
-              <div>
-                <img src={ver4} alt="h4b" className="event_largeimg" />
-              </div>
+              <img src={ver4} alt="h4b" className="event_largeimg" />
 
               <div className="events_flexcol">
                 <p className="event_flextext">
-                  15+ <br /> <span>Sponsors</span>
+                  220+ <br /> <span>Projects</span>
                 </p>
 
                 <img src={land4} alt="h4b" className="event_smallimg" />
@@ -80,13 +78,11 @@ function OfflineEventsSection() {
               <div className="events_flexcol">
                 <img src={land5} alt="h4b" className="event_smallimg" />
                 <p className="event_flextext">
-                  300+ <br /> <span>Registration</span>
+                  36+ <br /> <span>Hack Hours</span>
                 </p>
               </div>
 
-              <div>
-                <img src={ver5} alt="h4b" className="event_largeimg" />
-              </div>
+              <img src={ver5} alt="h4b" className="event_largeimg" />
             </div>
           </div>
         </div>

@@ -9,32 +9,32 @@ const themedata = [
   {
     img: edu,
     name: "Quality \n Education",
-    desc: "Develop solutions to improve access to education in West Bengal, such as e-learning platforms or literacy programs, to promote sustainable development in the state.",
+    desc: "Drive sustainable development in West Bengal by enhancing education access through e-learning platforms and literacy initiatives.",
   },
   {
     img: health,
     name: "Good Health & Well-being",
-    desc: " Develop solutions to promote better health and well-being for the people of West Bengal, such as telemedicine or mental health support systems, to align with the goal of ensuring good health and well-being for all in the state.",
+    desc: " Develop health solutions like telemedicine & mental health support systems in West Bengal to ensure good health & well-being for all in the state.",
   },
   {
     img: climate,
     name: "Climate \n Action",
-    desc: "Climate Action: Develop solutions to address climate change in West Bengal, such as carbon reduction technologies or climate adaptation strategies, to promote environmental sustainability in the state.",
+    desc: "Create climate solutions in West Bengal for sustainability - tech for carbon reduction & adaptation strategies to combat climate change.",
   },
   {
     img: fintech,
     name: "Fintech inclusion for all",
-    desc: "Leverage Fintech to democratize access to financial services, break down barriers, and promote economic growth and prosperity for individuals of all socio-economic backgrounds in West Bengal.",
+    desc: "Leverage Fintech for inclusive finance, break barriers & drive growth in West Bengal for all socio-economic levels.",
   },
   {
     img: acess,
     name: "Accessibile Technology",
-    desc: "Develop solutions to promote accessibility and inclusion in technology for individuals with disabilities in West Bengal, promoting equality and sustainable development in the state.",
+    desc: "Develop tech solutions for disability accessibility & inclusion in West Bengal, promoting equality & sustainable development in the state.",
   },
   {
     img: innovation,
     name: "Open Innovation for social Impact",
-    desc: "Encourage open collaboration and the power of open innovation to create impactful and sustainable solutions for social and environmental challenges specific to West Bengal.",
+    desc: "Encourage open collaboration and innovation to solve unique social and environmental challenges in West Bengal for sustainable solutions.",
   },
 ];
 

@@ -85,3 +85,13 @@
     margin: auto;
   }
 }
+
+@media screen and (max-width:450px) {
+  .h4b_about_sub {
+    padding: 0 0rem;
+  }
+
+  .h4b_about_textdiv {
+    width: 100%;
+  }
+}

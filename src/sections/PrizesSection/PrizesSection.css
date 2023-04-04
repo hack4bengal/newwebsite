@@ -3,10 +3,6 @@
   font-family: 'Poppins';
 }
 
-.prize_section-body {}
-
-
-
 .prize_section-boxtitle,
 .prize_section-box,
 .prize_section-title {
@@ -46,7 +42,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  /*   background-color: #222222; */
   justify-content: center;
   padding: 4rem;
   border-radius: 40px;
@@ -118,9 +113,9 @@
 .prizes_box_main {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 8rem;
-  padding: 1rem;
+  /*   padding: 1rem; */
   gap: 3rem;
   width: 1200px;
 }
@@ -213,15 +208,7 @@
   align-items: center;
   padding: 0.5rem;
   min-height: 95%;
-  /*  background: linear-gradient(180deg,
-      #142137,
-      #0b121f 99.99%,
-      rgba(20, 33, 55, 0)); */
   color: #fff;
-}
-
-.prizes_textdiv:hover {
-  /* box-shadow: 0 0 10px 0 #e13b3c; */
 }
 
 .prizes_textdiv2 {
@@ -291,7 +278,6 @@
   }
 
   .prizebox2 {
-    /*  */
     display: none;
   }
 
@@ -374,4 +360,65 @@
   .mb_prizebox>div>p {
     font-size: 1.5rem;
   }
+}
+
+@media screen and (max-width:450px) {
+  .mb_prizebox>div>h3 {
+    font-size: 2.2rem;
+  }
+
+  .mb_prizebox>div>p {
+    font-size: 1.5rem;
+  }
+
+  .mb_prizebox>img {
+    width: 100px;
+  }
+
+  .mb_prizebox1 {
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .prizebox2 {
+    display: none;
+  }
+
+  .prizebox4 {
+    display: block;
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .prizes_textdiv2 {
+    min-height: 95%;
+  }
+
+  .mb_prizebox3 {
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .mb_prizebox2 {
+    margin-top: 0rem;
+    min-height: 14rem;
+
+  }
+
+  .prizes_textdiv {
+    margin-top: 90px;
+    padding-top: 40px;
+  }
+
+  .prizebox1_imgdiv {
+    margin-top: 3rem;
+  }
+
+  .prizes_btndiv {
+    margin-top: 2rem;
+  }
+
 }
