@@ -2,7 +2,7 @@ import AbiramiSukumaran from "../images/judges/AbiramiSukumaran.jpg";
 import AnubhavSingh from "../images/judges/AnubhavSingh.jpeg";
 import JyotiMishra from "../images/judges/JyotiMishra.png";
 import MdNasirulHaque from "../images/judges/MdNasirulHaque.jpg";
-import SoumyadipChowdhury from "../images/judges/SoumyadipChowdhury.jpeg";
+import SoumyadipChowdhury from "../images/judges/SoumyadipChowdhury.jpg";
 
 const judges = [
   {
