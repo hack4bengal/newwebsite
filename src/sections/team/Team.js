@@ -3,14 +3,14 @@ import "./Team.css";
 import overAllCoordinaters from "../../assets/data/overAllCoordinatorsData";
 import executives from "../../assets/data/executivesData";
 import TeamCard from "../../components/teamCard/TeamCard";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
 const Team = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 1 } }}
-      viewport={{ once: false }}
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1, transition: {duration: 1}}}
+      viewport={{once: false}}
       className="hack4bengal__team"
       id="speakers"
     >
@@ -35,7 +35,7 @@ const Team = () => {
 
             <div
               className="hack4bengal__team-members"
-              style={{ marginTop: "2rem" }}
+              style={{marginTop: "2rem"}}
             >
               {overAllCoordinaters.slice(3).map((member, index) => (
                 <TeamCard
