@@ -118,6 +118,17 @@ const Navbar = () => {
                 </p>
               </li>
 
+              <li className="hack4bengal__navbar-navitem">
+                <p
+                  onClick={() => {
+                    gotoId("judges");
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="hack4bengal__navbar-menu-heading">Judges</h3>
+                </p>
+              </li>
+
               {/*  <li className="hack4bengal__navbar-navitem">
                 <p
                   onClick={() => {
@@ -178,9 +189,8 @@ const Navbar = () => {
         </div>
       </header>
       <header
-        className={`hack4bengal__navbar-hamburger ${
-          isOpen ? `hamburger-open` : ``
-        }`}
+        className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
+          }`}
       >
         <div className="hack4bengal__navbar-hamburger-body">
           <nav className="hack4bengal__navbar-hamburger-nav">
@@ -220,9 +230,8 @@ const Navbar = () => {
           </nav>
         </div>
         <ul
-          className={`hack4bengal__navbar-hamburger-navlist ${
-            isOpen ? `activeMenu slide-bottom` : ``
-          }`}
+          className={`hack4bengal__navbar-hamburger-navlist ${isOpen ? `activeMenu slide-bottom` : ``
+            }`}
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
@@ -288,12 +297,12 @@ const Navbar = () => {
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("speakers");
+                gotoId("judges");
                 toggleMenu();
               }}
             >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
-                Speakers
+                Judges
               </h3>
             </p>
           </li>

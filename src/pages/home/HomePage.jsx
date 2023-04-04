@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "./HomePage.css";
 import "../../App.css";
 
@@ -10,8 +10,8 @@ import AboutUsSection from "../../sections/AboutUsSection/AboutUsSection.jsx";
 import TimelineSection from "../../sections/TimelineSection/TimelineSection.jsx";
 import OfflineEventsSection from "../../sections/OfflineEventsSection/OfflineEventsSection.jsx";
 import ThemesSection from "../../sections/ThemesSection/ThemesSection.jsx";
-import PrizesSection2 from "../../sections/PrizesSection/PrizesSection2.jsx";
-import PastSpeakersSection from "../../sections/PastSpeakersSection/PastSpeakersSection.jsx";
+import JudgesSection from "../../sections/JudgesSection/JudgesSection.jsx";
+import TestimonialSection from "../../sections/TestimonialSection/TestimonialSection.jsx";
 import PartnersAndSponsorsSection from "../../sections/PartnersAndSponsorsSection/PartnersAndSponsorsSection.jsx";
 import FAQSection from "../../sections/FAQSection/FAQSection.jsx";
 import MeetOurTeamSection from "../../sections/MeetOurTeamSection/MeetOurTeamSection.jsx";
@@ -41,9 +41,10 @@ export default class HomePage extends Component {
           <ThemesSection />
           <PrizesSection1 />
           <MorePrizesPage />
-
-          <PastSpeakersSection />
+          <JudgesSection />
+          {/*  <PastSpeakersSection /> */}
           <PartnersAndSponsorsSection />
+          <TestimonialSection />
           <FAQSection />
           <MeetOurTeamSection />
         </div>

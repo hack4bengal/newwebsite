@@ -308,7 +308,7 @@ const PartnersAndSponsorsSection = () => {
             </div>
 
             <div
-              className="two-group-class"
+              className="two-group-class "
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -317,11 +317,11 @@ const PartnersAndSponsorsSection = () => {
                 width: "100%",
               }}
             >
-              <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual ">
                 In-Kind Sponsor
               </div>
-              <div className="hack4bengal__section6-sponser-list platinum">
-                <div className="hack4bengal__section6-sponser-image">
+              <div className="hack4bengal__section6-sponser-list platinum ">
+                <div className="hack4bengal__section6-sponser-image inkind_logos_parent">
                   {sponsers.inkind.map((sponser, index) => (
                     <a href={sponser.link}>
                       <img
