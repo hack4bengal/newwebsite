@@ -274,6 +274,8 @@
 
 }
 
+/* This is for devices (360) */
+
 @media screen and (max-width:450px) {
     .flip-prizebox .inner {
         padding: 2px;
