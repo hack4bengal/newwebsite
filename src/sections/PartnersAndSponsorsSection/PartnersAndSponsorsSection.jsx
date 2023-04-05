@@ -13,7 +13,7 @@ const PartnersAndSponsorsSection = () => {
         className="hack4bengal__section6"
         id="sponsers"
       >
-        <div className="hack4bengal__section6-body">
+        <div className="hack4bengal__section6-body" style={{ maxWidth: '100%' }}>
           <div className="hack4bengal__section6-title">
             Partners And Sponsors
           </div>

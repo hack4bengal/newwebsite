@@ -15,7 +15,7 @@ const TestimonialSection = () => {
       className="judges_section"
       id="testimonials"
     >
-      <div className="testimonialsection_parent">
+      <div className="testimonialsection_parent" style={{ maxWidth: '100%' }}>
         <div className="judges_section_title">Testimonials</div>
         <hr />
         <div className="judges_section_container">
