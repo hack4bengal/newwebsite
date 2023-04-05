@@ -146,13 +146,13 @@ const trackpartner = [
   {
     img: gdgKolkata,
     txt: "Google Cloud Kolkata",
-    link: "https://www.instagram.com/eshogolpokori/",
+    link: "https://gdg.community.dev/gdg-kolkata/",
     paddingTop: 0,
   },
   {
     img: intel,
     txt: "Intel",
-    link: "https://www.instagram.com/eshogolpokori/",
+    link: "https://www.intel.in/content/www/in/en/homepage.html",
     paddingTop: 0,
   },
 ];
