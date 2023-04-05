@@ -11,7 +11,7 @@ import fcf from "../../assets/images/sponsers/fcf.png"
 import { Link, useNavigate } from "react-router-dom";
 import Postman from "../../assets/images/sponsers/Postman.png";
 import CCD from "../../assets/images/sponsers/CCD.png";
-import girlsteam from "../../assets/images/sponsers/girlsteam.png";
+import girlsteam from "../../assets/images/sponsers/gdg_Kolkata.png";
 
 const MorePrizesPage = () => {
 

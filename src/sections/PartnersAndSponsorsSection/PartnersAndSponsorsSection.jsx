@@ -307,6 +307,47 @@ const PartnersAndSponsorsSection = () => {
               </div>
             </div>
 
+
+            <div
+              className="two-group-class "
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "100%",
+              }}
+            >
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual ">
+                Track sponsor
+              </div>
+              <div className="hack4bengal__section6-sponser-list platinum ">
+                <div className="hack4bengal__section6-sponser-image inkind_logos_parent">
+                  {sponsers.trackpartner.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img
+                        style={{
+                          borderRadius: "20px",
+                          width: "200px",
+                          height: "100px",
+                          objectFit: "contain",
+                        }}
+                        key={index}
+                        src={sponser.img}
+                      />
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
+                          {sponser.txt.split("\n").map((line, index) => (
+                            <React.Fragment key={index}>{line}</React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             <div
               className="two-group-class "
               style={{

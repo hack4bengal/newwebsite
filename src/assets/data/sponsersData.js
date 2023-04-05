@@ -16,6 +16,9 @@ import fcf from "../images/sponsers/fcf.png";
 import fvm from "../images/sponsers/fvm.png";
 import hellenergy from "../images/sponsers/hell-energy.png";
 import gdgKolkata from "../images/sponsers/gdg_Kolkata.png";
+/* import gdgKolkata from "../images/sponsers/gdgkolkata.png"; */
+import intel from "../images/sponsers/intel.png";
+import gmc from "../images/sponsers/gmc.png";
 
 const platinum = [
   {
@@ -101,9 +104,9 @@ const energy = [
 
 const inkind = [
   {
-    img: gdgKolkata,
-    txt: "GDG cloud Kolkata",
-    link: "https://gdgcloud.kolkata.dev/",
+    img: gmc,
+    txt: "Give my certificate",
+    link: "https://givemycertificate.com/",
     paddingTop: 0,
   },
   {
@@ -139,6 +142,21 @@ const social = [
   },
 ];
 
+const trackpartner = [
+  {
+    img: gdgKolkata,
+    txt: "Google Cloud Kolkata",
+    link: "https://www.instagram.com/eshogolpokori/",
+    paddingTop: 0,
+  },
+  {
+    img: intel,
+    txt: "Intel",
+    link: "https://www.instagram.com/eshogolpokori/",
+    paddingTop: 0,
+  },
+];
+
 const sponsers = {
   platinum,
   incubation,
@@ -150,6 +168,7 @@ const sponsers = {
   inkind,
   social,
   energy,
+  trackpartner,
 };
 
 export default sponsers;
