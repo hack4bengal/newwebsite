@@ -13,7 +13,10 @@ const PartnersAndSponsorsSection = () => {
         className="hack4bengal__section6"
         id="sponsers"
       >
-        <div className="hack4bengal__section6-body" style={{ maxWidth: '100%' }}>
+        <div
+          className="hack4bengal__section6-body"
+          style={{ maxWidth: "100%" }}
+        >
           <div className="hack4bengal__section6-title">
             Partners And Sponsors
           </div>
@@ -178,10 +181,7 @@ const PartnersAndSponsorsSection = () => {
                   <div className="hack4bengal__section6-sponser-image">
                     {sponsers.silver.map((sponser, index) => (
                       <a href={sponser.link}>
-                        <img
-                          key={index}
-                          src={sponser.img}
-                        />
+                        <img key={index} src={sponser.img} />
                         <div style={{ textAlign: "center" }}>
                           <p style={{ paddingTop: "2px" }}>
                             {sponser.txt.split("\n").map((line, index) => (
@@ -206,13 +206,15 @@ const PartnersAndSponsorsSection = () => {
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
-
                 }}
               >
                 <div className="hack4bengal__section6-sponser-title sponser-two-dual">
                   Bronze Sponsor
                 </div>
-                <div className="hack4bengal__section6-sponser-list platinum">
+                <div
+                  className="hack4bengal__section6-sponser-list platinum"
+                  style={{ width: "800px" }}
+                >
                   <div className="hack4bengal__section6-sponser-image">
                     {sponsers.bronze.map((sponser, index) => (
                       <a href={sponser.link}>
@@ -383,8 +385,6 @@ const PartnersAndSponsorsSection = () => {
               </div>
             </div>
 
-
-
             <div className="partner-two-group">
               <div
                 className="two-group-class"
@@ -442,10 +442,7 @@ const PartnersAndSponsorsSection = () => {
                   <div className="hack4bengal__section6-sponser-image">
                     {sponsers.certificatepartner.map((sponser, index) => (
                       <a href={sponser.link}>
-                        <img
-                          key={index}
-                          src={sponser.img}
-                        />
+                        <img key={index} src={sponser.img} />
                         <div style={{ textAlign: "center" }}>
                           <p style={{ paddingTop: "2px" }}>
                             {sponser.txt.split("\n").map((line, index) => (
@@ -461,7 +458,6 @@ const PartnersAndSponsorsSection = () => {
                 </div>
               </div>
             </div>
-
 
             <div
               className="two-group-class "
@@ -502,7 +498,6 @@ const PartnersAndSponsorsSection = () => {
                 </div>
               </div>
             </div>
-
           </div>
           <h2>More Sponsors To be Declared Soon</h2>
 

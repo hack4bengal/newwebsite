@@ -19,6 +19,7 @@ import gdgKolkata from "../images/sponsers/gdg_Kolkata.png";
 /* import gdgKolkata from "../images/sponsers/gdgkolkata.png"; */
 import intel from "../images/sponsers/intel.png";
 import gmc from "../images/sponsers/gmc.png";
+import hyperlane from "../images/sponsers/hyperlane.png";
 
 const platinum = [
   {
@@ -85,6 +86,11 @@ const bronze = [
     img: sharedeum,
     txt: "Sharedeum",
     link: "https://sharedeum.org/",
+  },
+  {
+    img: hyperlane,
+    txt: "Hyperlane",
+    link: "https://www.hyperlane.xyz/",
   },
 ];
 const domain = [
