@@ -1,47 +1,25 @@
 import React, { Component } from "react";
-import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/navbar/Navbar";
 import redbtn from "../../assets/themes/redbtn.png";
-import themedata from "../../sections/ThemesSection/ThemeData";
 import "./MorePrizesPage.css";
 import solana from "../../assets/images/sponsers/solana.png"
 import shardeum from "../../assets/images/sponsers/shardeum.png"
 import fvm from "../../assets/images/sponsers/fvm.png"
-import fcf from "../../assets/images/sponsers/fcf.png"
 import { Link, useNavigate } from "react-router-dom";
 import Postman from "../../assets/images/sponsers/Postman.png";
 import CCD from "../../assets/images/sponsers/CCD.png";
 import girlsteam from "../../assets/images/sponsers/gdg_Kolkata.png";
+import hyperlane from "../../assets/images/sponsers/hyperlane.png";
+import intel from "../../assets/images/sponsers/intel.png";
 
 const MorePrizesPage = () => {
-
-  const navigate = useNavigate();
-  let element;
-
-  const gotoId = (id) => {
-    if (window.location.pathname !== "/") {
-      navigate("/");
-      setTimeout(() => {
-        element = document.getElementById(id);
-        element.scrollIntoView({ behavior: "smooth", block: "center" });
-      }, 500);
-    } else {
-      window.location.href = "#" + id;
-    }
-  };
 
 
   return (
     <>
-      {/*  <div className="hack4bengal__navbar-container">
-        <Navbar />
-      </div> */}
       <div className="prizepage_container_main">
         <>
           <div className="moreprizesection_god">
             <div className="moreprizesection_parent" id="themes">
-              {/* <h1 className="moreprizesection_title">Track prizes, swags <br /> & more !</h1>
-              <hr style={{ marginBottom: "70px" }} /> */}
 
               <div className="moreprizesbox-container">
 
@@ -164,6 +142,34 @@ const MorePrizesPage = () => {
                   </div>
                 </div>
 
+                <div className="moreprizesbox-item" >
+                  <div className="flip-prizebox" onClick={() => { }}>
+                    <div
+                      className="flip-moreprizesbox-front text-center"
+
+                    >
+                      <div className="inner color-white">
+                        <img src={Postman} alt="" className="flip-moreprizesbox-icon" />
+
+                        <h3 className="flip-moreprizesbox-header">
+                          Best Postman <br /> Public Workspace
+                        </h3>
+
+                        <img src={redbtn} alt="" className="flip-moreprizesbox-img" />
+                      </div>
+                    </div>
+                    <div
+                      className="flip-moreprizesbox-back "
+
+                    >
+                      <div className="inner color-white text-center">
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>The winning team members receive a Postman Student Swag Kit <br /> <br /> (Premium Diary, Thermos with Temperature Display, Sticker Sheet, Mobile Pop-up Holder, and Premium Pen)</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
 
                 {/* GIRLS TEAM GDG */}
                 <div className="moreprizesbox-item" >
@@ -201,7 +207,7 @@ const MorePrizesPage = () => {
 
                     >
                       <div className="inner color-white">
-                        <img src={CCD} alt="" className="flip-moreprizesbox-icon" style={{ width: "60%", height: "74px" }} />
+                        <img src={CCD} alt="" className="flip-moreprizesbox-icon" style={{ width: "60%" }} />
 
                         <h3 className="flip-moreprizesbox-header">
                           Hackday <br /> Best Use of Cloud
@@ -230,26 +236,83 @@ const MorePrizesPage = () => {
                     </div>
                   </div>
                 </div>
+
+
+
+                <div className="moreprizesbox-item" >
+                  <div className="flip-prizebox" onClick={() => { }}>
+                    <div
+                      className="flip-moreprizesbox-front text-center"
+
+                    >
+                      <div className="inner color-white">
+                        <img src={intel} alt="" className="flip-moreprizesbox-icon" style={{ width: "50%" }} />
+
+                        <h3 className="flip-moreprizesbox-header">
+                          Intel oneAPI for <br /> Machine Learning
+                        </h3>
+
+                        <img src={redbtn} alt="" className="flip-moreprizesbox-img" />
+                      </div>
+                    </div>
+                    <div
+                      className="flip-moreprizesbox-back "
+
+                    >
+                      <div className="inner color-white text-center">
+
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} >  1st Team - ₹15,000
+                        </p>
+                        <br />
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} >    2nd Team - ₹12,000
+                        </p>
+                        <br />
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} >
+                          3rd Team - ₹10,000
+                        </p>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="moreprizesbox-item" >
+                  <div className="flip-prizebox" onClick={() => { }}>
+                    <div
+                      className="flip-moreprizesbox-front text-center"
+
+                    >
+                      <div className="inner color-white">
+                        <img src={hyperlane} alt="" className="flip-moreprizesbox-icon" style={{ width: "60%", height: "74px" }} />
+
+                        <h3 className="flip-moreprizesbox-header">
+                          Best Use of <br /> Hyperlane
+                        </h3>
+
+                        <img src={redbtn} alt="" className="flip-moreprizesbox-img" />
+                      </div>
+                    </div>
+                    <div
+                      className="flip-moreprizesbox-back "
+
+                    >
+                      <div className="inner color-white text-center">
+
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} > Prize Pool of <br /> <br /> ₹80,000
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
 
-
-          {/* <div className="prizes_btndiv">
-            <button
-              class="hack4bengal__section10-button"
-              onClick={() => {
-                gotoId("prizes")
-              }}
-            >
-              Back to home
-            </button>
-          </div> */}
         </>
       </div>
-      {/* <div className="hack4bengal__footer-container">
-        <Footer />
-      </div> */}
     </>
   )
 }
