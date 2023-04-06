@@ -9,7 +9,7 @@
   border-radius: 20px;
   min-width: 330px;
   max-width: 330px;
-  height: 500px;
+  height: 530px;
 }
 
 @media screen and (max-width: 768px) {
@@ -77,7 +77,7 @@
 
 .hack4bengal__testimonial-cards .name {
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   color: #ff1717;
   text-transform: capitalize;
 }
@@ -89,13 +89,14 @@
   font-weight: 500;
   color: white;
   text-transform: capitalize;
-  margin-top: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .hack4bengal__testimonial-cards .testimonial {
   display: block;
   font-size: 0.9rem;
-  font-style: italic;
+  /*   font-style: italic; */
   font-weight: 500;
   color: white;
   text-transform: capitalize;
@@ -108,6 +109,8 @@
   font-size: 0.8rem;
   margin-bottom: 1rem;
 }
+
+
 
 .hack4bengal__testimonial-cards .social {
   width: 100%;

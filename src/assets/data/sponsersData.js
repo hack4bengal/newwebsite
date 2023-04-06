@@ -104,12 +104,6 @@ const energy = [
 
 const inkind = [
   {
-    img: gmc,
-    txt: "Give my certificate",
-    link: "https://givemycertificate.com/",
-    paddingTop: 0,
-  },
-  {
     img: taskcade,
     txt: "taskade",
     link: "https://www.taskade.com/",
@@ -157,6 +151,15 @@ const trackpartner = [
   },
 ];
 
+const certificatepartner = [
+  {
+    img: gmc,
+    txt: "Give my certificate",
+    link: "https://givemycertificate.com/",
+    paddingTop: 0,
+  },
+];
+
 const sponsers = {
   platinum,
   incubation,
@@ -169,6 +172,7 @@ const sponsers = {
   social,
   energy,
   trackpartner,
+  certificatepartner,
 };
 
 export default sponsers;

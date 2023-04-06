@@ -18,6 +18,8 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -31,7 +33,7 @@
 }
 
 .two-group-class {
-  width: 500px;
+  width: 50%;
 }
 
 @media screen and (max-width: 900px) {
@@ -77,6 +79,7 @@
   align-items: center;
   margin: 4rem 0;
   gap: 4rem;
+  width: 100%;
 }
 
 .hack4bengal__section6-sponser-title {
@@ -91,11 +94,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 3rem 0rem;
   border-radius: 0.75rem;
   gap: 3rem;
   width: 100%;
   background-color: rgb(32, 32, 32);
+  min-height: 243px;
 }
 
 .hack4bengal__section6-sponser-image {

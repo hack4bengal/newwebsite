@@ -20,7 +20,12 @@ const TestimonialCard = ({
         <img src={img} alt="team-card-img" />
       </div>
       <div className="hack4bengal__testimonial-card-content">
-        <h3 className="name">{name}</h3>
+        {/*  <h3 className="name">{name}</h3> */}
+        {name.split("\n").map((line, index) => (
+          <h3 key={index} className="name">
+            {line}
+          </h3>
+        ))}
         <h4 className="title">{position}</h4>
         <h4 className="domain">{domain}</h4>
         <h4 className="testimonial">" {testimonial} "</h4>
