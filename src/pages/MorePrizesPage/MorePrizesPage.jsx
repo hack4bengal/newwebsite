@@ -7,7 +7,7 @@ import fvm from "../../assets/images/sponsers/fvm.png"
 import { Link, useNavigate } from "react-router-dom";
 import Postman from "../../assets/images/sponsers/Postman.png";
 import CCD from "../../assets/images/sponsers/CCD.png";
-import girlsteam from "../../assets/images/sponsers/gdg_Kolkata.png";
+import girlsteam from "../../assets/images/sponsers/gdgkolkata.png";
 import hyperlane from "../../assets/images/sponsers/hyperlane.png";
 import intel from "../../assets/images/sponsers/intel.png";
 
@@ -179,10 +179,10 @@ const MorePrizesPage = () => {
 
                     >
                       <div className="inner color-white">
-                        <img src={girlsteam} alt="" className="flip-moreprizesbox-icon" />
+                        <img src={girlsteam} alt="" className="flip-moreprizesbox-icon" style={{ height: "74px", objectFit: "contain" }} />
 
                         <h3 className="flip-moreprizesbox-header">
-                          Best Girls Team <br /> (GDG Cloud Kolkata)
+                          Best Girls <br /> Team
                         </h3>
 
                         <img src={redbtn} alt="" className="flip-moreprizesbox-img" />
@@ -193,7 +193,7 @@ const MorePrizesPage = () => {
 
                     >
                       <div className="inner color-white text-center">
-                        <p>  Best Girls Team of the hackathon to get <br /> <br /> $60 from Google Developer Group Cloud, Kolkata.</p>
+                        <p>  Best Girls Team of the hackathon to get <br /> <br /> ₹5000 from Google Developer Group Cloud, Kolkata.</p>
 
                       </div>
                     </div>
@@ -222,7 +222,7 @@ const MorePrizesPage = () => {
                     >
                       <div className="inner color-white text-center">
 
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} >  1st  - $85 in cash, GCP Credits, along with free tickets to Google Cloud Community Days, Kolkata
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }} >  1st  - ₹7000 in cash, GCP Credits, along with free tickets to Google Cloud Community Days, Kolkata
                         </p>
 
                         {window.innerWidth > 800 && <>

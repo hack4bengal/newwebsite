@@ -15,13 +15,14 @@ import sharedeum from "../images/sponsers/shardeum.png";
 import fcf from "../images/sponsers/fcf.png";
 import fvm from "../images/sponsers/fvm.png";
 import hellenergy from "../images/sponsers/hell-energy.png";
-import gdgKolkata from "../images/sponsers/gdg_Kolkata.png";
-/* import gdgKolkata from "../images/sponsers/gdgkolkata.png"; */
+/* import gdgKolkata from "../images/sponsers/gdg_Kolkata.png"; */
+import gdgKolkata from "../images/sponsers/gdgkolkata.png";
 import intel from "../images/sponsers/intel.png";
 import gmc from "../images/sponsers/gmc.png";
 import hyperlane from "../images/sponsers/hyperlane.png";
+import flow from "../images/sponsers/flow.png";
 
-const platinum = [
+const collaborators = [
   {
     img: wb,
     txt: "  Department of IT & Electronics \n Government of West Bengal",
@@ -166,6 +167,15 @@ const certificatepartner = [
   },
 ];
 
+const platinum = [
+  {
+    img: flow,
+    txt: "Flow Blockchain",
+    link: "https://flow.com/",
+    paddingTop: 0,
+  },
+];
+
 const sponsers = {
   platinum,
   incubation,
@@ -179,6 +189,7 @@ const sponsers = {
   energy,
   trackpartner,
   certificatepartner,
+  collaborators,
 };
 
 export default sponsers;

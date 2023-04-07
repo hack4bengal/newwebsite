@@ -37,7 +37,7 @@ const PartnersAndSponsorsSection = () => {
             </div>
             <div className="hack4bengal__section6-sponser-list platinum">
               <div className="hack4bengal__section6-sponser-image">
-                {sponsers.platinum.map((sponser, index) => (
+                {sponsers.collaborators.map((sponser, index) => (
                   <a href={sponser.link}>
                     <img key={index} src={sponser.img} alt="h4b" />
                     <div style={{ textAlign: "center" }}>
@@ -55,32 +55,37 @@ const PartnersAndSponsorsSection = () => {
               </div>
             </div>
 
-            {/*             <div
-              className="two-group-class w-550"
+            <div
+              className="two-group-class platinumdiv"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-
               }}
             >
               <div className="hack4bengal__section6-sponser-title sponser-two-dual">
-                Gold Sponsor
+                Platinum Sponsor
               </div>
               <div className="hack4bengal__section6-sponser-list platinum">
                 <div className="hack4bengal__section6-sponser-image">
-                  {sponsers.gold.map((sponser, index) => (
+                  {sponsers.platinum.map((sponser, index) => (
                     <a href={sponser.link}>
                       <img
-                        style={{ borderRadius: "20px" }}
+                        style={{
+                          width: "220px",
+                          height: "100px",
+                          objectFit: "contain",
+                        }}
                         key={index}
                         src={sponser.img}
                       />
                       <div style={{ textAlign: "center" }}>
                         <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>{line}</React.Fragment>
+                            <React.Fragment key={index}>
+                              {line}
+                            </React.Fragment>
                           ))}
                         </p>
                       </div>
@@ -91,78 +96,41 @@ const PartnersAndSponsorsSection = () => {
             </div>
 
             <div
-              className="two-group-class w-550"
+              className="two-group-class"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-
               }}
             >
               <div className="hack4bengal__section6-sponser-title sponser-two-dual">
-                Silver Sponsor
+                Gold Sponsor
               </div>
-              <div className="hack4bengal__section6-sponser-list platinum">
+              <div className="hack4bengal__section6-sponser-list gold">
                 <div className="hack4bengal__section6-sponser-image">
-                  {sponsers.silver.map((sponser, index) => (
+                  {sponsers.gold.map((sponser, index) => (
                     <a href={sponser.link}>
                       <img
-                        style={{ borderRadius: "20px" }}
+                        style={{
+                          width: "220px",
+                          height: "100px",
+                          objectFit: "contain",
+                        }}
                         key={index}
                         src={sponser.img}
                       />
                       <div style={{ textAlign: "center" }}>
                         <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>{line}</React.Fragment>
+                            <React.Fragment key={index}>
+                              {line}
+                            </React.Fragment>
                           ))}
                         </p>
                       </div>
                     </a>
                   ))}
-                </div>
-              </div>
-            </div> */}
-
-            <div className="partner-two-group">
-              <div
-                className="two-group-class"
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <div className="hack4bengal__section6-sponser-title sponser-two-dual">
-                  Gold Sponsor
-                </div>
-                <div className="hack4bengal__section6-sponser-list platinum">
-                  <div className="hack4bengal__section6-sponser-image">
-                    {sponsers.gold.map((sponser, index) => (
-                      <a href={sponser.link}>
-                        <img
-                          style={{
-                            width: "220px",
-                            height: "100px",
-                            objectFit: "contain",
-                          }}
-                          key={index}
-                          src={sponser.img}
-                        />
-                        <div style={{ textAlign: "center" }}>
-                          <p style={{ paddingTop: "2px" }}>
-                            {sponser.txt.split("\n").map((line, index) => (
-                              <React.Fragment key={index}>
-                                {line}
-                              </React.Fragment>
-                            ))}
-                          </p>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
                 </div>
               </div>
             </div>
@@ -178,7 +146,7 @@ const PartnersAndSponsorsSection = () => {
               <div className="hack4bengal__section6-sponser-title sponser-two-dual">
                 Silver Sponsor
               </div>
-              <div className="hack4bengal__section6-sponser-list platinum">
+              <div className="hack4bengal__section6-sponser-list platinum silver">
                 <div className="hack4bengal__section6-sponser-image">
                   {sponsers.silver.map((sponser, index) => (
                     <a href={sponser.link}>
@@ -213,7 +181,7 @@ const PartnersAndSponsorsSection = () => {
                   Bronze Sponsor
                 </div>
                 <div
-                  className="hack4bengal__section6-sponser-list platinum"
+                  className="hack4bengal__section6-sponser-list bronze"
                   style={{ width: "800px" }}
                 >
                   <div className="hack4bengal__section6-sponser-image">
@@ -414,7 +382,7 @@ const PartnersAndSponsorsSection = () => {
                           src={sponser.img}
                         />
                         <div style={{ textAlign: "center" }}>
-                          <p style={{ paddingTop: "2px" }}>
+                          <p >
                             {sponser.txt.split("\n").map((line, index) => (
                               <React.Fragment key={index}>
                                 {line}
@@ -443,9 +411,14 @@ const PartnersAndSponsorsSection = () => {
                   <div className="hack4bengal__section6-sponser-image">
                     {sponsers.certificatepartner.map((sponser, index) => (
                       <a href={sponser.link}>
-                        <img key={index} src={sponser.img} />
+                        <img key={index} src={sponser.img} style={{
+                          borderRadius: "20px",
+                          width: "220px",
+                          height: "100px",
+                          objectFit: "contain",
+                        }} />
                         <div style={{ textAlign: "center" }}>
-                          <p style={{ paddingTop: "2px" }}>
+                          <p >
                             {sponser.txt.split("\n").map((line, index) => (
                               <React.Fragment key={index}>
                                 {line}
