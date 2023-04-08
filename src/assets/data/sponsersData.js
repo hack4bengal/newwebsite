@@ -18,6 +18,8 @@ import hellenergy from "../images/sponsers/hell-energy.png";
 /* import gdgKolkata from "../images/sponsers/gdg_Kolkata.png"; */
 import gdgKolkata from "../images/sponsers/gdgkolkata.png";
 import intel from "../images/sponsers/intel.png";
+import tezos from "../images/sponsers/tezos.png";
+import github from "../images/sponsers/github-text-white.png";
 import gmc from "../images/sponsers/gmc.png";
 import hyperlane from "../images/sponsers/hyperlane.png";
 import flow from "../images/sponsers/flow.png";
@@ -61,6 +63,11 @@ const gold = [
     img: fvm,
     txt: "Filecoin Virtual Machine",
     link: "https://filecoin.io/",
+  },
+  {
+    img: github,
+    txt: "Github",
+    link: "https://github.com/",
   },
 ];
 
@@ -154,6 +161,12 @@ const trackpartner = [
     img: intel,
     txt: "Intel",
     link: "https://www.intel.in/content/www/in/en/homepage.html",
+    paddingTop: 0,
+  },
+  {
+    img: tezos,
+    txt: "Tezos India",
+    link: "https://tezosindia.org.in/",
     paddingTop: 0,
   },
 ];
