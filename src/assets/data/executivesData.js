@@ -3,7 +3,7 @@ import Sugato from "../team/Sugato.png";
 import Ayush from "../team/Ayush.png";
 import Dev from "../team/Dev.JPG";
 import Prosenjit from "../team/Prosenjit.png";
-import Debanita from "../team/Debanita.png";
+
 import Diganta from "../team/Diganta.png";
 import Tushar from "../team/tushar.png";
 import Himanshu from "../team/Himanshu Rai.png";
@@ -106,13 +106,6 @@ const executives = [
     position: "JS dev @shunya.Ek",
     Domain: "Web Dev Team",
     linkedin: "https://www.linkedin.com/in/roy-rohit/",
-  },
-  {
-    Name: "Debanita Roy \n Bhowmick",
-    Photo: Debanita,
-    position: "Cloud Lead @GDSC NSEC",
-    Domain: "PR Team",
-    linkedin: "https://www.linkedin.com/in/debanita-roy-bhowmick/",
   },
   {
     Name: "Abhrajit \n Ghosh",
