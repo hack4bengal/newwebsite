@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import "./ThemesSection.css";
 import redbtn from "../../assets/themes/redbtn.png";
 import themedata from "./ThemeData";
@@ -9,16 +9,16 @@ const ThemesSection = () => {
       <div className="themesection_god">
         <div className="themesection_parent" id="themes">
           <h1 className="themesection_title">Themes</h1>
-          <hr style={{ marginBottom: "70px" }} />
+          <hr style={{marginBottom: "70px"}} />
 
           <div className="box-container">
             {themedata.map((item, index) => {
               return (
                 <div className="box-item" key={index}>
-                  <div className="flip-box" onClick={() => { }}>
+                  <div className="flip-box" onClick={() => {}}>
                     <div
                       className="flip-box-front text-center"
-                      style={{ backgroundImage: `url(${item.img})` }}
+                      style={{backgroundImage: `url(${item.img})`}}
                     >
                       <div className="inner color-white">
                         {/*  <img src={item.img} alt="" className="flip-box-icon" /> */}
@@ -36,7 +36,7 @@ const ThemesSection = () => {
                     </div>
                     <div
                       className="flip-box-back text-center"
-                      style={{ backgroundImage: `url(${item.img})` }}
+                      style={{backgroundImage: `url(${item.img})`}}
                     >
                       <div className="inner color-white">
                         <p>{item.desc}</p>

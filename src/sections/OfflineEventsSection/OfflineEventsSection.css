@@ -1,18 +1,16 @@
 /* //* EVENTS  */
 
-.events_main_parent {
-
+.offlineEventsSection_God {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.events_main {
+.offlineEventsSection_Parent {
   width: 1200px;
-
 }
 
-.offlineevents {
+.offlineEventsSection_Title {
   color: white;
   font-family: 'Poppins';
   font-style: normal;
@@ -83,6 +81,44 @@
   margin-top: -11px;
 } */
 
+@media screen and (min-width: 1380px) {
+  .moreprizesbox-container,
+  .moreprizesbox-container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .eventsflex_maindiv {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .events_flexmain3 {
+    flex-direction: column-reverse;
+  }
+
+  .events_flexmain5 {
+    flex-direction: row;
+  }
+
+  .event_smallimg {
+    width: 227px;
+    height: 174px;
+    border-radius: 8px;
+  }
+
+  .event_largeimg {
+    width: 227px;
+    height: 288px;
+    border-radius: 8px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .eventsflex_maindiv {
     flex-wrap: wrap;
@@ -111,9 +147,7 @@
   }
 }
 
-
-@media screen and (max-width:450px) {
-
+@media screen and (max-width: 450px) {
   .events_flexmain1,
   .events_flexmain2 {
     display: none;
@@ -155,8 +189,4 @@
     font-size: 1.5rem;
     word-break: break-word;
   }
-
-
 }
-
-/* .events_flexmain3, .events_flexmain4, .events_flexmain5 */

@@ -23,7 +23,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <>
-        <div className=" hack4bengal__navbar-container">
+        <div className="hack4bengal__navbar-container">
           <Navbar />
         </div>
 

@@ -12,9 +12,7 @@ const InfiniteCarouselSection = () => {
 
   return (
     <>
-      <div className="h4b_reg_text_wrapper">
-        {paragraphs}
-      </div>
+      <div className="h4b_reg_text_wrapper">{paragraphs}</div>
     </>
   );
 };

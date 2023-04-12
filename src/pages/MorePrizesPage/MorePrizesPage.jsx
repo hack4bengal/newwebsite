@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import redbtn from "../../assets/themes/redbtn.png";
 import "./MorePrizesPage.css";
 import solana from "../../assets/images/sponsers/solana.png";
 import shardeum from "../../assets/images/sponsers/shardeum.png";
 import fvm from "../../assets/images/sponsers/fvm.png";
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
 import Postman from "../../assets/images/sponsers/Postman.png";
 import CCD from "../../assets/images/sponsers/CCD.png";
 import girlsteam from "../../assets/images/sponsers/gdgkolkata.png";
@@ -29,7 +29,7 @@ const MorePrizesPage = () => {
                           src={flow}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{ height: "74px", objectFit: "contain" }}
+                          style={{height: "74px", objectFit: "contain"}}
                         />
                         <h3 className="flip-moreprizesbox-header">
                           Best apps built <br /> on Flow
@@ -176,7 +176,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           The winning team members receive a Postman Student
                           Swag Kit <br /> <br /> (Premium Diary, Thermos with
                           Temperature Display, Sticker Sheet, Mobile Pop-up
@@ -210,7 +210,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           The winning team members receive a Postman Student
                           Swag Kit <br /> <br /> (Premium Diary, Thermos with
                           Temperature Display, Sticker Sheet, Mobile Pop-up
@@ -230,7 +230,7 @@ const MorePrizesPage = () => {
                           src={girlsteam}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{ height: "74px", objectFit: "contain" }}
+                          style={{height: "74px", objectFit: "contain"}}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -264,7 +264,7 @@ const MorePrizesPage = () => {
                           src={CCD}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{ width: "60%" }}
+                          style={{width: "60%"}}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -280,7 +280,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           {" "}
                           1st - ₹7000 in cash, GCP Credits, along with free
                           tickets to Google Cloud Community Days, Kolkata
@@ -293,7 +293,7 @@ const MorePrizesPage = () => {
                           </>
                         )}
 
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           {" "}
                           2nd & 3rd - Win GCP Credits, along with free tickets
                           to GCCD, Kolkata
@@ -311,7 +311,7 @@ const MorePrizesPage = () => {
                           src={intel}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{ width: "50%" }}
+                          style={{width: "50%"}}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -327,17 +327,17 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           {" "}
                           1st Team - ₹15,000
                         </p>
                         <br />
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           {" "}
                           2nd Team - ₹12,000
                         </p>
                         <br />
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           3rd Team - ₹10,000
                         </p>
                       </div>
@@ -353,7 +353,7 @@ const MorePrizesPage = () => {
                           src={hyperlane}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{ width: "60%", height: "74px" }}
+                          style={{width: "60%", height: "74px"}}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -369,7 +369,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           {" "}
                           Prize Pool of <br /> <br /> ₹80,000
                         </p>
