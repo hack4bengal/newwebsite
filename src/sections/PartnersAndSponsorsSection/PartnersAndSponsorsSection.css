@@ -18,6 +18,8 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -31,7 +33,7 @@
 }
 
 .two-group-class {
-  width: 500px;
+  width: 50%;
 }
 
 @media screen and (max-width: 900px) {
@@ -77,6 +79,7 @@
   align-items: center;
   margin: 4rem 0;
   gap: 4rem;
+  width: 100%;
 }
 
 .hack4bengal__section6-sponser-title {
@@ -91,11 +94,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 3rem 0rem;
   border-radius: 0.75rem;
   gap: 3rem;
   width: 100%;
   background-color: rgb(32, 32, 32);
+  min-height: 243px;
 }
 
 .hack4bengal__section6-sponser-image {
@@ -105,6 +109,13 @@
   gap: 50px;
 }
 
+.hack4bengal__section6-sponser-image-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
 .hack4bengal__section6-sponser-image a {
   display: flex;
   justify-content: center;
@@ -112,7 +123,19 @@
   flex-direction: column;
 }
 
+.hack4bengal__section6-sponser-image-track a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .hack4bengal__section6-sponser-image img {
+  width: 220px;
+  height: auto;
+}
+
+.hack4bengal__section6-sponser-image-track img {
   width: 220px;
   height: auto;
 }
@@ -125,20 +148,26 @@
   text-align: center;
 }
 
-.nasscom {}
+.hack4bengal__section6-sponser-image-track p {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.nasscom {
+}
 
 .platinum {
   transition: all 0.8s ease;
   border: 2px solid rgba(18, 17, 39, 0.08);
-
 }
 
 .inkind_logos_parent {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-
 
 .platinum:hover {
   transition: all 0.8s ease;
@@ -223,7 +252,20 @@
     align-items: center;
   }
 
+  .hack4bengal__section6-sponser-image-track {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .hack4bengal__section6-sponser-image a {
+    flex-direction: column;
+    align-items: center;
+    /* gap: 50px; */
+  }
+
+  .hack4bengal__section6-sponser-image-track a {
     flex-direction: column;
     align-items: center;
     /* gap: 50px; */
@@ -233,7 +275,15 @@
     width: 180px;
   }
 
+  .hack4bengal__section6-sponser-image-track img {
+    width: 180px;
+  }
+
   .hack4bengal__section6-sponser-image p {
+    font-size: 14px;
+  }
+
+  .hack4bengal__section6-sponser-image-track p {
     font-size: 14px;
   }
 

@@ -15,9 +15,16 @@ import sharedeum from "../images/sponsers/shardeum.png";
 import fcf from "../images/sponsers/fcf.png";
 import fvm from "../images/sponsers/fvm.png";
 import hellenergy from "../images/sponsers/hell-energy.png";
-import gdgKolkata from "../images/sponsers/gdg_Kolkata.png";
+/* import gdgKolkata from "../images/sponsers/gdg_Kolkata.png"; */
+import gdgKolkata from "../images/sponsers/gdgkolkata.png";
+import intel from "../images/sponsers/intel.png";
+import tezos from "../images/sponsers/tezos.png";
+import github from "../images/sponsers/github-text-white.png";
+import gmc from "../images/sponsers/gmc.png";
+import hyperlane from "../images/sponsers/hyperlane.png";
+import flow from "../images/sponsers/flow.png";
 
-const platinum = [
+const collaborators = [
   {
     img: wb,
     txt: "  Department of IT & Electronics \n Government of West Bengal",
@@ -57,6 +64,11 @@ const gold = [
     txt: "Filecoin Virtual Machine",
     link: "https://filecoin.io/",
   },
+  {
+    img: github,
+    txt: "Github",
+    link: "https://github.com/",
+  },
 ];
 
 const silver = [
@@ -83,6 +95,11 @@ const bronze = [
     txt: "Sharedeum",
     link: "https://sharedeum.org/",
   },
+  {
+    img: hyperlane,
+    txt: "Hyperlane",
+    link: "https://www.hyperlane.xyz/",
+  },
 ];
 const domain = [
   {
@@ -100,12 +117,6 @@ const energy = [
 ];
 
 const inkind = [
-  {
-    img: gdgKolkata,
-    txt: "GDG cloud Kolkata",
-    link: "https://gdgcloud.kolkata.dev/",
-    paddingTop: 0,
-  },
   {
     img: taskcade,
     txt: "taskade",
@@ -139,6 +150,45 @@ const social = [
   },
 ];
 
+const trackpartner = [
+  {
+    img: gdgKolkata,
+    txt: "Google Cloud Kolkata",
+    link: "https://gdg.community.dev/gdg-kolkata/",
+    paddingTop: 0,
+  },
+  {
+    img: intel,
+    txt: "Intel",
+    link: "https://www.intel.in/content/www/in/en/homepage.html",
+    paddingTop: 0,
+  },
+  {
+    img: tezos,
+    txt: "Tezos India",
+    link: "https://tezosindia.org.in/",
+    paddingTop: 0,
+  },
+];
+
+const certificatepartner = [
+  {
+    img: gmc,
+    txt: "Give my certificate",
+    link: "https://givemycertificate.com/",
+    paddingTop: 0,
+  },
+];
+
+const platinum = [
+  {
+    img: flow,
+    txt: "Flow Blockchain",
+    link: "https://flow.com/",
+    paddingTop: 0,
+  },
+];
+
 const sponsers = {
   platinum,
   incubation,
@@ -150,6 +200,9 @@ const sponsers = {
   inkind,
   social,
   energy,
+  trackpartner,
+  certificatepartner,
+  collaborators,
 };
 
 export default sponsers;

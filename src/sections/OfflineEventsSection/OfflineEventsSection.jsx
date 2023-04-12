@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import "./OfflineEventsSection.css";
 
 import land1 from "../../assets/events/landscape/land1.png";
@@ -14,18 +14,16 @@ import ver4 from "../../assets/events/potrait/ver4.png";
 import ver5 from "../../assets/events/potrait/ver5.png";
 
 function OfflineEventsSection() {
-
   /*   useEffect(() => {
       console.log(window.innerWidth);
     }, [window.innerWidth]); */
 
   return (
     <>
-      <div className="events_main_parent">
-        <div className="events_main">
-
-          <p className="offlineevents">Offline Events</p>
-          <hr />
+      <div className="offlineEventsSection_God">
+        <div className="offlineEventsSection_Parent">
+          <h1 className="offlineEventsSection_Title">Offline Events</h1>
+          <hr style={{marginBottom: "70px"}} />
 
           <div className="eventsflex_maindiv">
             <div className="events_flexmain1 events_flexmain">

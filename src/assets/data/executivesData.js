@@ -3,7 +3,7 @@ import Sugato from "../team/Sugato.png";
 import Ayush from "../team/Ayush.png";
 import Dev from "../team/Dev.JPG";
 import Prosenjit from "../team/Prosenjit.png";
-import Debanita from "../team/Debanita.png";
+
 import Diganta from "../team/Diganta.png";
 import Tushar from "../team/tushar.png";
 import Himanshu from "../team/Himanshu Rai.png";
@@ -27,6 +27,7 @@ import Koyena from "../team/Koyena.jpg";
 import Souradeep from "../team/Souradeep.jpeg";
 import Abhrajit from "../team/abhrajit.png";
 import Rohit from "../team/rohitroy.jpg";
+import anirban from "../team/anirban-min.jpg";
 
 const executives = [
   {
@@ -86,13 +87,6 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/ankita-panda-b4a71821a/",
   },
   {
-    Name: "Debanita Roy \n Bhowmick",
-    Photo: Debanita,
-    position: "Cloud Lead @GDSC NSEC",
-    Domain: "PR Team",
-    linkedin: "https://www.linkedin.com/in/debanita-roy-bhowmick/",
-  },
-  {
     Name: "Diganta Kr \n Banik",
     Photo: Diganta,
     position: "DevRel Contributor @Keploy",
@@ -114,11 +108,39 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/roy-rohit/",
   },
   {
+    Name: "Abhrajit \n Ghosh",
+    Photo: Abhrajit,
+    position: "Lead Youcampus",
+    Domain: "PR Team",
+    linkedin: "https://www.linkedin.com/in/abhrajit-ghosh-1a54081b2/",
+  },
+  {
+    Name: "Prosenjit \n Swarnakar",
+    Photo: Prosenjit,
+    position: "Co-founder @OpenCodeyard",
+    Domain: "PR Team",
+    linkedin: "https://www.linkedin.com/in/prosenjit-swarnakar-5baa59236",
+  },
+  {
+    Name: "Koyena \n Mondal",
+    Photo: Koyena,
+    position: "Marketing Intern @Shuvidha ",
+    Domain: "PR Team",
+    linkedin: "https://www.linkedin.com/in/koyena-mondal-6a3903228/",
+  },
+  {
     Name: "Himanshu \n Rai",
     Photo: Himanshu,
     position: "Design Lead @GDSC HIT",
     Domain: "Graphics Team",
     linkedin: "https://www.linkedin.com/in/himanshu-rai-5599a11b8/",
+  },
+  {
+    Name: "Subhanjan \n Dutta",
+    Photo: Subhanjan,
+    position: "Design Lead @Binary Coders",
+    Domain: "Graphics Team",
+    linkedin: "https://www.linkedin.com/in/subhanjan-dutta/",
   },
   {
     Name: "Shafin \n Kausar",
@@ -134,19 +156,20 @@ const executives = [
     Domain: "PR Team",
     linkedin: "https://linkedin.com/in/shatanikmahanty",
   },
-  {
-    Name: "Subhanjan \n Dutta",
-    Photo: Subhanjan,
-    position: "Design Lead @Binary Coders",
-    Domain: "Graphics Team",
-    linkedin: "https://www.linkedin.com/in/subhanjan-dutta/",
-  },
+
   {
     Name: "Vimal \n Anand",
     Photo: Vimal2,
     position: "Intern @Oasis Infobyte",
     Domain: "Marketing Team",
     linkedin: "https://www.linkedin.com/in/vimal-anand-9917a1212",
+  },
+  {
+    Name: "Aharna \n Haque",
+    Photo: Aharna,
+    position: "Keploy API Fellow",
+    Domain: "Marketing Team",
+    linkedin: "https://www.linkedin.com/in/aharna-haque-b44832219/",
   },
 
   {
@@ -164,11 +187,11 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/prachi-kumari-1b8184201/",
   },
   {
-    Name: "Aharna \n Haque",
-    Photo: Aharna,
-    position: "Keploy API Fellow",
-    Domain: "Marketing Team",
-    linkedin: "https://www.linkedin.com/in/aharna-haque-b44832219/",
+    Name: "Anirban \n Saha",
+    Photo: anirban,
+    position: "Front-End Developer",
+    Domain: "Content Team",
+    linkedin: "https://www.linkedin.com/in/anbsaha/",
   },
   {
     Name: "Alapan \n Das",
@@ -191,20 +214,7 @@ const executives = [
     Domain: "Events Team",
     linkedin: "https://www.linkedin.com/in/amandeep-singh-452949246/",
   },
-  {
-    Name: "Prosenjit \n Swarnakar",
-    Photo: Prosenjit,
-    position: "Co-founder @OpenCodeyard",
-    Domain: "PR Team",
-    linkedin: "https://www.linkedin.com/in/prosenjit-swarnakar-5baa59236",
-  },
-  {
-    Name: "Koyena \n Mondal",
-    Photo: Koyena,
-    position: "Marketing Intern @Shuvidha ",
-    Domain: "PR Team",
-    linkedin: "https://www.linkedin.com/in/koyena-mondal-6a3903228/",
-  },
+
   {
     Name: "Kunal \n Ghosh",
     Photo: Kunal,
@@ -225,13 +235,6 @@ const executives = [
     position: "Video Editor @HuddleMedia Pvt Ltd",
     Domain: "Graphics Team",
     linkedin: "https://www.linkedin.com/in/ayushmaan-sural-b16248210",
-  },
-  {
-    Name: "Abhrajit \n Ghosh",
-    Photo: Abhrajit,
-    position: "Lead Youcampus",
-    Domain: "PR Team",
-    linkedin: "https://www.linkedin.com/in/abhrajit-ghosh-1a54081b2/",
   },
 ];
 

@@ -9,7 +9,6 @@
 .h4b_about_main {
   color: white;
   font-family: 'Poppins';
-
 }
 
 .h4b_about_main h1 {
@@ -52,7 +51,7 @@
   color: #e13b3c;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .h4b_about_sub {
     flex-direction: column;
     align-items: center;
@@ -86,7 +85,7 @@
   }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
   .h4b_about_sub {
     padding: 0 0rem;
   }

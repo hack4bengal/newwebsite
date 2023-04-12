@@ -123,10 +123,10 @@
 .prizebox {
   min-height: 18rem;
   position: relative;
-  border-radius: 15px;
+  border-radius: 8px;
   text-align: center;
   cursor: pointer;
-  min-width: 20rem;
+  min-width: 360px;
   background-image: url("../../assets//images//prizes//cardbg.png");
   background-repeat: no-repeat;
   background-size: cover;
