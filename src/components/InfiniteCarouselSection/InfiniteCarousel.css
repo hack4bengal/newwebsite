@@ -53,7 +53,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #e53538;
   background-color: #242425;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
@@ -64,10 +64,14 @@
 .h4b_reg_text_wrapper p {
   white-space: nowrap;
   padding: 20px 6rem;
-  letter-spacing: 1px;
-  animation: move-rtl 6000ms linear infinite;
+  letter-spacing: 2px;
+  animation: move-rtl 10000ms linear infinite;
   margin-bottom: 0px;
   user-select: none;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e53538, 0 0 10px #e53538, 0 0 15px #e53538, 0 0 10px #e53538, 0 0 15px #e53538;
+
 }
 
 @keyframes move-rtl {
