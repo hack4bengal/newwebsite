@@ -422,7 +422,7 @@ const MorePrizesPage = () => {
                         </p>
                         <br />
                         <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
-                          Prize Pool - ₹20,000 (To be given to teams, Maximum of
+                          Prize Pool - ₹16,000 (To be given to teams, Maximum of
                           ₹3,200 to a valid project who can't make it to top 3
                           Tezos projects.)
                         </p>
