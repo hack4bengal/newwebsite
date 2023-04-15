@@ -58,7 +58,7 @@ const Prizes = [
             '₹ 20,000 for best Dapp bult on Tezos',
         ],
         prizeInfo : [
-            `₹ 20,000 for best use of IPFS and/or Filecoin`,
+            `₹ 20,000 for Best Use of IPFS and/or Filecoin`,
             '₹ 10,000 for the best hack built on Ethereum, or 15,000 for the best hack bult on Ethereum + Polygon.',
         ]
     },

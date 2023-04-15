@@ -80,7 +80,7 @@ const MorePrizesPage = () => {
                           className="flip-moreprizesbox-icon"
                         />
                         <h3 className="flip-moreprizesbox-header">
-                          Best use of <br /> Solana
+                          Best Use of <br /> Solana
                         </h3>
 
                         <img
@@ -113,7 +113,7 @@ const MorePrizesPage = () => {
                           className="flip-moreprizesbox-icon"
                         />
                         <h3 className="flip-moreprizesbox-header">
-                          Best use of <br /> Shardeum
+                          Best Use of <br /> Shardeum
                         </h3>
 
                         <img
@@ -148,7 +148,7 @@ const MorePrizesPage = () => {
                         />
 
                         <h3 className="flip-moreprizesbox-header">
-                          Best use of <br /> Filecoin/FVM
+                          Best Use of <br /> Filecoin/FVM
                         </h3>
 
                         <img
@@ -180,7 +180,7 @@ const MorePrizesPage = () => {
                         />
 
                         <h3 className="flip-moreprizesbox-header">
-                          Best use of <br /> API by Postman
+                          Best Use of <br /> API by Postman
                         </h3>
 
                         <img
@@ -420,7 +420,7 @@ const MorePrizesPage = () => {
                         />
 
                         <h3 className="flip-moreprizesbox-header">
-                          Best use of <br /> Tezos
+                          Best Use of <br /> Tezos
                         </h3>
 
                         <img
