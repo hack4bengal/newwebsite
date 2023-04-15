@@ -43,6 +43,7 @@
 } */
 
 @media screen and (min-width: 1380px) {
+
   .moreprizesbox-container,
   .moreprizesbox-container2 {
     flex-direction: row;
@@ -157,7 +158,7 @@
   top: 50%;
 }
 
-.inner > h3 {
+.inner>h3 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -201,6 +202,19 @@
   margin-top: 25px;
   padding: 15px 20px;
   text-transform: uppercase;
+}
+
+.problem_statement_btn {
+  background-color: #FF1717;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 10px;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -277,7 +291,7 @@
     padding: 2px;
   }
 
-  .flip-prizebox .inner > p {
+  .flip-prizebox .inner>p {
     font-size: 13px !important;
     margin: 0;
   }
@@ -292,5 +306,17 @@
     justify-content: center;
     margin-bottom: 0px;
     padding: 0 5px;
+  }
+
+  .problem_statement_btn {
+    font-size: 16px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    color: #FF1717;
+  }
+
+  .specialheight {
+    min-height: 370px;
   }
 }
