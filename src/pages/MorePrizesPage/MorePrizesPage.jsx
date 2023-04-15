@@ -37,7 +37,7 @@ const MorePrizesPage = () => {
                           style={{ height: "74px", objectFit: "contain" }}
                         />
                         <h3 className="flip-moreprizesbox-header">
-                          Best apps built <br /> on Flow
+                          Best Apps built <br /> on Flow
                         </h3>
 
                         <img
@@ -436,12 +436,10 @@ const MorePrizesPage = () => {
                           {" "}
                           1st Team - ₹12000
                         </p>
-
                         <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           {" "}
                           2nd Team - ₹8000
                         </p>
-
                         <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           3rd Team - ₹4000
                         </p>
