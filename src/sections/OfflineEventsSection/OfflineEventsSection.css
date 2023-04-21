@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1220px) {
   .eventsflex_maindiv {
     flex-wrap: wrap;
     justify-content: center;

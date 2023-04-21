@@ -51,7 +51,7 @@
   color: #e13b3c;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1220px) {
   .h4b_about_sub {
     flex-direction: column;
     align-items: center;
