@@ -82,8 +82,8 @@ const WelcomeSection = () => {
             </a>
           </div> */}
 
-            <div className="hack4bengal__section1-register">
-              <a
+            {/* <div className="hack4bengal__section1-register">
+               <a
                 className="hack4bengal__section1-register-link landingpagebtn"
                 href="https://lu.ma/hack4bengal"
                 target="_blank"
@@ -91,7 +91,14 @@ const WelcomeSection = () => {
               >
                 <span>{"</> "}</span>
                 <p>Register Now</p>
-              </a>
+              </a> 
+            </div> */}
+            <div className="hack4bengal__section1-register">
+              <div
+                className="apply-button"
+                data-hackathon-slug="hack4bengal-2.devfolio.co/"
+                style={{ height: "44px", width: "312px" }}
+              ></div>
             </div>
           </div>
         </motion.div>

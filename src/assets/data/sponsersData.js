@@ -23,6 +23,7 @@ import github from "../images/sponsers/github-text-white.png";
 import gmc from "../images/sponsers/gmc.png";
 import hyperlane from "../images/sponsers/hyperlane.png";
 import flow from "../images/sponsers/flow.png";
+import Devfolio from "../images/sponsers/Devfolio.png";
 
 const collaborators = [
   {

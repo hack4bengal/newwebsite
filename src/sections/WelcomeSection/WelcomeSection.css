@@ -66,7 +66,6 @@
 }
 
 .hack4bengal__section1-para .span1 {
-
   font-size: 17px;
 }
 
@@ -128,7 +127,7 @@
   height: 44px;
   justify-content: center;
   outline: none;
-  padding: 0 32px;
+  
   white-space: nowrap;
   width: 100%;
   cursor: pointer;
@@ -161,14 +160,12 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
-
 }
 
 .landingpagebtn p {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-
 
 .landingpagebtn img {
   height: 17px;
@@ -180,17 +177,14 @@
   background-color: rgba(21, 19, 19, 0.775);
   color: white;
   width: 300px;
-  height: 60px;
-  min-width: 300px;
-
+  height: 44px;
+  min-width: 312px;
 }
-
 
 .hack4bengal__section1-discord:hover,
 .hack4bengal__section1-register:hover {
   background-color: rgba(10, 10, 10, 0.941);
 }
-
 
 .hack4bengal__section1-register {
   display: flex;
@@ -201,7 +195,6 @@
   cursor: pointer;
   font-size: large;
   font-weight: bold;
-
 }
 
 /* 
@@ -270,7 +263,6 @@
 }
 
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -289,7 +281,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
   .hack4bengal__section1-scrollDown,
   .hack4bengal__section1-side-links {
     display: none;
@@ -297,7 +288,6 @@
 
   .hack4bengal_section1_header img {
     width: 75vw;
-
   }
 
   .hack4bengal__section1-menu {
@@ -354,7 +344,6 @@
   }
 
   .hack4bengal__section1-para {
-
     padding-top: 40px;
     padding-left: 8px;
     padding-right: 8px;
@@ -372,11 +361,9 @@
 }
 
 @media screen and (max-width: 500px) {
-
   .hack4bengal__section1-menu {
     padding: 10px 10px !important;
   }
-
 
   .hack4bengal__section1-para {
     width: auto;
