@@ -96,7 +96,7 @@ const WelcomeSection = () => {
             <div className="hack4bengal__section1-register">
               <div
                 className="apply-button"
-                data-hackathon-slug="hack4bengal-2.devfolio.co"
+                data-hackathon-slug="hack4bengal-2"
                 style={{ height: "44px", width: "312px" }}
               ></div>
             </div>
