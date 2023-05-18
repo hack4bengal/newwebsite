@@ -61,11 +61,13 @@ const gold = [
     img: fcf,
     txt: "Filecoin Foundation",
     link: "https://filecoin.io/",
+    alt: "FILECOIN LOGO",
   },
   {
     img: fvm,
     txt: "Filecoin Virtual Machine",
     link: "https://filecoin.io/",
+    alt: "FILECOIN LOGO",
   },
   {
     img: github,
@@ -76,11 +78,13 @@ const gold = [
     img: devfolio,
     txt: "Devfolio",
     link: "https://devfolio.co",
+    alt: "DEVFOLIO LOGO",
   },
   {
     img: polygon,
     txt: "Polygon",
     link: "https://polygon.technology/",
+    alt: "POLYGON LOGO",
   },
 ];
 
@@ -94,11 +98,13 @@ const silver = [
     img: solana,
     txt: "Solana",
     link: "https://solana.com/",
+    alt: "SOLANA LOGO",
   },
   {
     img: replit,
     txt: "Replit",
     link: "https://replit.com ",
+    alt: "REPLIT LOGO",
   },
 ];
 

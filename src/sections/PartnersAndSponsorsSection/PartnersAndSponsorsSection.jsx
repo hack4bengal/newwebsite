@@ -76,7 +76,7 @@ const PartnersAndSponsorsSection = () => {
                         }}
                         key={index}
                         src={sponser.img}
-                        alt={sponser.txt}
+                        alt={sponser.alt || ""}
                       />
                       <div style={{textAlign: "center"}}>
                         <p style={{paddingTop: "2px"}}>
@@ -118,7 +118,7 @@ const PartnersAndSponsorsSection = () => {
                         }}
                         key={index}
                         src={sponser.img}
-                        alt={sponser.txt}
+                        alt={sponser.alt || ""}
                       />
                       <div style={{textAlign: "center"}}>
                         <p style={{paddingTop: "2px"}}>
@@ -151,7 +151,11 @@ const PartnersAndSponsorsSection = () => {
                 <div className="hack4bengal__section6-sponser-image">
                   {sponsers.silver.map((sponser, index) => (
                     <a href={sponser.link}>
-                      <img key={index} src={sponser.img} alt={sponser.txt} />
+                      <img
+                        key={index}
+                        src={sponser.img}
+                        alt={sponser.alt || ""}
+                      />
                       <div style={{textAlign: "center"}}>
                         <p style={{paddingTop: "2px"}}>
                           {sponser.txt.split("\n").map((line, index) => (
@@ -190,7 +194,7 @@ const PartnersAndSponsorsSection = () => {
                           key={index}
                           src={sponser.img}
                           style={{width: index === 2 ? "190px" : " 220px"}}
-                          alt={sponser.txt}
+                          alt={sponser.alt || ""}
                         />
                         <div style={{textAlign: "center"}}>
                           <p
@@ -234,7 +238,7 @@ const PartnersAndSponsorsSection = () => {
                           style={{borderRadius: "20px"}}
                           key={index}
                           src={sponser.img}
-                          alt={sponser.txt}
+                          alt={sponser.alt || ""}
                         />
                         <div style={{textAlign: "center"}}>
                           <p style={{paddingTop: "2px"}}>
@@ -270,7 +274,7 @@ const PartnersAndSponsorsSection = () => {
                           style={{borderRadius: "20px", width: "158px"}}
                           key={index}
                           src={sponser.img}
-                          alt={sponser.txt}
+                          alt={sponser.alt || ""}
                         />
                         <div style={{textAlign: "center"}}>
                           <p style={{paddingTop: "2px"}}>
@@ -314,7 +318,7 @@ const PartnersAndSponsorsSection = () => {
                           }}
                           key={index}
                           src={sponser.img}
-                          alt={sponser.txt}
+                          alt={sponser.alt || ""}
                         />
                         <div style={{textAlign: "center"}}>
                           <p style={{paddingTop: "2px"}}>
@@ -350,7 +354,7 @@ const PartnersAndSponsorsSection = () => {
                           style={{borderRadius: "20px", width: "100px"}}
                           key={index}
                           src={sponser.img}
-                          alt={sponser.txt}
+                          alt={sponser.alt || ""}
                         />
                         <div style={{textAlign: "center"}}>
                           <p style={{paddingTop: "2px"}}>
@@ -397,7 +401,7 @@ const PartnersAndSponsorsSection = () => {
                           }}
                           key={index}
                           src={sponser.img}
-                          alt={sponser.txt}
+                          alt={sponser.alt || ""}
                         />
                         <div style={{textAlign: "center"}}>
                           <p>
@@ -439,7 +443,7 @@ const PartnersAndSponsorsSection = () => {
                         }}
                         key={index}
                         src={sponser.img}
-                        alt={sponser.txt}
+                        alt={sponser.alt || ""}
                       />
                       <div style={{textAlign: "center"}}>
                         <p style={{paddingTop: "2px"}}>
@@ -480,7 +484,7 @@ const PartnersAndSponsorsSection = () => {
                         }}
                         key={index}
                         src={sponser.img}
-                        alt={sponser.txt}
+                        alt={sponser.alt || ""}
                       />
                       <div style={{textAlign: "center"}}>
                         <p style={{paddingTop: "2px"}}>
