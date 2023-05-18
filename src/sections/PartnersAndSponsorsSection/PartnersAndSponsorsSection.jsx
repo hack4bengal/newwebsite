@@ -1,19 +1,22 @@
 import React from "react";
 import sponsers from "../../assets/data/sponsersData";
 import "./PartnersAndSponsorsSection.css";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const PartnersAndSponsorsSection = () => {
   return (
     <>
       <motion.div
-        initial={{opacity: 0}}
-        whileInView={{opacity: 1, transition: {duration: 1}}}
-        viewport={{once: false}}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { duration: 1 } }}
+        viewport={{ once: false }}
         className="hack4bengal__section6"
         id="sponsers"
       >
-        <div className="hack4bengal__section6-body" style={{maxWidth: "100%"}}>
+        <div
+          className="hack4bengal__section6-body"
+          style={{ maxWidth: "100%" }}
+        >
           <div className="hack4bengal__section6-title">
             Partners And Sponsors
           </div>
@@ -28,7 +31,7 @@ const PartnersAndSponsorsSection = () => {
           <div className="hack4bengal__section6-sponsers">
             <div
               className="hack4bengal__section6-sponser-title"
-              style={{marginBottom: "-40px"}}
+              style={{ marginBottom: "-40px" }}
             >
               In Collaboration With
             </div>
@@ -37,7 +40,7 @@ const PartnersAndSponsorsSection = () => {
                 {sponsers.collaborators.map((sponser, index) => (
                   <a href={sponser.link}>
                     <img key={index} src={sponser.img} alt="h4b" />
-                    <div style={{textAlign: "center"}}>
+                    <div style={{ textAlign: "center" }}>
                       <p>
                         {sponser.txt.split("\n").map((line, index) => (
                           <React.Fragment key={index}>
@@ -78,8 +81,8 @@ const PartnersAndSponsorsSection = () => {
                         src={sponser.img}
                         alt={sponser.alt || ""}
                       />
-                      <div style={{textAlign: "center"}}>
-                        <p style={{paddingTop: "2px"}}>
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
                             <React.Fragment key={index}>{line}</React.Fragment>
                           ))}
@@ -105,7 +108,7 @@ const PartnersAndSponsorsSection = () => {
               </div>
               <div
                 className="hack4bengal__section6-sponser-list gold"
-                style={{width: "900px"}}
+                style={{ width: "900px" }}
               >
                 <div className="hack4bengal__section6-sponser-image-track">
                   {sponsers.gold.map((sponser, index) => (
@@ -120,8 +123,8 @@ const PartnersAndSponsorsSection = () => {
                         src={sponser.img}
                         alt={sponser.alt || ""}
                       />
-                      <div style={{textAlign: "center"}}>
-                        <p style={{paddingTop: "2px"}}>
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
                             <React.Fragment key={index}>{line}</React.Fragment>
                           ))}
@@ -146,7 +149,7 @@ const PartnersAndSponsorsSection = () => {
               </div>
               <div
                 className="hack4bengal__section6-sponser-list platinum silver"
-                style={{width: "900px"}}
+                style={{ width: "900px" }}
               >
                 <div className="hack4bengal__section6-sponser-image">
                   {sponsers.silver.map((sponser, index) => (
@@ -156,8 +159,8 @@ const PartnersAndSponsorsSection = () => {
                         src={sponser.img}
                         alt={sponser.alt || ""}
                       />
-                      <div style={{textAlign: "center"}}>
-                        <p style={{paddingTop: "2px"}}>
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
                             <React.Fragment key={index}>{line}</React.Fragment>
                           ))}
@@ -185,7 +188,7 @@ const PartnersAndSponsorsSection = () => {
                 </div>
                 <div
                   className="hack4bengal__section6-sponser-list bronze"
-                  style={{width: "800px"}}
+                  style={{ width: "800px" }}
                 >
                   <div className="hack4bengal__section6-sponser-image">
                     {sponsers.bronze.map((sponser, index) => (
@@ -193,10 +196,10 @@ const PartnersAndSponsorsSection = () => {
                         <img
                           key={index}
                           src={sponser.img}
-                          style={{width: index === 2 ? "190px" : " 220px"}}
+                          style={{ width: index === 2 ? "190px" : " 220px" }}
                           alt={sponser.alt || ""}
                         />
-                        <div style={{textAlign: "center"}}>
+                        <div style={{ textAlign: "center" }}>
                           <p
                             style={{
                               paddingTop: "2px",
@@ -235,13 +238,13 @@ const PartnersAndSponsorsSection = () => {
                     {sponsers.media.map((sponser, index) => (
                       <a href={sponser.link}>
                         <img
-                          style={{borderRadius: "20px"}}
+                          style={{ borderRadius: "20px" }}
                           key={index}
                           src={sponser.img}
                           alt={sponser.alt || ""}
                         />
-                        <div style={{textAlign: "center"}}>
-                          <p style={{paddingTop: "2px"}}>
+                        <div style={{ textAlign: "center" }}>
+                          <p style={{ paddingTop: "2px" }}>
                             {sponser.txt.split("\n").map((line, index) => (
                               <React.Fragment key={index}>
                                 {line}
@@ -271,13 +274,13 @@ const PartnersAndSponsorsSection = () => {
                     {sponsers.domain.map((sponser, index) => (
                       <a href={sponser.link}>
                         <img
-                          style={{borderRadius: "20px", width: "158px"}}
+                          style={{ borderRadius: "20px", width: "158px" }}
                           key={index}
                           src={sponser.img}
                           alt={sponser.alt || ""}
                         />
-                        <div style={{textAlign: "center"}}>
-                          <p style={{paddingTop: "2px"}}>
+                        <div style={{ textAlign: "center" }}>
+                          <p style={{ paddingTop: "2px" }}>
                             {sponser.txt.split("\n").map((line, index) => (
                               <React.Fragment key={index}>
                                 {line}
@@ -320,8 +323,8 @@ const PartnersAndSponsorsSection = () => {
                           src={sponser.img}
                           alt={sponser.alt || ""}
                         />
-                        <div style={{textAlign: "center"}}>
-                          <p style={{paddingTop: "2px"}}>
+                        <div style={{ textAlign: "center" }}>
+                          <p style={{ paddingTop: "2px" }}>
                             {sponser.txt.split("\n").map((line, index) => (
                               <React.Fragment key={index}>
                                 {line}
@@ -351,13 +354,13 @@ const PartnersAndSponsorsSection = () => {
                     {sponsers.social.map((sponser, index) => (
                       <a href={sponser.link}>
                         <img
-                          style={{borderRadius: "20px", width: "100px"}}
+                          style={{ borderRadius: "20px", width: "100px" }}
                           key={index}
                           src={sponser.img}
                           alt={sponser.alt || ""}
                         />
-                        <div style={{textAlign: "center"}}>
-                          <p style={{paddingTop: "2px"}}>
+                        <div style={{ textAlign: "center" }}>
+                          <p style={{ paddingTop: "2px" }}>
                             {sponser.txt.split("\n").map((line, index) => (
                               <React.Fragment key={index}>
                                 {line}
@@ -387,7 +390,7 @@ const PartnersAndSponsorsSection = () => {
                 </div>
                 <div
                   className="hack4bengal__section6-sponser-list platinum"
-                  style={{width: "800px"}}
+                  style={{ width: "800px" }}
                 >
                   <div className="hack4bengal__section6-sponser-image-track">
                     {sponsers.trackpartner.map((sponser, index) => (
@@ -403,7 +406,7 @@ const PartnersAndSponsorsSection = () => {
                           src={sponser.img}
                           alt={sponser.alt || ""}
                         />
-                        <div style={{textAlign: "center"}}>
+                        <div style={{ textAlign: "center" }}>
                           <p>
                             {sponser.txt.split("\n").map((line, index) => (
                               <React.Fragment key={index}>
@@ -445,8 +448,8 @@ const PartnersAndSponsorsSection = () => {
                         src={sponser.img}
                         alt={sponser.alt || ""}
                       />
-                      <div style={{textAlign: "center"}}>
-                        <p style={{paddingTop: "2px"}}>
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
                             <React.Fragment key={index}>{line}</React.Fragment>
                           ))}
@@ -486,8 +489,8 @@ const PartnersAndSponsorsSection = () => {
                         src={sponser.img}
                         alt={sponser.alt || ""}
                       />
-                      <div style={{textAlign: "center"}}>
-                        <p style={{paddingTop: "2px"}}>
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
                             <React.Fragment key={index}>{line}</React.Fragment>
                           ))}
@@ -503,13 +506,13 @@ const PartnersAndSponsorsSection = () => {
 
           <div
             className="hack4bengal__section6-content"
-            style={{marginTop: "50px", fontWeight: "bold"}}
+            style={{ marginTop: "50px", fontWeight: "bold" }}
           >
             Want to sponsor us? <br />
             <a
               href="https://forms.gle/Y77QCcKmMAMpPAmQ9"
               className="link-us-sponsor"
-              style={{color: "#E13B3C"}}
+              style={{ color: "#E13B3C" }}
             >
               Contact us
             </a>

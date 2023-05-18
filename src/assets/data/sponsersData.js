@@ -73,6 +73,7 @@ const gold = [
     img: github,
     txt: "Github",
     link: "https://github.com/",
+    alt: "GITHUB",
   },
   {
     img: devfolio,
@@ -93,6 +94,7 @@ const silver = [
     img: postman,
     txt: "Postman",
     link: "https://www.postman.com/",
+    alt: "POSTMAN",
   },
   {
     img: solana,
@@ -113,16 +115,19 @@ const bronze = [
     img: foss,
     txt: "FOSS United",
     link: "https://fossunited.org/",
+    alt: "FOSS",
   },
   {
     img: sharedeum,
     txt: "Sharedeum",
     link: "https://sharedeum.org/",
+    alt: "SHAREDEUM",
   },
   {
     img: hyperlane,
     txt: "Hyperlane",
     link: "https://www.hyperlane.xyz/",
+    alt: "HYPERLANE",
   },
 ];
 const domain = [
@@ -209,6 +214,7 @@ const platinum = [
     img: flow,
     txt: "Flow Blockchain",
     link: "https://flow.com/",
+    alt: "flow",
     paddingTop: 0,
   },
 ];
