@@ -23,7 +23,7 @@ import github from "../images/sponsers/github-text-white.png";
 import gmc from "../images/sponsers/gmc.png";
 import hyperlane from "../images/sponsers/hyperlane.png";
 import flow from "../images/sponsers/flow.png";
-import devfolio from "../images/sponsers/devfolio.png";
+import devfolio from "../images/sponsers/Devfolio.png";
 import polygon from "../images/sponsers/polygon.png";
 import replit from "../images/sponsers/replit.png";
 

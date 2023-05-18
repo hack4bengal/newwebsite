@@ -79,7 +79,7 @@ const PartnersAndSponsorsSection = () => {
                         }}
                         key={index}
                         src={sponser.img}
-                        alt={sponser.alt || ""}
+                        alt={sponser.alt}
                       />
                       <div style={{ textAlign: "center" }}>
                         <p style={{ paddingTop: "2px" }}>
@@ -121,7 +121,7 @@ const PartnersAndSponsorsSection = () => {
                         }}
                         key={index}
                         src={sponser.img}
-                        alt={sponser.alt || ""}
+                        alt={sponser.alt}
                       />
                       <div style={{ textAlign: "center" }}>
                         <p style={{ paddingTop: "2px" }}>
@@ -157,7 +157,7 @@ const PartnersAndSponsorsSection = () => {
                       <img
                         key={index}
                         src={sponser.img}
-                        alt={sponser.alt || ""}
+                        alt={sponser.alt}
                       />
                       <div style={{ textAlign: "center" }}>
                         <p style={{ paddingTop: "2px" }}>
@@ -197,7 +197,7 @@ const PartnersAndSponsorsSection = () => {
                           key={index}
                           src={sponser.img}
                           style={{ width: index === 2 ? "190px" : " 220px" }}
-                          alt={sponser.alt || ""}
+                          alt={sponser.alt}
                         />
                         <div style={{ textAlign: "center" }}>
                           <p
@@ -241,7 +241,6 @@ const PartnersAndSponsorsSection = () => {
                           style={{ borderRadius: "20px" }}
                           key={index}
                           src={sponser.img}
-                          alt={sponser.alt || ""}
                         />
                         <div style={{ textAlign: "center" }}>
                           <p style={{ paddingTop: "2px" }}>
@@ -277,7 +276,7 @@ const PartnersAndSponsorsSection = () => {
                           style={{ borderRadius: "20px", width: "158px" }}
                           key={index}
                           src={sponser.img}
-                          alt={sponser.alt || ""}
+                          alt={ ""}
                         />
                         <div style={{ textAlign: "center" }}>
                           <p style={{ paddingTop: "2px" }}>
