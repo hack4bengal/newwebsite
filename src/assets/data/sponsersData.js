@@ -23,7 +23,9 @@ import github from "../images/sponsers/github-text-white.png";
 import gmc from "../images/sponsers/gmc.png";
 import hyperlane from "../images/sponsers/hyperlane.png";
 import flow from "../images/sponsers/flow.png";
-import Devfolio from "../images/sponsers/Devfolio.png";
+import devfolio from "../images/sponsers/devfolio.png";
+import polygon from "../images/sponsers/polygon.png";
+import replit from "../images/sponsers/replit.png";
 
 const collaborators = [
   {
@@ -70,6 +72,16 @@ const gold = [
     txt: "Github",
     link: "https://github.com/",
   },
+  {
+    img: devfolio,
+    txt: "Devfolio",
+    link: "https://devfolio.co",
+  },
+  {
+    img: polygon,
+    txt: "Polygon",
+    link: "https://polygon.technology/",
+  },
 ];
 
 const silver = [
@@ -82,6 +94,11 @@ const silver = [
     img: solana,
     txt: "Solana",
     link: "https://solana.com/",
+  },
+  {
+    img: replit,
+    txt: "Replit",
+    link: "https://replit.com ",
   },
 ];
 
