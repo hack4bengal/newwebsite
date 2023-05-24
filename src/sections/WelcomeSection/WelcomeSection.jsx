@@ -6,6 +6,7 @@ import newbanner2 from "../../assets/updates/newbanner3.png";
 import { motion, transform } from "framer-motion";
 import { staggerChildren, fadeIn } from "../../motionUtils";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
+import { backgroundColors } from "dracula-ui";
 
 const WelcomeSection = () => {
   React.useEffect(() => {
@@ -97,7 +98,11 @@ const WelcomeSection = () => {
               <div
                 className="apply-button"
                 data-hackathon-slug="hack4bengal-2"
-                style={{ height: "44px", width: "312px" }}
+                data-button-theme="dark"
+                style={{
+                  height: "44px",
+                  width: "312px",
+                }}
               ></div>
             </div>
           </div>

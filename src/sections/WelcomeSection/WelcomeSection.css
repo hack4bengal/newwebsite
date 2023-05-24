@@ -127,7 +127,7 @@
   height: 44px;
   justify-content: center;
   outline: none;
-  
+
   white-space: nowrap;
   width: 100%;
   cursor: pointer;
@@ -174,7 +174,7 @@
 
 .hack4bengal__section1-discord,
 .hack4bengal__section1-register {
-  background-color: rgba(21, 19, 19, 0.775);
+  background-color: rgba(21, 19, 19);
   color: white;
   width: 300px;
   height: 44px;
@@ -183,7 +183,7 @@
 
 .hack4bengal__section1-discord:hover,
 .hack4bengal__section1-register:hover {
-  background-color: rgba(10, 10, 10, 0.941);
+  background-color: rgba(10, 10, 10, 0.864);
 }
 
 .hack4bengal__section1-register {
