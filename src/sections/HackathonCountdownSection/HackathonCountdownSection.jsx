@@ -18,8 +18,8 @@ const HackathonCountdownSection = () => {
           <div>
             <h1>Hackathon starts in</h1>
             <hr style={{ marginBottom: "70px" }} />
-            <h1>TBA</h1>
-            {/* <Timer /> */}
+            {/* <h1>TBA</h1> */}
+            <Timer />
           </div>
         </div>
       </motion.div>
