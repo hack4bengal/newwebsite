@@ -1,7 +1,7 @@
 import React from "react";
 
 const Register = () => {
-  window.location.replace("https://lu.ma/hack4bengal");
+  window.location.replace("https://hack4bengal-2.devfolio.co/");
   return null;
 };
 
