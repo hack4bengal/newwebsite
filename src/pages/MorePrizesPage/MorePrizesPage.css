@@ -10,7 +10,7 @@
 
 .moreprizesection_title {
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -43,7 +43,6 @@
 } */
 
 @media screen and (min-width: 1380px) {
-
   .moreprizesbox-container,
   .moreprizesbox-container2 {
     flex-direction: row;
@@ -88,7 +87,7 @@
   /*  border: 2px solid #ff1717; */
   border-radius: 5px;
 
-  background-image: url('../../assets//images//prizes//cardbg.png');
+  background-image: url("../../assets//images//prizes//cardbg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,8 +157,8 @@
   top: 50%;
 }
 
-.inner>h3 {
-  font-family: 'Poppins';
+.inner > h3 {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -179,7 +178,7 @@
 
 .flip-prizebox p {
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -205,16 +204,22 @@
 }
 
 .problem_statement_btn {
-  background-color: #FF1717;
+  background-color: #ff1717;
   color: white;
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   padding: 10px;
   letter-spacing: 1px;
   border-radius: 6px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  .tezosbox > .flip-prizebox > .flip-moreprizesbox-back > .inner > p {
+    font-size: 19px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -276,11 +281,18 @@
 
   .flip-prizebox p {
     color: white;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 15px !important;
     letter-spacing: 1px;
+  }
+  .specialheight {
+    min-height: 370px !important;
+  }
+
+  .specialwidth {
+    min-width: 70% !important;
   }
 }
 
@@ -291,7 +303,7 @@
     padding: 2px;
   }
 
-  .flip-prizebox .inner>p {
+  .flip-prizebox .inner > p {
     font-size: 13px !important;
     margin: 0;
   }
@@ -313,10 +325,14 @@
     padding: 0px;
     background-color: transparent;
     border: none;
-    color: #FF1717;
+    color: #ff1717;
   }
 
   .specialheight {
-    min-height: 370px;
+    min-height: 370px !important;
+  }
+
+  .specialwidth {
+    min-width: 70% !important;
   }
 }

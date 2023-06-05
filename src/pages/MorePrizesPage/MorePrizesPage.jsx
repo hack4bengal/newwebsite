@@ -401,7 +401,7 @@ const MorePrizesPage = () => {
                   </div>
                 </div>
                 {/* Tezos */}
-                <div className="moreprizesbox-item">
+                <div className="moreprizesbox-item specialwidth tezosbox">
                   <div
                     className="flip-prizebox"
 
@@ -432,19 +432,12 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back specialheight ">
                       <div className="inner color-white text-center">
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
-                          {" "}
-                          1st Team - ₹12000
-                        </p>
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
-                          {" "}
-                          2nd Team - ₹8000
-                        </p>
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
-                          3rd Team - ₹4000
-                        </p>
-                        <br />
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        <p>1st team - ₹1,22,987</p>
+
+                        <p>2nd team - ₹82,000</p>
+
+                        <p>3rd team - ₹40,000</p>
+                        <p>
                           Prize Pool - ₹16,000 (To be given to teams, Maximum of
                           ₹3,200 to a valid project who can't make it to top 3
                           Tezos projects.)
