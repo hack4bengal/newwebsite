@@ -77,6 +77,12 @@ const gold = [
     alt: "GITHUB",
   },
   {
+    img: logitech,
+    txt: "Logitech",
+    link: "https://www.logitech.com/en-in",
+    alt: "LOGITECH LOGO",
+  },
+  {
     img: devfolio,
     txt: "Devfolio",
     link: "https://devfolio.co",
@@ -88,12 +94,7 @@ const gold = [
     link: "https://polygon.technology/",
     alt: "POLYGON LOGO",
   },
-  {
-    img: logitech,
-    txt: "Logitech",
-    link: "https://www.logitech.com/en-in",
-    alt: "LOGITECH LOGO",
-  },
+
 ];
 
 const silver = [
