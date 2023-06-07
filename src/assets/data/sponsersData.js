@@ -26,6 +26,7 @@ import flow from "../images/sponsers/flow.png";
 import devfolio from "../images/sponsers/Devfolio.png";
 import polygon from "../images/sponsers/polygon.png";
 import replit from "../images/sponsers/replit.png";
+import logitech from "../images/sponsers/logitech.png";
 
 const collaborators = [
   {
@@ -86,6 +87,12 @@ const gold = [
     txt: "Polygon",
     link: "https://polygon.technology/",
     alt: "POLYGON LOGO",
+  },
+  {
+    img: logitech,
+    txt: "Logitech",
+    link: "https://www.logitech.com/en-in",
+    alt: "LOGITECH LOGO",
   },
 ];
 
