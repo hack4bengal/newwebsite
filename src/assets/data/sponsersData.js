@@ -94,7 +94,6 @@ const gold = [
     link: "https://polygon.technology/",
     alt: "POLYGON LOGO",
   },
-
 ];
 
 const silver = [
@@ -227,6 +226,27 @@ const platinum = [
   },
 ];
 
+const communityPartners = [
+  {
+    img: gdgKolkata,
+    txt: "Google Cloud Kolkata",
+    link: "https://gdg.community.dev/gdg-kolkata/",
+    paddingTop: 0,
+  },
+  {
+    img: intel,
+    txt: "Intel",
+    link: "https://www.intel.in/content/www/in/en/homepage.html",
+    paddingTop: 0,
+  },
+  {
+    img: tezos,
+    txt: "Tezos India",
+    link: "https://tezosindia.org.in/",
+    paddingTop: 0,
+  },
+];
+
 const sponsers = {
   platinum,
   incubation,
@@ -241,6 +261,7 @@ const sponsers = {
   trackpartner,
   certificatepartner,
   collaborators,
+  communityPartners,
 };
 
 export default sponsers;

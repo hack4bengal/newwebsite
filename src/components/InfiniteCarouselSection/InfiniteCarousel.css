@@ -70,8 +70,8 @@
   user-select: none;
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e53538, 0 0 10px #e53538, 0 0 15px #e53538, 0 0 10px #e53538, 0 0 15px #e53538;
-
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e53538, 0 0 10px #e53538,
+    0 0 15px #e53538, 0 0 10px #e53538, 0 0 15px #e53538;
 }
 
 @keyframes move-rtl {
