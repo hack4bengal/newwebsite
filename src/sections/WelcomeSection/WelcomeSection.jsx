@@ -98,7 +98,7 @@ const WelcomeSection = () => {
               <div
                 className="apply-button"
                 data-hackathon-slug="hack4bengal-2"
-                data-button-theme="light"
+                data-button-theme="dark"
                 style={{
                   height: "44px",
                   width: "312px",
