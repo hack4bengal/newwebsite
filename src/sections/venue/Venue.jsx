@@ -1,9 +1,22 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "./Venue.css"
 
 const Venue = () => {
+
+    const navigate = useNavigate();
+    let element;
+
+    const gotoId = (id) => {
+        navigate("/venue");
+        setTimeout(() => {
+            element = document.getElementById(id);
+            element.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 500);
+    };
+
+
     return (
         <>
             <motion.div
@@ -24,16 +37,20 @@ const Venue = () => {
                                 Sister Nivedita University (SNU), DG 1/2 New Town, Action Area 1, Kolkata - 700156
 
                                 <div className='venue_buttondiv'>
-                                    <Link to="/venue" className='venue_button' >
+                                    <div className='venue_button' onClick={() => {
+                                        gotoId('360');
+                                    }} >
                                         <button className="meetourteam_section-button">
                                             See venue in 360°
                                         </button>
-                                    </Link>
-                                    <Link to="/venue" className='venue_button' >
+                                    </div>
+                                    <div className='venue_button' onClick={() => {
+                                        gotoId('map');
+                                    }} >
                                         <button className="meetourteam_section-button">
                                             View in Google Maps
                                         </button>
-                                    </Link>
+                                    </div>
                                 </div>
                             </div>
 
