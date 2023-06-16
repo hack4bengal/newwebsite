@@ -15,6 +15,7 @@ import Evengelist from "./pages/evangelist/Evengelist";
 import Partner from "./pages/cp/cp";
 import Schedulepage from "./pages/schedule/Schedulepage";
 import Guide from "./pages/guide/Guide";
+import Venue from "./pages/venue/Venue";
 export default class App extends Component {
   render() {
     return (
@@ -34,6 +35,7 @@ export default class App extends Component {
           <Route path="/cp" element={<Partner />} />
           <Route path="/schedule" element={<Schedulepage />} />
           <Route path="/guide" element={<Guide />} />
+          <Route path="/venue" element={<Venue />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
