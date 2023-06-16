@@ -16,7 +16,6 @@ const Timeline = () => {
             >
               <div className="time-head">{timelineData[0].time}</div>
               <div className="desc-head">{timelineData[0].desc}</div>
-              <div className={`${active === 0 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
           <div className={`${active === 0 ? "show-mob-time" : "hid-mob-time"}`}>
@@ -43,7 +42,6 @@ const Timeline = () => {
             >
               <div className="time-head">{timelineData[1].time}</div>
               <div className="desc-head">{timelineData[1].desc}</div>
-              <div className={`${active === 1 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
           <div className={`${active === 1 ? "show-mob-time" : "hid-mob-time"}`}>
@@ -75,7 +73,6 @@ const Timeline = () => {
             >
               <div className="time-head">{timelineData[2].time}</div>
               <div className="desc-head">{timelineData[2].desc}</div>
-              <div className={`${active === 2 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
           <div className={`${active === 2 ? "show-mob-time" : "hid-mob-time"}`}>
@@ -99,7 +96,6 @@ const Timeline = () => {
             >
               <div className="time-head">{timelineData[3].time}</div>
               <div className="desc-head">{timelineData[3].desc}</div>
-              <div className={`${active === 3 ? "arrow-down" : ""}`}></div>
             </div>
           </div>
           <div className={`${active === 3 ? "show-mob-time" : "hid-mob-time"}`}>
