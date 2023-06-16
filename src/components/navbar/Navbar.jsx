@@ -89,6 +89,16 @@ const Navbar = () => {
               <li className="hack4bengal__navbar-navitem">
                 <p
                   onClick={() => {
+                    gotoId("venue");
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="hack4bengal__navbar-menu-heading">Venue</h3>
+                </p>
+              </li>
+              <li className="hack4bengal__navbar-navitem">
+                <p
+                  onClick={() => {
                     gotoId("timeline");
                     toggleMenu();
                   }}
@@ -254,6 +264,18 @@ const Navbar = () => {
             >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
                 About Us
+              </h3>
+            </p>
+          </li>
+          <li className="hack4bengal__navbar-hamburger-navitem">
+            <p
+              onClick={() => {
+                gotoId("venue");
+                toggleMenu();
+              }}
+            >
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                Venue
               </h3>
             </p>
           </li>

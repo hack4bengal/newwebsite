@@ -16,7 +16,7 @@ import fcf from "../images/sponsers/fcf.png";
 import fvm from "../images/sponsers/fvm.png";
 import hellenergy from "../images/sponsers/hell-energy.png";
 /* import gdgKolkata from "../images/sponsers/gdg_Kolkata.png"; */
-import gdgKolkata from "../images/sponsers/gdgkolkata.png";
+import gdgKolkata from "../images/sponsers/gdgcloudkolkata.png";
 import intel from "../images/sponsers/intel.png";
 import tezos from "../images/sponsers/tezos.png";
 import github from "../images/sponsers/github-text-white.png";

@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./HomePage.css";
 import "../../App.css";
 
@@ -18,6 +18,7 @@ import MeetOurTeamSection from "../../sections/MeetOurTeamSection/MeetOurTeamSec
 import Footer from "../../components/footer/Footer.jsx";
 import PrizesSection1 from "../../sections/PrizesSection/PrizesSection";
 import MorePrizesPage from "../MorePrizesPage/MorePrizesPage";
+import Venue from "../../sections/venue/Venue";
 
 export default class HomePage extends Component {
   render() {
@@ -37,6 +38,7 @@ export default class HomePage extends Component {
           <HackathonCountdownSection />
           <AboutUsSection />
           <TimelineSection />
+          <Venue />
           <OfflineEventsSection />
           <ThemesSection />
           <PrizesSection1 />
