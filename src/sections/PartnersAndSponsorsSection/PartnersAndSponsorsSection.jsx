@@ -11,7 +11,7 @@ const PartnersAndSponsorsSection = () => {
         whileInView={{ opacity: 1, transition: { duration: 1 } }}
         viewport={{ once: false }}
         className="hack4bengal__section6"
-        id="sponsers"
+        id="sponsors"
       >
         <div
           className="hack4bengal__section6-body"
@@ -154,11 +154,7 @@ const PartnersAndSponsorsSection = () => {
                 <div className="hack4bengal__section6-sponser-image">
                   {sponsers.silver.map((sponser, index) => (
                     <a href={sponser.link}>
-                      <img
-                        key={index}
-                        src={sponser.img}
-                        alt={sponser.alt}
-                      />
+                      <img key={index} src={sponser.img} alt={sponser.alt} />
                       <div style={{ textAlign: "center" }}>
                         <p style={{ paddingTop: "2px" }}>
                           {sponser.txt.split("\n").map((line, index) => (
@@ -276,7 +272,7 @@ const PartnersAndSponsorsSection = () => {
                           style={{ borderRadius: "20px", width: "158px" }}
                           key={index}
                           src={sponser.img}
-                          alt={ ""}
+                          alt={""}
                         />
                         <div style={{ textAlign: "center" }}>
                           <p style={{ paddingTop: "2px" }}>

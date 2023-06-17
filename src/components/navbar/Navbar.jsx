@@ -131,11 +131,11 @@ const Navbar = () => {
               <li className="hack4bengal__navbar-navitem">
                 <p
                   onClick={() => {
-                    gotoId("judges");
+                    gotoId("sponsors");
                     toggleMenu();
                   }}
                 >
-                  <h3 className="hack4bengal__navbar-menu-heading">Judges</h3>
+                  <h3 className="hack4bengal__navbar-menu-heading">Sponsors</h3>
                 </p>
               </li>
 
@@ -199,8 +199,9 @@ const Navbar = () => {
         </div>
       </header>
       <header
-        className={`hack4bengal__navbar-hamburger ${isOpen ? `hamburger-open` : ``
-          }`}
+        className={`hack4bengal__navbar-hamburger ${
+          isOpen ? `hamburger-open` : ``
+        }`}
       >
         <div className="hack4bengal__navbar-hamburger-body">
           <nav className="hack4bengal__navbar-hamburger-nav">
@@ -240,8 +241,9 @@ const Navbar = () => {
           </nav>
         </div>
         <ul
-          className={`hack4bengal__navbar-hamburger-navlist ${isOpen ? `activeMenu slide-bottom` : ``
-            }`}
+          className={`hack4bengal__navbar-hamburger-navlist ${
+            isOpen ? `activeMenu slide-bottom` : ``
+          }`}
         >
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
@@ -338,7 +340,7 @@ const Navbar = () => {
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("sponsers");
+                gotoId("sponsors");
                 toggleMenu();
               }}
             >
