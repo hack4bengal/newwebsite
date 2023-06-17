@@ -23,6 +23,12 @@
   gap: 2rem;
 }
 
+@media screen and (max-width: 600px) {
+  .venue_buttondiv {
+    flex-direction: column;
+  }
+}
+
 .venue_buttondiv > .venue_button > button {
   width: 18rem;
 }

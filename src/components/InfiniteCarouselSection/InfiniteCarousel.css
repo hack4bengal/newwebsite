@@ -47,10 +47,10 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .h4b_reg_text_wrapper {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #e53538;
   background-color: #242425;
   font-size: 30px;
@@ -70,8 +70,8 @@
   user-select: none;
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e53538, 0 0 10px #e53538, 0 0 15px #e53538, 0 0 10px #e53538, 0 0 15px #e53538;
-
+  text-shadow: 0 0 5px #fff, 0 0 1px #fff, 0 0 15px #fff, 0 0 1px #fff,
+    0 0 1px #fff, 0 0 2px #fff, 0 0 2px #fff;
 }
 
 @keyframes move-rtl {

@@ -7,7 +7,7 @@ import fvm from "../../assets/images/sponsers/fvm.png";
 // import { Link, useNavigate } from "react-router-dom";
 import Postman from "../../assets/images/sponsers/Postman.png";
 import CCD from "../../assets/images/sponsers/CCD.png";
-import girlsteam from "../../assets/images/sponsers/gdgkolkata.png";
+import girlsteam from "../../assets/images/sponsers/gdgcloudkolkata.png";
 import hyperlane from "../../assets/images/sponsers/hyperlane.png";
 import intel from "../../assets/images/sponsers/intel.png";
 import flow from "../../assets/images/sponsers/flow.png";
@@ -262,11 +262,9 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p>
-                          {" "}
-                          Best Girls Team of the hackathon to get <br /> <br />{" "}
-                          ₹5000 from Google Developer Group Cloud, Kolkata.
-                        </p>
+                        <p>1st Team - ₹7000</p>
+                        <p> 2nd Team - ₹5000</p>
+                        <p> All Female Team - ₹5000</p>
                       </div>
                     </div>
                   </div>
