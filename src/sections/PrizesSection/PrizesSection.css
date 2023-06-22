@@ -1,13 +1,13 @@
 .prize_section {
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .prize_section-boxtitle,
 .prize_section-box,
 .prize_section-title {
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .prize_section-description {
@@ -23,7 +23,7 @@
   font-size: 48px;
   text-align: center;
   letter-spacing: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .prize_section-title2 {
@@ -33,7 +33,7 @@
   line-height: 82px;
   text-align: center;
   letter-spacing: 1px;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .prize_section-box {
@@ -132,13 +132,11 @@
   background-size: cover;
   background-position: center;
   transition: all 0.8s ease;
-
 }
 
 .flip-box-prizes {
   background-image: url("../../assets//images//prizes//cardbg.png");
 }
-
 
 .prizebox img {
   width: 8rem;
@@ -165,15 +163,15 @@
 }
 
 .prizebox2:hover {
-  box-shadow: 0 0 10px 0 #FFD700;
+  box-shadow: 0 0 10px 0 #ffd700;
 }
 
 .prizebox1:hover {
-  box-shadow: 0 0 10px 0 #C0C0C0;
+  box-shadow: 0 0 10px 0 #c0c0c0;
 }
 
 .prizebox3:hover {
-  box-shadow: 0 0 10px 0 #CD7F32;
+  box-shadow: 0 0 10px 0 #cd7f32;
 }
 
 .prizebox1 {
@@ -240,7 +238,7 @@
   margin-top: 1rem;
 }
 
-.prizes_btndiv>button {
+.prizes_btndiv > button {
   border: 1px solid #ff1717;
   border-radius: 10px;
   cursor: pointer;
@@ -248,7 +246,7 @@
   padding: 12px 40px;
   text-transform: uppercase;
   background-color: transparent;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-size: 12px;
   line-height: 22px;
@@ -256,10 +254,9 @@
   color: #d7d7d7;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
-
 }
 
-.prizes_btndiv>button:hover {
+.prizes_btndiv > button:hover {
   transition: all 0.2s ease-in-out;
   color: white;
   background-color: #ff1717;
@@ -310,7 +307,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .mb_prizeboxparent {
     display: flex;
     flex-direction: column;
@@ -338,47 +335,46 @@
   }
 
   .mb_prizebox1:hover {
-    box-shadow: 0 0 10px 0 #FFD700;
+    box-shadow: 0 0 10px 0 #ffd700;
   }
 
   .mb_prizebox2:hover {
-    box-shadow: 0 0 10px 0 #C0C0C0;
+    box-shadow: 0 0 10px 0 #c0c0c0;
   }
 
   .mb_prizebox3:hover {
-    box-shadow: 0 0 10px 0 #CD7F32;
+    box-shadow: 0 0 10px 0 #cd7f32;
   }
 
-  .mb_prizebox>img {
+  .mb_prizebox > img {
     width: 120px;
   }
 
-  .mb_prizebox>div>h3 {
+  .mb_prizebox > div > h3 {
     font-size: 3rem;
   }
 
-  .mb_prizebox>div>p {
+  .mb_prizebox > div > p {
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width:450px) {
-  .mb_prizebox>div>h3 {
+@media screen and (max-width: 450px) {
+  .mb_prizebox > div > h3 {
     font-size: 2.2rem;
   }
 
-  .mb_prizebox>div>p {
+  .mb_prizebox > div > p {
     font-size: 1.5rem;
   }
 
-  .mb_prizebox>img {
+  .mb_prizebox > img {
     width: 100px;
   }
 
   .mb_prizebox1 {
     margin-top: 0rem;
     min-height: 14rem;
-
   }
 
   .prizebox2 {
@@ -389,7 +385,6 @@
     display: block;
     margin-top: 0rem;
     min-height: 14rem;
-
   }
 
   .prizes_textdiv2 {
@@ -399,13 +394,11 @@
   .mb_prizebox3 {
     margin-top: 0rem;
     min-height: 14rem;
-
   }
 
   .mb_prizebox2 {
     margin-top: 0rem;
     min-height: 14rem;
-
   }
 
   .prizes_textdiv {
@@ -420,5 +413,4 @@
   .prizes_btndiv {
     margin-top: 2rem;
   }
-
 }

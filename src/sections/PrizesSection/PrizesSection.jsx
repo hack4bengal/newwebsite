@@ -1,15 +1,15 @@
 import React from "react";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import "./PrizesSection.css";
-import {useNavigate} from "react-router";
+import { useNavigate } from "react-router";
 
 const PrizesSection1 = () => {
   const navigate = useNavigate();
   return (
     <motion.div
-      initial={{opacity: 0}}
-      whileInView={{opacity: 1, transition: {duration: 1}}}
-      viewport={{once: false}}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { duration: 1 } }}
+      viewport={{ once: false }}
       className="prize_section"
     >
       <div className="prize_section-title" id="prizes">
@@ -19,7 +19,7 @@ const PrizesSection1 = () => {
           Win exciting prizes and swags!
         </div>
 
-        {window.innerWidth < 769 ? (
+        {/* {window.innerWidth < 769 ? (
           <div className="mb_prizeboxparent">
             <div className="mb_prizebox1 mb_prizebox">
               <img
@@ -55,16 +55,6 @@ const PrizesSection1 = () => {
                 </p>
               </div>
             </div>
-            {/*  <div className="prizes_btndiv">
-              <button
-                class="hack4bengal__section10-button"
-                onClick={() => {
-                  navigate("/prizes");
-                }}
-              >
-                view more prizes
-              </button>
-            </div> */}
           </div>
         ) : (
           <div className="prize_section-body">
@@ -132,18 +122,9 @@ const PrizesSection1 = () => {
                 </div>
               </div>
             </div>
-            {/*  <div className="prizes_btndiv">
-              <button
-                class="hack4bengal__section10-button"
-                onClick={() => {
-                  navigate("/prizes");
-                }}
-              >
-                view more prizes
-              </button>
-            </div> */}
+
           </div>
-        )}
+        )} */}
       </div>
     </motion.div>
   );

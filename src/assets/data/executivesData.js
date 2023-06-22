@@ -115,10 +115,17 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/abhrajit-ghosh-1a54081b2/",
   },
   {
+    Name: "Shatanik \n Mahanty",
+    Photo: Shatanik,
+    position: "Content Writer @Girlscript Siliguri",
+    Domain: "Comm Rel Team",
+    linkedin: "https://linkedin.com/in/shatanikmahanty",
+  },
+  {
     Name: "Prosenjit \n Swarnakar",
     Photo: Prosenjit,
     position: "Co-founder @OpenCodeyard",
-    Domain: "PR Team",
+    Domain: "Comm Rel Team",
     linkedin: "https://www.linkedin.com/in/prosenjit-swarnakar-5baa59236",
   },
   {
@@ -149,13 +156,7 @@ const executives = [
     Domain: "PR Team",
     linkedin: "https://www.linkedin.com/in/shafinkausar/",
   },
-  {
-    Name: "Shatanik \n Mahanty",
-    Photo: Shatanik,
-    position: "Content Writer @Girlscript Siliguri",
-    Domain: "PR Team",
-    linkedin: "https://linkedin.com/in/shatanikmahanty",
-  },
+
 
   {
     Name: "Vimal \n Anand",
