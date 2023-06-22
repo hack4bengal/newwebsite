@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import footer from "../../assets/img/footer.gif";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -94,18 +94,22 @@ const Footer = () => {
             </div>
             {window.location.pathname !== "/coc" && (
               <p
-                className="hack4bengal__footer-social-text"
-                style={{marginTop: "20px"}}
+                className="hack4bengal__footer-social-text footer_whiteText"
+                style={{ marginTop: "20px" }}
               >
                 <Link to="/coc">Code of Conduct</Link>
               </p>
             )}
 
-            <p className="hack4bengal__footer-social-text">
+            <p className="hack4bengal__footer-social-text footer_whiteText">
+              <a href="http://sagnikmitra.com/h4b" target="_blank" rel="noopener noreferrer" > Brand Assets</a>
+
+            </p>
+            <p className="hack4bengal__footer-social-text" >
               Email us for more details,
             </p>
             <p className="hack4bengal__footer-social-text">
-              <a href="mailto:hack4bengal@gmail.com" style={{color: "#e13b3c"}}>
+              <a href="mailto:hack4bengal@gmail.com" style={{ color: "#e13b3c" }}>
                 hack4bengal@gmail.com
               </a>
             </p>
@@ -130,7 +134,7 @@ const Footer = () => {
                 width="20"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
-                style={{marginLeft: "6px", transform: "translateX(2px)"}}
+                style={{ marginLeft: "6px", transform: "translateX(2px)" }}
               >
                 <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
               </svg>
@@ -149,7 +153,7 @@ const Footer = () => {
                 viewBox="0 0 24 24"
                 fill="#ff1717"
                 xmlns="http://www.w3.org/2000/svg"
-                style={{marginRight: "6px", marginBottom: "-5px"}}
+                style={{ marginRight: "6px", marginBottom: "-5px" }}
               >
                 {" "}
                 <path
