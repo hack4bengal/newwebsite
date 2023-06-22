@@ -27,6 +27,8 @@ import devfolio from "../images/sponsers/Devfolio.png";
 import polygon from "../images/sponsers/polygon.png";
 import replit from "../images/sponsers/replit.png";
 import logitech from "../images/sponsers/logitech.png";
+import quine from "../images/sponsers/quine.svg";
+
 
 const collaborators = [
   {
@@ -116,6 +118,12 @@ const silver = [
     link: "https://replit.com ",
     alt: "REPLIT LOGO",
   },
+  {
+    img: quine,
+    txt: "Quine",
+    link: "https://quine.sh/?utm_source=hackforbengal",
+    alt: "QUINE LOGO"
+  }
 ];
 
 const bronze = [
