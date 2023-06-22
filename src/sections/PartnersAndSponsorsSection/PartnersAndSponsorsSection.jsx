@@ -65,6 +65,45 @@ const PartnersAndSponsorsSection = () => {
               }}
             >
               <div className="hack4bengal__section6-sponser-title sponser-two-dual">
+                Title Sponsor
+              </div>
+              <div className="hack4bengal__section6-sponser-list platinum">
+                <div className="hack4bengal__section6-sponser-image">
+                  {sponsers.title.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img
+                        style={{
+                          width: "220px",
+                          height: "100px",
+                          objectFit: "contain",
+                        }}
+                        key={index}
+                        src={sponser.img}
+                        alt={sponser.alt}
+                      />
+                      <div style={{ textAlign: "center" }}>
+                        <p style={{ paddingTop: "2px" }}>
+                          {sponser.txt.split("\n").map((line, index) => (
+                            <React.Fragment key={index}>{line}</React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="two-group-class platinumdiv"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual">
                 Platinum Sponsor
               </div>
               <div className="hack4bengal__section6-sponser-list platinum">

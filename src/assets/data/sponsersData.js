@@ -28,6 +28,7 @@ import polygon from "../images/sponsers/polygon.png";
 import replit from "../images/sponsers/replit.png";
 import logitech from "../images/sponsers/logitech.png";
 import quine from "../images/sponsers/quine.svg";
+import snu from "../images/sponsers/snu.png"
 
 
 const collaborators = [
@@ -234,8 +235,18 @@ const platinum = [
     paddingTop: 0,
   },
 ];
+const title = [
+  {
+    img: snu,
+    txt: "Sister Nivedita University",
+    link: "https://snuniv.ac.in/",
+    alt: "snu",
+    paddingTop: 0,
+  },
+];
 
 const sponsers = {
+  title,
   platinum,
   incubation,
   gold,
