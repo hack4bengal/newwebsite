@@ -1,14 +1,30 @@
 import React, { useEffect } from 'react'
+import "./Brand.css"
+import Navbar from '../../components/navbar/Navbar'
+import brandassetsData from './BrandAssetsData'
+import BrandCard from './brandcard/BrandCard'
 
 const Brand = () => {
 
-    useEffect(() => {
-        window.location.href = 'http://sagnikmitra.com/h4b'
-    }, [])
-
 
     return (
-        <div>Brand</div>
+        <>
+            <Navbar />
+            <div className="brandPage_parent">
+                <h1>Brands</h1>
+                <hr />
+                <br />
+                <br />
+
+                <div className="brandPage_brandCard_parent">
+                    {brandassetsData.map((brand) => {
+                        return (
+                            <BrandCard brand={brand} />
+                        )
+                    })}
+                </div>
+            </div>
+        </>
     )
 }
 

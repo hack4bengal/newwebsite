@@ -101,10 +101,18 @@ const Footer = () => {
               </p>
             )}
 
-            <p className="hack4bengal__footer-social-text footer_whiteText">
-              <a href="http://sagnikmitra.com/h4b" target="_blank" rel="noopener noreferrer" > Brand Assets</a>
+            <p className="hack4bengal__footer-social-text footer_whiteText"
+              onClick={
+                () => {
+                  const url = 'https://hack4bengal.tech/brand';
+                  window.open(url, '_blank');
+                }
+              }
+            >
+              Brand Assets
 
             </p>
+
             <p className="hack4bengal__footer-social-text" >
               Email us for more details,
             </p>
