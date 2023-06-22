@@ -1,5 +1,6 @@
 .brandPage_parent {
   padding: 0% 10rem;
+  margin-bottom: 2rem;
 }
 
 .brandPage_parent > h1 {
@@ -17,4 +18,10 @@
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .brandPage_parent {
+    padding: 0% 0rem;
+  }
 }
