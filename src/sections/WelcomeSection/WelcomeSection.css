@@ -188,6 +188,7 @@
 
 .hack4bengal__section1-register {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
