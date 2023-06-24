@@ -250,7 +250,7 @@ const MorePrizesPage = () => {
                         />
 
                         <h3 className="flip-moreprizesbox-header">
-                          Best Girls <br /> Team
+                          Best All-Girls <br /> Team
                         </h3>
 
                         <img
@@ -262,9 +262,8 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p>1st Team - ₹7000</p>
-                        <p> 2nd Team - ₹5000</p>
-                        <p> All Female Team - ₹5000</p>
+
+                        <p> All the All-Girls Team <br /> ₹5000</p>
                       </div>
                     </div>
                   </div>
@@ -294,11 +293,8 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
-                          {" "}
-                          1st - ₹7000 in cash, GCP Credits, along with free
-                          tickets to Google Cloud Community Days, Kolkata
-                        </p>
+                        <p>1st Team - ₹7000</p>
+                        <p> 2nd Team - ₹5000</p>
 
                         {window.innerWidth > 800 && (
                           <>
@@ -307,11 +303,11 @@ const MorePrizesPage = () => {
                           </>
                         )}
 
-                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
+                        {/* <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           {" "}
                           2nd & 3rd - Win GCP Credits, along with free tickets
                           to GCCD, Kolkata
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>

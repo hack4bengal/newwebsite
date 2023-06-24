@@ -7,7 +7,7 @@ const InfiniteCarouselSection = () => {
   // create an array of paragraph elements
   const paragraphs = [];
   for (let i = 0; i < numParagraphs; i++) {
-    paragraphs.push(<p key={i}>Registrations closed. Please wait till 23rd June for confirmation mail.</p>);
+    paragraphs.push(<p key={i}>REGISTRATIONS CLOSED. THANK YOU FOR THE OVERWHELMING RESPONSE. LET THE HACK BEGIN !</p>);
   }
 
   return (
