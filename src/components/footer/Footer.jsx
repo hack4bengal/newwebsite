@@ -108,6 +108,7 @@ const Footer = () => {
                   window.open(url, '_blank');
                 }
               }
+              style={{ cursor: "pointer" }}
             >
               Brand Assets
 

@@ -91,12 +91,12 @@ const gold = [
     link: "https://devfolio.co",
     alt: "DEVFOLIO LOGO",
   },
-  {
-    img: polygon,
-    txt: "Polygon",
-    link: "https://polygon.technology/",
-    alt: "POLYGON LOGO",
-  },
+  // {
+  //   img: polygon,
+  //   txt: "Polygon",
+  //   link: "https://polygon.technology/",
+  //   alt: "POLYGON LOGO",
+  // },
 
 ];
 
@@ -113,12 +113,12 @@ const silver = [
     link: "https://solana.com/",
     alt: "SOLANA LOGO",
   },
-  {
-    img: replit,
-    txt: "Replit",
-    link: "https://replit.com ",
-    alt: "REPLIT LOGO",
-  },
+  // {
+  //   img: replit,
+  //   txt: "Replit",
+  //   link: "https://replit.com ",
+  //   alt: "REPLIT LOGO",
+  // },
   {
     img: quine,
     txt: "Quine",

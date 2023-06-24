@@ -94,7 +94,7 @@ const WelcomeSection = () => {
                 <p>Register Now</p>
               </a> 
             </div> */}
-            <div className="hack4bengal__section1-register">
+            {/* <div className="hack4bengal__section1-register">
               <div
                 className="apply-button"
                 data-hackathon-slug="hack4bengal-2"
@@ -104,7 +104,7 @@ const WelcomeSection = () => {
                   width: "312px",
                 }}
               ></div>
-            </div>
+            </div> */}
           </div>
         </motion.div>
         <motion.ul
