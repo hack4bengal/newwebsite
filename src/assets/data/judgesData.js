@@ -3,6 +3,7 @@ import AnubhavSingh from "../images/judges/AnubhavSingh.jpeg";
 import JyotiMishra from "../images/judges/JyotiMishra.png";
 import MdNasirulHaque from "../images/judges/MdNasirulHaque.jpg";
 import SoumyadipChowdhury from "../images/judges/SoumyadipChowdhury.jpg";
+import Eshan from "../images/judges/Eshan.jpg";
 
 const judges = [
   {
@@ -28,6 +29,18 @@ const judges = [
     github: "",
     youtube: "",
     email: "soumyadip.note@gmail.com",
+  },
+  {
+    name: "Eshan Chattaraj",
+    position: "Principal Software Engineer Google",
+    description: "",
+    img: Eshan,
+    facebook: "",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/eshan-chattaraj-089172108/",
+    github: "",
+    youtube: "",
+    email: "chattaraj.eshan1992@gmail.com",
   },
   {
     name: "Anubhav Singh",
