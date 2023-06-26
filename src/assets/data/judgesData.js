@@ -32,7 +32,8 @@ const judges = [
   },
   {
     name: "Eshan Chattaraj",
-    position: "Principal Software Engineer Google",
+    position:
+      "Research Scientist (Engg Div) at R&D , Govt. of India, ex-Google",
     description: "",
     img: Eshan,
     facebook: "",
