@@ -19,18 +19,6 @@ const judges = [
     email: "09mishra.jyoti@gmail.com",
   },
   {
-    name: "Soumyadip Chowdhury",
-    position: "Software Engineer at Red Hat India Pvt. Ltd",
-    description: "",
-    img: SoumyadipChowdhury,
-    facebook: "",
-    twitter: "",
-    linkedin: "",
-    github: "",
-    youtube: "",
-    email: "soumyadip.note@gmail.com",
-  },
-  {
     name: "Eshan Chattaraj",
     position:
       "Research Scientist (Engg Div) at R&D , Govt. of India, ex-Google",
