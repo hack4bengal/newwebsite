@@ -326,7 +326,7 @@ const Navbar = () => {
               }}
             >
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
-                Judges
+                Mentors
               </h3>
             </p>
           </li>

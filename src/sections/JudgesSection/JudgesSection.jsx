@@ -15,17 +15,17 @@ const JudgesSection = () => {
       className="judges_section"
       id="judges"
     >
-      <div className="judges_parent" style={{ maxWidth: '100%' }}>
-        <div className="judges_section_title">Panel Of Judges</div>
+      <div className="judges_parent" style={{ maxWidth: "100%" }}>
+        <div className="judges_section_title">Our Mentors</div>
         <hr />
         <div className="judges_section_container">
           <Slider {...sliderSettings} className="slider">
             {judges.map((judge, key) => (
               <NewTeamCard
                 index={key}
-                img={judge.img}
+                img={judge.image}
                 name={judge.name}
-                position={judge.position}
+                position={judge.designation}
                 description={judge.description}
                 facebook={judge.facebook}
                 twitter={judge.twitter}
