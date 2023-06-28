@@ -7,7 +7,7 @@ import ArshGoyal from "../images/testimonials/ag.png";
 const testimonials = [
   {
     name: "Riddhi Dutta",
-    position: "SDE2, Salesforce",
+    position: "Google SWE-3, Ex Amazon Salesforce",
     description: "",
     img: RiddhiDutta,
     facebook: "",

@@ -106,7 +106,7 @@ const judges = [
   },
   {
     name: "Riddhi Dutta",
-    designation: "Member of Technical Staff, Salesforce",
+    designation: "Google SWE-3, Ex Amazon Salesforce",
     image: Riddhi,
     position: "Mentor / Judge",
     linkedin: "https://www.linkedin.com/in/riddhi-dutta/"
