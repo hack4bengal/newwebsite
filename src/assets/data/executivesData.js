@@ -3,7 +3,8 @@ import Sugato from "../team/Sugato.png";
 import Ayush from "../team/Ayush.png";
 import Dev from "../team/Dev.JPG";
 import Prosenjit from "../team/Prosenjit.png";
-
+import Moitreyo from "../team/moitreyo.png";
+import Shruti from "../team/shruti.jpg"; 
 import Diganta from "../team/Diganta.png";
 import Tushar from "../team/tushar.png";
 import Himanshu from "../team/Himanshu Rai.png";
@@ -17,7 +18,7 @@ import Ankita from "../team/Ankita.png";
 import Shubhayu from "../team/Shubhayu.jpeg";
 import Kunal from "../team/Kunal.jpg";
 import Priyasu from "../team/Priyasu.jpg";
-import Aharna from "../team/Aharna.jpeg";
+import Aharna from "../team/aharna.jpg";
 import Varun from "../team/Varun.jpeg";
 import prachi from "../team/prachi.jpeg";
 import Vimal2 from "../team/Vimal2.jpeg";
@@ -231,11 +232,25 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/priyasu-guin/",
   },
   {
-    Name: "Ayushman \n Sural",
+    Name: "Ayushmaan \n Sural",
     Photo: Ayushman,
     position: "Video Editor @HuddleMedia Pvt Ltd",
     Domain: "Graphics Team",
     linkedin: "https://www.linkedin.com/in/ayushmaan-sural-b16248210",
+  },
+  {
+    Name: "Moitreyo \n Datta",
+    Photo: Moitreyo,
+    position: "SDE and Marketing Intern @Edible Group",
+    Domain: "Marketing Team",
+    linkedin: "https://www.linkedin.com/in/moitreyo-datta-090a78247",  
+  },
+  {
+    Name: "Shruti \n Gupta",
+    Photo: Shruti,
+    position: "Intern as Data Analyst @CSRBOX",
+    Domain: "Marketing Team",
+    linkedin: ",https://www.linkedin.com/in/shruti-gupta-785798221",
   },
 ];
 
