@@ -1,10 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./PrizesSection.css";
-import { useNavigate } from "react-router";
 
 const PrizesSection1 = () => {
-  const navigate = useNavigate();
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -19,7 +17,7 @@ const PrizesSection1 = () => {
           Win exciting prizes and swags!
         </div>
 
-        {/* {window.innerWidth < 769 ? (
+        {window.innerWidth < 769 ? (
           <div className="mb_prizeboxparent">
             <div className="mb_prizebox1 mb_prizebox">
               <img
@@ -27,8 +25,8 @@ const PrizesSection1 = () => {
                 alt=""
               />
               <div>
-                <h3>TBD</h3>
-                <p>First prize</p>
+                <h3>₹50,000</h3>
+                <p>Winner</p>
               </div>
             </div>
             <div className="mb_prizebox2 mb_prizebox">
@@ -37,7 +35,7 @@ const PrizesSection1 = () => {
                 alt=""
               />
               <div>
-                <h3>TBD</h3>
+                <h3>₹30,000</h3>
                 <p>
                   1st runner <br /> up
                 </p>
@@ -49,7 +47,7 @@ const PrizesSection1 = () => {
                 alt=""
               />
               <div>
-                <h3>TBD</h3>
+                <h3>₹20,000</h3>
                 <p>
                   2nd runner <br /> up
                 </p>
@@ -70,7 +68,7 @@ const PrizesSection1 = () => {
 
                   <div className="prizes_textdiv prizes_textdiv2">
                     <div className="prize_textdiv_texts">
-                      <h1>TBD</h1>
+                      <h1>₹50,000</h1>
                       <h2>Winner</h2>
                     </div>
                   </div>
@@ -85,7 +83,7 @@ const PrizesSection1 = () => {
 
                   <div className="prizes_textdiv prizes_textdiv1">
                     <div className="prize_textdiv_texts">
-                      <h1>TBD</h1>
+                      <h1>₹30,000</h1>
                       <h2>1st Runner-Up</h2>
                     </div>
                   </div>
@@ -100,7 +98,7 @@ const PrizesSection1 = () => {
 
                   <div className="prizes_textdiv prizes_textdiv2">
                     <div className="prize_textdiv_texts">
-                      <h1>TBD</h1>
+                      <h1>₹50,000</h1>
                       <h2>Winner</h2>
                     </div>
                   </div>
@@ -115,16 +113,15 @@ const PrizesSection1 = () => {
 
                   <div className="prizes_textdiv prizes_textdiv3">
                     <div className="prize_textdiv_texts">
-                      <h1>TBD</h1>
+                      <h1>₹20,000</h1>
                       <h2>2nd Runner-Up</h2>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-        )} */}
+        )}
       </div>
     </motion.div>
   );
