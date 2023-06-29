@@ -28,8 +28,8 @@ import polygon from "../images/sponsers/polygon.png";
 import replit from "../images/sponsers/replit.png";
 import logitech from "../images/sponsers/logitech.png";
 import quine from "../images/sponsers/quine.svg";
-import snu from "../images/sponsers/snu.png"
-
+import snu from "../images/sponsers/snu.png";
+import zeeve from "../images/sponsers/zeeve.png";
 
 const collaborators = [
   {
@@ -97,7 +97,6 @@ const gold = [
   //   link: "https://polygon.technology/",
   //   alt: "POLYGON LOGO",
   // },
-
 ];
 
 const silver = [
@@ -123,8 +122,8 @@ const silver = [
     img: quine,
     txt: "Quine",
     link: "https://quine.sh/?utm_source=hackforbengal",
-    alt: "QUINE LOGO"
-  }
+    alt: "QUINE LOGO",
+  },
 ];
 
 const bronze = [
@@ -147,6 +146,16 @@ const bronze = [
     alt: "HYPERLANE",
   },
 ];
+
+const web3EcosystemPartners = [
+  {
+    img: zeeve,
+    txt: "Zeeve",
+    link: "https://www.zeeve.io/",
+    alt: "Zeeve",
+  },
+];
+
 const domain = [
   {
     img: xyz,
@@ -252,6 +261,7 @@ const sponsers = {
   gold,
   silver,
   bronze,
+  web3EcosystemPartners,
   media,
   domain,
   inkind,
