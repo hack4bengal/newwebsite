@@ -26,7 +26,8 @@ import Ayushman from "../team/Ayushman.jpg";
 import Kiran from "../team/Kiran.jpg";
 import Koyena from "../team/Koyena.jpg";
 import Souradeep from "../team/Souradeep.jpeg";
-import Abhrajit from "../team/abhrajit.png";
+// import Abhrajit from "../team/abhrajit.png";
+import Abhrajit from "../team/abhrajit2temp.png";
 import Rohit from "../team/rohitroy.jpg";
 import anirban from "../team/anirban-min.jpg";
 
