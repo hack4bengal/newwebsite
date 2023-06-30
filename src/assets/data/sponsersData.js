@@ -30,6 +30,11 @@ import logitech from "../images/sponsers/logitech.png";
 import quine from "../images/sponsers/quine.svg";
 import snu from "../images/sponsers/snu.png";
 import zeeve from "../images/sponsers/zeeve.png";
+// communityPartners
+import Resourcio from "../images/sponsers/Resourcio_LOGO.jpg";
+import Devorld from "../images/sponsers/Devorld_LOGO.png";
+import IEIAOT from "../images/sponsers/IEIAOT_LOGO.png";
+import CodeChamp from "../images/sponsers/CodeChamp_LOGO.jpg";
 
 const collaborators = [
   {
@@ -254,6 +259,35 @@ const title = [
   },
 ];
 
+const communityPartners = [
+  {
+    img: Resourcio,
+    txt: "Resourcio Community",
+    link: "#",
+    paddingTop: 0,
+  },
+  {
+    img: Devorld,
+    txt: "Devorld",
+    link: "https://www.intel.in/content/www/in/en/homepage.html",
+    paddingTop: 0,
+  },
+  {
+    img: IEIAOT,
+    txt: "IEIAOT",
+    link: "https://tezosindia.org.in/",
+    paddingTop: 0,
+  },
+  {
+    img: CodeChamp,
+    txt: "CodeChamp",
+    link: "https://tezosindia.org.in/",
+    paddingTop: 0,
+  },
+
+  ,
+];
+
 const sponsers = {
   title,
   platinum,
@@ -270,6 +304,7 @@ const sponsers = {
   trackpartner,
   certificatepartner,
   collaborators,
+  communityPartners,
 };
 
 export default sponsers;

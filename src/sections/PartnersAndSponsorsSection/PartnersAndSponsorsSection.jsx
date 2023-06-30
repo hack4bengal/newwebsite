@@ -3,6 +3,8 @@ import sponsers from "../../assets/data/sponsersData";
 import "./PartnersAndSponsorsSection.css";
 import {motion} from "framer-motion";
 
+import CommunityPartnersInfiniteCarousel from "../../components/CommunityPartnersInfiniteCarousel/CommunityPartnersInfiniteCarousel";
+
 const PartnersAndSponsorsSection = () => {
   return (
     <>
@@ -599,7 +601,30 @@ const PartnersAndSponsorsSection = () => {
                 </div>
               </div>
             </div>
+
+            {/* CommunityPartnersSection */}
+
+            <div
+              className="two-group-class "
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "100%",
+                overflow: "hidden", //toLimmitOverflowingOfCarousel
+              }}
+            >
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual ">
+                Community Partners
+              </div>
+
+              <CommunityPartnersInfiniteCarousel />
+            </div>
+
+            {/* CommunityPartnersSection END */}
           </div>
+
           <h2>More Sponsors To be Declared Soon</h2>
 
           <div
