@@ -4,6 +4,7 @@ import "./PartnersAndSponsorsSection.css";
 import {motion} from "framer-motion";
 
 import CommunityPartnersInfiniteCarousel from "../../components/CommunityPartnersInfiniteCarousel/CommunityPartnersInfiniteCarousel";
+import {textAligns} from "dracula-ui";
 
 const PartnersAndSponsorsSection = () => {
   return (
@@ -602,9 +603,70 @@ const PartnersAndSponsorsSection = () => {
               </div>
             </div>
 
+            <h2 style={{textAlign: "center"}}>
+              More Sponsors To be Declared Soon
+            </h2>
+
+            <div
+              className="hack4bengal__section6-content"
+              style={{marginTop: "50px", fontWeight: "bold"}}
+            >
+              Want to sponsor us? <br />
+              <a
+                href="https://forms.gle/Y77QCcKmMAMpPAmQ9"
+                className="link-us-sponsor"
+                style={{color: "#E13B3C"}}
+              >
+                Contact us
+              </a>
+            </div>
+
             {/* CommunityPartnersSection */}
 
             <div
+              className="two-group-class "
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "100%",
+              }}
+            >
+              <div className="hack4bengal__section6-sponser-title sponser-two-dual ">
+                Community Partners
+              </div>
+              <div className="hack4bengal__section6-sponser-list platinum ">
+                <div className="hack4bengal__section6-sponser-image inkind_logos_parent">
+                  {sponsers.communityPartners.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img
+                        style={{
+                          // borderRadius: "20px",
+                          width: "200px",
+                          height: "100px",
+                          objectFit: "contain",
+                        }}
+                        key={index}
+                        src={sponser.img}
+                        alt={sponser.alt || ""}
+                      />
+                      <div style={{textAlign: "center"}}>
+                        <p style={{paddingTop: "2px"}}>
+                          {sponser.txt.split("\n").map((line, index) => (
+                            <React.Fragment key={index}>{line}</React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* CommunityPartnersSectionCarousel */}
+
+            {/* <div
               className="two-group-class "
               style={{
                 display: "flex",
@@ -620,26 +682,12 @@ const PartnersAndSponsorsSection = () => {
               </div>
 
               <CommunityPartnersInfiniteCarousel />
-            </div>
+            </div> */}
 
-            {/* CommunityPartnersSection END */}
+            {/* CommunityPartnersSectionCarouselEND */}
           </div>
 
-          <h2>More Sponsors To be Declared Soon</h2>
-
-          <div
-            className="hack4bengal__section6-content"
-            style={{marginTop: "50px", fontWeight: "bold"}}
-          >
-            Want to sponsor us? <br />
-            <a
-              href="https://forms.gle/Y77QCcKmMAMpPAmQ9"
-              className="link-us-sponsor"
-              style={{color: "#E13B3C"}}
-            >
-              Contact us
-            </a>
-          </div>
+          {/* CommunityPartnersSection END */}
         </div>
       </motion.div>
     </>
