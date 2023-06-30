@@ -17,7 +17,7 @@ import Anubhav from "../images/judges/anubhav-min.png";
 import Nasirul from "../images/judges/nasirul-min.png";
 import Saby from "../images/judges/saby-min.png";
 import Kazi from "../images/judges/kazi-min.png";
-
+import NishantShah from "../images/judges/Nishant_Shah.jpeg";
 
 const judges = [
   {
@@ -54,19 +54,20 @@ const judges = [
     image: Sabyasachi,
     position: "Mentor / Judge",
     linkedin: "https://www.linkedin.com/in/sabyasachi-mukhopadhyay-381b16b0/",
-  }, {
+  },
+  {
     name: "Kazi Haque",
     designation: "Co-Founder, Director, Dynopii",
     image: Kazi,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/haquekazi/"
-
-  }, {
+    linkedin: "https://www.linkedin.com/in/haquekazi/",
+  },
+  {
     name: "Gourav Mohanty",
     designation: "Full Stack Developer, Shuru.io",
     image: Gourav,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/gourav-mohanty-78006a201"
+    linkedin: "https://www.linkedin.com/in/gourav-mohanty-78006a201",
   },
 
   {
@@ -74,85 +75,92 @@ const judges = [
     designation: "Founder, TSSL Solutions",
     image: Saby,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/sabyganguly"
+    linkedin: "https://www.linkedin.com/in/sabyganguly",
   },
   {
     name: "Richik Chanda",
     designation: "Full Stack Blockchain Developer, Questbook",
     image: Richik,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/richik-chanda-0585ba15b/"
+    linkedin: "https://www.linkedin.com/in/richik-chanda-0585ba15b/",
   },
   {
     name: "Jaydip Dey",
     designation: "SDE - 1, Optum",
     image: Jaydip,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/jaydip-dey/"
+    linkedin: "https://www.linkedin.com/in/jaydip-dey/",
   },
   {
     name: "Niloy Sikdar",
     designation: "Google Summer of Code'23, Sugar Labs",
     image: Niloy,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/niloysikdar/"
+    linkedin: "https://www.linkedin.com/in/niloysikdar/",
   },
   {
     name: "Akshita Dixit",
     designation: "Backend Developer, 1mg",
     image: Akshita,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/akshitadixit/"
+    linkedin: "https://www.linkedin.com/in/akshitadixit/",
   },
   {
     name: "Riddhi Dutta",
     designation: "Google SWE-3, Ex Amazon Salesforce",
     image: Riddhi,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/riddhi-dutta/"
+    linkedin: "https://www.linkedin.com/in/riddhi-dutta/",
   },
   {
     name: "Jyotirmoy Roy",
     designation: "GSOC Mentor, Keploy",
     image: Jyotirmoy,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/jyotirmoyroy69/"
+    linkedin: "https://www.linkedin.com/in/jyotirmoyroy69/",
   },
   {
     name: "Advaita Saha",
     designation: "Software Engineer, Cipherem",
     image: Advaita,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/advaita-saha/"
+    linkedin: "https://www.linkedin.com/in/advaita-saha/",
   },
   {
     name: "Aryan Agarwal",
     designation: "Software Engineer, Lenspost",
     image: Aryan,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/thearyanag/"
+    linkedin: "https://www.linkedin.com/in/thearyanag/",
   },
   {
     name: "Snehangshu Bhattacharya",
     designation: "Lead Engineer, Dynopii",
     image: Snehangshu,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/snehangshu-bhattacharya-3891b5153/"
+    linkedin: "https://www.linkedin.com/in/snehangshu-bhattacharya-3891b5153/",
   },
   {
     name: "Hrittik Roy",
     designation: "GitHub Campus Expert",
     image: Hrittik,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/hrittikhere"
+    linkedin: "https://www.linkedin.com/in/hrittikhere",
   },
   {
     name: "Sunit Roy",
     designation: "GitHub Campus Expert",
     image: Sunit,
     position: "Mentor / Judge",
-    linkedin: "https://www.linkedin.com/in/sunit-roy/"
-  }
+    linkedin: "https://www.linkedin.com/in/sunit-roy/",
+  },
+  {
+    name: "Nishant Shah",
+    designation: "CTO, MobileFirst Applications",
+    image: NishantShah,
+    position: "Mentor / Judge",
+    linkedin: "https://www.linkedin.com/in/nishantmobilefirst/",
+  },
 ];
 
 export default judges;

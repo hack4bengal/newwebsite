@@ -269,23 +269,21 @@ const communityPartners = [
   {
     img: Devorld,
     txt: "Devorld",
-    link: "https://www.intel.in/content/www/in/en/homepage.html",
+    link: "#",
     paddingTop: 0,
   },
   {
     img: IEIAOT,
-    txt: "IEIAOT",
-    link: "https://tezosindia.org.in/",
+    txt: "IEI Students' Chapter CSE",
+    link: "#",
     paddingTop: 0,
   },
   {
     img: CodeChamp,
     txt: "CodeChamp",
-    link: "https://tezosindia.org.in/",
+    link: "#",
     paddingTop: 0,
   },
-
-  ,
 ];
 
 const sponsers = {
