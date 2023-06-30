@@ -236,7 +236,7 @@ const PartnersAndSponsorsSection = () => {
                 </div>
                 <div
                   className="hack4bengal__section6-sponser-list bronze"
-                  style={{ width: "900px" }}
+                  style={{ width: "800px" }}
                 >
                   <div className="hack4bengal__section6-sponser-image-track">
                     {sponsers.bronze.map((sponser, index) => (
@@ -244,7 +244,14 @@ const PartnersAndSponsorsSection = () => {
                         <img
                           key={index}
                           src={sponser.img}
-                          style={{ width: index === 2 ? "190px" : " 220px" }}
+                          style={{
+                            width:
+                              index === 2
+                                ? "190px"
+                                : sponser.chotu
+                                ? "140px"
+                                : " 220px",
+                          }}
                           alt={sponser.alt}
                         />
                         <div style={{ textAlign: "center" }}>

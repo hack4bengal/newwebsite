@@ -154,6 +154,7 @@ const bronze = [
     txt: "The Graph India",
     link: "https://thegraphindia.notion.site/THE-GRAPH-INDIA-COMMUNITY-eb1201dc20b341bea3e585e727246c9e",
     alt: "The Graph India logo",
+    chotu: true,
   }
 
 ];
