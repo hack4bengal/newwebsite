@@ -261,8 +261,8 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p>1st Team - ₹10000</p>
-                        <p>2nd Team - ₹7500</p>
+                        {/* <p>1st Team - ₹10000</p>
+                        <p>2nd Team - ₹7500</p> */}
 
                         {/* {window.innerWidth > 800 && (
                           <>
@@ -271,7 +271,7 @@ const MorePrizesPage = () => {
                           </>
                         )} */}
 
-                        <p>Best Of All-Girls Team - ₹7500</p>
+                        <p>₹7500</p>
                       </div>
                     </div>
                   </div>
@@ -301,8 +301,8 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p>1st Team - ₹7000</p>
-                        <p> 2nd Team - ₹5000</p>
+                        <p>1st Team - ₹10000</p>
+                        <p> 2nd Team - ₹7500</p>
 
                         {window.innerWidth > 800 && (
                           <>
