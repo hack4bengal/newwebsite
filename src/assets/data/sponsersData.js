@@ -24,12 +24,11 @@ import gmc from "../images/sponsers/gmc.png";
 import hyperlane from "../images/sponsers/hyperlane.png";
 import flow from "../images/sponsers/flow.png";
 import devfolio from "../images/sponsers/Devfolio.png";
-import polygon from "../images/sponsers/polygon.png";
-import replit from "../images/sponsers/replit.png";
 import logitech from "../images/sponsers/logitech.png";
 import quine from "../images/sponsers/quine.svg";
 import snu from "../images/sponsers/snu.png";
 import zeeve from "../images/sponsers/zeeve.png";
+import graph from "../images/sponsers/graphlogo.svg"
 // communityPartners
 import Resourcio from "../images/sponsers/Resourcio_LOGO.jpg";
 import Devorld from "../images/sponsers/Devorld_LOGO.png";
@@ -150,6 +149,13 @@ const bronze = [
     link: "https://www.hyperlane.xyz/",
     alt: "HYPERLANE",
   },
+  {
+    img: graph,
+    txt: "The Graph India",
+    link: "https://thegraphindia.notion.site/THE-GRAPH-INDIA-COMMUNITY-eb1201dc20b341bea3e585e727246c9e",
+    alt: "The Graph India logo",
+  }
+
 ];
 
 const web3EcosystemPartners = [

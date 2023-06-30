@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import redbtn from "../../assets/themes/redbtn.png";
 import "./MorePrizesPage.css";
 import solana from "../../assets/images/sponsers/solana.png";
@@ -12,7 +12,8 @@ import hyperlane from "../../assets/images/sponsers/hyperlane.png";
 import intel from "../../assets/images/sponsers/intel.png";
 import flow from "../../assets/images/sponsers/flow.png";
 import tezos from "../../assets/images/sponsers/tezos.png";
-import {Link} from "react-router-dom";
+import graph from "../../assets/images/sponsers/graphlogo.svg";
+import { Link } from "react-router-dom";
 
 const MorePrizesPage = () => {
   return (
@@ -31,7 +32,7 @@ const MorePrizesPage = () => {
                           src={flow}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{height: "74px", objectFit: "contain"}}
+                          style={{ height: "74px", objectFit: "contain" }}
                         />
                         <h3 className="flip-moreprizesbox-header">
                           Best Apps built <br /> on Flow
@@ -191,7 +192,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           The winning team members receive a Postman Student
                           Swag Kit <br /> <br /> (Premium Diary, Thermos with
                           Temperature Display, Sticker Sheet, Mobile Pop-up
@@ -225,7 +226,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           The winning team members receive a Postman Student
                           Swag Kit <br /> <br /> (Premium Diary, Thermos with
                           Temperature Display, Sticker Sheet, Mobile Pop-up
@@ -245,7 +246,7 @@ const MorePrizesPage = () => {
                           src={girlsteam}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{height: "74px", objectFit: "contain"}}
+                          style={{ height: "74px", objectFit: "contain" }}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -285,7 +286,7 @@ const MorePrizesPage = () => {
                           src={CCD}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{width: "60%"}}
+                          style={{ width: "60%" }}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -329,7 +330,7 @@ const MorePrizesPage = () => {
                           src={intel}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{width: "50%"}}
+                          style={{ width: "50%" }}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -345,17 +346,17 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           {" "}
                           1st Team - ₹15,000
                         </p>
 
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           {" "}
                           2nd Team - ₹12,000
                         </p>
 
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           3rd Team - ₹10,000
                         </p>
                         <br />
@@ -381,7 +382,7 @@ const MorePrizesPage = () => {
                           src={hyperlane}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{width: "60%", height: "74px"}}
+                          style={{ width: "60%", height: "74px" }}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -397,7 +398,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           {" "}
                           Prize Pool of <br /> <br /> ₹80,000
                         </p>
@@ -454,6 +455,41 @@ const MorePrizesPage = () => {
                             Problem statement
                           </button>
                         </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="moreprizesbox-item specialwidth tezosbox">
+                  <div className="flip-prizebox">
+                    <div className="flip-moreprizesbox-front text-center specialheight">
+                      <div className="inner color-white">
+                        <img
+                          src={graph}
+                          alt=""
+                          className="flip-moreprizesbox-icon"
+                          style={{
+                            width: "60%",
+                            height: "74px",
+                            objectFit: "contain",
+                          }}
+                        />
+
+                        <h3 className="flip-moreprizesbox-header">
+                          Best Use of <br /> The Graph
+                        </h3>
+
+                        <img
+                          src={redbtn}
+                          alt=""
+                          className="flip-moreprizesbox-img"
+                        />
+                      </div>
+                    </div>
+                    <div className="flip-moreprizesbox-back specialheight ">
+                      <div className="inner color-white text-center">
+                        <p> 1st Team - ₹13,000</p>
+
+                        <p>2nd Team - ₹12,000</p>
                       </div>
                     </div>
                   </div>
