@@ -1,13 +1,13 @@
 import React from "react";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 import "./PrizesSection.css";
 
 const PrizesSection1 = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, transition: { duration: 1 } }}
-      viewport={{ once: false }}
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1, transition: {duration: 1}}}
+      viewport={{once: false}}
       className="prize_section"
     >
       <div className="prize_section-title" id="prizes">
