@@ -28,7 +28,7 @@ import logitech from "../images/sponsers/logitech.png";
 import quine from "../images/sponsers/quine.svg";
 import snu from "../images/sponsers/snu.png";
 import zeeve from "../images/sponsers/zeeve.png";
-import graph from "../images/sponsers/Graphlogo.png";
+import graph from "../images/sponsers/graphlogo.png";
 // communityPartners
 import Resourcio from "../images/sponsers/Resourcio_LOGO.jpg";
 import Devorld from "../images/sponsers/Devorld_LOGO.png";
