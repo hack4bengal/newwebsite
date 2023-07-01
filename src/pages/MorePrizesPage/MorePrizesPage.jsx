@@ -12,7 +12,7 @@ import hyperlane from "../../assets/images/sponsers/hyperlane.png";
 import intel from "../../assets/images/sponsers/intel.png";
 import flow from "../../assets/images/sponsers/flow.png";
 import tezos from "../../assets/images/sponsers/tezos.png";
-import graph from "../../assets/images/sponsers/graphlogo.svg";
+import graph from "../../assets/images/sponsers/Graphlogo1.png";
 import { Link } from "react-router-dom";
 
 const MorePrizesPage = () => {
