@@ -28,7 +28,7 @@ import logitech from "../images/sponsers/logitech.png";
 import quine from "../images/sponsers/quine.svg";
 import snu from "../images/sponsers/snu.png";
 import zeeve from "../images/sponsers/zeeve.png";
-import graph from "../images/sponsers/graphlogo.svg"
+import graph from "../images/sponsers/Graphlogo.png";
 // communityPartners
 import Resourcio from "../images/sponsers/Resourcio_LOGO.jpg";
 import Devorld from "../images/sponsers/Devorld_LOGO.png";
@@ -155,8 +155,7 @@ const bronze = [
     link: "https://thegraphindia.notion.site/THE-GRAPH-INDIA-COMMUNITY-eb1201dc20b341bea3e585e727246c9e",
     alt: "The Graph India logo",
     chotu: true,
-  }
-
+  },
 ];
 
 const web3EcosystemPartners = [
