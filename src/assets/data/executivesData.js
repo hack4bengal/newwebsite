@@ -4,7 +4,7 @@ import Ayush from "../team/Ayush.png";
 import Dev from "../team/Dev.JPG";
 import Prosenjit from "../team/Prosenjit.png";
 import Moitreyo from "../team/moitreyo.png";
-import Shruti from "../team/shruti.jpg"; 
+import Shruti from "../team/shruti.jpg";
 import Diganta from "../team/Diganta.png";
 import Tushar from "../team/tushar.png";
 import Himanshu from "../team/Himanshu Rai.png";
@@ -36,7 +36,7 @@ const executives = [
     Name: "Srishti \n Majumder",
     Photo: Srishti,
     position: "Co-organizer @GDG Siliguri",
-    Domain: "Marketing Lead",
+    Domain: "Marketing Co-Lead",
     linkedin: "https://www.linkedin.com/in/srishti-majumder-6560bb200/",
   },
   {
@@ -159,12 +159,11 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/shafinkausar/",
   },
 
-
   {
     Name: "Vimal \n Anand",
     Photo: Vimal2,
     position: "Intern @Oasis Infobyte",
-    Domain: "Marketing Team",
+    Domain: "Marketing Co-Lead",
     linkedin: "https://www.linkedin.com/in/vimal-anand-9917a1212",
   },
   {
@@ -244,7 +243,7 @@ const executives = [
     Photo: Moitreyo,
     position: "SDE and Marketing Intern @Edible Group",
     Domain: "Marketing Team",
-    linkedin: "https://www.linkedin.com/in/moitreyo-datta-090a78247",  
+    linkedin: "https://www.linkedin.com/in/moitreyo-datta-090a78247",
   },
   {
     Name: "Shruti \n Gupta",
