@@ -281,7 +281,7 @@ const communityPartners = [
   {
     img: IEIAOT,
     txt: "IEI Students' Chapter CSE",
-    link: "https://in.linkedin.com/company/sccseaot",
+    link: "https://sccsebio.vercel.app",
     paddingTop: 0,
   },
   {
