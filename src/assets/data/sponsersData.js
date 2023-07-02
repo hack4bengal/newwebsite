@@ -269,25 +269,25 @@ const communityPartners = [
   {
     img: Resourcio,
     txt: "Resourcio Community",
-    link: "#",
+    link: "https://twitter.com/ResourcioC",
     paddingTop: 0,
   },
   {
     img: Devorld,
     txt: "Devorld",
-    link: "#",
+    link: "https://in.linkedin.com/company/devorld",
     paddingTop: 0,
   },
   {
     img: IEIAOT,
     txt: "IEI Students' Chapter CSE",
-    link: "#",
+    link: "https://in.linkedin.com/company/sccseaot",
     paddingTop: 0,
   },
   {
     img: CodeChamp,
     txt: "CodeChamp",
-    link: "#",
+    link: "https://codechamp.tech/",
     paddingTop: 0,
   },
 ];
