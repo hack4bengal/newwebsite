@@ -18,6 +18,7 @@ import Nasirul from "../images/judges/nasirul-min.png";
 import Saby from "../images/judges/saby-min.png";
 import Kazi from "../images/judges/kazi-min.png";
 import NishantShah from "../images/judges/Nishant_Shah.jpeg";
+import RaihanKhan from "../images/judges/RaihanKhan.jpg";
 
 const judges = [
   {
@@ -160,6 +161,13 @@ const judges = [
     image: NishantShah,
     position: "Mentor / Judge",
     linkedin: "https://www.linkedin.com/in/nishantmobilefirst/",
+  },
+  {
+    name: "Raihan Khan",
+    designation: "Zeeve Web3 Evangelist",
+    image: RaihanKhan,
+    position: "Mentor / Judge",
+    linkedin: "#",
   },
 ];
 
