@@ -167,7 +167,7 @@ const judges = [
     designation: "Zeeve Web3 Evangelist",
     image: RaihanKhan,
     position: "Mentor / Judge",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/raihankhan-rk/",
   },
 ];
 
