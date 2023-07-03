@@ -374,6 +374,7 @@ const MorePrizesPage = () => {
                     </div>
                   </div>
                 </div>
+
                 {/* Hyperlane */}
                 <div className="moreprizesbox-item">
                   <div className="flip-prizebox" onClick={() => {}}>
@@ -407,7 +408,61 @@ const MorePrizesPage = () => {
                     </div>
                   </div>
                 </div>
+
                 {/* Tezos */}
+                <div className="moreprizesbox-item">
+                  <div className="flip-prizebox" onClick={() => {}}>
+                    <div className="flip-moreprizesbox-front text-center">
+                      <div className="inner color-white">
+                        <img
+                          src={tezos}
+                          alt=""
+                          className="flip-moreprizesbox-icon"
+                          style={{
+                            width: "60%",
+                            height: "74px",
+                            objectFit: "contain",
+                          }}
+                        />
+
+                        <h3 className="flip-moreprizesbox-header">
+                          Best Use of <br /> Tezos
+                        </h3>
+
+                        <img
+                          src={redbtn}
+                          alt=""
+                          className="flip-moreprizesbox-img"
+                        />
+                      </div>
+                    </div>
+                    <div className="flip-moreprizesbox-back ">
+                      <div className="inner color-white text-center">
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          1st Team - ₹13,000
+                        </p>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          1st Team - ₹12,000
+                        </p>
+
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          2nd Team - ₹8,000
+                        </p>
+
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          3rd Team - ₹4,000
+                        </p>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          Prize Pool - ₹16,000 for people building on top of
+                          Tezos , and from the problem statements.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* special-classes-demo */}
+                {/* 
                 <div className="moreprizesbox-item specialwidth tezosbox">
                   <div className="flip-prizebox">
                     <div className="flip-moreprizesbox-front text-center specialheight">
@@ -459,10 +514,12 @@ const MorePrizesPage = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="moreprizesbox-item specialwidth tezosbox">
-                  <div className="flip-prizebox">
-                    <div className="flip-moreprizesbox-front text-center specialheight">
+                </div> */}
+
+                {/* Graph */}
+                <div className="moreprizesbox-item">
+                  <div className="flip-prizebox" onClick={() => {}}>
+                    <div className="flip-moreprizesbox-front text-center">
                       <div className="inner color-white">
                         <img
                           src={graph}
@@ -486,19 +543,23 @@ const MorePrizesPage = () => {
                         />
                       </div>
                     </div>
-                    <div className="flip-moreprizesbox-back specialheight ">
+                    <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p> 1st Team - ₹13,000</p>
-
-                        <p>2nd Team - ₹12,000</p>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          1st Team - ₹13,000
+                        </p>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          2nd Team - ₹12,000
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 {/* Zeeve */}
-                <div className="moreprizesbox-item specialwidth tezosbox">
-                  <div className="flip-prizebox">
-                    <div className="flip-moreprizesbox-front text-center specialheight">
+                <div className="moreprizesbox-item">
+                  <div className="flip-prizebox" onClick={() => {}}>
+                    <div className="flip-moreprizesbox-front text-center">
                       <div className="inner color-white">
                         <img
                           src={zeeve}
@@ -522,14 +583,15 @@ const MorePrizesPage = () => {
                         />
                       </div>
                     </div>
-                    <div className="flip-moreprizesbox-back specialheight ">
+                    <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p>Total Teams eligible to get prize: 2</p>
-
-                        <p>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                          Total Teams eligible to get prize: 2{" "}
+                        </p>
+                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
                           Prize for winning teams: Exclusive Merchandise Kit
                           from Zeeve + Mentoring to take Projects
-                          further in Web3 Grants.
+                          further in Web3 Grants.{" "}
                         </p>
                       </div>
                     </div>
