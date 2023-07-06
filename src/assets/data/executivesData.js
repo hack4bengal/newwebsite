@@ -70,7 +70,7 @@ const executives = [
   {
     Name: "Shubhayu \n Majumdar",
     Photo: Shubhayu,
-    position: "ML Research Intern at IIT KGP",
+    position: "Cloud Developer @BlueVector AI",
     Domain: "App Dev Lead",
     linkedin: "https://www.linkedin.com/in/shubhayumajumdar/",
   },
@@ -228,7 +228,7 @@ const executives = [
   {
     Name: "Priyasu \n Guin",
     Photo: Priyasu,
-    position: "Data Analyst Intern @Databricks",
+    position: "Data Engineer @Databricks",
     Domain: "App Developer",
     linkedin: "https://www.linkedin.com/in/priyasu-guin/",
   },
