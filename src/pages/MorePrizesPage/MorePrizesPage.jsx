@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import redbtn from "../../assets/themes/redbtn.png";
 import "./MorePrizesPage.css";
 import solana from "../../assets/images/sponsers/solana.png";
@@ -14,7 +14,7 @@ import flow from "../../assets/images/sponsers/flow.png";
 import tezos from "../../assets/images/sponsers/tezos.png";
 import graph from "../../assets/images/sponsers/Graphlogo1.png";
 import zeeve from "../../assets//images/sponsers/zeeve.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const MorePrizesPage = () => {
   return (
@@ -33,7 +33,7 @@ const MorePrizesPage = () => {
                           src={flow}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{height: "74px", objectFit: "contain"}}
+                          style={{ height: "74px", objectFit: "contain" }}
                         />
                         <h3 className="flip-moreprizesbox-header">
                           Best Apps built <br /> on Flow
@@ -193,7 +193,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           The winning team members receive a Postman Student
                           Swag Kit <br /> <br /> (Premium Diary, Thermos with
                           Temperature Display, Sticker Sheet, Mobile Pop-up
@@ -227,7 +227,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           The winning team members receive a Postman Student
                           Swag Kit <br /> <br /> (Premium Diary, Thermos with
                           Temperature Display, Sticker Sheet, Mobile Pop-up
@@ -247,7 +247,7 @@ const MorePrizesPage = () => {
                           src={girlsteam}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{height: "74px", objectFit: "contain"}}
+                          style={{ height: "74px", objectFit: "contain" }}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -287,7 +287,7 @@ const MorePrizesPage = () => {
                           src={CCD}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{width: "60%"}}
+                          style={{ width: "60%" }}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -323,7 +323,7 @@ const MorePrizesPage = () => {
                   </div>
                 </div>
 
-                <div className="moreprizesbox-item">
+                {/* <div className="moreprizesbox-item">
                   <div className="flip-prizebox">
                     <div className="flip-moreprizesbox-front text-center">
                       <div className="inner color-white">
@@ -373,7 +373,7 @@ const MorePrizesPage = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Hyperlane */}
                 <div className="moreprizesbox-item">
@@ -384,7 +384,7 @@ const MorePrizesPage = () => {
                           src={hyperlane}
                           alt=""
                           className="flip-moreprizesbox-icon"
-                          style={{width: "60%", height: "74px"}}
+                          style={{ width: "60%", height: "74px" }}
                         />
 
                         <h3 className="flip-moreprizesbox-header">
@@ -400,7 +400,7 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           {" "}
                           Prize Pool of <br /> <br /> ₹80,000
                         </p>
@@ -438,21 +438,21 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           1st Team - ₹13,000
                         </p>
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           1st Team - ₹12,000
                         </p>
 
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           2nd Team - ₹8,000
                         </p>
 
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           3rd Team - ₹4,000
                         </p>
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           Prize Pool - ₹16,000 for people building on top of
                           Tezos , and from the problem statements.
                         </p>
@@ -545,10 +545,10 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           1st Team - ₹13,000
                         </p>
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           2nd Team - ₹12,000
                         </p>
                       </div>
@@ -585,10 +585,10 @@ const MorePrizesPage = () => {
                     </div>
                     <div className="flip-moreprizesbox-back ">
                       <div className="inner color-white text-center">
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           Total Teams eligible to get prize: 2{" "}
                         </p>
-                        <p style={{fontSize: "19px", letterSpacing: "1.2px"}}>
+                        <p style={{ fontSize: "19px", letterSpacing: "1.2px" }}>
                           Prize for winning teams: Exclusive Merchandise Kit
                           from Zeeve + Mentoring to take Projects
                           further in Web3 Grants.{" "}

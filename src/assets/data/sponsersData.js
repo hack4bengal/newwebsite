@@ -223,12 +223,12 @@ const trackpartner = [
     link: "https://gdg.community.dev/gdg-kolkata/",
     paddingTop: 0,
   },
-  {
-    img: intel,
-    txt: "Intel",
-    link: "https://www.intel.in/content/www/in/en/homepage.html",
-    paddingTop: 0,
-  },
+  // {
+  //   img: intel,
+  //   txt: "Intel",
+  //   link: "https://www.intel.in/content/www/in/en/homepage.html",
+  //   paddingTop: 0,
+  // },
   {
     img: tezos,
     txt: "Tezos India",
