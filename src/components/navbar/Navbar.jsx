@@ -106,6 +106,11 @@ const Navbar = () => {
                   <h3 className="hack4bengal__navbar-menu-heading">Timeline</h3>
                 </p>
               </li>
+              <li className="hack4bengal__navbar-navitem">
+                <Link to={"/live"}>
+                  <h3 className="hack4bengal__navbar-menu-heading">Live</h3>
+                </Link>
+              </li>
 
               <li className="hack4bengal__navbar-navitem">
                 <p
@@ -294,6 +299,13 @@ const Navbar = () => {
             </p>
           </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
+            <Link to={"/live"}>
+              <h3 className="hack4bengal__navbar-hamburger-menu-heading">
+                Live
+              </h3>
+            </Link>
+          </li>
+          <li className="hack4bengal__navbar-hamburger-navitem">
             <p
               onClick={() => {
                 gotoId("themes");
@@ -330,13 +342,13 @@ const Navbar = () => {
               </h3>
             </p>
           </li>
-          {/* <li className="hack4bengal__navbar-hamburger-navitem">
-            <Link to={"/events"}>
+          <li className="hack4bengal__navbar-hamburger-navitem">
+            <Link to={"/live"}>
               <h3 className="hack4bengal__navbar-hamburger-menu-heading">
-                Events
+                Live
               </h3>
             </Link>
-          </li> */}
+          </li>
           <li className="hack4bengal__navbar-hamburger-navitem">
             <p
               onClick={() => {
