@@ -14,6 +14,7 @@ function Timer() {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(endTime));
   const screenWidth = window.innerWidth;
   useEffect(() => {
+    console.log("Hello")
     const intervalId = setInterval(() => {
       setTimeLeft(getTimeLeft(endTime));
     }, 1000);

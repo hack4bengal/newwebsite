@@ -17,6 +17,7 @@ import Schedulepage from "./pages/schedule/Schedulepage";
 import Guide from "./pages/guide/Guide";
 import Venue from "./pages/venue/Venue";
 import Brand from "./pages/brand/Brand";
+import Live from "./pages/live/Live";
 export default class App extends Component {
   render() {
     return (
@@ -38,6 +39,7 @@ export default class App extends Component {
           <Route path="/guide" element={<Guide />} />
           <Route path="/venue" element={<Venue />} />
           <Route path="/brand" element={<Brand />} />
+          <Route path="/live" element={<Live />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
