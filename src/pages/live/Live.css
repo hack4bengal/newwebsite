@@ -75,3 +75,31 @@
 .live_twitter_feed > h2 > span {
   color: #ff171a;
 }
+
+@media screen and (max-width: 600px) {
+  .live_parent {
+    padding: 2rem 4rem;
+  }
+  .live_parent_header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .live_event_parent {
+    max-width: 90vw;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .current_event {
+    border-bottom: 6px solid #ff171a;
+    border-right: none;
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+
+  .live_twitter_feed > h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
