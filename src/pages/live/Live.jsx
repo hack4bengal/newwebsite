@@ -29,55 +29,74 @@ const Live = () => {
     };
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-  const [showCount, setShowCount] = useState(false);
 
+
+  // useEffect(() => {
+  //   const startCountdown = () => {
+  //     const now = new Date();
+  //     const currentHour = now.getHours();
+  //     const currentMinute = now.getMinutes();
+  //     const currentDate = now.getDate();
+
+  //     if (
+  //       currentDate >= targetDate &&
+  //       currentHour >= targetHour &&
+  //       currentMinute >= targetMinute
+  //     ) {
+  //       setShowCount(true);
+
+  //       const countdownEndTime = targetTime + 30 * 60 * 60 * 1000; // 36 hours from now
+
+  //       const countdownTimer = setInterval(() => {
+  //         const currentTime = new Date().getTime();
+  //         const difference = countdownEndTime - currentTime;
+
+  //         let hours = Math.floor(difference / (1000 * 60 * 60));
+  //         let minutes = Math.floor(
+  //           (difference % (1000 * 60 * 60)) / (1000 * 60)
+  //         );
+  //         let seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+  //         setTimeLeft({
+  //           days: 0,
+  //           hours,
+  //           minutes,
+  //           seconds,
+  //         });
+
+  //         if (difference <= 0) {
+  //           clearInterval(countdownTimer);
+  //         }
+  //       }, 1000);
+  //     }
+  //   };
+
+  //   const timer = setInterval(startCountdown, 1000);
+
+  //   return () => {
+  //     clearInterval(timer);
+  //   };
+  // }, []);
+
+  function getTimeLeft(endTime) {
+    const totalSeconds = (new Date(endTime) - new Date()) / 1000;
+    const days = Math.floor(totalSeconds / (60 * 60 * 24));
+    const hours = Math.floor(totalSeconds / (60 * 60)) % 24;
+    const minutes = Math.floor(totalSeconds / 60) % 60;
+    const seconds = Math.floor(totalSeconds) % 60;
+    return { days, hours, minutes, seconds };
+  }
+
+  const endTime = new Date("July 10, 2023 17:00:00").getTime();
+
+  const [timeLeft, setTimeLeft] = useState(getTimeLeft(endTime));
+  const screenWidth = window.innerWidth;
   useEffect(() => {
-    const startCountdown = () => {
-      const now = new Date();
-      const currentHour = now.getHours();
-      const currentMinute = now.getMinutes();
-      const currentDate = now.getDate();
-
-      if (
-        currentDate >= targetDate &&
-        currentHour >= targetHour &&
-        currentMinute >= targetMinute
-      ) {
-        setShowCount(true);
-
-        const countdownEndTime = targetTime + 30 * 60 * 60 * 1000; // 36 hours from now
-
-        const countdownTimer = setInterval(() => {
-          const currentTime = new Date().getTime();
-          const difference = countdownEndTime - currentTime;
-
-          let hours = Math.floor(difference / (1000 * 60 * 60));
-          let minutes = Math.floor(
-            (difference % (1000 * 60 * 60)) / (1000 * 60)
-          );
-          let seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-          setTimeLeft({
-            days: 0,
-            hours,
-            minutes,
-            seconds,
-          });
-
-          if (difference <= 0) {
-            clearInterval(countdownTimer);
-          }
-        }, 1000);
-      }
-    };
-
-    const timer = setInterval(startCountdown, 1000);
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
+    const intervalId = setInterval(() => {
+      setTimeLeft(getTimeLeft(endTime));
+    }, 1000);
+    return () => clearInterval(intervalId);
+  }, [endTime]);
 
   const [currentEvent, setCurrentEvent] = useState(null);
   const [upcomingEvent, setUpcomingEvent] = useState(null);
@@ -159,8 +178,6 @@ Bingo 🔥
 </button>
           </a>
         </div> */}
-
-
 
         <div className="live_twitter_feed">
           <h2>

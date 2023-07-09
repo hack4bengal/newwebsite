@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./Timer.css";
 function getTimeLeft(endTime) {
   const totalSeconds = (new Date(endTime) - new Date()) / 1000;
@@ -6,16 +6,14 @@ function getTimeLeft(endTime) {
   const hours = Math.floor(totalSeconds / (60 * 60)) % 24;
   const minutes = Math.floor(totalSeconds / 60) % 60;
   const seconds = Math.floor(totalSeconds) % 60;
-  return {days, hours, minutes, seconds};
+  return { days, hours, minutes, seconds };
 }
 function Timer() {
   const endTime = new Date("July 10, 2023 17:00:00").getTime();
 
-
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(endTime));
   const screenWidth = window.innerWidth;
   useEffect(() => {
-    console.log("Hello")
     const intervalId = setInterval(() => {
       setTimeLeft(getTimeLeft(endTime));
     }, 1000);
