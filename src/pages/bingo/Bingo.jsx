@@ -10,7 +10,7 @@ const Bingo = () => {
     useEffect(() => {
         if (window.location.pathname === '/bingo') {
             setTimeout(() => {
-                window.location.href = 'https://hack4bengals2.notion.site/Hack4Bengal-2-0-Hacker-s-Guide-3a4e84ca957746f29a5ac22990c3db74';
+                window.location.href = "https://hack4bengals2.notion.site/Challenges-228509b136194c21b9a73a12c861dbef";
             }, 0);
         }
     }, []);
