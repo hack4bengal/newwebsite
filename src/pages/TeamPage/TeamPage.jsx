@@ -17,7 +17,7 @@ export default class TeamPage extends Component {
         </div>
 
         <div className="hack4bengal__footer-container">
-          <Footer />
+          <Footer doge={true} />
         </div>
       </>
     );

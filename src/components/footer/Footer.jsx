@@ -3,7 +3,9 @@ import "./Footer.css";
 import footer from "../../assets/img/footer.gif";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+import dogeimg from "../../assets/img/doge.png";
+
+const Footer = ({ doge }) => {
   return (
     <>
       <div className="hack4bengal__footer" id="contactus">
@@ -101,24 +103,25 @@ const Footer = () => {
               </p>
             )}
 
-            <p className="hack4bengal__footer-social-text footer_whiteText"
-              onClick={
-                () => {
-                  const url = 'https://hack4bengal.tech/brand';
-                  window.open(url, '_blank');
-                }
-              }
+            <p
+              className="hack4bengal__footer-social-text footer_whiteText"
+              onClick={() => {
+                const url = "https://hack4bengal.tech/brand";
+                window.open(url, "_blank");
+              }}
               style={{ cursor: "pointer" }}
             >
               Brand Assets
-
             </p>
 
-            <p className="hack4bengal__footer-social-text" >
+            <p className="hack4bengal__footer-social-text">
               Email us for more details,
             </p>
             <p className="hack4bengal__footer-social-text">
-              <a href="mailto:hack4bengal@gmail.com" style={{ color: "#e13b3c" }}>
+              <a
+                href="mailto:hack4bengal@gmail.com"
+                style={{ color: "#e13b3c" }}
+              >
                 hack4bengal@gmail.com
               </a>
             </p>
@@ -195,6 +198,21 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {doge && (
+        <div
+          style={{
+            position: "relative",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <img
+            src={dogeimg}
+            style={{ width: "25px", marginBottom: "10px", opacity: "0.1" }}
+          />
+        </div>
+      )}
     </>
   );
 };
