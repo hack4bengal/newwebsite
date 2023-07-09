@@ -30,6 +30,7 @@ const themedata = [
     img: acess,
     name: "Accessibile Technology",
     desc: "Develop tech solutions for disability accessibility & inclusion in West Bengal, promoting equality & sustainable development in the state.",
+    isDoge:true
   },
   {
     img: innovation,
