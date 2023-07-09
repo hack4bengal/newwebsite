@@ -103,3 +103,23 @@
     margin-bottom: 2rem;
   }
 }
+
+.live_bingo{
+ display: flex;   
+ justify-content: center;
+ margin-top: 3rem;
+}
+
+.live_bingo >a>button{
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  background-color: #242424;
+  border-radius: 10px;
+  max-width: 600px;
+  border: 1px solid #ff171a;
+  color: #ff171a;
+   font-size: 2rem;
+   cursor: pointer !important;
+   z-index: 999999;
+}
