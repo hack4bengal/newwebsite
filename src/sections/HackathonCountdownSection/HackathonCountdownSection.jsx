@@ -16,7 +16,7 @@ const HackathonCountdownSection = () => {
       >
         <div className="hack4bengal_countdown_main">
           <div>
-            <h1>Hackathon starts in</h1>
+            <h1>Hackathon ends in</h1>
             <hr style={{ marginBottom: "70px" }} />
             {/* <h1>TBA</h1> */}
             <Timer />
