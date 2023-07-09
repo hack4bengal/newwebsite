@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import "./Live.css";
 import liveData from "./LiveData";
+import { Link } from "react-router-dom";
 
 const Live = () => {
   const targetTime = new Date("July 9, 2023 11:00:00").getTime();
@@ -145,6 +146,21 @@ const Live = () => {
             </div>
           </div>
         </div>
+
+        {/* <br/>
+        <div className="live_bingo" >
+          <a href="https://hack4bengals2.notion.site/Hack4Bengal-2-0-Hacker-s-Guide-3a4e84ca957746f29a5ac22990c3db74" target="_blank"  >
+
+          <button onClick={()=>{
+            console.log("FUCKS")
+          }}>
+
+Bingo 🔥
+</button>
+          </a>
+        </div> */}
+
+
 
         <div className="live_twitter_feed">
           <h2>
