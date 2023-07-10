@@ -136,15 +136,7 @@ const Live = () => {
         <div className="live_parent_header">
           <div className="live_counter_parent">
             <h1>Remaining Time</h1>
-            <p>
-              {new Date().getTime() <
-              new Date("July 9, 2023 11:00:00").getTime()
-                ? "Hackathon Starting soon!"
-                : new Date().getTime() >
-                  new Date("July 10, 2023 18:00:00").getTime()
-                ? "Hackathon has officially ended!"
-                : `${timeLeft.hours} : ${timeLeft.minutes} : ${timeLeft.seconds}`}
-            </p>
+            <p>Hackathon has officially ended</p>
           </div>
 
           <div className="live_event_parent">
