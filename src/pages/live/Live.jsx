@@ -29,8 +29,6 @@ const Live = () => {
     };
   };
 
-
-
   // useEffect(() => {
   //   const startCountdown = () => {
   //     const now = new Date();
@@ -87,7 +85,7 @@ const Live = () => {
     return { days, hours, minutes, seconds };
   }
 
-  const endTime = new Date("July 10, 2023 17:00:00").getTime();
+  const endTime = new Date("July 10, 2023 18:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(endTime));
   const screenWidth = window.innerWidth;
@@ -143,7 +141,7 @@ const Live = () => {
               new Date("July 9, 2023 11:00:00").getTime()
                 ? "Hackathon Starting soon!"
                 : new Date().getTime() >
-                  new Date("July 10, 2023 17:00:00").getTime()
+                  new Date("July 10, 2023 18:00:00").getTime()
                 ? "Hackathon has officially ended!"
                 : `${timeLeft.hours} : ${timeLeft.minutes} : ${timeLeft.seconds}`}
             </p>
