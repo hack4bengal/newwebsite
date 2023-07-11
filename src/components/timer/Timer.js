@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import "./Timer.css";
 function getTimeLeft(endTime) {
   const totalSeconds = (new Date(endTime) - new Date()) / 1000;
@@ -6,7 +6,7 @@ function getTimeLeft(endTime) {
   const hours = Math.floor(totalSeconds / (60 * 60)) % 24;
   const minutes = Math.floor(totalSeconds / 60) % 60;
   const seconds = Math.floor(totalSeconds) % 60;
-  return { days, hours, minutes, seconds };
+  return {days, hours, minutes, seconds};
 }
 function Timer() {
   const endTime = new Date("July 10, 2023 17:00:00").getTime();
@@ -47,7 +47,7 @@ function Timer() {
       <div className="timer-body">
         {screenWidth > 450 ? (
           <>
-            <div className="timer">
+            {/* <div className="timer">
               <div className="hour">
                 {timeLeft.days < 10 ? `0${timeLeft.days}` : timeLeft.days}
               </div>
@@ -89,11 +89,14 @@ function Timer() {
               <div className="time-label">
                 {window.innerWidth < 992 ? "Secs" : "Seconds"}
               </div>
-            </div>
+            </div> */}
+
+            {/* after-hackathon-end */}
+            <div className="timer">Hackathon is official over !</div>
           </>
         ) : (
           <>
-            <div className="column_cut_450">
+            {/* <div className="column_cut_450">
               <div className="row_cut_450">
                 <div className="timer">
                   <div className="hour">
@@ -143,7 +146,10 @@ function Timer() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+            {/* after-hackathon-end */}
+            <div className="timer">Hackathon is official over !</div>
           </>
         )}
       </div>
