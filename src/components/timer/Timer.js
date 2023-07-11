@@ -92,7 +92,7 @@ function Timer() {
             </div> */}
 
             {/* after-hackathon-end */}
-            <div className="timer">Hackathon is official over !</div>
+            <div className="timer">Hackathon is officially over !</div>
           </>
         ) : (
           <>
@@ -149,7 +149,7 @@ function Timer() {
             </div> */}
 
             {/* after-hackathon-end */}
-            <div className="timer">Hackathon is official over !</div>
+            <div className="timer">Hackathon is officially over !</div>
           </>
         )}
       </div>
