@@ -21,7 +21,7 @@ const timelineData = [
     date: "9th - 10th July",
     dateDesc: "Hackathon In Progress",
     descInDepth:
-      "Excitement is in the air as the Hack4Bengal 2.0 is now in full swing! \n\n Participants from all over are hard at work, collaborating and creating innovative solutions. The energy is high as they work tirelessly to build unique projects and compete for the grand prize. Our expert judges are on the lookout for the best ideas and talent, while sponsors are providing valuable resources and support. It's a true tech extravaganza with non-stop learning and networking opportunities. Stay tuned for updates and results! Don't miss the chance to witness these amazing projects and talented individuals in action. \n\n Hackathon Begins : 9TH JULY - 10 AM  \n\n Hackathon Ends : 10TH JULY - 4 PM ",
+      "Excitement is in the air as the Hack4Bengal 2.0 is now in full swing! \n\n Participants from all over are hard at work, collaborating and creating innovative solutions. The energy is high as they work tirelessly to build unique projects and compete for the grand prize. Our expert judges are on the lookout for the best ideas and talent, while sponsors are providing valuable resources and support. It's a true tech extravaganza with non-stop learning and networking opportunities. Stay tuned for updates and results! Don't miss the chance to witness these amazing projects and talented individuals in action. \n\n Hackathon Begins : 9TH JULY - 10 AM  \n\n Hackathon Ends : 10TH JULY - 6 PM ",
   },
   {
     time: "10th July",
@@ -29,7 +29,7 @@ const timelineData = [
     date: "10th July",
     dateDesc: "Hackathon End - Closing Ceremony",
     descInDepth:
-      "Manifestation of your crazy ideas begins! It's time to announce the Winners. \n\nAs hours of utter dedication and hard work end, the time has come to appreciate the efforts and ideas that strived to make a difference and reflect their creativity to the world. As well as extending a hearty vote of thanks to all our partners without whom, Hack4Bengal won't be so massive. Hope you take away tons of goodies and good vibes with you! \n\n Hackathon Ends : 4 PM \n\n Closing Ceremony : 4 PM - 6 PM",
+      "Manifestation of your crazy ideas begins! It's time to announce the Winners. \n\nAs hours of utter dedication and hard work end, the time has come to appreciate the efforts and ideas that strived to make a difference and reflect their creativity to the world. As well as extending a hearty vote of thanks to all our partners without whom, Hack4Bengal won't be so massive. Hope you take away tons of goodies and good vibes with you! \n\n Hackathon Ends : 6 PM \n\n Closing Ceremony : 6 PM - 10 PM",
   },
 ];
 
