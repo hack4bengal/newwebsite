@@ -16,10 +16,58 @@ const Team = () => {
     >
       <div className="hack4bengal__team-body">
         <div className="hack4bengal__team-header-container"></div>
-        <div className="hack4bengal__team-title">The Soul & Heart of <br /> Hack4Bengal </div>
+        <div className="hack4bengal__team-title">The Organizers </div>
+        <hr />
+        {window.innerWidth > 768 ? (
+          <>
+            <div className="hack4bengal__team-members">
+              {overAllCoordinaters.slice(0, 3).map((member, index) => (
+                <TeamCard
+                  key={index}
+                  img={member.Photo}
+                  name={member.Name}
+                  linkedin={member.linkedin}
+                  position={member.position}
+                  domain={member.Domain}
+                />
+              ))}
+            </div>
+
+            <div
+              className="hack4bengal__team-members"
+              style={{ marginTop: "2rem" }}
+            >
+              {overAllCoordinaters.slice(3, 5).map((member, index) => (
+                <TeamCard
+                  key={index}
+                  img={member.Photo}
+                  name={member.Name}
+                  linkedin={member.linkedin}
+                  position={member.position}
+                  domain={member.Domain}
+                />
+              ))}
+            </div>
+          </>
+        ) : (
+          <div className="hack4bengal__team-members">
+            {overAllCoordinaters.map((member, index) => (
+              <TeamCard
+                key={index}
+                img={member.Photo}
+                name={member.Name}
+                linkedin={member.linkedin}
+                position={member.position}
+                domain={member.Domain}
+              />
+            ))}
+          </div>
+        )}
+
+        <div className="hack4bengal__team-title">The Soul and Heart of <br /> Hack4Bengal</div>
         <hr />
         <div className="hack4bengal__team-members">
-          {overAllCoordinaters?.map((member, index) => (
+          {overAllCoordinaters.slice(5).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}

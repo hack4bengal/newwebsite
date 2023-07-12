@@ -107,14 +107,7 @@ const executives = [
     Domain: "Core Team",
     linkedin: "https://www.linkedin.com/in/diganta-kr-banik-1659121a7/",
   },
-  {
-    Name: "Tamal \n Das",
-    Photo: Tamal,
-    position: "DevRel @CIC",
 
-    Domain: "Core Team",
-    linkedin: "https://www.linkedin.com/in/say-hello-to-tamal/",
-  },
   {
     Name: "Rohit \n Roy",
     Photo: Rohit,
