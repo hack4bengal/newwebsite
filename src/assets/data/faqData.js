@@ -32,7 +32,7 @@ const faqs = [
   {
     question: " I have more questions, how and where can I reach out",
     answer:
-      "You can reach out to us on our Discord Server (https://discord.io/hack4bengal) in #🎫ticket-support or email us at hack4bengal@gmail.com!",
+      "You can reach out to us on our Discord Server (https://discord.com/invite/hack4bengal-2-0-920970750154899476) in #🎫ticket-support or email us at hack4bengal@gmail.com!",
   },
 ];
 

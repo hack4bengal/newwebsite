@@ -57,7 +57,7 @@ const WelcomeSection = () => {
             <div className="hack4bengal__section1-discord" id="discord">
               <a
                 className="hack4bengal__section1-discord-link landingpagebtn"
-                href="https://discord.io/Hack4Bengal"
+                href="https://discord.com/invite/hack4bengal-2-0-920970750154899476"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -99,8 +99,9 @@ const WelcomeSection = () => {
                 className="apply-button"
                 // data-hackathon-slug="hack4bengal-2"
                 data-button-theme="dark"
-
-              ><span style={{ height: '10px' }}>📝</span>  Applications Closed</div>
+              >
+                <span style={{ height: "10px" }}>📝</span> Applications Closed
+              </div>
             </div>
           </div>
         </motion.div>
