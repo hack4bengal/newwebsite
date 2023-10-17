@@ -19,6 +19,7 @@ import Venue from "./pages/venue/Venue";
 import Brand from "./pages/brand/Brand";
 import Live from "./pages/live/Live";
 import Bingo from "./pages/bingo/Bingo";
+import Volunteers from "./pages/volunteers/volunteers";
 export default class App extends Component {
   render() {
     return (
@@ -41,7 +42,8 @@ export default class App extends Component {
           <Route path="/venue" element={<Venue />} />
           <Route path="/brand" element={<Brand />} />
           <Route path="/live" element={<Live />} />
-          <Route path="/bingo" element={<Bingo />} /> 
+          <Route path="/bingo" element={<Bingo />} />
+          <Route path="/volunteers" element={<Volunteers />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
