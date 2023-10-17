@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar/Navbar";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
-const Bingo = () => {
+const Coreteam = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -42,4 +42,4 @@ const Bingo = () => {
   );
 };
 
-export default Bingo;
+export default Coreteam;
