@@ -20,6 +20,7 @@ import Brand from "./pages/brand/Brand";
 import Live from "./pages/live/Live";
 import Bingo from "./pages/bingo/Bingo";
 import Coreteam from "./pages/coreteam/coreteam";
+import TrackPage from "./pages/Trackprize/Trackprize";
 export default class App extends Component {
   render() {
     return (
@@ -27,6 +28,7 @@ export default class App extends Component {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/trackprizes" element={<TrackPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/prizes" element={<MorePrizesPage />} />
           <Route path="/events" element={<EventTcp />} />

@@ -95,13 +95,16 @@ const WelcomeSection = () => {
               </a> 
             </div> */}
             <div className="hack4bengal__section1-register">
-              <div
+              <a
                 className="apply-button"
                 // data-hackathon-slug="hack4bengal-2"
                 data-button-theme="dark"
+                href="https://hack4bengal-2.devfolio.co/projects"
+                target="blank"
               >
-                <span style={{ height: "10px" }}>📝</span> Applications Closed
-              </div>
+                <span style={{ height: "10px", marginRight: "10px" }}>👩🏻‍💻</span>{" "}
+                View projects
+              </a>
             </div>
           </div>
         </motion.div>

@@ -198,21 +198,6 @@ const Footer = ({ doge }) => {
           </div>
         </div>
       </div>
-
-      {doge && (
-        <div
-          style={{
-            position: "relative",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <img
-            src={dogeimg}
-            style={{ width: "25px", marginBottom: "10px", opacity: "0.1" }}
-          />
-        </div>
-      )}
     </>
   );
 };
