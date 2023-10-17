@@ -19,7 +19,7 @@ import Venue from "./pages/venue/Venue";
 import Brand from "./pages/brand/Brand";
 import Live from "./pages/live/Live";
 import Bingo from "./pages/bingo/Bingo";
-import Coreteam from "./pages/coreteam/Coreteam";
+import Coreteam from "./pages/coreteam/coreteam";
 export default class App extends Component {
   render() {
     return (
