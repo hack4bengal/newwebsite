@@ -7,7 +7,7 @@ const Bingo = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (window.location.pathname === "/volunteers") {
+    if (window.location.pathname === "/coreteam") {
       setTimeout(() => {
         window.location.href = "https://bit.ly/h4bs3-volunteer-apply";
       }, 0);
