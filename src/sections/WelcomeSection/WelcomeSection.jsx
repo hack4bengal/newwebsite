@@ -57,7 +57,7 @@ const WelcomeSection = () => {
             <div className="hack4bengal__section1-discord" id="discord">
               <a
                 className="hack4bengal__section1-discord-link landingpagebtn"
-                href="https://discord.com/invite/hack4bengal-2-0-920970750154899476"
+                href="https://discord.gg/hack4bengal"
                 target="_blank"
                 rel="noreferrer"
               >
